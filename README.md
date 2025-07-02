@@ -20,15 +20,17 @@ The YourBookTeam website is the digital face of the company. This website promot
 ## Project Structure
 
 ybt_website/
-├── public/         # Static files
-├── src/            # Source code
-├── ├── assets/     # Static files (to be imported to components)
-│   ├── components/ # Reusable components
-│   ├── pages/      # Page-level components
-│   ├── styles/     # All CSS files
-│   ├── App.jsx     # Root component
-│   ├── main.jsx    # React entry point
-├── index.html      # Main HTML file
+    public/             # Static files
+    src/                # Source code
+        assets/         # Static files (to be imported to components)
+        components/     # Reusable components
+        pages/          # Page-level components
+        styles/         # All CSS files
+        App.jsx         # Root component
+        main.jsx        # React entry point
+    index.html          # Main HTML file
+
+
 
 ## Features
 - Mobile-first responsive design
