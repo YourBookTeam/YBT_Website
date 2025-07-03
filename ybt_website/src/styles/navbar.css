@@ -1,0 +1,44 @@
+* {
+    font-family: 'Inter';
+    font-size: 15px;
+}
+
+nav {
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background: red;
+}
+
+.left-nav {
+    padding-left: 50px;
+}
+
+.my-icon {
+    height: 300px;
+    width: 300px;
+}
+
+.mid-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.success-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.right-nav {
+    padding-right: 50px;
+}
+
+.book-button {
+    border: none;
+    border-radius: 5px;
+    background: #F5BE29;
+    padding: 15px;
+}
