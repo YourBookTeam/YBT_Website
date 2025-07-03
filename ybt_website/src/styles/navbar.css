@@ -9,7 +9,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    background: red;
+    background: white;
+    border: 0.1rem solid gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .left-nav {
@@ -17,8 +23,9 @@ nav {
 }
 
 .my-icon {
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
+    border: 0.1rem solid gray;
 }
 
 .mid-nav {
@@ -26,10 +33,13 @@ nav {
     gap: 50px;
 }
 
-.success-button {
+.success-link {
     border: none;
     background: none;
     cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .right-nav {
@@ -41,4 +51,5 @@ nav {
     border-radius: 5px;
     background: #F5BE29;
     padding: 15px;
+    cursor: pointer;
 }
