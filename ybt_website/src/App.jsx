@@ -10,8 +10,9 @@ import Contact from './pages/Contact';
 import Terms from './pages/Terms';
 
 function App() {
+
   return (
-    <Router>
+    <Router basename='/YBT_Website/'>
       <Routes>
         <Route path="/" element={<Home />} />  
         <Route path="/about" element={<About />} />
