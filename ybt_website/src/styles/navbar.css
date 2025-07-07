@@ -33,13 +33,47 @@ a {
     gap: 50px;
 }
 
-.success-link {
+.success-section {
+    display: flex;
+    position: relative;
+}
+
+.success-button {
     border: none;
     background: none;
     cursor: pointer;
     display: flex;
     gap: 5px;
     align-items: center;
+}
+
+.success-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    min-width: 100%;
+    background: white;
+    padding: 5px 10px 5px 10px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dropdown-item {
+    font-size: 12px;
+}
+
+b {
+    font-size: inherit;
+}
+
+.dropdown-divider {
+    border-bottom: 1px solid black;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.success-section:hover .success-dropdown {
+    display: flex;
 }
 
 .right-nav {

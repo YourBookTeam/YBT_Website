@@ -5,20 +5,40 @@ function NavBar(){
     return (
         <nav>
             <div className="left-nav">
-                <div className="text-3xl font-bold underline text-blue-600">
+                <Link to="/">
                     Hello World
-                </div>
+                </Link>
             </div>
 
             <div className="mid-nav">
                 <Link to="/about">About</Link>
                 <Link to="/services">Services</Link>
 
-                <Link to="/success_stories" className="success-link">
-                    Success Stories
-                    <i class="fa-solid fa-chevron-down"></i>
-                </Link>
+                <div className="success-section">
+                    <button className="success-button">
+                        Success Stories
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
 
+                    <div className="success-dropdown">
+                        <Link to="/success_stories" className="dropdown-item">
+                            <b>Thirst -</b> H.W. Terrence
+                        </Link>
+
+                        <div className="dropdown-divider"></div>
+
+                        <Link to="/success_stories" className="dropdown-item">
+                            <b>Prompting Happiness -</b> Nimrod Vromen
+                        </Link>
+
+                        <div className="dropdown-divider"></div>
+                        
+                        <Link to="/success_stories" className="dropdown-item">
+                            <b>Under the Floorboards -</b> John Kiss
+                        </Link>
+                    </div>
+                </div>
+                
                 <Link to="/careers">Careers</Link>               
                 <Link to="/faq">FAQ</Link>
             </div>
