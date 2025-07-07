@@ -1,12 +1,11 @@
-import { Link } from 'react-router-dom';
-import '../styles/Home.css';
+import { Link } from "react-router-dom";
+import TitleBanner from "../components/TitleBanner";
 
 function Home() {
-
   return (
     <div className="home-body">
       <div>Home Page</div>
-      
+
       <Link to="/about">Go To About</Link>
       <Link to="/careers">Go To Careers</Link>
       <Link to="/position">Go To Position</Link>
@@ -16,9 +15,9 @@ function Home() {
       <Link to="/contact">Go To Contact</Link>
       <Link to="/terms">Go To Terms</Link>
 
+      <TitleBanner>Success Stories</TitleBanner>
     </div>
   );
-
 }
 
 export default Home;
