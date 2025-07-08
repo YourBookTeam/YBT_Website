@@ -1,9 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import TitleBanner from "../components/TitleBanner";
+import NavBar from '../components/Navbar';
+
 
 function Home() {
   return (
     <div className="home-body">
+      <NavBar></NavBar>
+
       <div>Home Page</div>
 
       <Link to="/about">Go To About</Link>
