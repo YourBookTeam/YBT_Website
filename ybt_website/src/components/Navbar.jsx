@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 function NavBar(){
 
     return (
-        <nav className="px-[50px] py-[20px] flex justify-between items-center w-screen bg-white">
-            <div className="left-nav pr-[50px]">
+        <nav className="px-12 py-5 flex justify-between items-center w-screen bg-white">
+            <div className="pr-12">
                 <Link to="/">
                     <svg className="w-12" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="101 40 50 70">
                     <path fill="#000000" d="M149.51,59.64v3a19.29,19.29,0,0,0-5.32.76l-.4.12-.33.1-.16.06-.32.11-.22.08,0,0-.24.09-.06,0-.23.1h-.05l-.61.27a20.87,20.87,0,0,0-2.33,1.25l-.33.21a21.07,21.07,0,0,0-2.66,2c-.27.24-.53.49-.78.74a22.13,22.13,0,0,0-1.88,2.11c-.23.29-.45.58-.66.88a23.46,23.46,0,0,0-1.82,3c-.06.12-.12.25-.19.37-.41.85-.78,1.72-1.11,2.62a25.59,25.59,0,0,0-1.38,6,26.83,26.83,0,0,0-.17,3H122.9a26.84,26.84,0,0,0-.16-3,29,29,0,0,0-.51-3,24.54,24.54,0,0,0-.88-3,24.21,24.21,0,0,0-1.11-2.62c-.06-.12-.12-.25-.19-.37a23.46,23.46,0,0,0-1.82-3c-.21-.3-.43-.59-.65-.88a25.26,25.26,0,0,0-1.88-2.11l-.78-.74a22.61,22.61,0,0,0-2.66-2l-.33-.21a20.87,20.87,0,0,0-2.33-1.25l-.62-.27h0l-.23-.1-.06,0-.25-.09,0,0-.21-.08c-.27-.1-.54-.19-.82-.27-.13,0-.26-.09-.39-.12a20,20,0,0,0-2.66-.57,19.48,19.48,0,0,0-2.66-.19v-3a21.38,21.38,0,0,1,5.32.66,21.18,21.18,0,0,1,2.66.87l.25.1c.55.23,1.1.48,1.64.75l.77.41.34.19a25.2,25.2,0,0,1,2.32,1.54c.6.46,1.19.94,1.75,1.45.31.28.61.57.91.87a25.4,25.4,0,0,1,1.88,2.12q.41.5.78,1c.46.63.89,1.29,1.29,2a25.67,25.67,0,0,1,1.37,2.6c.06.13.12.25.17.38a27.46,27.46,0,0,1,1.13,3,29.09,29.09,0,0,1,.77,3h1.19a26.73,26.73,0,0,1,.77-3,29.65,29.65,0,0,1,1.12-3c.06-.13.12-.25.17-.38a27.93,27.93,0,0,1,1.38-2.6c.4-.68.83-1.34,1.28-2,.26-.35.51-.69.78-1a23.83,23.83,0,0,1,1.89-2.12c.29-.3.6-.59.91-.87.56-.51,1.14-1,1.75-1.45a23.92,23.92,0,0,1,2.32-1.54l.34-.19.76-.41q.81-.41,1.65-.75l.25-.1a20.17,20.17,0,0,1,2.66-.87,21.51,21.51,0,0,1,2.66-.5A21.23,21.23,0,0,1,149.51,59.64Z"/>
@@ -19,30 +19,30 @@ function NavBar(){
                 </Link>
             </div>
 
-            <div className="mid-nav flex gap-16 lg:gap-28">
+            <div className="flex gap-16 lg:gap-28">
                 <Link to="/about">About</Link>
                 <Link to="/services">Services</Link>
 
-                <div className="success-section flex relative group">
-                    <button className="success-button border-none bg-none cursor-pointer flex gap-2 items-center">
+                <div className="flex relative group">
+                    <button className="border-none bg-none cursor-pointer flex gap-2 items-center">
                         Success Stories
                         <i class="fa-solid fa-chevron-down"></i>
                     </button>
 
-                    <div className="success-dropdown hidden group-hover:flex absolute top-full min-w-full bg-white px-2 py-1 flex flex-col gap-1">
-                        <Link to="/success_stories" className="dropdown-item">
+                    <div className="hidden group-hover:flex absolute top-full min-w-full bg-white px-2 py-1 flex flex-col gap-1">
+                        <Link to="/success_stories">
                             <b>Thirst -</b> H.W. Terrence
                         </Link>
 
-                        <div className="dropdown-divider border-b border-black -mx-2"></div>
+                        <div className="border-b border-black -mx-2"></div>
 
-                        <Link to="/success_stories" className="dropdown-item">
+                        <Link to="/success_stories">
                             <b>Prompting Happiness -</b> Nimrod Vromen
                         </Link>
 
-                        <div className="dropdown-divider border-b border-black -mx-2"></div>
+                        <div className="border-b border-black -mx-2"></div>
                         
-                        <Link to="/success_stories" className="dropdown-item">
+                        <Link to="/success_stories">
                             <b>Under the Floorboards -</b> John Kiss
                         </Link>
                     </div>
@@ -52,8 +52,8 @@ function NavBar(){
                 <Link to="/faq">FAQ</Link>
             </div>
             
-            <div className="right-nav pl-[50px]">
-                <Link to="/contact" className="book-link !px-4 border-0 rounded-md bg-[#F5BE29] cursor-pointer h-16 !flex !items-center">Book A Free Consultation</Link>
+            <div className="pl-12">
+                <Link to="/contact" className="!px-4 border-0 rounded-md bg-[#F5BE29] cursor-pointer h-16 !flex !items-center">Book A Free Consultation</Link>
             </div>
         </nav>
     ); 
