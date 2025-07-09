@@ -1,20 +1,20 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Careers from './pages/Careers';
-import Position from './pages/Position';
-import Success_Stories from './pages/Success_Stories';
-import Services from './pages/Services';
-import Faq from './pages/Faq';
-import Contact from './pages/Contact';
-import Terms from './pages/Terms';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Careers from "./pages/Careers";
+import Position from "./pages/Position";
+import Success_Stories from "./pages/Success_Stories";
+import Services from "./pages/Services";
+import Faq from "./pages/Faq";
+import Contact from "./pages/Contact";
+import Terms from "./pages/Terms";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
-    <Router basename='/YBT_Website/'>
+    <Router basename="/YBT_Website/">
       <Routes>
-        <Route path="/" element={<Home />} />  
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/position" element={<Position />} />
@@ -24,6 +24,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Terms />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
