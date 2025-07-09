@@ -15,6 +15,7 @@ function Home() {
       <Link to="/faq">Go To FAQ</Link>
       <Link to="/contact">Go To Contact</Link>
       <Link to="/terms">Go To Terms</Link>
+      <Button to="/contact" className={`justify-center font-bold text-sm bg-[#F5BE29] px-5 py-2 m-3 rounded shadow`}>BOOK A CONSULTATION</Button>
       <TitleBanner>Success Stories</TitleBanner>
     </div>
   );
