@@ -1,6 +1,7 @@
 /* these are global styles */
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+@import "tailwindcss";
 @theme {
   /* colors */
   --color-saffron: rgba(245, 190, 41, 1);
@@ -17,5 +18,6 @@
   --color-hero-red: rgba(222, 80, 80, 1);
   --color-hero-green: rgba(81, 173, 165, 1);
   --color-hero-purple: rgba(86, 103, 212, 1);
-  /* other styles */
+  /* font */
+  --font-primary: "Inter", sans-serif;
 }
