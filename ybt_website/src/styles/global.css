@@ -18,6 +18,25 @@ html {
   min-height: 100vh;
 }
 
+@theme {
+  /* colors */
+  --color-saffron: rgba(245, 190, 41, 1);
+  --color-soft-saffron: rgba(255, 231, 166, 1);
+  --color-rich-black: rgba(1, 24, 41, 1);
+  --color-dark-rich-black: rgba(0, 19, 32, 1);
+  --color-gray-*: initial;
+  --color-gray: rgba(128, 128, 128, 1);
+  --color-light-gray: rgba(208, 208, 208, 1);
+  --color-dark-gray: rgba(66, 66, 66, 1);
+  --color-off-black: rgba(18, 18, 18, 1);
+  --color-off-white: rgba(249, 249, 249, 1);
+  --color-hero-blue: rgba(0, 32, 54, 1);
+  --color-hero-red: rgba(222, 80, 80, 1);
+  --color-hero-green: rgba(81, 173, 165, 1);
+  --color-hero-purple: rgba(86, 103, 212, 1);
+  /* other styles */
+}
+
 a {
   display: block;
   padding: 10px 0px 10px 0px;
