@@ -13,10 +13,10 @@ function NavBar() {
         <Link to="/services">Services</Link>
 
         <div className="flex relative group">
-          <button className="border-none bg-none cursor-pointer flex gap-2 items-center">
+          <div className="border-none bg-none cursor-pointer flex gap-2 items-center">
             Success Stories
             <i class="fa-solid fa-chevron-down"></i>
-          </button>
+          </div>
 
           <div className="hidden group-hover:flex absolute top-full min-w-full bg-white px-2 py-1 flex-col gap-1">
             <Link to="/success_stories">
