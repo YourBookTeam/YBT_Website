@@ -15,7 +15,6 @@ function Home() {
       <Link to="/faq">Go To FAQ</Link>
       <Link to="/contact">Go To Contact</Link>
       <Link to="/terms">Go To Terms</Link>
-      <Button to="/contact">Contact Us</Button>
       <TitleBanner>Success Stories</TitleBanner>
     </div>
   );
