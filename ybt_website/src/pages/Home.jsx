@@ -13,8 +13,6 @@ function Home() {
       <Link to="/services">Go To Services</Link>
       <Link to="/faq">Go To FAQ</Link>
       <Link to="/contact">Go To Contact</Link>
-      <Link to="/terms">Go To Terms</Link>
-
       <TitleBanner>Success Stories</TitleBanner>
     </div>
   );
