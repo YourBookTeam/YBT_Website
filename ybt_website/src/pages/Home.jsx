@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import TitleBanner from "../components/TitleBanner";
-import Button from "../components/Buttons";
 
 function Home() {
   return (
@@ -14,8 +13,6 @@ function Home() {
       <Link to="/services">Go To Services</Link>
       <Link to="/faq">Go To FAQ</Link>
       <Link to="/contact">Go To Contact</Link>
-      <Link to="/terms">Go To Terms</Link>
-      <Button to="/contact" className={`justify-center font-bold text-sm bg-[#F5BE29] px-5 py-2 m-3 rounded shadow`}>BOOK A CONSULTATION</Button>
       <TitleBanner>Success Stories</TitleBanner>
     </div>
   );

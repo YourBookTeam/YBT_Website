@@ -7,7 +7,7 @@ function Buttons ({to, children, className}) {
         navigate(to);
     };
     return (
-        <button onClick={handleClick} className={className}>
+        <button onClick={handleClick} className={`cursor-pointer ${className}`}>
         {children}
         </button>
     );
