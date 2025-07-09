@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import TitleBanner from "../components/TitleBanner";
+import Button from "../components/Buttons";
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
       <Link to="/faq">Go To FAQ</Link>
       <Link to="/contact">Go To Contact</Link>
       <Link to="/terms">Go To Terms</Link>
-  <Button to="/contact">Book a consultation</Button>
+      <Button to="/contact">Contact Us</Button>
       <TitleBanner>Success Stories</TitleBanner>
     </div>
   );
