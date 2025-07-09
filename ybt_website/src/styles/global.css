@@ -21,15 +21,3 @@
   /* font */
   --font-primary: "Inter", sans-serif;
 }
-
-body {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-}
-
-a {
-  display: block;
-  padding: 10px 0px 10px 0px;
-}
