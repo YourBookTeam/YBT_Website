@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "../components/Logo";
+import { FaAngleDown } from "react-icons/fa";
 
 function NavBar() {
   return (
@@ -15,7 +16,7 @@ function NavBar() {
         <div className="flex relative group">
           <div className="border-none bg-none cursor-pointer flex gap-2 items-center">
             Success Stories
-            <i class="fa-solid fa-chevron-down"></i>
+            <FaAngleDown></FaAngleDown>
           </div>
 
           <div className="hidden group-hover:flex absolute top-full min-w-full bg-white px-2 py-1 flex-col gap-1">
