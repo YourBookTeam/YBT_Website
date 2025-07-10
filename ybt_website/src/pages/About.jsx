@@ -20,7 +20,6 @@ function About() {
     </div>
 
       <div className="px-30 py-10 flex flex-col gap-10">
-
           <div>
             <div className="font-bold text-[20px] pb-2">About Us</div>
             <div className="leading-loose">
@@ -51,12 +50,10 @@ function About() {
                 <FaHandshakeAngle size={100} className="shrink-0 text-saffron"/>
                 <div>Collaboration</div>
               </div>
-
               <div className="flex flex-col items-center">
                 <FaScaleBalanced size={100} className="shrink-0 text-saffron"/>
                 <div>Integrity</div>
               </div>
-
               <div className="flex flex-col items-center">
                 <FaUsersViewfinder size={100} className="shrink-0 text-saffron"/>
                 <div className="text-center">Customer Centric</div>
@@ -68,16 +65,15 @@ function About() {
                 <FaHeart size={100} className="shrink-0 text-saffron"/>
                 <div>Heart</div>
               </div>
-
               <div className="flex flex-col items-center">
                 <FaCrown size={100} className="shrink-0 text-saffron"/>
                 <div>Legacy</div>
               </div>
             </div>
           </div>
-
       </div>
       
+      <TitleBanner>Meet Your Team</TitleBanner>
     </div>
   );
 
