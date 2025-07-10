@@ -11,12 +11,13 @@ function About() {
     <div>
       <TitleBanner>About Us</TitleBanner>
 
-      <div className="relative bg-cover bg-center h-32 w-full flex justify-center items-center" style={{backgroundImage: `url(${backgroundImg})`}}>
-        <div className="absolute inset-0 bg-black/30 h-32 w-full"></div>
+      <div className="relative h-32 w-full flex justify-center items-center">
+        <div className="absolute inset-0 bg-cover bg-center filter contrast-75"style={{ backgroundImage: `url(${backgroundImg})` }}></div>
+        <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 text-white text-[35px] font-bold">
           Hi, We Are Your Book Team!
         </div>
-      </div>
+    </div>
 
       <div className="px-30 py-10 flex flex-col gap-10">
 
@@ -58,7 +59,7 @@ function About() {
 
               <div className="flex flex-col items-center">
                 <FaUsersViewfinder size={100} className="shrink-0 text-saffron"/>
-                <div>Customer Centric</div>
+                <div className="text-center">Customer Centric</div>
               </div>
             </div>
 
