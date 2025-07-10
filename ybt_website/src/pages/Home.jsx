@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import TitleBanner from "../components/TitleBanner";
-import NavBar from '../components/Navbar';
 
 
 function Home() {
