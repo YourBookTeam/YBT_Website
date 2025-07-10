@@ -6,8 +6,6 @@ import NavBar from '../components/Navbar';
 function Home() {
   return (
     <div>
-      <NavBar></NavBar>
-
       <div>Home Page</div>
 
       <Link to="/about">Go To About</Link>

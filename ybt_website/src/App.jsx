@@ -9,10 +9,12 @@ import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <Router basename="/YBT_Website/">
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
