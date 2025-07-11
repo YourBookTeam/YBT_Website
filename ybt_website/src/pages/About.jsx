@@ -140,8 +140,27 @@ function About() {
         </div>
       </div>
 
-      <div className="team-carousel">
+      <div className="mt-30 bg-soft-saffron flex items-center">
+        <div className="team-carousel md:px-10 lg:px-10 xl:px-200 py-20">
+          <div className="flex items-center gap-10">
+            <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
+              <img src={headshot_nermina} className="w-full h-full object-cover"/>
+            </div>
 
+            <div className="flex flex-col gap-4">
+              <div>
+                <div className="font-bold text-[25px]">Nermina Salkic</div>
+                <div className="text-[20px]">CPO</div>
+              </div>
+              <div>
+                With a strong background in finance and over 30 years of experience in the publishing 
+                industry, Isaac plays a pivotal role in driving the company’s growth and ensuring 
+                financial stability. Isaac’s expertise helps guide the company toward continued success 
+                in a rapidly evolving market.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
