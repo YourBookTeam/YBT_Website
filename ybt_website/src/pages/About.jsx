@@ -81,19 +81,19 @@ function About() {
       
       <TitleBanner>Meet Your Team</TitleBanner>
 
-      <div className="team-main px-30 pt-20 flex flex-col items-center">
+      <div className="px-40 pt-20 flex flex-col gap-30">
 
-        <div className="betty flex items-center gap-10">
-          <div className="w-40 h-40 overflow-hidden rounded">
+        <div className="flex items-center gap-10">
+          <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
             <img src={headshot_betty} className="w-full h-full object-cover"/>
           </div>
 
-          <div className="description flex flex-col gap-4">
+          <div className="flex flex-col gap-4">
             <div>
-              <div className="name font-bold">Betty Burtman</div>
-              <div className="title">CEO</div>
+              <div className="font-bold text-[25px]">Betty Burtman</div>
+              <div className="text-[20px]">CEO</div>
             </div>
-            <div className="bio">
+            <div>
               With over 25 years in the publishing industry, Betty has a passion for 
               discovering new voices and supporting both established and emerging authors. 
               Betty is committed to shaping the future of publishing through a blend of 
@@ -101,6 +101,46 @@ function About() {
             </div>
           </div>
         </div>
+
+        <div className="flex items-center gap-10">
+          <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
+            <img src={headshot_john} className="w-full h-full object-cover"/>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <div>
+              <div className="font-bold text-[25px]">John Kiss</div>
+              <div className="text-[20px]">CPO</div>
+            </div>
+            <div>
+              An award-winning artist and peace activist, known for using her art to inspire 
+              social justice and LGBTQ+ rights. She is a grandchild of Jewish Holocaust survivors 
+              and draws inspiration from stories of survival and hope. 
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-10">
+          <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
+            <img src={headshot_issac} className="w-full h-full object-cover"/>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <div>
+              <div className="font-bold text-[25px]">Issac Cyzelo</div>
+              <div className="text-[20px]">CFO</div>
+            </div>
+            <div>
+              With a strong background in finance and over 30 years of experience in the publishing 
+              industry, Isaac plays a pivotal role in driving the company’s growth and ensuring 
+              financial stability. Isaac’s expertise helps guide the company toward continued success 
+              in a rapidly evolving market.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="team-carousel">
 
       </div>
 
