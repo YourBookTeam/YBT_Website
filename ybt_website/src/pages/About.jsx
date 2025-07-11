@@ -25,7 +25,7 @@ function About() {
         </div>
     </div>
 
-      <div className="px-30 py-10 flex flex-col gap-10">
+      <div className="md:px-10 lg:px-30 xl:px-100 py-10 flex flex-col gap-10">
           <div>
             <div className="font-bold text-[20px] pb-2">About Us</div>
             <div className="leading-loose">
@@ -81,7 +81,7 @@ function About() {
       
       <TitleBanner>Meet Your Team</TitleBanner>
 
-      <div className="px-40 pt-20 flex flex-col gap-30">
+      <div className="md:px-10 lg:px-40 xl:px-200 pt-20 flex flex-col gap-30">
 
         <div className="flex items-center gap-10">
           <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
