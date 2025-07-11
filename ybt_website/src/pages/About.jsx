@@ -1,6 +1,12 @@
 import { Link } from 'react-router-dom';
 import TitleBanner from "../components/TitleBanner";
 import backgroundImg from '../assets/books_about_us.jpg';
+import headshot_john from '../assets/headshot_john.png';
+import headshot_betty from '../assets/headshot_betty.png';
+import headshot_issac from '../assets/headshot_issac.png';
+import headshot_nermina from '../assets/headshot_nermina.png';
+import headshot_arfin from '../assets/headshot_arfin.png';
+import headshot_brian from '../assets/headshot_brian.png';
 import { FaPeopleGroup, FaHandshakeAngle, FaScaleBalanced, FaUsersViewfinder } from "react-icons/fa6";
 import { FaHeart, FaCrown } from "react-icons/fa";
 
@@ -74,6 +80,30 @@ function About() {
       </div>
       
       <TitleBanner>Meet Your Team</TitleBanner>
+
+      <div className="team-main px-30 pt-20 flex flex-col items-center">
+
+        <div className="betty flex items-center gap-10">
+          <div className="w-40 h-40 overflow-hidden rounded">
+            <img src={headshot_betty} className="w-full h-full object-cover"/>
+          </div>
+
+          <div className="description flex flex-col gap-4">
+            <div>
+              <div className="name font-bold">Betty Burtman</div>
+              <div className="title">CEO</div>
+            </div>
+            <div className="bio">
+              With over 25 years in the publishing industry, Betty has a passion for 
+              discovering new voices and supporting both established and emerging authors. 
+              Betty is committed to shaping the future of publishing through a blend of 
+              tradition, creativity, and forward-thinking.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   );
 
