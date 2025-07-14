@@ -192,4 +192,164 @@ export const positions = [
     ],
     status: "open",
   },
+
+  {
+    id: 7,
+    title: "Personal Assistant Intern to Bestselling Author",
+    description: "Are you passionate about the literary world and eager to gain firsthand experience working alongside a bestselling author? This is your chance to step behind the scenes and assist in the daily operations of a successful author’s career. As a Personal Assistant Intern, you’ll play a crucial role in helping manage schedules, coordinate events, and handle communications, all while gaining invaluable insights into the publishing industry.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Manage the author’s calendar, scheduling meetings, interviews, and book signings.", 
+      "Handle correspondence, including emails and phone calls, ensuring timely and professional communication.", 
+      "Assist with travel arrangements, including booking flights, accommodations, and transportation for book tours and events.", 
+      "Organize and maintain files related to book projects, contracts, and promotional materials.",
+      "Coordinate with publishers, literary agents, and other stakeholders to ensure smooth workflow and deadlines are met.",
+      "Assist in planning and executing virtual and in-person events, such as book launches and readings.",
+      "Support social media management by scheduling posts and engaging with the author’s online community."
+    ],
+    qualifications: 
+    [
+      "Strong organizational and time management skills, with a keen eye for detail.", 
+      "Excellent written and verbal communication skills.", 
+      "Ability to manage multiple tasks and work under tight deadlines.",
+      "Proficiency in using productivity tools such as Google Workspace, Microsoft Office, and calendar management software.", 
+      "A proactive attitude with the ability to anticipate the author’s needs and take initiative.",
+      "A passion for literature and a strong interest in the publishing industry."
+    ],
+    benefits: 
+    [
+      "Gain direct experience working with a bestselling author and understanding the intricacies of the publishing world.", 
+      "Develop skills in organization, communication, and event planning.", 
+      "Build a network of contacts within the literary and publishing community.",
+      "Opportunity to be involved in exciting projects, including book launches and promotional campaigns."
+    ],
+    status: "open",
+  },
+
+  {
+    id: 8,
+    title: "Non-Fiction Self-Help Editor",
+    description: "Are you passionate about self-help books and eager to dive into the world of editing, proofreading, and manuscript development? Join us for a hands-on internship where you’ll work with leading authors and publishers in the non-fiction self-help genre to refine your skills. Experience the flexibility of remote work, the excitement of international collaboration, and a dynamic, creative environment!",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Edit and proofread non-fiction self-help manuscripts for grammar, punctuation, and style.", 
+      "Assist in developing and refining book content to ensure clarity and impact.", 
+      "Collaborate with authors to ensure their vision and message are accurately represented.", 
+      "Provide feedback on content structure, thematic consistency, and overall readability.",
+    ],
+    qualifications: 
+    [
+      "Strong communication skills.", 
+      "Excellent attention to detail.", 
+      "Adaptability and a willingness to learn.",
+      "Passion for books, especially non-fiction self-help, and a keen interest in editing.", 
+    ],
+    benefits: 
+    [
+      "Gain practical experience in book editing and publishing.", 
+      "Opportunities for professional growth and networking in the publishing industry.", 
+      "Work in a collaborative team environment with a focus on creative and professional development.",
+    ],
+    status: "open",
+  },
+
+    {
+    id: 9,
+    title: "Research Intern",
+    description: "Are you passionate about history and eager to dive into the world of research for both fiction and nonfiction books? Join us for a hands-on internship where you’ll contribute to projects that delve into historical events, with a focus on World War II, similar to works like Schindler’s List. Remote work, international collaboration, and a dynamic environment await!",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Conduct in-depth historical research on World War II, gathering information from reliable sources, including archives, academic journals, and historical records.", 
+      "Support the development of both fiction and nonfiction books by providing accurate and detailed historical context.", 
+      "Work closely with authors to ensure that historical details are accurately portrayed and contribute to the narrative’s authenticity.", 
+      "Assist in fact-checking and verifying information to maintain the integrity of the content.",
+    ],
+    qualifications: 
+    [
+      "Strong research and analytical skills.", 
+      "Excellent attention to detail.", 
+      "Passion for history, particularly World War II.",
+      "Ability to work independently and manage time effectively.", 
+    ],
+    benefits: 
+    [
+      "Gain practical experience in historical research and its application in book development.", 
+      "Professional growth opportunities.", 
+      "Collaborative team environment.",
+    ],
+    status: "open",
+  },
+
+  {
+    id: 10,
+    title: "Video Editing Intern",
+    description: "Are you passionate about video editing and eager to bring stories to life through compelling visuals? Join our team as a Video Editing Intern and work on exciting projects that showcase your creativity and technical skills. This remote internship offers the opportunity to collaborate with a dynamic team and develop your portfolio in a supportive environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Edit and assemble raw footage into polished videos using industry-standard software (e.g., Adobe Premiere Pro, Final Cut Pro)", 
+      "Create engaging video content for various platforms, including social media, websites, and marketing materials.", 
+      "Collaborate with the production team to understand project goals and deliver high-quality videos that meet those objectives.", 
+      "Incorporate graphics, animations, and effects to enhance video content.",
+      "Participate in brainstorming sessions and contribute innovative ideas for video projects."
+    ],
+    qualifications: 
+    [
+      "Proficiency in video editing software (Adobe Premiere Pro, Final Cut Pro, etc.).", 
+      "Strong understanding of video production processes and storytelling techniques.", 
+      "Creative thinking and attention to detail.",
+      "Ability to work independently and meet deadlines.", 
+      "A portfolio showcasing your video editing work is a plus."
+    ],
+    benefits: 
+    [
+      "Gain hands-on experience in video editing and production.", 
+      "Build a strong portfolio with diverse projects.", 
+      "Professional growth opportunities and mentorship from experienced editors.",
+      "Work in a collaborative and creative team environment."
+    ],
+    status: "open",
+  },
+
+  {
+    id: 11,
+    title: "Newsletter & Mailchimp Intern",
+    description: "Are you passionate about digital marketing and content creation? Do you have a knack for crafting compelling newsletters that engage and inform? Join our team as a Newsletter & Mailchimp Intern, where you’ll get hands-on experience in managing email campaigns, creating content, and analyzing audience engagement. This remote internship offers a unique opportunity to hone your skills in a dynamic and collaborative environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Assist in creating and scheduling newsletters using Mailchimp.", 
+      "Collaborate with the content team to develop engaging and relevant content for our audience.", 
+      "Analyze email campaign performance and provide insights for improvement.", 
+      "Manage subscriber lists and ensure proper segmentation and targeting.",
+      "Stay up-to-date with email marketing trends and best practices."
+    ],
+    qualifications: 
+    [
+      "Strong writing and communication skills.", 
+      "Experience with or a willingness to learn Mailchimp or similar email marketing platforms.", 
+      "Attention to detail and ability to meet deadlines.",
+      "Creativity and a passion for digital marketing.", 
+    ],
+    benefits: 
+    [
+      "Gain practical experience in email marketing and content creation.", 
+      "Professional growth opportunities and mentorship.", 
+      "Work in a supportive and creative team environment.",
+    ],
+    status: "open",
+  },
 ];
