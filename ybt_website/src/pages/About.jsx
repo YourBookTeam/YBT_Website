@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
 import TitleBanner from "../components/TitleBanner";
+import BookIdea from "../components/BookIdea";
 import backgroundImg from '../assets/books_about_us.jpg';
-import headshot_john from '../assets/headshot_john.png';
-import headshot_betty from '../assets/headshot_betty.png';
-import headshot_issac from '../assets/headshot_issac.png';
-import headshot_nermina from '../assets/headshot_nermina.png';
-import headshot_arfin from '../assets/headshot_arfin.png';
-import headshot_brian from '../assets/headshot_brian.png';
+import headshot_john from '../assets/headshots/headshot_john.png';
+import headshot_betty from '../assets/headshots/headshot_betty.png';
+import headshot_issac from '../assets/headshots/headshot_issac.png';
+import headshot_nermina from '../assets/headshots/headshot_nermina.png';
+import headshot_arfin from '../assets/headshots/headshot_arfin.png';
+import headshot_brian from '../assets/headshots/headshot_brian.png';
 import { FaPeopleGroup, FaHandshakeAngle, FaScaleBalanced, FaUsersViewfinder } from "react-icons/fa6";
 import { FaHeart, FaCrown } from "react-icons/fa";
 
