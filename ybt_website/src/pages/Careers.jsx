@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 import TitleBanner from "../components/TitleBanner";
-import headshot_intern_rachel from "../assets/headshot_intern_rachel.png";
-import headshot_intern_nadun from "../assets/headshot_intern_nadun.png";
-import headshot_intern_genevieve from "../assets/headshot_intern_genevieve.png";
+import headshot_intern_rachel from "../assets/headshots/headshot_intern_rachel.png";
+import headshot_intern_nadun from "../assets/headshots/headshot_intern_nadun.png";
+import headshot_intern_genevieve from "../assets/headshots/headshot_intern_genevieve.png";
 
 function Careers({ onSearch }) {
   const [query, setQuery] = useState("");

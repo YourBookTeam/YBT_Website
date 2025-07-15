@@ -1,3 +1,26 @@
+import image_3D from '../assets/position_images/position_3D.png';
+import image_admin from '../assets/position_images/position_admin.png';
+import image_amazon from '../assets/position_images/position_amazon.jpg';
+import image_assistant from '../assets/position_images/position_assistant.png';
+import image_book_writing from '../assets/position_images/position_book_writing.png';
+import image_calandaring from '../assets/position_images/position_calandaring.jpg';
+import image_erotica from '../assets/position_images/position_erotica.png';
+import image_historical from '../assets/position_images/position_historical.png';
+import image_interviewer from '../assets/position_images/position_interviewer.jpeg';
+import image_manager from '../assets/position_images/position_manager.jpg';
+import image_marketing from '../assets/position_images/position_marketing.jpeg';
+import image_newsletter from '../assets/position_images/position_newsletter.png';
+import image_non_fiction from '../assets/position_images/position_non_fiction.png';
+import image_podcast from '../assets/position_images/position_podcast.png';
+import image_pr from '../assets/position_images/position_pr.jpeg';
+import image_quickbooks from '../assets/position_images/position_quickbooks.png';
+import image_researcher from '../assets/position_images/position_researcher.png';
+import image_shopify from '../assets/position_images/position_shopify.png';
+import image_social_media from '../assets/position_images/position_social_media.jpg';
+import image_tech from '../assets/position_images/position_tech.png';
+import image_trademark from '../assets/position_images/position_trademark.png';
+import image_video from '../assets/position_images/position_video.png';
+
 export const positions = [
   {
     id: 1,
@@ -25,6 +48,8 @@ export const positions = [
       "Mentorship and guidance from experienced PR professionals", 
       "A dynamic and supportive work environment"
     ],
+    image: image_pr,
+
     status: "open",
   },
 
@@ -57,6 +82,8 @@ export const positions = [
       "Opportunities for professional growth and networking within the industry.", 
       "Work in a collaborative team environment focused on professional development."
     ],
+    image: image_interviewer,
+
     status: "open",
   },
 
@@ -89,6 +116,8 @@ export const positions = [
       "Opportunities for professional growth and networking within the digital marketing industry.", 
       "Work in a collaborative team environment with a focus on creativity and innovation."
     ],
+    image: image_marketing,
+
     status: "open",
   },
 
@@ -122,6 +151,8 @@ export const positions = [
       "Opportunities for professional growth and networking within the digital marketing industry.", 
       "Work in a collaborative team environment with a focus on creativity and innovation."
     ],
+    image: image_social_media,
+
     status: "open",
   },
 
@@ -155,6 +186,8 @@ export const positions = [
       "Opportunities for professional growth and networking with industry professionals.",
       "Work closely with senior management, gaining insights into business operations and leadership."
     ],
+    image: image_manager,
+
     status: "open",
   },
 
@@ -190,6 +223,8 @@ export const positions = [
       "Work closely with senior management, gaining insights into the daily operations of a business.",
       "Opportunities for professional growth and networking in a supportive team environment."
     ],
+    image: image_calandaring,
+
     status: "open",
   },
 
@@ -226,6 +261,8 @@ export const positions = [
       "Build a network of contacts within the literary and publishing community.",
       "Opportunity to be involved in exciting projects, including book launches and promotional campaigns."
     ],
+    image: image_assistant,
+
     status: "open",
   },
 
@@ -256,6 +293,8 @@ export const positions = [
       "Opportunities for professional growth and networking in the publishing industry.", 
       "Work in a collaborative team environment with a focus on creative and professional development.",
     ],
+    image: image_non_fiction,
+
     status: "open",
   },
 
@@ -286,6 +325,8 @@ export const positions = [
       "Professional growth opportunities.", 
       "Collaborative team environment.",
     ],
+    image: image_researcher,
+
     status: "open",
   },
 
@@ -319,6 +360,8 @@ export const positions = [
       "Professional growth opportunities and mentorship from experienced editors.",
       "Work in a collaborative and creative team environment."
     ],
+    image: image_video,
+
     status: "open",
   },
 
@@ -350,6 +393,8 @@ export const positions = [
       "Professional growth opportunities and mentorship.", 
       "Work in a supportive and creative team environment.",
     ],
+    image: image_newsletter,
+
     status: "open",
   },
 
@@ -383,6 +428,8 @@ export const positions = [
       "Opportunities for professional growth and mentorship.", 
       "Work in a supportive and innovative team environment.",
     ],
+    image: image_tech,
+
     status: "open",
   },
 
@@ -415,6 +462,8 @@ export const positions = [
       "Opportunities for professional growth and mentorship.", 
       "Work in a supportive and structured team environment.",
     ],
+    image: image_admin,
+
     status: "open",
   },
 
@@ -446,6 +495,8 @@ export const positions = [
       "Opportunities for professional growth and mentorship.", 
       "Work in a supportive and creative team environment.",
     ],
+    image: image_shopify,
+
     status: "open",
   },
 
@@ -477,12 +528,14 @@ export const positions = [
       "Opportunities for professional growth and networking in the legal field.", 
       "Work in a collaborative team environment with a focus on career development.",
     ],
+    image: image_trademark,
+
     status: "open",
   },
 
   {
     id: 16,
-    title: "Trademark Intern",
+    title: "Amazon selling KDP Kindle Direct Publishing Intern",
     description: "Are you passionate about digital publishing and eager to learn the ins and outs of selling on Amazon? Join us for a hands-on internship where you’ll dive into Kindle Direct Publishing (KDP) and help bring books to life in the digital marketplace. Experience the flexibility of remote work, gain valuable insights into the world of e-commerce, and collaborate in a dynamic, creative environment!",
     location: "Remote",
     duration: "6 Months",
@@ -509,6 +562,8 @@ export const positions = [
       "Opportunities for professional growth and networking in the publishing and e-commerce industries.",
       "Work in a collaborative team environment focused on innovation and professional development."
     ],
+    image: image_amazon,
+
     status: "open",
   },
 
@@ -539,6 +594,8 @@ export const positions = [
       "Opportunities for professional growth and networking in the publishing industry.", 
       "Work in a collaborative team environment with a focus on creative and professional development.",
     ],
+    image: image_historical,
+
     status: "open",
   },
 
@@ -569,12 +626,14 @@ export const positions = [
       "Professional growth opportunities.", 
       "Collaborative team environment.",
     ],
+    image: image_book_writing,
+
     status: "open",
   },
 
   {
     id: 19,
-    title: "Book Writing Intern",
+    title: "Erotica/Fantasy/Queer Editorial Intern",
     description: "Are you a fan of captivating stories like Red, White & Royal Blue, the Fifty Shades series, or Rebecca Yarros’ novels? Do you have a passion for exploring diverse and bold narratives in erotica, fantasy, and queer literature? Join our editorial team for a hands-on internship where you’ll work with emerging and established authors in these genres. This remote internship offers the chance to collaborate on innovative projects and gain valuable experience in a dynamic and inclusive environment.",
     location: "Remote",
     duration: "6 Months",
@@ -601,6 +660,8 @@ export const positions = [
       "Professional growth opportunities and mentorship.", 
       "Work in a supportive and inclusive environment that values diverse voices.",
     ],
+    image: image_erotica,
+
     status: "open",
   },
 
@@ -633,6 +694,8 @@ export const positions = [
       "Learn from industry professionals and receive mentorship.", 
       "Opportunities for creative input and growth within the team.",
     ],
+    image: image_podcast,
+
     status: "open",
   },
 
@@ -668,6 +731,8 @@ export const positions = [
       "Professional growth opportunities and mentorship from experienced professionals.",
       "Work directly with the CEO and gain valuable insights."
     ],
+    image: image_quickbooks,
+
     status: "open",
   },
 
@@ -701,6 +766,8 @@ export const positions = [
       "Professional growth opportunities and mentorship from experienced designers.",
       "Work in a collaborative and creative team environment."
     ],
+    image: image_3D,
+
     status: "open",
   },
 ];
