@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../components/Logo";
+import { FaAngleDown } from "react-icons/fa";
+import Button from "../components/Buttons";
 
 function NavBar() {
   return (
@@ -13,10 +15,10 @@ function NavBar() {
         <Link to="/services">Services</Link>
 
         <div className="flex relative group">
-          <button className="border-none bg-none cursor-pointer flex gap-2 items-center">
+          <div className="border-none bg-none cursor-pointer flex gap-2 items-center">
             Success Stories
-            <i class="fa-solid fa-chevron-down"></i>
-          </button>
+            <FaAngleDown></FaAngleDown>
+          </div>
 
           <div className="hidden group-hover:flex absolute top-full min-w-full bg-white px-2 py-1 flex-col gap-1">
             <Link to="/success_stories">
@@ -42,12 +44,7 @@ function NavBar() {
       </div>
 
       <div className="pl-12">
-        <Link
-          to="/contact"
-          className="!px-4 border-0 rounded-md bg-[#F5BE29] cursor-pointer h-16 !flex !items-center"
-        >
-          Book A Free Consultation
-        </Link>
+        <Button to="/contact" className="px-4 border-0 rounded-md bg-[#F5BE29] cursor-pointer h-16 flex items-center">Book a Free Consultation</Button>
       </div>
     </nav>
   );
