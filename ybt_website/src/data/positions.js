@@ -352,4 +352,355 @@ export const positions = [
     ],
     status: "open",
   },
+
+  {
+    id: 12,
+    title: "Tech Intern",
+    description: "Are you passionate about technology and automation? Do you have a knack for streamlining processes and improving efficiency through tech solutions? Join our team as a Tech Intern, where you’ll get hands-on experience in automating workflows, managing data, and optimizing digital tools. This remote internship offers a unique opportunity to develop your skills in a dynamic and collaborative environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Automate workflows using tools like Zapier to enhance efficiency.", 
+      "Develop and maintain auto-populating spreadsheets to streamline data management.", 
+      "Assist in integrating various software platforms to ensure seamless data flow.", 
+      "Collaborate with teams to identify areas for automation and propose tech solutions.",
+      "Support the setup and maintenance of cloud-based systems.",
+      "Monitor and troubleshoot tech-related issues as they arise."
+    ],
+    qualifications: 
+    [
+      "Familiarity with automation tools like Zapier or a willingness to learn.", 
+      "Basic knowledge of spreadsheet functions and data management.", 
+      "Strong problem-solving skills and a keen interest in technology.",
+      "Attention to detail and ability to meet deadlines.", 
+      "Ability to work independently and as part of a team."
+    ],
+    benefits: 
+    [
+      "Gain practical experience in automation and tech solutions.", 
+      "Opportunities for professional growth and mentorship.", 
+      "Work in a supportive and innovative team environment.",
+    ],
+    status: "open",
+  },
+
+    {
+    id: 13,
+    title: "Admin Intern",
+    description: "Are you organized, detail-oriented, and looking to gain hands-on experience in administrative tasks? Join our team as an Admin Intern, where you’ll assist with day-to-day operations, support HR functions, and help streamline our processes. This remote internship offers a valuable opportunity to develop your skills in a dynamic and collaborative environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Provide administrative support, including managing calendars, scheduling meetings, and organizing files.", 
+      "Assist with HR-related tasks, such as onboarding new team members and maintaining employee records.", 
+      "Help prepare and organize documents, reports, and presentations.", 
+      "Manage communications, including answering emails and coordinating with different departments.",
+      "Assist in the development and implementation of office procedures and policies.",
+      "Support the team in various ad-hoc projects as needed."
+    ],
+    qualifications: 
+    [
+      "Strong organizational and multitasking skills.", 
+      "Excellent communication skills, both written and verbal.", 
+      "Attention to detail and ability to work independently.",
+      "A proactive attitude and willingness to learn.", 
+    ],
+    benefits: 
+    [
+      "Gain practical experience in administrative and HR tasks.", 
+      "Opportunities for professional growth and mentorship.", 
+      "Work in a supportive and structured team environment.",
+    ],
+    status: "open",
+  },
+
+  {
+    id: 14,
+    title: "Shopify Intern",
+    description: "Are you passionate about e-commerce and digital merchandising? Do you have a knack for setting up and managing online stores? Join our team as a Shopify Intern, where you’ll gain hands-on experience in setting up and managing a Shopify store for a publishing company. This remote internship offers a unique opportunity to develop your skills in a dynamic and collaborative environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Set up and manage a Shopify store for books and ebooks, including configuring products, categories, and payment options.", 
+      "Assist with the integration of Shopify with other tools and platforms as needed.", 
+      "Support the development and implementation of store layouts and design elements.", 
+      "Help manage inventory and ensure accurate product listings.",
+      "Collaborate with the marketing team to implement promotional strategies and improve the store’s online presence.",
+      "Troubleshoot and resolve any issues related to the Shopify platform."
+    ],
+    qualifications: 
+    [
+      "Strong organizational and attention-to-detail skills.", 
+      "Excellent communication skills, both written and verbal.", 
+      "A proactive attitude and willingness to learn.",
+    ],
+    benefits: 
+    [
+      "Gain practical experience in e-commerce and Shopify store management.", 
+      "Opportunities for professional growth and mentorship.", 
+      "Work in a supportive and creative team environment.",
+    ],
+    status: "open",
+  },
+
+  {
+    id: 15,
+    title: "Trademark Intern",
+    description: "Are you passionate about trademarks and eager to gain hands-on experience in intellectual property? Join us for a dynamic remote internship where you’ll dive into the world of trademark law, assisting with various tasks that will enhance your skills and understanding of the field. Experience the flexibility of remote work, the excitement of international collaboration, and a dynamic, professional environment!",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Assist with trademark searches, filings, and registrations.", 
+      "Support the team in researching and analyzing trademark cases and issues.", 
+      "Draft and review trademark-related documents and correspondence.", 
+      "Collaborate with legal professionals to ensure accurate and timely processing of trademark matters.",
+      "Provide administrative support for ongoing trademark projects and initiatives.",
+    ],
+    qualifications: 
+    [
+      "Strong communication skills and attention to detail.", 
+      "Basic understanding of intellectual property and trademark law.", 
+      "Proficiency in Microsoft Office and research tools.",
+      "Eagerness to learn and a passion for the field of trademarks and intellectual property."
+    ],
+    benefits: 
+    [
+      "Gain practical experience in trademark law and intellectual property.", 
+      "Opportunities for professional growth and networking in the legal field.", 
+      "Work in a collaborative team environment with a focus on career development.",
+    ],
+    status: "open",
+  },
+
+  {
+    id: 16,
+    title: "Trademark Intern",
+    description: "Are you passionate about digital publishing and eager to learn the ins and outs of selling on Amazon? Join us for a hands-on internship where you’ll dive into Kindle Direct Publishing (KDP) and help bring books to life in the digital marketplace. Experience the flexibility of remote work, gain valuable insights into the world of e-commerce, and collaborate in a dynamic, creative environment!",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Assist in managing the entire KDP process, from formatting manuscripts to uploading and optimizing listings.", 
+      "Conduct market research to identify trends and opportunities for book placement and promotion on Amazon.", 
+      "Collaborate with authors and the publishing team to ensure books are effectively marketed and positioned on Amazon.", 
+      "Monitor and analyze sales data, providing insights to improve book rankings and visibility.",
+      "Help create and implement marketing strategies to boost book sales on Amazon.",
+    ],
+    qualifications: 
+    [
+      "Strong communication skills.", 
+      "Excellent attention to detail.", 
+      "A proactive, self-motivated attitude with a willingness to learn.",
+      "Interest in digital publishing, e-commerce, and the Amazon marketplace."
+    ],
+    benefits: 
+    [
+      "Gain practical experience in digital publishing and Amazon KDP.", 
+      "Learn the intricacies of selling and marketing books in the world’s largest online marketplace.", 
+      "Opportunities for professional growth and networking in the publishing and e-commerce industries.",
+      "Work in a collaborative team environment focused on innovation and professional development."
+    ],
+    status: "open",
+  },
+
+  {
+    id: 17,
+    title: "Historical Fiction Editor",
+    description: "Are you fascinated by history and passionate about storytelling? Do you have a keen eye for detail and a love for historical fiction? Join us for a hands-on internship where you’ll work with top authors and publishers to hone your skills in editing, proofreading, and manuscript development. Experience the flexibility of remote work, the thrill of international collaboration, and a vibrant, creative environment!",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Edit and proofread historical fiction manuscripts for grammar, punctuation, and style.", 
+      "Assist in developing and refining content to ensure historical accuracy and engaging storytelling.", 
+      "Collaborate with authors to ensure their narrative and historical setting are authentically represented.", 
+      "Provide feedback on plot development, character arcs, and overall readability.",
+    ],
+    qualifications: 
+    [
+      "Strong communication skills.", 
+      "Excellent attention to detail and a passion for accuracy.", 
+      "Adaptability and a willingness to learn.",
+      "Passion for historical fiction and a keen interest in the editing process."
+    ],
+    benefits: 
+    [
+      "Gain practical experience in editing historical fiction.", 
+      "Opportunities for professional growth and networking in the publishing industry.", 
+      "Work in a collaborative team environment with a focus on creative and professional development.",
+    ],
+    status: "open",
+  },
+
+  {
+    id: 18,
+    title: "Book Writing Intern",
+    description: "Are you passionate about writing and eager to dive into the world of book creation, co-authorship, and manuscript development? Join us for a hands-on internship where you’ll work with bestselling author John Kiss and other top writers to refine your skills. Remote work, international collaboration, and a dynamic environment await!",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Assist in developing and fleshing out book outlines into full manuscripts, focusing on historical fiction centered around WWII.", 
+      "Collaborate closely with John Kiss to ensure the narrative vision is accurately represented and aligned with the intended style and tone.", 
+      "Provide input and feedback on story structure, character development, and overall readability.", 
+      "Participate in training sessions for co-authorship, particularly in the style of James Patterson.",
+    ],
+    qualifications: 
+    [
+      "Strong communication skills.", 
+      "Excellent attention to detail.", 
+      "Adaptability and a willingness to learn.",
+      "Passion for books, writing, and historical fiction."
+    ],
+    benefits: 
+    [
+      "Gain practical writing and book development experience.", 
+      "Professional growth opportunities.", 
+      "Collaborative team environment.",
+    ],
+    status: "open",
+  },
+
+  {
+    id: 19,
+    title: "Book Writing Intern",
+    description: "Are you a fan of captivating stories like Red, White & Royal Blue, the Fifty Shades series, or Rebecca Yarros’ novels? Do you have a passion for exploring diverse and bold narratives in erotica, fantasy, and queer literature? Join our editorial team for a hands-on internship where you’ll work with emerging and established authors in these genres. This remote internship offers the chance to collaborate on innovative projects and gain valuable experience in a dynamic and inclusive environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Assist in reviewing and editing manuscripts, focusing on erotica, fantasy, and queer themes.", 
+      "Provide constructive feedback to authors on plot development, character arcs, and overall narrative flow.", 
+      "Conduct research and market analysis to identify trends and opportunities in the genre.", 
+      "Help prepare manuscripts for publication, including copy editing and formatting.",
+      "Collaborate with the marketing team to develop promotional content for book releases."
+    ],
+    qualifications: 
+    [
+      "Strong communication and writing skills.", 
+      "A keen interest in erotica, fantasy, and queer literature.", 
+      "Attention to detail and a creative mindset.",
+      "Ability to work independently and meet deadlines.",
+      "Familiarity with popular books in these genres, such as Red, White & Royal Blue, Fifty Shades, and works by Rebecca Yarros."
+    ],
+    benefits: 
+    [
+      "Gain practical experience in editorial work within specialized genres.", 
+      "Professional growth opportunities and mentorship.", 
+      "Work in a supportive and inclusive environment that values diverse voices.",
+    ],
+    status: "open",
+  },
+
+  {
+    id: 20,
+    title: "Podcast Editor Intern",
+    description: "Are you passionate about storytelling and audio production? Do you love podcasts and want to dive into the world of audio and video editing and content creation? Join our team as a Podcast Editor Intern, where you’ll work with experienced producers and hosts to craft engaging episodes. This remote internship offers hands-on experience and the opportunity to develop your skills in a creative and dynamic environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Edit and mix podcast episodes, ensuring high audio quality and seamless transitions.", 
+      "Collaborate with hosts and producers to create compelling and coherent content.", 
+      "Assist in managing podcast workflow, including scheduling, uploading, and publishing episodes.", 
+      "Enhance episodes with music, sound effects, and other audio elements as needed.",
+      "Help maintain and update podcast archives and metadata."
+    ],
+    qualifications: 
+    [
+      "Strong understanding of audio editing software (e.g., Adobe Audition, Audacity, Pro Tools).", 
+      "Keen ear for audio quality and attention to detail.", 
+      "Excellent organizational and communication skills.",
+      "Ability to work independently and meet deadlines.",
+      "A passion for podcasts and storytelling.",
+    ],
+    benefits: 
+    [
+      "Gain practical experience in podcast editing and production.", 
+      "Learn from industry professionals and receive mentorship.", 
+      "Opportunities for creative input and growth within the team.",
+    ],
+    status: "open",
+  },
+
+  {
+    id: 21,
+    title: "QuickBooks/Accounting Intern",
+    description: "Are you passionate about accounting and eager to gain hands-on experience with QuickBooks? Join our team as a QuickBooks Intern and work on exciting projects that will enhance your skills and knowledge. This remote internship offers the opportunity to collaborate with our CEO and develop your expertise in a supportive environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Assist with daily accounting tasks using QuickBooks.", 
+      "Help in planning and managing budgets.", 
+      "Utilize Excel for various accounting functions and data analysis.", 
+      "Collaborate with the CEO to ensure accurate financial reporting.",
+      "Support the team in preparing financial statements and other accounting documents.",
+      "Participate in brainstorming sessions and contribute innovative ideas for improving accounting processes."
+    ],
+    qualifications: 
+    [
+      "Knowledge of QuickBooks.", 
+      "Proficiency in Excel.", 
+      "Strong understanding of accounting principles and budget planning.",
+      "Attention to detail and analytical thinking.",
+      "Ability to work independently and meet deadlines.",
+      "A background or coursework in accounting is a plus."
+    ],
+    benefits: 
+    [
+      "Gain hands-on experience with QuickBooks and accounting processes.", 
+      "Build a strong portfolio with diverse projects.", 
+      "Professional growth opportunities and mentorship from experienced professionals.",
+      "Work directly with the CEO and gain valuable insights."
+    ],
+    status: "open",
+  },
+
+  {
+    id: 22,
+    title: "3D Graphic Design Character Specialist Intern",
+    description: "Are you passionate about 3D character design and eager to bring unique characters to life? Join our team as a 3D Graphic Design Character Specialist Intern and work on exciting projects that showcase your creativity and technical skills. This remote internship offers the opportunity to collaborate with a dynamic team and develop your portfolio in a supportive environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Create 3D character models using industry-standard software (e.g., Blender, Maya, ZBrush).", 
+      "Design and develop characters for various projects, including games, animations, and marketing materials.", 
+      "Collaborate with the art and design teams to refine character concepts and ensure they align with project goals.", 
+      "Assist in rigging and texturing characters to prepare them for animation.",
+      "Participate in brainstorming sessions and contribute innovative ideas for character design.",
+    ],
+    qualifications: 
+    [
+      "Proficiency in 3D modelling software (Blender, Maya, ZBrush, etc.).", 
+      "Strong understanding of character anatomy, proportion, and design principles.", 
+      "Creative thinking and attention to detail.",
+      "Ability to work independently and meet deadlines.",
+      "A portfolio showcasing your 3D character design work is a plus.",
+    ],
+    benefits: 
+    [
+      "Gain hands-on experience in 3D character design and development.", 
+      "Build a strong portfolio with diverse projects.", 
+      "Professional growth opportunities and mentorship from experienced designers.",
+      "Work in a collaborative and creative team environment."
+    ],
+    status: "open",
+  },
 ];
