@@ -9,6 +9,7 @@ import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import Footer from "./components/Footer";
+import BookIdea from "./components/BookIdea";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Terms />} />
       </Routes>
+      <BookIdea />
       <Footer />
     </Router>
   );

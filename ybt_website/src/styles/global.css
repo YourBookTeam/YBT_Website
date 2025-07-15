@@ -21,3 +21,8 @@
   /* font */
   --font-primary: "Inter", sans-serif;
 }
+
+.book-idea-bg {
+  background-image: url('../assets/bookideabg.png');
+  background-position: center;
+}

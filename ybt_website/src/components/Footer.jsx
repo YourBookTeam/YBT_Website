@@ -17,11 +17,11 @@ const Footer = () => {
         <div className="flex-1 flex flex-col min-w-64 min-h-96">
           <div className="text-center">
             <h3 className="text-3xl mb-8">Quick Links</h3>
-            <ul className="leading-tight text-xl">
-              <a href="about">About Us</a>
-              <a href="services">Services</a>
-              <a href="careers">Careers</a>
-              <a href="faq">FAQ</a>
+            <ul className="flex flex-col items-center space-y-2 text-xl">
+              <li><a href="about">About Us</a></li>
+              <li><a href="services">Services</a></li>
+              <li><a href="careers">Careers</a></li>
+              <li><a href="faq">FAQ</a></li>
             </ul>
           </div>
           <div className="text-center mt-auto mb-5">
