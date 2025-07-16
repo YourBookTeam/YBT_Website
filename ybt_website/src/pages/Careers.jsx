@@ -3,7 +3,7 @@ import { useState } from "react";
 import { positions } from "../data/positions.js";
 import TitleBanner from "../components/TitleBanner";
 import Button from "../components/Buttons";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import headshot_intern_rachel from "../assets/headshots/headshot_intern_rachel.png";
 import headshot_intern_nadun from "../assets/headshots/headshot_intern_nadun.png";
 import headshot_intern_genevieve from "../assets/headshots/headshot_intern_genevieve.png";
@@ -40,6 +40,10 @@ function Careers({ onSearch }) {
     if(currentPage > 1){
       setCurrentPage(currentPage - 1);
     }
+  }
+
+  const handlePageClick = (num) => {
+    setCurrentPage(num);
   }
 
 
@@ -135,14 +139,18 @@ function Careers({ onSearch }) {
           </div>
         ))}
 
-        <div>
-          <button className="w-10 h-10 bg-black rounded-full"></button>
+        <div className="flex gap-4">
+          <button onClick={handlePrevious} className={`w-10 h-10 rounded-full flex items-center justify-center ${currentPage == 1 ? "bg-gray" : "cursor-pointer bg-black"}`}>
+            <FaArrowLeft className="text-white w-5 h-5 text-center"/>
+          </button>
           {Array.from({length: totalPages}, (value, index) => index+1).map((num) => (
-            <button key={num} className="bg-black">
+            <button key={num} className={`cursor-pointer ${currentPage == num ? "underline" : ""}`} onClick={() => handlePageClick(num)}>
               {num}
             </button>
           ))}
-          <button className="w-10 h-10 bg-black rounded-full"></button>
+          <button onClick={handleNext} className={`w-10 h-10 rounded-full flex items-center justify-center ${currentPage == totalPages ? "bg-gray" : "cursor-pointer bg-black"}`}>
+            <FaArrowRight className="text-white w-5 h-5 text-center"/>
+          </button>
         </div>
       </div>
     </div>
