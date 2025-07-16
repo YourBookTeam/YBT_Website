@@ -8,11 +8,12 @@ import headshot_intern_rachel from "../assets/headshots/headshot_intern_rachel.p
 import headshot_intern_nadun from "../assets/headshots/headshot_intern_nadun.png";
 import headshot_intern_genevieve from "../assets/headshots/headshot_intern_genevieve.png";
 
-function Careers({ onSearch }) {
+function Careers() {
   const [query, setQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-
   const openJobs = positions.filter((job)=> job.status == "open");
+  const [searchedJobs, setSearchedJobs] = useState(openJobs);
+
   const itemsPerPage = 6;
   const totalPages = Math.ceil(openJobs.length / itemsPerPage);
   const startIndex = itemsPerPage * (currentPage-1);
@@ -21,7 +22,18 @@ function Careers({ onSearch }) {
 
   const handleSubmit = (event) =>{
     event.preventDefault();
-    // onSearch(query);
+
+    const rankedJobs = openJobs
+    .map((job) => {
+      const titleScore = job.title.toLowerCase().includes(query.toLowerCase()) ? 2 : 0;
+      const descScore = job.description.toLowerCase().includes(query.toLowerCase()) ? 1 : 0;
+      return { ...job, score: titleScore + descScore };
+    })
+    .filter((job) => job.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+    setSearchedJobs(rankedJobs);
+  
     console.log(query);
     setQuery("");
   }
