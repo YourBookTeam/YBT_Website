@@ -1,0 +1,19 @@
+{
+  "name": "ybt_website-1",
+  "version": "1.0.0",
+  "description": "The YourBookTeam website is the digital face of the company. This website promotes the company through marketing campaigns, introduces the amazing people who work at the company, and provides valuable information for potential clients and team members.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.4"
+  }
+}
