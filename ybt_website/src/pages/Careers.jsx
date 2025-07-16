@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { positions } from "../data/positions.js";
 import TitleBanner from "../components/TitleBanner";
@@ -18,23 +17,24 @@ function Careers() {
   const totalPages = Math.ceil(openJobs.length / itemsPerPage);
   const startIndex = itemsPerPage * (currentPage-1);
   const endIndex = startIndex + itemsPerPage;
-  const displayedJobs = openJobs.slice(startIndex, endIndex);
+  const displayedJobs = searchedJobs.slice(startIndex, endIndex);
 
   const handleSubmit = (event) =>{
     event.preventDefault();
 
-    const rankedJobs = openJobs
-    .map((job) => {
-      const titleScore = job.title.toLowerCase().includes(query.toLowerCase()) ? 2 : 0;
-      const descScore = job.description.toLowerCase().includes(query.toLowerCase()) ? 1 : 0;
-      return { ...job, score: titleScore + descScore };
-    })
-    .filter((job) => job.score > 0)
-    .sort((a, b) => b.score - a.score);
+    query.toLowerCase();
 
-    setSearchedJobs(rankedJobs);
-  
-    console.log(query);
+    const sorted = [...openJobs].sort((a, b) => {
+      const aText = (a.title + " " + a.description).toLowerCase();
+      const bText = (b.title + " " + b.description).toLowerCase();
+
+      const aMatch = aText.includes(query) ? 1 : 0;
+      const bMatch = bText.includes(query) ? 1 : 0;
+
+      return bMatch - aMatch;
+    });
+
+    setSearchedJobs(sorted);
     setQuery("");
   }
 
