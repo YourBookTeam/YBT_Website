@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import jobData from "../data/positions";
 
 function Position() {
-  //Getting position data from Json file
+  //Getting position data from positions page
     const { id } = useParams();
     const [position, setPosition] = useState(null);
 
@@ -26,7 +26,7 @@ function Position() {
       <Nav></Nav>
       <div>Position Page</div>
 
-      <section className="w-full bg[#] ">
+      <section className="w-full bg[#FFE7A6] ">
         <Buttons to="/careers" className="cursor-pointer ">Back to All Jobs</Buttons>
       </section>
       <section className='position_hero'></section>
@@ -34,6 +34,7 @@ function Position() {
         <section className='position_title'>
           <h1 className='position_name'>{position.title}</h1>
           <Buttons className={"justify-center font-bold text-sm bg-[#011829]"}>Apply</Buttons>
+          <hr />
         </section>
         <section className='position_Description'>
           <h2>Description:</h2>
