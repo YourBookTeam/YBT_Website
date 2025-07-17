@@ -4,11 +4,13 @@
 @import "tailwindcss";
 @theme {
   /* colors */
+  --color-*: initial;
+  --color-black: rgba(0, 0, 0, 1);
+  --color-white: rgba(255, 255, 255, 1);
   --color-saffron: rgba(245, 190, 41, 1);
   --color-soft-saffron: rgba(255, 231, 166, 1);
   --color-rich-black: rgba(1, 24, 41, 1);
   --color-dark-rich-black: rgba(0, 19, 32, 1);
-  --color-gray-*: initial;
   --color-gray: rgba(128, 128, 128, 1);
   --color-light-gray: rgba(208, 208, 208, 1);
   --color-dark-gray: rgba(66, 66, 66, 1);
