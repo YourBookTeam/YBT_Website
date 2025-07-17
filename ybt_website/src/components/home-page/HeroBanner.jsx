@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom";
 import HeroSquiggle from "../svgs/SvgHeroSquiggle";
 import SvgPencil from "../svgs/SvgPencil";
 import SvgMegaphone from "../svgs/SvgMegaphone";
 import SvgBook from "../svgs/SvgBook";
+import Button from "../Button";
 
 function HeroBanner() {
   return (
@@ -19,12 +19,12 @@ function HeroBanner() {
           story’s heart—turning a shaky first draft into a story that outlives
           you—we build legacy.
         </div>
-        <Link
+        <Button
           to="/services"
           className="bg-saffron px-7 py-2 rounded-lg text-2xl text-black font-semibold"
         >
           Our services
-        </Link>
+        </Button>
       </div>
       <div className="flex relative w-lg justify-center">
         <HeroSquiggle className="absolute h-full w-full"></HeroSquiggle>

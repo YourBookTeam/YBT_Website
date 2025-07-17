@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import TeamMemberPreview from "./TeamMemberPreview";
 import TitleBanner from "../TitleBanner";
+import Button from "../Button";
 
 function TeamPreview() {
   return (
@@ -48,12 +48,12 @@ function TeamPreview() {
             imgSrc="src/assets/profile-photos/IssacCyzelo.png"
           />
         </div>
-        <Link
+        <Button
           to="/about"
-          className="bg-saffron px-7 py-2 rounded-lg text-2xl text-black font-semibold"
+          className="bg-saffron px-7 py-2 rounded-lg text-lg text-black font-semibold"
         >
           Get to know us
-        </Link>
+        </Button>
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import Button from "../Button";
 
 function StoryPreview({
   title,
@@ -22,10 +22,13 @@ function StoryPreview({
         <div className="text-3xl font-semibold">{title}</div>
         <div className="text-2xl font-light">{author}</div>
         <div>{children}</div>
-        <Link className="flex items-center self-start gap-2 bg-saffron px-7 py-2 rounded-lg font-semibold">
+        <Button
+          to="/success_stories"
+          className="flex items-center self-start gap-2 bg-saffron px-7 py-2 rounded-lg font-semibold"
+        >
           Read more
           <FaArrowRight />
-        </Link>
+        </Button>
       </div>
     </div>
   );

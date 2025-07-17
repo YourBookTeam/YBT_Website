@@ -1,5 +1,4 @@
-import React from "react";
-import Button from "./Buttons";
+import Button from "./Button";
 
 const BookIdea = () => {
   return (
@@ -11,7 +10,7 @@ const BookIdea = () => {
       </h2>
       <Button
         to="/contact"
-        className="bg-saffron hover:bg-dark-saffron text-black font-semibold px-7 py-2 rounded-lg transition-colors duration-200 text-lg shadow-md cursor-pointer inline-block relative"
+        className="bg-saffron hover:bg-dark-saffron text-black font-semibold px-7 py-2 rounded-lg transition-colors duration-200 text-lg shadow-md relative"
       >
         Book a Free Consultation
       </Button>
