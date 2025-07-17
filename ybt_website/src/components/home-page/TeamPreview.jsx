@@ -48,10 +48,7 @@ function TeamPreview() {
             imgSrc="src/assets/profile-photos/IssacCyzelo.png"
           />
         </div>
-        <Button
-          to="/about"
-          className="bg-saffron px-7 py-2 rounded-lg text-lg text-black font-semibold"
-        >
+        <Button to="/about" className="text-lg">
           Get to know us
         </Button>
       </div>

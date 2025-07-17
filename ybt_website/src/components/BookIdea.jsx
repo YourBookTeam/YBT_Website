@@ -8,10 +8,7 @@ const BookIdea = () => {
       <h2 className="text-white text-4xl md:text-5xl font-bold text-center drop-shadow-lg mb-8">
         Have a book idea or want to learn more?
       </h2>
-      <Button
-        to="/contact"
-        className="bg-saffron hover:bg-dark-saffron text-black font-semibold px-7 py-2 rounded-lg transition-colors duration-200 text-lg shadow-md relative"
-      >
+      <Button to="/contact" className="text-lg">
         Book a Free Consultation
       </Button>
     </div>

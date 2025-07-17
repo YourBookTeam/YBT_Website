@@ -19,10 +19,7 @@ function HeroBanner() {
           story’s heart—turning a shaky first draft into a story that outlives
           you—we build legacy.
         </div>
-        <Button
-          to="/services"
-          className="bg-saffron px-7 py-2 rounded-lg text-2xl text-black font-semibold"
-        >
+        <Button to="/services" className="text-2xl">
           Our services
         </Button>
       </div>

@@ -44,10 +44,7 @@ function NavBar() {
       </div>
 
       <div className="pl-12">
-        <Button
-          to="/contact"
-          className="p-4 rounded-lg bg-saffron flex items-center font-semibold"
-        >
+        <Button to="/contact" tall>
           Book a Free Consultation
         </Button>
       </div>
