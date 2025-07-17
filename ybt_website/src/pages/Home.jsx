@@ -6,7 +6,6 @@ import TeamPreview from "../components/home-page/TeamPreview";
 function Home() {
   return (
     <>
-      <NavBar></NavBar>
       <HeroBanner></HeroBanner>
       <SuccessStories />
       <TeamPreview />
