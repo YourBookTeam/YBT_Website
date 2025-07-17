@@ -4,12 +4,7 @@ function About() {
 
   return (
     <div>
-      <div>About Page</div>
-
-      <div>
-        <Link to="/">Go To Home</Link>
-      </div>   
-
+      
     </div>
   );
 
