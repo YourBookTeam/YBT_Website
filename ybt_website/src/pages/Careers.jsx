@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { positions } from "../data/positions.js";
 import TitleBanner from "../components/TitleBanner";
-import Button from "../components/Buttons";
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import SearchBar from "../components/SearchBar";
+import Pagination from "../components/Pagination";
+import CurrentOpenings from "../components/CurrentOpenings";
 import headshot_intern_rachel from "../assets/headshots/headshot_intern_rachel.png";
 import headshot_intern_nadun from "../assets/headshots/headshot_intern_nadun.png";
 import headshot_intern_genevieve from "../assets/headshots/headshot_intern_genevieve.png";
@@ -125,46 +126,13 @@ function Careers() {
 
       <div className="flex flex-col justify-center items-center gap-4">
         <div className="font-bold text-[20px]">Current Openings</div>
-        <form onSubmit={handleSubmit} className="flex gap-2 text-[15px]">
-          <input type="text" value={query} onChange={handleChange} placeholder="Search by keyword..." 
-          className="w-150 h-8 px-2 py-1 border border-gray-300 rounded-md focus:outline-none bg-light-gray"/>
-
-          <button type="submit" className="w-20 h-8 px-4 py-2 bg-saffron rounded-md text-center font-bold flex flex-col items-center justify-center cursor-pointer">Search</button>
-        </form>
+        <SearchBar query={query} handleChange={handleChange} handleSubmit={handleSubmit}/>
       </div>
 
-      <div className="flex flex-col items-center gap-16 md:px-30 lg:px-50 xl:px-150 py-20">
-        {openJobs.length == 0 ? (
-          <div className="text-gray text-[20px]">No open positions at the moment</div>
-        ) :
-        displayedJobs.map((position) => (
-          <div className="flex flex-col items-center gap-8">
-            <img src={position.image} className="w-100 h-80 object-cover rounded-xl shadow-lg"></img>
-            <div className="flex flex-col gap-4">
-              <div className="font-bold text-[20px]">{position.title}</div>
-              <div className="text-[15px] leading-7">{position.description}</div>
-              <Button to={`/position/${position.id}`} className="px-4 border-0 rounded-md bg-[#F5BE29] cursor-pointer w-30 h-10 flex items-center">
-                <div className="font-bold">APPLY</div>
-                <FaArrowRight className="w-10 h-5"/>
-              </Button>
-            </div>
-          </div>
-        ))}
+      <CurrentOpenings displayedJobs={displayedJobs}/>
 
-        <div className="flex gap-4">
-          <button onClick={handlePrevious} className={`w-10 h-10 rounded-full flex items-center justify-center ${currentPage == 1 ? "bg-gray" : "cursor-pointer bg-black"}`}>
-            <FaArrowLeft className="text-white w-5 h-5 text-center"/>
-          </button>
-          {Array.from({length: totalPages}, (value, index) => index+1).map((num) => (
-            <button key={num} className={`cursor-pointer ${currentPage == num ? "underline" : ""}`} onClick={() => handlePageClick(num)}>
-              {num}
-            </button>
-          ))}
-          <button onClick={handleNext} className={`w-10 h-10 rounded-full flex items-center justify-center ${currentPage == totalPages ? "bg-gray" : "cursor-pointer bg-black"}`}>
-            <FaArrowRight className="text-white w-5 h-5 text-center"/>
-          </button>
-        </div>
-      </div>
+      <Pagination totalPages={totalPages} currentPage={currentPage} handlePrevious={handlePrevious} handleNext={handleNext} handlePageClick={handlePageClick}/>
+
     </div>
   );
 
