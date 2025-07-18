@@ -1,23 +1,15 @@
-import { Link } from 'react-router-dom';
-import TitleBanner from "../components/TitleBanner";
-
+import SuccessStories from "../components/home-page/SuccessStories";
+import NavBar from "../components/Navbar";
+import HeroBanner from "../components/home-page/HeroBanner";
+import TeamPreview from "../components/home-page/TeamPreview";
 
 function Home() {
   return (
-    <div>
-      <div>Home Page</div>
-
-      <Link to="/about">Go To About</Link>
-      <Link to="/careers">Go To Careers</Link>
-      <Link to="/position">Go To Position</Link>
-      <Link to="/success_stories">Go To Success Stories</Link>
-      <Link to="/services">Go To Services</Link>
-      <Link to="/faq">Go To FAQ</Link>
-      <Link to="/contact">Go To Contact</Link>
-      <Link to="/terms">Go To Terms</Link>
-
-      <TitleBanner>Success Stories</TitleBanner>
-    </div>
+    <>
+      <HeroBanner></HeroBanner>
+      <SuccessStories />
+      <TeamPreview />
+    </>
   );
 }
 

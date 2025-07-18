@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "../components/Logo";
 import { FaAngleDown } from "react-icons/fa";
-import Button from "../components/Buttons";
+import Button from "./Button";
 
 function NavBar() {
   return (
@@ -44,7 +44,9 @@ function NavBar() {
       </div>
 
       <div className="pl-12">
-        <Button to="/contact" className="px-4 border-0 rounded-md bg-[#F5BE29] cursor-pointer h-16 flex items-center">Book a Free Consultation</Button>
+        <Button to="/contact" tall>
+          Book a Free Consultation
+        </Button>
       </div>
     </nav>
   );
