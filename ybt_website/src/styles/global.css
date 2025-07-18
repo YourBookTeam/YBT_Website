@@ -23,6 +23,8 @@
   --color-hero-purple: rgba(86, 103, 212, 1);
   /* font */
   --font-primary: "Inter", sans-serif;
+  /* shadow */
+  --drop-shadow-hero: 5px 5px 3px rgba(0, 0, 0, 0.25);
 }
 
 .book-idea-bg {
