@@ -21,7 +21,7 @@ function Position() {
           <div className='title_containter sm:w-150 md:w-190 lg:w-240'>
             <section className='position_title flex justify-between sm:w-150 md:w-190 lg:w-240 m-1'>
               <h1 className='position_name sm:text-md md:text-2xl lg:text-2xl font-semibold content-end'>Social Media Intern</h1>
-              <Buttons className={"justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-30 rounded"}>Apply</Buttons>
+              <Buttons className={"cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-30 rounded"}>Apply</Buttons>
             </section>
             <hr className=" border border-black border-solid"/>
           </div>
@@ -45,7 +45,7 @@ function Position() {
         </section>
         </section>
           <section className='apply_btn flex justify-center m-1'>
-            <Buttons className={"justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-60 rounded"}>Apply</Buttons>
+            <Buttons className={"cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-60 rounded"}>Apply</Buttons>
           </section>
           <section className="w-full h-8 mt-10 p-1 bg-[#FFE7A6] text-center">
             <Buttons to="/careers" className="cursor-pointer underline">Back to All Jobs</Buttons>
