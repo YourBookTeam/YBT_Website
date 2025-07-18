@@ -8,12 +8,12 @@ function CurrentOpenings({ displayedJobs }) {
             <div className="text-gray text-[20px]">No open positions at the moment</div>
         ) :
         displayedJobs.map((position) => (
-            <div className="flex flex-col items-center gap-8" key={position.id}>
+            <div className="flex items-center gap-8" key={position.id}>
               <img src={position.image} className="w-100 h-80 object-cover rounded-xl shadow-lg"></img>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col justify-center gap-4 w-200">
                   <div className="font-bold text-[20px]">{position.title}</div>
                   <div className="text-[15px] leading-7">{position.description}</div>
-                  <Button to={`/position/${position.id}`} className="px-4 border-0 rounded-md bg-[#F5BE29] cursor-pointer w-30 h-10 flex items-center">
+                  <Button to={`/position/${position.id}`} className="w-30 px-4!">
                   <div className="font-bold">APPLY</div>
                   <FaArrowRight className="w-10 h-5"/>
                   </Button>
