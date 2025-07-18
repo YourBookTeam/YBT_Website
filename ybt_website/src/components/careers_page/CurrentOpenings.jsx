@@ -9,7 +9,7 @@ function CurrentOpenings({ displayedJobs }) {
         ) :
         displayedJobs.map((position) => (
             <div className="flex items-center gap-8" key={position.id}>
-              <img src={position.image} className="w-100 h-80 object-cover rounded-xl shadow-lg"></img>
+              <img src={position.image} className="w-[350px] h-[350px] object-cover rounded-xl shadow-lg"></img>
               <div className="flex flex-col justify-center gap-4 w-200">
                   <div className="font-bold text-[20px]">{position.title}</div>
                   <div className="text-[15px] leading-7">{position.description}</div>
