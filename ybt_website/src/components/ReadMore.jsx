@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const ReadMore = ({ text }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -12,7 +12,7 @@ const ReadMore = ({ text }) => {
       <div className="max-w-xl w-full ml-6 flex flex-col justify-between text-left">
         <p className="text-gray-700 text-base leading-relaxed">
           {preview}
-          {!isExpanded ? '...' : remainder}
+          {!isExpanded ? "..." : remainder}
         </p>
 
         <div className="mt-4 flex justify-end">
