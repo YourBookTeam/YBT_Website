@@ -3,11 +3,24 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Buttons from "../components/Buttons";
 import heroImg from '../assets/Join-The-Team.jpg'
-
-//import jobData from "../data/positions";
+import jobData from "../data/positions";
 
 
 function Position() {
+  //Getting position data from positions page
+    const { id } = useParams();
+    const [position, setPosition] = useState(null);
+
+    useEffect(() => {
+      const selectedPosition = jobData.find(position => position.id === parseInt(id));
+        if (selectedPosition){
+        setPosition(selectedPosition)
+      }else{
+        setPosition(null);
+      }
+    }, [id]);
+    if(position.status === "close") return <p>No open positions</p>;
+
   
   return (
     <div>
@@ -29,19 +42,34 @@ function Position() {
         <section className='positon_details px-17 my-3.5 text-left'>
            <section className='position_Description'>
           <h2 className="font-bold ">Description:</h2>
-           <p></p>
-          <h2 className="font-bold inline-block">Location:</h2><p className='inline-block ml-1.5'></p><br />
-          <h2 className="font-bold inline-block">Duration:</h2><p className='inline-block ml-1.5'></p><br />
-          <h2 className="font-bold inline-block">Compensation:</h2><p className='inline-block ml-1.5'></p><br />
+           <p>{position.description}</p>
+          <h2 className="font-bold inline-block">Location:</h2><p className='inline-block ml-1.5'>{position.location}</p><br />
+          <h2 className="font-bold inline-block">Duration:</h2><p className='inline-block ml-1.5'>{position.duration}</p><br />
+          <h2 className="font-bold inline-block">Compensation:</h2><p className='inline-block ml-1.5'>{position.compensation}</p><br />
         </section>
-        <section className='position_responsibility'>
+        <section className='position_responsibility my-10'>
           <h2 className="font-bold ">Key Responsibilities:</h2>
+           <ul>
+            {position.responsibilities.map(item => (
+              <li key={item.id}>{item.value}</li>
+            ))}
+          </ul>
         </section>
-        <section className='position_qualification'>
+        <section className='position_qualification my-10'>
           <h2 className="font-bold ">Qualifications:</h2>
+           <ul>
+            {position.qualifications.map(item => (
+              <li key={item.id}>{item.value}</li>
+            ))}
+          </ul>
         </section>
-        <section className='position_Benefits'>
+        <section className='position_Benefits my-10'>
           <h2 className="font-bold ">Benefits:</h2>
+          <ul>
+            {position.benefits.map(item => (
+              <li key={item.id}>{item.value}</li>
+            ))}
+          </ul>
         </section>
         </section>
           <section className='apply_btn flex justify-center m-1'>
