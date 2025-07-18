@@ -4,14 +4,14 @@ const Dropdown1 = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-[1040.31px] bg-white shadow rounded-2xl border border-gray-300 my-6 overflow-hidden font-montserrat">
+    <div className="w-full max-w-[1040px] shadow rounded-2xl border border-gray-300 my-6 overflow-hidden bg-[#F0EFF4] mx-auto">
       <div
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center justify-between px-6"
-        style={{ height: '99.08px', cursor: 'pointer' }}
+        className="flex items-center justify-between px-6 h-[99.08px] cursor-pointer"
       >
         <span className="text-2xl font-medium text-gray-800">{question}</span>
-        <span className="text-gray-600 text-xl">{isOpen ? '▲' : '▼'}</span>
+        <span className="text-gray-600 text-xl">{isOpen ? '↑' : '↓'}</span>
+
       </div>
 
       {isOpen && (
