@@ -5,14 +5,14 @@ function CurrentOpenings({ displayedJobs }) {
   return (
     <div className="flex flex-col items-center gap-16 md:px-30 lg:px-50 xl:px-150 py-20">
         {displayedJobs.length == 0 ? (
-            <div className="text-gray text-[20px]">No open positions at the moment</div>
+            <div className="text-gray text-xl">No open positions at the moment</div>
         ) :
         displayedJobs.map((position) => (
             <div className="flex items-center gap-8" key={position.id}>
               <img src={position.image} className="w-[350px] h-[350px] object-cover rounded-xl shadow-lg"></img>
               <div className="flex flex-col justify-center gap-4 w-200">
-                  <div className="font-bold text-[20px]">{position.title}</div>
-                  <div className="text-[15px] leading-7">{position.description}</div>
+                  <div className="font-bold text-xl">{position.title}</div>
+                  <div className="text-md leading-7">{position.description}</div>
                   <Button to={`/position/${position.id}`} className="self-start px-4!">
                   <div className="font-bold">APPLY</div>
                   <FaArrowRight className="w-10 h-5"/>
