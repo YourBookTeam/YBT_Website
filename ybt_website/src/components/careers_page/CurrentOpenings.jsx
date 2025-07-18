@@ -13,7 +13,7 @@ function CurrentOpenings({ displayedJobs }) {
               <div className="flex flex-col justify-center gap-4 w-200">
                   <div className="font-bold text-[20px]">{position.title}</div>
                   <div className="text-[15px] leading-7">{position.description}</div>
-                  <Button to={`/position/${position.id}`} className="w-30 px-4!">
+                  <Button to={`/position/${position.id}`} className="self-start px-4!">
                   <div className="font-bold">APPLY</div>
                   <FaArrowRight className="w-10 h-5"/>
                   </Button>
