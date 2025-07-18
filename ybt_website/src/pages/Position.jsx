@@ -29,10 +29,10 @@ function Position() {
         <section className='positon_details px-17 my-3.5 text-left'>
            <section className='position_Description'>
           <h2 className="font-bold ">Description:</h2>
-          <p></p>
-          <h2 className="font-bold ">Location:</h2><p></p>
-          <h2 className="font-bold ">Duration:</h2><p></p>
-          <h2 className="font-bold ">Compensation:</h2><p></p>
+           <p></p>
+          <h2 className="font-bold inline-block">Location:</h2><p className='inline-block ml-1.5'></p><br />
+          <h2 className="font-bold inline-block">Duration:</h2><p className='inline-block ml-1.5'></p><br />
+          <h2 className="font-bold inline-block">Compensation:</h2><p className='inline-block ml-1.5'></p><br />
         </section>
         <section className='position_responsibility'>
           <h2 className="font-bold ">Key Responsibilities:</h2>
