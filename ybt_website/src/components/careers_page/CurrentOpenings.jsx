@@ -1,4 +1,4 @@
-import Button from "../Buttons";
+import Button from "../Button";
 import { FaArrowRight } from "react-icons/fa";
 
 function CurrentOpenings({ displayedJobs }) {
