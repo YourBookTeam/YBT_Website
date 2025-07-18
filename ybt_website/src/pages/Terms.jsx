@@ -1,4 +1,4 @@
-import Dropdown2 from '../components/Dropdown2'; 
+import Dropdown1 from '../components/Dropdown1';
 
 function Terms() {
   const questionText = "1. Acceptance of Terms and Conditions";
@@ -8,10 +8,9 @@ function Terms() {
 
   return (
     <div className="p-10">
-      <h1 className="text-3xl font-bold mb-6">Terms</h1>
-      <Dropdown2 question={questionText} answer={answerText} />
+      <h1 className="text-3xl font-bold mb-6 text-center">Terms</h1>
+      <Dropdown1 question={questionText} answer={answerText} />
     </div>
-  
   );
 }
 
