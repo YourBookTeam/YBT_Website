@@ -1,17 +1,19 @@
 import { useState } from "react";
+import { useRef } from "react";
 import { interns } from "../data/interns.js";
 import { positions } from "../data/positions.js";
 import TitleBanner from "../components/TitleBanner";
-import Interns from "../components/Interns";
-import SearchBar from "../components/SearchBar";
-import Pagination from "../components/Pagination";
-import CurrentOpenings from "../components/CurrentOpenings";
+import Interns from "../components/careers_page/Interns";
+import SearchBar from "../components/careers_page/SearchBar";
+import Pagination from "../components/careers_page/Pagination";
+import CurrentOpenings from "../components/careers_page/CurrentOpenings";
 
 function Careers() {
   const [query, setQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const openJobs = positions.filter((job)=> job.status == "open");
   const [searchedJobs, setSearchedJobs] = useState(openJobs);
+  const sectionRef = useRef(null);
 
   const itemsPerPage = 6;
   const totalPages = Math.ceil(openJobs.length / itemsPerPage);
@@ -19,7 +21,7 @@ function Careers() {
   const endIndex = startIndex + itemsPerPage;
   const displayedJobs = searchedJobs.slice(startIndex, endIndex);
 
-  const displayedInterns = interns.filter((intern)=> intern.status == "open");
+  const displayedInterns = interns.filter((intern)=> intern.status == "display");
 
   const handleSubmit = (event) =>{
     event.preventDefault();
@@ -47,17 +49,20 @@ function Careers() {
   const handleNext = () => {
     if(currentPage < totalPages){
       setCurrentPage(currentPage + 1);
+      sectionRef.current?.scrollIntoView({behavior: "smooth"});
     }
   }
 
   const handlePrevious = () => {
     if(currentPage > 1){
       setCurrentPage(currentPage - 1);
+      sectionRef.current?.scrollIntoView({behavior: "smooth"});
     }
   }
 
   const handlePageClick = (num) => {
     setCurrentPage(num);
+    sectionRef.current?.scrollIntoView({behavior: "smooth"});
   }
 
 
@@ -78,7 +83,7 @@ function Careers() {
       <Interns displayedInterns={displayedInterns}/>
 
       <div className="flex flex-col justify-center items-center gap-4">
-        <div className="font-bold text-[20px]">Current Openings</div>
+        <div className="font-bold text-[20px]" ref={sectionRef}>Current Openings</div>
         <SearchBar query={query} handleChange={handleChange} handleSubmit={handleSubmit}/>
       </div>
 
