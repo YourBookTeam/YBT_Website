@@ -8,13 +8,8 @@ const ReadMore = ({ text }) => {
   const remainder = text.slice(half);
 
   return (
-    <div
-      className="bg-white shadow rounded p-6 flex justify-start"
-      style={{ width: "1440px", paddingLeft: "120px", paddingRight: "60px" }}
-    >
-      <div className="max-w-xl flex flex-col justify-between text-left h-full w-full">
-        <h2 className="text-xl font-semibold mb-4">Services</h2>
-
+    <div className="p-0 flex justify-start w-full">
+      <div className="max-w-xl w-full ml-6 flex flex-col justify-between text-left">
         <p className="text-gray-700 text-base leading-relaxed">
           {preview}
           {!isExpanded ? "..." : remainder}
@@ -23,9 +18,9 @@ const ReadMore = ({ text }) => {
         <div className="mt-4 flex justify-end">
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="text-dark-gray hover:text-black transition"
+            className="text-black hover:text-black/80 transition flex items-center gap-2"
           >
-            {isExpanded ? "Read Less" : "Read More"}
+            {isExpanded ? 'Read Less ↑' : 'Read More ↓'}
           </button>
         </div>
       </div>
