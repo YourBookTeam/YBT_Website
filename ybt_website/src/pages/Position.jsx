@@ -50,24 +50,24 @@ function Position() {
         <section className='position_responsibility my-10'>
           <h2 className="font-bold ">Key Responsibilities:</h2>
            <ul>
-            {position.responsibilities.map(item => (
-              <li key={item.id}>{item.value}</li>
+            {position.responsibilities.map((item, index) => (
+              <li key={item.id || index}>{item.value}</li>
             ))}
           </ul>
         </section>
         <section className='position_qualification my-10'>
           <h2 className="font-bold ">Qualifications:</h2>
            <ul>
-            {position.qualifications.map(item => (
-              <li key={item.id}>{item.value}</li>
+            {position.qualifications.map((item, index) => (
+              <li key={item.id || index}>{item.value}</li>
             ))}
           </ul>
         </section>
         <section className='position_Benefits my-10'>
           <h2 className="font-bold ">Benefits:</h2>
           <ul>
-            {position.benefits.map(item => (
-              <li key={item.id}>{item.value}</li>
+            {position.benefits.map((item, index) => (
+              <li key={item.id || index}>{item.value}</li>
             ))}
           </ul>
         </section>
