@@ -1,33 +1,68 @@
 import headshot_john from '../assets/headshots/headshot_john.png';
-import headshot_issac from '../assets/headshots/headshot_issac.png';
 import headshot_betty from '../assets/headshots/headshot_betty.png';
-import headshot_brian from '../assets/headshots/headshot_betty.png';
+import headshot_issac from '../assets/headshots/headshot_issac.png';
+import headshot_nermina from '../assets/headshots/headshot_nermina.png';
+import headshot_arfin from '../assets/headshots/headshot_arfin.png';
+import headshot_brian from '../assets/headshots/headshot_brian.png';
 
 export const team = [
   {
     id: 1,
-    name: "Rachel",
-    quote: "I was lucky to get hired by YourBookTeam as an intern, and now I’m thrilled to be a part of the paid team. My internship was an amazing journey where I got to dive into the world of editing and content creation. The team was incredibly supportive and made learning both fun and rewarding. From day one, I felt like a valued member of the group, and the experience helped me grow so much professionally. If you’re looking for an internship that offers great hands-on experience and a friendly work environment, I highly recommend YourBookTeam!",
-    headshot: headshot_rachel,
+    name: "John",
+    title: "CEO",
+    quote: "An award-winning artist and peace activist, known for using her art to inspire social justice and LGBTQ+ rights. She is a grandchild of Jewish Holocaust survivors and draws inspiration from stories of survival and hope.",
+    headshot: headshot_john,
 
-    status: "display",
+    status: "main_display",
   },
 
   {
     id: 2,
-    name: "Nadun",
-    quote: "Interning as an editor at YourBookTeam was a fantastic experience that provided both professional and personal growth. The collaborative environment and exposure to various print projects helped me develop essential editing skills. The support and mentorship from the team were invaluable, and I am deeply grateful for the experience. I recommend this internship to anyone who values hands-on learning and a chance to work on real-world projects.",
-    headshot: headshot_nadun,
+    name: "Betty",
+    title: "CEO",
+    quote: "With over 25 years in the publishing industry, Betty has a passion for discovering new voices and supporting both established and emerging authors. Betty is committed to shaping the future of publishing through a blend of tradition, creativity, and forward-thinking.",
+    headshot: headshot_betty,
 
-    status: "display",
+    status: "main_display",
   },
 
   {
     id: 3,
-    name: "Genevieve",
-    quote: "At YourBookTeam, I collaborated with seasoned professionals who guided me through the manuscript process, enhancing my learning and skills. Working directly with the author, even remotely, deepened my understanding of publishing. I highly recommend this internship for its impact on my professional growth. If given the chance, I would choose it again. Overall, my time at YourBookTeam was positive and rewarding.",
-    headshot: headshot_genevieve,
+    name: "Issac",
+    title: "CFO",
+    quote: "With a strong background in finance and over 30 years of experience in the publishing industry, Isaac plays a pivotal role in driving the company’s growth and ensuring financial stability. Isaac’s expertise helps guide the company toward continued success in a rapidly evolving market.",
+    headshot: headshot_issac,
 
-    status: "display",
+    status: "main_display",
+  },
+
+  {
+    id: 4,
+    name: "Nermina",
+    title: "CPO",
+    quote: "",
+    headshot: headshot_nermina,
+
+    status: "carousel_display",
+  },
+
+  {
+    id: 5,
+    name: "Arfin",
+    title: "CGO",
+    quote: "",
+    headshot: headshot_arfin,
+
+    status: "carousel_display",
+  },
+
+  {
+    id: 6,
+    name: "brian",
+    title: "CTO",
+    quote: "",
+    headshot: headshot_brian,
+
+    status: "carousel_display",
   },
 ]

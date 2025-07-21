@@ -1,18 +1,15 @@
-import { Link } from 'react-router-dom';
 import TitleBanner from "../components/TitleBanner";
-import BookIdea from "../components/BookIdea";
+import MeetYourTeam from "../components/about_us/MeetYourTeam";
 import backgroundImg from '../assets/books_about_us.jpg';
-import headshot_john from '../assets/headshots/headshot_john.png';
-import headshot_betty from '../assets/headshots/headshot_betty.png';
-import headshot_issac from '../assets/headshots/headshot_issac.png';
-import headshot_nermina from '../assets/headshots/headshot_nermina.png';
-import headshot_arfin from '../assets/headshots/headshot_arfin.png';
-import headshot_brian from '../assets/headshots/headshot_brian.png';
+import { team } from "../data/team.js";
+
 import { FaPeopleGroup, FaHandshakeAngle, FaScaleBalanced, FaUsersViewfinder } from "react-icons/fa6";
 import { FaHeart, FaCrown } from "react-icons/fa";
 
 
 function About() {
+  const main_team = team.filter((person)=> person.status == "main_display");
+  const carousel_team = team.filter((person) => person.status == "carousel.display");
 
   return (
     <div>
@@ -82,66 +79,9 @@ function About() {
       
       <TitleBanner>Meet Your Team</TitleBanner>
 
-      <div className="md:px-10 lg:px-40 xl:px-200 pt-20 flex flex-col gap-30">
+      <MeetYourTeam main_team={main_team}/>
 
-        <div className="flex items-center gap-10">
-          <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
-            <img src={headshot_betty} className="w-full h-full object-cover"/>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <div>
-              <div className="font-bold text-[25px]">Betty Burtman</div>
-              <div className="text-[20px]">CEO</div>
-            </div>
-            <div>
-              With over 25 years in the publishing industry, Betty has a passion for 
-              discovering new voices and supporting both established and emerging authors. 
-              Betty is committed to shaping the future of publishing through a blend of 
-              tradition, creativity, and forward-thinking.
-            </div>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-10">
-          <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
-            <img src={headshot_john} className="w-full h-full object-cover"/>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <div>
-              <div className="font-bold text-[25px]">John Kiss</div>
-              <div className="text-[20px]">CPO</div>
-            </div>
-            <div>
-              An award-winning artist and peace activist, known for using her art to inspire 
-              social justice and LGBTQ+ rights. She is a grandchild of Jewish Holocaust survivors 
-              and draws inspiration from stories of survival and hope. 
-            </div>
-          </div>
-        </div>
-
-        <div className="flex items-center gap-10">
-          <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
-            <img src={headshot_issac} className="w-full h-full object-cover"/>
-          </div>
-
-          <div className="flex flex-col gap-4">
-            <div>
-              <div className="font-bold text-[25px]">Issac Cyzelo</div>
-              <div className="text-[20px]">CFO</div>
-            </div>
-            <div>
-              With a strong background in finance and over 30 years of experience in the publishing 
-              industry, Isaac plays a pivotal role in driving the company’s growth and ensuring 
-              financial stability. Isaac’s expertise helps guide the company toward continued success 
-              in a rapidly evolving market.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-30 bg-soft-saffron flex items-center">
+      {/* <div className="mt-30 bg-soft-saffron flex items-center">
         <div className="team-carousel md:px-10 lg:px-10 xl:px-200 py-20">
           <div className="flex items-center gap-10">
             <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
@@ -162,7 +102,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
     </div>
   );
