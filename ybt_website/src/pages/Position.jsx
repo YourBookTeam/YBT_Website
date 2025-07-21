@@ -19,7 +19,7 @@ function Position() {
         setPosition(null);
       }
     }, [id]);
-    if(position.status === "close") return <p>No open positions</p>;
+    if (!position || position.status === "close") return <p>No open positions</p>;
 
   
   return (
