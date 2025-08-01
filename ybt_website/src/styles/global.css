@@ -1,5 +1,5 @@
 /* these are global styles */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 @import "tailwindcss";
 @theme {
@@ -15,7 +15,8 @@
   --color-lighter-gold: rgba(221, 208, 171, 1);
   --color-lightest-gold: rgba(241, 236, 221, 1);
   /* font */
-  --font-primary: "Inter", sans-serif;
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "DM Sans", sans-serif;
   /* shadow */
   --drop-shadow-hero: 5px 5px 3px rgba(0, 0, 0, 0.25);
 }
