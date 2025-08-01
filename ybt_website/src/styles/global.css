@@ -6,21 +6,14 @@
   /* colors */
   --color-*: initial;
   --color-black: rgba(0, 0, 0, 1);
+  --color-gray: rgba(51, 51, 51, 1);
+  --color-light-gray: rgba(217, 217, 217, 1);
   --color-white: rgba(255, 255, 255, 1);
-  --color-saffron: rgba(245, 190, 41, 1);
-  --color-soft-saffron: rgba(255, 231, 166, 1);
-  --color-dark-saffron: oklch(68.1% 0.162 75.834);
-  --color-rich-black: rgba(1, 24, 41, 1);
-  --color-dark-rich-black: rgba(0, 19, 32, 1);
-  --color-gray: rgba(128, 128, 128, 1);
-  --color-light-gray: rgba(208, 208, 208, 1);
-  --color-dark-gray: rgba(66, 66, 66, 1);
-  --color-off-black: rgba(18, 18, 18, 1);
-  --color-off-white: rgba(249, 249, 249);
-  --color-hero-blue: rgba(0, 32, 54, 1);
-  --color-hero-red: rgba(222, 80, 80, 1);
-  --color-hero-green: rgba(81, 173, 165, 1);
-  --color-hero-purple: rgba(86, 103, 212, 1);
+  --color-off-white: rgba(249, 249, 249, 1);
+  --color-gold: rgba(187, 161, 86, 1);
+  --color-light-gold: rgba(204, 185, 128, 1);
+  --color-lighter-gold: rgba(221, 208, 171, 1);
+  --color-lightest-gold: rgba(241, 236, 221, 1);
   /* font */
   --font-primary: "Playfair Display", serif;
   --font-secondary: "DM Sans", sans-serif;
