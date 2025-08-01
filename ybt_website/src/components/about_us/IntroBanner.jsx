@@ -1,4 +1,4 @@
-import backgroundImg from '../assets/books_about_us.jpg';
+import backgroundImg from '../../assets/books_about_us.jpg';
 
 function IntroBanner() {
   return (
