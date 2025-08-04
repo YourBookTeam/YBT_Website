@@ -11,7 +11,7 @@ function About_Us() {
                     We turn aspiring writers into bestselling authors by focusing on each story’s heart—turning a shaky first draft into a story that outlives you—we build legacy.
             </div>
         </div>
-        <FaPeopleGroup className="shrink-0 text-gold sm:size-60 md:size-20 lg:size-50"/>
+        <FaPeopleGroup className="shrink-0 text-gold lg:size-50"/>
     </div>
   );
 }
