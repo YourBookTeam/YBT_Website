@@ -10,7 +10,7 @@ function About() {
   const main_team = team.filter((person)=> person.status == "main_display");
 
   return (
-    <div className="flex flex-col items-center justify-center gap-10 sm:px-0 md:px-0 lg:px-10 xl:px-0">
+    <div className="flex flex-col items-center justify-center gap-10">
       <div>
         <TitleBanner>About Us</TitleBanner>
         <About_Us/>
