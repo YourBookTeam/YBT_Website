@@ -1,4 +1,5 @@
 import TitleBanner from "../components/TitleBanner";
+import About_Us from "../components/about_us/About_Us";
 import Story from "../components/about_us/Story";
 import Values from "../components/about_us/Values";
 import MeetYourTeam from "../components/about_us/MeetYourTeam";
@@ -9,17 +10,23 @@ function About() {
   const main_team = team.filter((person)=> person.status == "main_display");
 
   return (
-    <div>
-      <TitleBanner>About Us</TitleBanner>
-
-      <div className="md:px-10 lg:px-30 xl:px-100 py-10 flex flex-col gap-10">
-          <Story/>
-          <Values/>
+    <div className="flex flex-col items-center justify-center gap-10 sm:px-0 md:px-0 lg:px-10 xl:px-0">
+      <div>
+        <TitleBanner>About Us</TitleBanner>
+        <About_Us/>
       </div>
       
-      <TitleBanner>Meet Your Team</TitleBanner>
-
-      <MeetYourTeam main_team={main_team}/>
+      <div>
+        <TitleBanner>Our Story</TitleBanner>
+        <Story/>
+      </div>
+  
+      <Values/>
+      
+      <div>
+        <TitleBanner>Meet Your Team</TitleBanner>
+        <MeetYourTeam main_team={main_team}/>
+      </div>
 
     </div>
   );

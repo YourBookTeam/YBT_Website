@@ -1,6 +1,6 @@
 function MeetYourTeam({ main_team }) {
   return (
-    <div className="md:px-10 lg:px-40 xl:px-200 py-20 flex flex-col gap-30">
+    <div className="py-20 flex flex-col gap-30">
       {main_team.length == 0 ? (
             <div className="text-gray text-xl">No Team Members To Show At The Moment</div>
         ) :
