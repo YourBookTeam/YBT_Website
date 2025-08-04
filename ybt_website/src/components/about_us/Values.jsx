@@ -3,7 +3,7 @@ import { FaHeart, FaCrown } from "react-icons/fa";
 
 function Values() {
   return (
-    <div className="flex flex-col items-center font-bold gap-10 pt-20">
+    <div className="flex flex-col items-center font-bold gap-10 pt-10">
         <div className="text-4xl">Our Core Values</div>
         <div className="grid grid-cols-3 gap-50">
             <div className="flex flex-col items-center">
