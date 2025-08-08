@@ -1,43 +1,36 @@
-import HeroSquiggle from "../svgs/SvgHeroSquiggle";
-import SvgPencil from "../svgs/SvgPencil";
-import SvgMegaphone from "../svgs/SvgMegaphone";
-import SvgBook from "../svgs/SvgBook";
+import SvgLogo from "../svgs/SvgLogo";
 import Button from "../Button";
 
 function HeroBanner() {
   return (
-    <div className="flex bg-hero-blue text-white gap-8 justify-around w-screen px-20">
-      <div className="flex flex-col justify-center items-start gap-12 py-14 w-xl">
-        <div className="text-8xl font-black ml-2">We are</div>
-        <div className="text-6xl font-black text-saffron italic">
-          Your Book Team
+    <div className="flex bg-off-white w-screen">
+      <div className="relative flex flex-2 bg-gold text-black justify-center overflow-clip">
+        <div className="flex flex-col self-center justify-center items-start gap-12 p-14 mr-40">
+          <div className="text-6xl font-bold text-white drop-shadow-hero">
+            We are
+          </div>
+          <div className="text-8xl font-bold italic drop-shadow-hero">
+            Your Book Team
+          </div>
+          <div className="bg-[url(src/assets/white-brush-mark.png)] bg-size-[100%_100%] w-150">
+            <div className="text-xl font-medium p-10 drop-shadow-hero">
+              We turn aspiring writers into bestselling authors by focusing on
+              each story’s heart—turning a shaky first draft into a story that
+              outlives you—we build legacy.
+            </div>
+          </div>
+          <Button to="/contact" className="text-2xl" black>
+            Discovery call
+          </Button>
         </div>
-        {/* <div className="text-8xl font-black ml-2">For</div> */}
-        <div className="h-1 w-full bg-white"></div>
-        <div className="text-xl ml-3">
-          We turn aspiring writers into bestselling authors by focusing on each
-          story’s heart—turning a shaky first draft into a story that outlives
-          you—we build legacy.
-        </div>
-        <Button to="/services" className="text-2xl">
-          Our services
-        </Button>
+        <SvgLogo className="fill-off-white absolute right-0 top-[50%] h-[70%] w-auto translate-x-[50%] translate-y-[-50%]"></SvgLogo>
       </div>
-      <div className="flex relative w-lg justify-center">
-        <HeroSquiggle className="absolute h-full w-full"></HeroSquiggle>
-        <div className="grid grid-cols-2 grid-rows-3 z-10 my-30 w-full text-3xl font-semibold">
-          <div className="row-1 col-2 bg-hero-red flex flex-col justify-center p-6 pb-3 pl-3 gap-3 rounded-tl-[3rem] rounded-br-[3rem] shadow-[inset_-25px_15px_4px_rgba(0,0,0,0.25)] overflow-clip">
-            <SvgPencil className="fill-saffron place-self-end h-20 drop-shadow-hero" />
-            <div className="drop-shadow-hero">WRITING</div>
-          </div>
-          <div className="row-2 col-1 bg-hero-purple flex flex-col justify-center p-6 pr-9 gap-3 rounded-tl-[3rem] rounded-bl-[3rem] shadow-[inset_-25px_0px_4px_rgba(0,0,0,0.25)] overflow-clip">
-            <SvgBook className="fill-saffron place-self-end h-20 drop-shadow-hero" />
-            <div className="drop-shadow-hero">REFINING</div>
-          </div>
-          <div className="row-3 col-2 bg-hero-green flex flex-col justify-center p-6 pt-3 pl-3 gap-3 rounded-br-[3rem] shadow-[inset_-25px_-15px_4px_rgba(0,0,0,0.25)] overflow-clip">
-            <SvgMegaphone className="fill-saffron place-self-end h-20 drop-shadow-hero" />
-            <div className="drop-shadow-hero">MARKETING</div>
-          </div>
+      <div className="relative flex flex-1 justify-center overflow-clip">
+        <SvgLogo className="fill-gold absolute left-0 top-[50%] h-[70%] w-auto translate-x-[-50%] translate-y-[-50%]"></SvgLogo>
+        <div className="flex flex-col h-full justify-around text-6xl font-black text-gold">
+          <div>Y</div>
+          <div>B</div>
+          <div>T</div>
         </div>
       </div>
     </div>
