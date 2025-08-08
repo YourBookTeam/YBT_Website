@@ -11,17 +11,14 @@ function SuccessStories() {
           author="Nimrod Vromen"
           coverImgSrc="src/assets/book-covers/PromptingHappiness.png"
         >
-          In 2022, we met a visionary author with a bold dream—to create a
-          self-help book intertwining the pursuit of happiness with the
-          transformative power of AI. Initially, we hesitated. AI seemed
-          distant, almost otherworldly—something not yet ready to touch the
-          human heart.
+          You have been searching for a way to be happy and have your life be a
+          life worth living, this book is going to give you concrete ways you
+          can do that and show you how AI can benefit you rather than be
+          something you need to fear or that you don't understand.
           <br />
           <br />
-          But against our better judgment, we took the meeting. That decision
-          unlocked a new realm of possibilities that would transform not just
-          this author’s life, but our own perspective on publishing and human
-          potential.
+          From the Host of Startup Confidential comes the journey of
+          introspection and enlightenment to find true happiness.
         </StoryPreview>
         <StoryPreview
           title="Thirst"
@@ -29,36 +26,39 @@ function SuccessStories() {
           coverImgSrc="src/assets/book-covers/Thirst.png"
           flexReverse
         >
-          In 2024, we were contacted by the son of an author we had previously
-          worked with. His message was simple but striking:
+          Thirst is a compelling novel that journeys from childhood trauma,
+          through the depths of addiction, and to the arduous path of recovery.
+          With raw and vivid storytelling, it follows the protagonist’s life
+          from turbulent teenage years of substance abuse to the crushing lows
+          of adult self-destruction.
           <br />
-          <br />
-          “I have a real close friend who’s been sober for over 30 years. His
-          story is unlike anything I’ve heard. You need to meet him.”
-          <br />
-          <br />
-          That introduction led us to H.W. Terrence—a man whose journey would
-          challenge us, change us, and ultimately shape one of the most powerful
-          books we’ve ever taken on.
+          <br />A powerful and honest portrayal, Thirst offers hope and
+          inspiration—showing that even in life’s bleakest moments, the light of
+          recovery and triumph can shine through.
         </StoryPreview>
         <StoryPreview
           title="Under the Floorboards"
           author="John Kiss"
           coverImgSrc="src/assets/book-covers/UnderTheFloorboards.png"
         >
-          Originally published under the title New Day Dawning, John’s story—a
-          fictionalized account of Dr. Felix Zandman’s life—deserved far more
-          than what it had been given. Though readers could see the flicker of
-          something powerful beneath the surface, they felt the writing was too
-          simple, too superficial. The novel’s heart was there, but the
-          execution needed refinement.
+          1943. WWII wreaks havoc upon Poland. The Nazis send the entire
+          population of the Grodno ghetto to the trains. Except for those who
+          managed to escape.
           <br />
           <br />
-          Dr. Felix Zandman’s remarkable survival story during the Holocaust
-          represents exactly the kind of narrative that benefits from skilled
-          editorial guidance—a true account that requires the right fictional
-          framework to illuminate its profound humanity without diminishing its
-          historical significance.
+          A boy flees through dense forests, seeking survival. As Nazi patrols
+          close in, the scent of his fear draws the vicious soldier dogs near.
+          He must find a place to hide.
+          <br />
+          <br />
+          In his desperation, he reaches a cabin at the forest's edge. Inside, a
+          Christian woman catches sight of him through the window and
+          immediately understands. She faces an agonizing choice: should she
+          open the door and risk her family's safety to save this boy, or turn
+          him away to protect her own?
+          <br />
+          <br />
+          In war, acts of kindness become acts of defiance.
         </StoryPreview>
       </div>
     </>
