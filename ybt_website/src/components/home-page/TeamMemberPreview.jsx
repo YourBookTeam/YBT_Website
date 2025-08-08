@@ -4,7 +4,7 @@ function TeamMemberPreview({ name, position, imgSrc }) {
       <img
         src={imgSrc}
         alt={name}
-        className="rounded-full h-50 w-50 object-cover"
+        className="rounded-full h-50 w-50 object-cover bg-gold"
       />
       <div className="text-2xl font-semibold">{name}</div>
       <div className="text-xl">{position}</div>
