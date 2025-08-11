@@ -15,41 +15,38 @@ function TeamPreview() {
           <TeamMemberPreview
             name="John Kiss"
             position="CEO"
-            imgSrc="src/assets/profile-photos/JohnKiss.png"
-          />
-          <TeamMemberPreview
-            name="Betty Burtman"
-            position="CEO"
-            imgSrc="src/assets/profile-photos/BettyBurtman.png"
-          />
-          <TeamMemberPreview
-            name="Brian Kimutai"
-            position="CSO"
-            imgSrc="src/assets/profile-photos/BrianKimutai.png"
-          />
-          <TeamMemberPreview
-            name="Romi Holland"
-            position="CIO"
-            imgSrc="src/assets/profile-photos/RomiHolland.png"
-          />
-          <TeamMemberPreview
-            name="Arfin Rabbi"
-            position="CGO"
-            imgSrc="src/assets/profile-photos/ArfinRabbi.png"
+            imgSrc="src/assets/no-bg-headshots/john-removebg-preview.png"
           />
           <TeamMemberPreview
             name="Nermina Salkic"
             position="CPO"
-            imgSrc="src/assets/profile-photos/NerminaSalkic.png"
+            imgSrc="src/assets/no-bg-headshots/nermina-removebg-preview.png"
           />
           <TeamMemberPreview
-            name="Issac Cylezo"
-            position="CFO"
-            imgSrc="src/assets/profile-photos/IssacCyzelo.png"
+            name="Arfin Rabbi"
+            position="CGO"
+            imgSrc="src/assets/no-bg-headshots/arfin1-removebg-preview.png"
+          />
+          <TeamMemberPreview name="Mark Baltierra" position="CDO" imgSrc="" />
+          <TeamMemberPreview
+            name="Brian Desta"
+            position="CSO"
+            imgSrc="src/assets/no-bg-headshots/brian-removebg-preview.png"
+          />
+          <TeamMemberPreview
+            name="Kim Nwafor"
+            position="CHO"
+            imgSrc="src/assets/no-bg-headshots/kim-removebg-preview.png"
+          />
+          <TeamMemberPreview name="Stacy" position="COO" imgSrc="" />
+          <TeamMemberPreview
+            name="Saige"
+            position="CMO"
+            imgSrc="src/assets/no-bg-headshots/saige-removebg-preview.png"
           />
         </div>
         <Button to="/about" className="text-lg">
-          Get to know us
+          Meet us
         </Button>
       </div>
     </>
