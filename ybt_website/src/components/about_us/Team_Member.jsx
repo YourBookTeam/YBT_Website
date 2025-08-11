@@ -9,17 +9,17 @@ function Team_Member({ person }) {
                     <IoPersonCircleOutline className="lg:size-54"/>
                 ) :
                 (
-                    <img src={person.headshot} alt="" className="w-full h-full object-cover rounded-full"/>
+                    <img src={person.headshot} alt="" className="w-full h-full object-cover"/>
                 )
             }
         </div>
 
         <div className="flex flex-col gap-4">
             <div>
-                <div className="font-bold text-[25px]">{person.name}</div>
-                <div className="text-[20px]">{person.title}</div>
+                <div className="font-bold text-3xl">{person.name}</div>
+                <div className="text-xl font-secondary">{person.title} {'(' + person.title_abbreviation + ')'}</div>
             </div>
-            <div>{person.quote}</div>
+            <div className="font-secondary">{person.quote}</div>
         </div>
     </div>
   );
