@@ -18,7 +18,7 @@
   --font-primary: "Playfair Display", serif;
   --font-secondary: "DM Sans", sans-serif;
   /* shadow */
-  --drop-shadow-hero: 5px 5px 3px rgba(0, 0, 0, 0.25);
+  --drop-shadow-hero: 3px 3px 5px rgba(0, 0, 0, 0.25);
 }
 
 .book-idea-bg {
