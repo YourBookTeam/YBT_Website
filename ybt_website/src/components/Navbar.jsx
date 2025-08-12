@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function NavBar() {
   return (
-    <nav className="px-12 py-5 flex justify-between items-center w-screen bg-white">
+    <nav className="px-12 py-5 flex justify-between items-center w-full bg-white">
       <div className="pr-12">
         <Logo className="fill-gold"></Logo>
       </div>

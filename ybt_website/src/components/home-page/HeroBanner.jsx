@@ -3,7 +3,7 @@ import Button from "../Button";
 
 function HeroBanner() {
   return (
-    <div className="flex bg-off-white w-screen">
+    <div className="flex bg-off-white w-full">
       <div className="relative flex flex-2 bg-gold text-black justify-center overflow-clip">
         <div className="flex flex-col self-center justify-center items-start gap-12 p-14 mr-40">
           <div className="text-6xl font-bold text-white drop-shadow-hero">
