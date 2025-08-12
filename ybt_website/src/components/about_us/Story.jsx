@@ -2,7 +2,12 @@ import { FaBook } from "react-icons/fa";
 
 function Story() {
   return (
-    <div className="flex items-center justify-center gap-10 lg:px-100 lg:pt-10">
+    <div 
+    className="
+    flex items-center justify-center gap-10 font-secondary 
+    lg:px-30 lg:pt-3 lg:text-lg
+    xl:px-100 xl:pt-10 xl:text-2xl
+    ">
       <FaBook className="shrink-0 text-gold lg:size-50"/>
       <div className="flex flex-col gap-10">
           <div className="leading-loose">
