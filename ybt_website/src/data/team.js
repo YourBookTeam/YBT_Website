@@ -65,7 +65,7 @@ export const team = [
     id: 6,
     name: "Kim Nwafor",
     title: "Chief Human Resources Officer",
-    title_abbreviation: "CHO",
+    title_abbreviation: "CHRO",
     quote: "With a focus on building effective teams, matching talent to the right roles, and creating an environment where people can grow and succeed. Developing people-focused strategies and fostering clear, open communication across the departments.",
     headshot: headshot_kim,
 
