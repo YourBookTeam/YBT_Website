@@ -1,4 +1,5 @@
 import Dropdown1 from '../components/Dropdown1';
+import Titlebanner from '../components/TitleBanner';
 
 function Terms() {
   const Term ={
@@ -24,7 +25,7 @@ function Terms() {
             <li className='mb-3'>1.  Comply with all applicable laws and regulations.</li>
             <li className='mb-3'>2.  Use the Website solely for lawful purposes and in a manner that does not infringe or restrict the rights of others.</li>
             <li className='mb-3'>3.  Refrain from engaging in any activity that may disrupt or interfere with the proper functioning of the Website or its services.</li>
-            <li>4.  Maintain the confidåentiality of any login credentials or account information associated with the Website.</li>
+            <li>4.  Maintain the confidentiality of any login credentials or account information associated with the Website.</li>
           </ul>
         </>
       )
@@ -52,13 +53,14 @@ function Terms() {
   }
 
   return (
-    <div className="p-10">
-      <h1 className="text-3xl font-bold mb-6 text-center">Terms</h1>
-      <p>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
-      {Object.entries(Term).map(([key, term]) => (
-        <Dropdown1 key={key} question={term.title} answer={term.detail} />))
-      }
-
+    <div className="font-primary text-lg p-10 flex flex-col">
+      <Titlebanner>Terms and Conditions</Titlebanner>
+      <p className='px-[170px] pt-[25px] text-justify leading-loose'>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
+      <section className='termsContainer py-[30px] px-[70px]'>
+        {Object.entries(Term).map(([key, term]) => (
+          <Dropdown1 key={key} question={term.title} answer={term.detail} />))
+        }
+      </section>
     </div>
   );
 }
