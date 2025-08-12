@@ -1,16 +1,9 @@
-import { IoPersonCircleOutline } from "react-icons/io5";
-
 function Team_Member({ person }) {
   return (
     <div className="flex items-center gap-10 lg:w-300">
         <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
             {
-                person.headshot === "" ? (
-                    <IoPersonCircleOutline className="lg:size-54"/>
-                ) :
-                (
-                    <img src={person.headshot} alt="" className="w-full h-full object-cover rounded-full bg-gold"/>
-                )
+                <img src={person.headshot} alt="" className="w-full h-full object-cover rounded-full bg-gold"/>
             }
         </div>
 
