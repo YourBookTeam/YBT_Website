@@ -25,3 +25,7 @@
   background-image: url("../assets/bookideabg.png");
   background-position: center;
 }
+
+html, body {
+  overflow-x: hidden;
+}
