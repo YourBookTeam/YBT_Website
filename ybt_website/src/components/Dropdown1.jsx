@@ -10,7 +10,9 @@ const Dropdown1 = ({ question, answer }) => {
         className="flex items-center justify-between px-6 h-[99.08px] cursor-pointer"
       >
         <span className="text-2xl font-medium text-gray-800">{question}</span>
-        <span className="text-gray-600 text-xl">{isOpen ? '↑' : '↓'}</span>
+        <span className="font-secondary font-light text-gray-600 text-2xl">{isOpen ? '↑' : '↓'}</span>
+
+      </div>
 
       </div>
       <hr className="border-t border-gray-300 mx-6" />
