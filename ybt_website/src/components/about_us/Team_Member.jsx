@@ -1,6 +1,10 @@
 function Team_Member({ person }) {
   return (
-    <div className="flex items-center gap-10 lg:w-300">
+    <div className="
+        flex items-center gap-10 
+        xl:w-300
+        lg:w-200
+    ">
         <div className="w-50 h-50 shrink-0 overflow-hidden rounded">
             {
                 <img src={person.headshot} alt="" className="w-full h-full object-cover rounded-full bg-gold"/>

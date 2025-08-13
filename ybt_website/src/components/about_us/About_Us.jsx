@@ -3,9 +3,9 @@ import { FaPeopleGroup } from "react-icons/fa6";
 function About_Us() {
   return (
     <div className="
-    flex items-center justify-center gap-20 font-secondary 
-    lg:px-30 lg:text-lg
-    xl:px-100 xl:pt-10 xl:text-2xl
+      flex items-center justify-center gap-20 font-secondary
+      xl:px-100 xl:pt-10 xl:text-2xl
+      lg:px-30 lg:text-lg
     ">
         <div className="flex flex-col gap-10">
             <div className="leading-loose">
