@@ -48,15 +48,15 @@ function Terms() {
     },
     termNine :{
       title: "9. Governing Law",
-      detail: "These Terms shall be governed by and construed in accordance with the laws of United States/New York. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts located in New York."
+      detail: "These Terms shall be governed by and construed in accordance with the laws of the United States/New York. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts located in New York."
     },
   }
 
   return (
-    <div className="font-primary text-lg p-10 flex flex-col">
+    <div className="font-primary text-lg p-10 flex flex-col items-center justify-center">
       <Titlebanner>Terms and Conditions</Titlebanner>
-      <p className='px-[170px] pt-[25px] text-justify leading-loose'>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
-      <section className='termsContainer py-[30px] px-[70px]'>
+      <p className='xl:px-50 xl:pt-6 text-justify leading-loose font-secondary'>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
+      <section className='termsContainer xl:py-7 w-10/12'>
         {Object.entries(Term).map(([key, term]) => (
           <Dropdown1 key={key} question={term.title} answer={term.detail} />))
         }
