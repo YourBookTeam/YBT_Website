@@ -3,9 +3,10 @@ import { FaPeopleGroup } from "react-icons/fa6";
 function About_Us() {
   return (
     <div className="
-      flex items-center justify-center gap-20 font-secondary
-      xl:px-100 xl:pt-10 xl:text-2xl
-      lg:px-30 lg:text-lg
+      flex items-center justify-center font-secondary
+      xl:w-450 xl:pt-10 xl:text-2xl xl:gap-20
+      lg: lg:text-lg lg:gap-20
+      md:w-170 md:gap-10
     ">
         <div className="flex flex-col gap-10">
             <div className="leading-loose">
@@ -15,7 +16,11 @@ function About_Us() {
                     We turn aspiring writers into bestselling authors by focusing on each story’s heart—turning a shaky first draft into a story that outlives you—we build legacy.
             </div>
         </div>
-        <FaPeopleGroup className="shrink-0 text-gold lg:size-70"/>
+        <FaPeopleGroup className="
+          shrink-0 text-gold
+          lg:size-70
+          md:size-60
+        "/>
     </div>
   );
 }

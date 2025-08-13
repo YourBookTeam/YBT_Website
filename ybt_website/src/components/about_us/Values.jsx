@@ -12,7 +12,7 @@ function Values() {
         <div className="
           grid grid-cols-3 
           xl:gap-100
-          lg:gap-50
+          lg:gap-40
         ">
             <div className="flex flex-col items-center">
             <FaHandshakeAngle className="shrink-0 text-gold size-40"/>
