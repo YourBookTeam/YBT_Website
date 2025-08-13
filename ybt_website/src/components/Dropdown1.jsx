@@ -13,6 +13,8 @@ const Dropdown1 = ({ question, answer }) => {
         <span className="font-secondary font-light text-gray-600 text-2xl">{isOpen ? '↑' : '↓'}</span>
 
       </div>
+
+      </div>
       <hr className="border-t border-gray-300 mx-6" />
       {isOpen && (
         <>
