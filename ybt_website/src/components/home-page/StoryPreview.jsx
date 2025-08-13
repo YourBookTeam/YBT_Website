@@ -17,13 +17,20 @@ function StoryPreview({
           : baseClassName
       }
     >
-      <img src={coverImgSrc} alt={title + " " + "Book Cover"} className="" />
+      <img
+        src={coverImgSrc}
+        alt={title + " " + "Book Cover"}
+        className="h-[388px]"
+      />
       <div className="flex flex-col items-center gap-5">
-        <div className="text-3xl font-semibold">{title}</div>
-        <div className="text-2xl font-light">{author}</div>
+        <div className="flex flex-col items-center gap-3 text-4xl font-bold">
+          <div>{title}</div>
+          <div className="bg-gold h-1 w-full"></div>
+        </div>
+        <div className="text-lg font-secondary uppercase">{author}</div>
         <div>{children}</div>
         <Button to="/success_stories" className="self-start">
-          Read more
+          Learn more
           <FaArrowRight />
         </Button>
       </div>
