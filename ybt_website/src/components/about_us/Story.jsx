@@ -4,11 +4,13 @@ function Story() {
   return (
     <div 
     className="
-      flex items-center justify-center gap-10 font-secondary 
-      xl:px-100 xl:pt-10 xl:text-2xl
-      lg:px-30 lg:text-lg
+      flex items-center justify-center font-secondary 
+      px-15 w-160 gap-5
     ">
-      <FaBook className="shrink-0 text-gold lg:size-50"/>
+      <FaBook className="
+        shrink-0 text-gold 
+        size-40
+      "/>
       <div className="flex flex-col gap-10">
           <div className="leading-loose">
                   Founded by publishing expert John Kiss, YourBookTeam began with a passion for helping people share meaningful stories. We started 

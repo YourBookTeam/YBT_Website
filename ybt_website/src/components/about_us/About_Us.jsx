@@ -4,9 +4,7 @@ function About_Us() {
   return (
     <div className="
       flex items-center justify-center font-secondary
-      xl:w-450 xl:pt-10 xl:text-2xl xl:gap-20
-      lg: lg:text-lg lg:gap-20
-      md:w-170 md:gap-10
+      px-15 w-160 gap-5
     ">
         <div className="flex flex-col gap-10">
             <div className="leading-loose">
@@ -18,8 +16,7 @@ function About_Us() {
         </div>
         <FaPeopleGroup className="
           shrink-0 text-gold
-          lg:size-70
-          md:size-60
+          size-50
         "/>
     </div>
   );
