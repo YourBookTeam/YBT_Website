@@ -48,8 +48,8 @@ function Contact() {
   };
 
   return (
-    <div style={{ backgroundColor: "#bba156" }}>
-      <div className="p-16">
+    <div className="bg-gold">
+      <div className="py-16 px-32">
         <div className="mx-auto">
           <div className="grid lg:grid-cols-2">
             {/* Left Section - Discovery Call */}
@@ -64,7 +64,7 @@ function Contact() {
               </div>
               <button
                 type="button"
-                className="inline-flex items-center gap-3 bg-black text-white px-8 py-4 font-semibold text-lg shadow-lg cursor-pointer"
+                className="inline-flex items-center gap-3 bg-black text-white px-4 py-2.5 font-bold text-2xl shadow-lg cursor-pointer"
                 onClick={() => setShowCalendly(true)}
               >
                 <FaRegCalendarAlt className="w-5 h-5 text-white" />
@@ -100,7 +100,7 @@ function Contact() {
                       value={formData.name}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 bg-white placeholder-gray-500 border border-gray-300 focus:border-amber-600 focus:outline"
+                      className="w-full px-4 py-3 bg-white placeholder-gray-500 border border-gray-300 focus:border-amber-600 focus:outline font-['Inter']"
                     />
                   </div>
 
@@ -113,7 +113,7 @@ function Contact() {
                       value={formData.email}
                       onChange={handleInputChange}
                       required
-                      className="w-full px-4 py-3 bg-white placeholder-gray-500 border border-gray-300 focus:border-amber-600 focus:outline"
+                      className="w-full px-4 py-3 bg-white placeholder-gray-500 border border-gray-300 focus:border-amber-600 focus:outline font-['Inter']"
                     />
                   </div>
 
@@ -125,7 +125,7 @@ function Contact() {
                       value={formData.message}
                       onChange={handleInputChange}
                       rows="6"
-                      className="w-full px-4 py-3 bg-white placeholder-gray-500 resize-none border border-gray-300 focus:border-amber-600 focus:outline"
+                      className="w-full px-4 py-3 bg-white placeholder-gray-500 resize-none border border-gray-300 focus:border-amber-600 focus:outline font-['Inter']"
                     />
                   </div>
 
@@ -143,7 +143,7 @@ function Contact() {
                         />
                         <div className="text-gray-700">
                           <div className="font-medium">Tier 1:</div>
-                          <div>The Foundation</div>
+                          <div className="font-bold">The Foundation</div>
                         </div>
                       </label>
 
@@ -157,7 +157,7 @@ function Contact() {
                         />
                         <div className="text-gray-700">
                           <div className="font-medium">Tier 2:</div>
-                          <div>The Signature</div>
+                          <div className="font-bold">The Signature</div>
                         </div>
                       </label>
 
@@ -171,7 +171,7 @@ function Contact() {
                         />
                         <div className="text-gray-700">
                           <div className="font-medium">Tier 3:</div>
-                          <div>The Legacy</div>
+                          <div className="font-bold">The Legacy</div>
                         </div>
                       </label>
 
@@ -184,7 +184,7 @@ function Contact() {
                           className="w-4 h-4 border-gray-300 rounded focus:ring-amber-500 mt-1"
                         />
                         <div className="text-gray-700">
-                          <div className="font-medium">Other</div>
+                          <div className="font-bold">Other</div>
                         </div>
                       </label>
                     </div>
@@ -193,7 +193,7 @@ function Contact() {
                   {/* Submit Button */}
                   <button
                     type="submit"
-                    className="w-1/3 bg-black text-white py-4 px-6 font-semibold text-lg shadow-lg cursor-pointer"
+                    className="bg-black text-white px-4 py-2.5 font-bold text-2xl shadow-lg cursor-pointer"
                   >
                     Send message
                   </button>
@@ -207,7 +207,7 @@ function Contact() {
       {/* Calendly Popup */}
       {showCalendly && (
         <div
-          className="fixed inset-0 flex justify-center"
+          className="fixed inset-0 flex justify-center z-1"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.7)" }}
         >
           <div className="bg-white mt-8 w-full max-w-4xl h-[600px] relative">
@@ -233,32 +233,22 @@ function Contact() {
         {/* Banner content */}
         <div className="container mx-auto px-4 py-12 text-center">
           <div className="max-w-4xl mx-auto">
-            <p className="text-white text-xl md:text-2xl font-serif underline mb-4">
+            <p className="text-white text-xl md:text-2xl font-bold underline mb-4">
               Know a visionary with a story the world needs to hear?
             </p>
-            <p className="text-white text-lg md:text-xl font-serif mb-4">
+            <p className="text-white text-lg md:text-xl font-semibold mb-4">
               Introduce us and receive:
             </p>
             <div className="grid grid-cols-5 gap-4 items-center">
-              <div className="col-span-2 text-white text-xl md:text-2xl font-serif text-right whitespace-nowrap">
-                <span
-                  style={{ color: "#bba156" }}
-                  className="font-bold text-3xl"
-                >
-                  10% off
-                </span>{" "}
-                the final project fee
+              <div className="col-span-2 text-white text-xl md:text-2xl text-right whitespace-nowrap">
+                <span className="text-gold font-bold text-3xl">10% of</span> the
+                final project fee
               </div>
-              <div className="text-white text-xl md:text-2xl font-serif text-center">
+              <div className="text-white text-xl md:text-2xl text-center">
                 or
               </div>
-              <div className="col-span-2 text-white text-xl md:text-2xl font-serif text-left whitespace-nowrap">
-                <span
-                  style={{ color: "#bba156" }}
-                  className="font-bold text-3xl"
-                >
-                  10% off
-                </span>{" "}
+              <div className="col-span-2 text-white text-xl md:text-2xl text-left whitespace-nowrap">
+                <span className="text-gold font-bold text-3xl">10% off</span>{" "}
                 your own custom book project
               </div>
             </div>
