@@ -3,13 +3,17 @@ import { FaPeopleGroup } from "react-icons/fa6";
 function About_Us() {
   return (
     <div className="
-      items-center justify-center font-secondary text-center
-      flex flex-col-reverse
-      px-40
+      items-center justify-center font-secondary 
+      text-center sm:text-left
+      flex sm:flex-row
+      flex-col-reverse sm:flex-col
+      px-40 sm:px-15
       gap-5
     ">
         <div className="
-          flex flex-col gap-5
+          flex flex-col 
+          gap-5 
+          text-md sm:text-xl
         ">
             <div className="leading-loose">
                     YourBookTeam helps you turn your ideas into powerful books, even if you’re short on time or experience. From writing to editing, publishing, and marketing, our expert team guides you every step of the way.

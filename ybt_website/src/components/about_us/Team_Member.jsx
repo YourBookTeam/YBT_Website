@@ -1,13 +1,16 @@
 function Team_Member({ person }) {
   return (
     <div className="
-        items-center
-        flex flex-col
-        w-100 px-10 gap-5
+        items-center flex
+        flex-col
+        w-100 sm:w-150
+        px-10 
+        gap-5
     ">
         <div className="
             shrink-0 overflow-hidden rounded
-            w-50 h-50
+            w-50 sm:w-70 
+            h-50 sm:h-70
         ">
             {
                 <img src={person.headshot} alt="" className="w-full h-full object-cover rounded-full bg-gold"/>
@@ -19,10 +22,10 @@ function Team_Member({ person }) {
             text-center
         ">
             <div>
-                <div className="font-bold text-3xl">{person.name}</div>
-                <div className="text-xl font-secondary">{person.title} {'(' + person.title_abbreviation + ')'}</div>
+                <div className="font-bold text-3xl sm:text-4xl">{person.name}</div>
+                <div className="font-secondary text-xl sm:text-2xl">{person.title} {'(' + person.title_abbreviation + ')'}</div>
             </div>
-            <div className="font-secondary">{person.quote}</div>
+            <div className="font-secondary text-md sm:text-xl">{person.quote}</div>
         </div>
     </div>
   );
