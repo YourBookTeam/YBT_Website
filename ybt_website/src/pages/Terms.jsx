@@ -2,6 +2,7 @@ import Dropdown1 from '../components/Dropdown1';
 import Titlebanner from '../components/TitleBanner';
 
 function Terms() {
+  
   const Term ={
     termOne : {
       title: "1. Acceptance of Terms and Conditions",
