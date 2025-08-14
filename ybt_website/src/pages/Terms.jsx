@@ -1,4 +1,4 @@
-import Dropdown from '../components/Dropdown';
+import Dropdown from '../components/Dropdown1';
 import Titlebanner from '../components/TitleBanner';
 
 function Terms() {
