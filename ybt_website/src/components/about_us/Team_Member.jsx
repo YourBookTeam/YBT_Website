@@ -1,8 +1,9 @@
 function Team_Member({ person }) {
   return (
     <div className="
-        flex items-center
-        w-150 px-10 gap-5
+        items-center
+        flex flex-col
+        w-100 px-10 gap-5
     ">
         <div className="
             shrink-0 overflow-hidden rounded
@@ -13,7 +14,10 @@ function Team_Member({ person }) {
             }
         </div>
 
-        <div className="flex flex-col gap-4">
+        <div className="
+            flex flex-col gap-4
+            text-center
+        ">
             <div>
                 <div className="font-bold text-3xl">{person.name}</div>
                 <div className="text-xl font-secondary">{person.title} {'(' + person.title_abbreviation + ')'}</div>
