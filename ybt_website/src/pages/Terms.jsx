@@ -1,4 +1,4 @@
-import Dropdown1 from '../components/Dropdown1';
+import Dropdown from '../components/Dropdown';
 import Titlebanner from '../components/TitleBanner';
 
 function Terms() {
@@ -17,7 +17,7 @@ function Terms() {
       detail: "The Website and its contents, including but not limited to text, graphics, images, logos, and software, are the property of YourBookTeam or its licensors and are protected by intellectual property laws. You may not reproduce, distribute, modify, transmit, or use the content of the Website without prior written permission from YourBookTeam."
     },
     termFour :{
-      title: "4.User Conduct",
+      title: "4. User Conduct",
       detail: (
         <>
           <p className='mb-7'>When using the Website, you agree to:</p>
@@ -59,7 +59,7 @@ function Terms() {
       <p className='xl:px-50 xl:pt-6 text-justify leading-loose font-secondary'>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
       <section className='termsContainer xl:py-7 w-10/12'>
         {Object.entries(Term).map(([key, term]) => (
-          <Dropdown1 key={key} question={term.title} answer={term.detail} />))
+          <Dropdown key={key} question={term.title} answer={term.detail} />))
         }
       </section>
     </div>

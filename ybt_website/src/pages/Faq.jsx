@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import Dropdown1 from '../components/Dropdown1'; 
+import Dropdown from '../components/Dropdown'; 
 
 function Faq() {
   return (
     <div className="p-10 bg-gray-50 min-h-screen">
-      <Dropdown1
+      <Dropdown
         question="What is book marketing?"
         answer="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at lorem ac nisi bibendum sodales. Praesent congue velit nec orci feugiat, et convallis metus fermentum."
       />
