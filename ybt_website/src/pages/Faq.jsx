@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Dropdown from '../components/Dropdown1'; 
+import Dropdown from '../components/Dropdown'; 
 
 function Faq() {
   return (
