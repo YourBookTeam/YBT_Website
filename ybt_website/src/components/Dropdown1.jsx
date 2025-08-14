@@ -17,7 +17,7 @@ const Dropdown = ({ question, answer }) => {
       {isOpen && (
         <>
           <div className="px-6 pb-6 pt-4">
-            <p className="text-gray-700 text-xl font-secondary">{answer}</p>
+            <p className="text-gray-700 text-xl font-secondary text-justify leading-loose">{answer}</p>
           </div>
         </>
       )}
