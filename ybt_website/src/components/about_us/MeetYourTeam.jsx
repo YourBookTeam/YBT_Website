@@ -2,7 +2,10 @@ import Team_Member from './Team_Member';
 
 function MeetYourTeam({ main_team }) {
   return (
-    <div className="lg:pt-10 lg:pb-20 flex flex-col gap-30 items-center">
+    <div className="
+      pt-10 pb-20 flex flex-col items-center
+      gap-20 md:gap-40 lg:gap-35
+      ">
       {main_team.length == 0 ? (
             <div className="text-gray text-xl">No Team Members To Show At The Moment</div>
         ) :

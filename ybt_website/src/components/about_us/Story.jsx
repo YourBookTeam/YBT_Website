@@ -2,9 +2,25 @@ import { FaBook } from "react-icons/fa";
 
 function Story() {
   return (
-    <div className="flex items-center justify-center gap-10 lg:px-100 lg:pt-10">
-      <FaBook className="shrink-0 text-gold lg:size-50"/>
-      <div className="flex flex-col gap-10">
+    <div 
+    className="
+      items-center justify-center font-secondary 
+      text-center lg:text-left
+      flex
+      flex-col lg:flex-row
+      px-40 sm:px-15 lg:px-30 2xl:px-80
+      pt-5
+      gap-10 2xl:gap-12
+    ">
+      <FaBook className="
+        shrink-0 text-gold 
+        size-30 sm:size-35 lg:size-40 2xl:size-50
+      "/>
+      <div className="
+        flex flex-col 
+        gap-5 2xl:gap-10
+        text-lg sm:text-xl
+      ">
           <div className="leading-loose">
                   Founded by publishing expert John Kiss, YourBookTeam began with a passion for helping people share meaningful stories. We started 
                   with one goal: help people tell meaningful stories that make an impact. Our client-centric approach ensures your voice is honored 
