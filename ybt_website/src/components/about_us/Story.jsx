@@ -8,17 +8,17 @@ function Story() {
       text-center lg:text-left
       flex
       flex-col lg:flex-row
-      px-40 sm:px-15
+      px-40 sm:px-15 lg:px-30 2xl:px-40
       gap-10
     ">
       <FaBook className="
         shrink-0 text-gold 
-        size-30 sm:size-40 md:size-45 lg:size-50
+        size-30 sm:size-35 lg:size-40 2xl:size-50
       "/>
       <div className="
         flex flex-col 
         gap-5
-        text-md sm:text-2xl
+        text-lg sm:text-xl
       ">
           <div className="leading-loose">
                   Founded by publishing expert John Kiss, YourBookTeam began with a passion for helping people share meaningful stories. We started 

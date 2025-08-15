@@ -7,13 +7,13 @@ function About_Us() {
       text-center lg:text-left
       flex
       flex-col-reverse lg:flex-row
-      px-40 sm:px-15
+      px-40 sm:px-15 lg:px-30 2xl:px-40
       gap-5
     ">
         <div className="
           flex flex-col 
           gap-5 
-          text-md sm:text-2xl md:text-2xl
+          text-lg sm:text-xl
         ">
             <div className="leading-loose">
                     YourBookTeam helps you turn your ideas into powerful books, even if you’re short on time or experience. From writing to editing, publishing, and marketing, our expert team guides you every step of the way.
@@ -24,7 +24,7 @@ function About_Us() {
         </div>
         <FaPeopleGroup className="
           shrink-0 text-gold
-          size-50 sm:size-60 lg:size-70
+          size-50 lg:size-60 2xl:size-70
         "/>
     </div>
   );
