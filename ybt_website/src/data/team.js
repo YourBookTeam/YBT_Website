@@ -1,8 +1,10 @@
 import headshot_john from '../assets/headshots/leaders/headshot_john.png';
 import headshot_nermina from '../assets/headshots/leaders/headshot_nermina.png';
 import headshot_arfin from '../assets/headshots/leaders/headshot_arfin.png';
+import headshot_mark from '../assets/headshots/leaders/headshot_mark.png';
 import headshot_brian from '../assets/headshots/leaders/headshot_brian.png';
 import headshot_kim from '../assets/headshots/leaders/headshot_kim.png';
+import headshot_stacy from '../assets/headshots/leaders/headshot_stacy.png';
 import headshot_saige from '../assets/headshots/leaders/headshot_saige.png';
 
 export const team = [
@@ -45,7 +47,7 @@ export const team = [
     title: "Chief Development Officer",
     title_abbreviation: "CDO",
     quote: "Expert at turning author ideas into clear, market-ready books. Skilled at building strong editorial teams and driving focused development. Known for strategic insight and delivering results that matter.",
-    headshot: "",
+    headshot: headshot_mark,
 
     status: "main_display",
   },
@@ -78,7 +80,7 @@ export const team = [
     title: "Chief Operations Officer",
     title_abbreviation: "COO",
     quote: "The organizational force behind our seamless growth, Stacy keeps people, projects, and processes running like clockwork. From structuring workflows to managing resources, she’s the backbone that holds every project together.",
-    headshot: "",
+    headshot: headshot_stacy,
 
     status: "main_display",
   },
