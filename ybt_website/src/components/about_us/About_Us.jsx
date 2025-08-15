@@ -7,12 +7,12 @@ function About_Us() {
       text-center lg:text-left
       flex
       flex-col-reverse lg:flex-row
-      px-40 sm:px-15 lg:px-30 2xl:px-40
-      gap-5
+      px-40 sm:px-15 lg:px-30 2xl:px-80
+      gap-5 2xl:gap-15
     ">
         <div className="
           flex flex-col 
-          gap-5 
+          gap-5 2xl:gap-10
           text-lg sm:text-xl
         ">
             <div className="leading-loose">

@@ -8,8 +8,9 @@ function Story() {
       text-center lg:text-left
       flex
       flex-col lg:flex-row
-      px-40 sm:px-15 lg:px-30 2xl:px-40
-      gap-10
+      px-40 sm:px-15 lg:px-30 2xl:px-80
+      pt-5
+      gap-10 2xl:gap-12
     ">
       <FaBook className="
         shrink-0 text-gold 
@@ -17,7 +18,7 @@ function Story() {
       "/>
       <div className="
         flex flex-col 
-        gap-5
+        gap-5 2xl:gap-10
         text-lg sm:text-xl
       ">
           <div className="leading-loose">
