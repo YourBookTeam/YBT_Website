@@ -6,7 +6,7 @@ function Values() {
     <div className="
       flex flex-col items-center font-bold
       pt-10
-      gap-15
+      gap-15 lg:gap-20
       sm:px-10
     ">
       <div className="text-4xl sm:text-5xl">Our Core Values</div>
@@ -14,7 +14,7 @@ function Values() {
 
         <div className="
           grid grid-cols-3
-          gap-6 sm:gap-10 md:gap-15
+          gap-6 sm:gap-10 md:gap-15 lg:gap-25
           text-sm sm:text-2xl
         ">
             <div className="flex flex-col items-center">
@@ -33,7 +33,7 @@ function Values() {
 
         <div className="
           grid grid-cols-2 
-          gap-15 sm:gap-20 md:gap-25
+          gap-15 sm:gap-20 md:gap-25 lg:gap-35
           text-sm sm:text-2xl
         ">
             <div className="flex flex-col items-center">

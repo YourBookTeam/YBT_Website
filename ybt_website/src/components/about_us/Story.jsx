@@ -7,13 +7,13 @@ function Story() {
       items-center justify-center font-secondary 
       text-center lg:text-left
       flex
-      flex-col
+      flex-col lg:flex-row
       px-40 sm:px-15
       gap-10
     ">
       <FaBook className="
         shrink-0 text-gold 
-        size-30 sm:size-40 md:size-45
+        size-30 sm:size-40 md:size-45 lg:size-50
       "/>
       <div className="
         flex flex-col 

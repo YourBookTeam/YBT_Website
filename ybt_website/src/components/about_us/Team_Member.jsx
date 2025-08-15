@@ -2,15 +2,15 @@ function Team_Member({ person }) {
   return (
     <div className="
         items-center flex
-        flex-col
-        w-100 sm:w-160
-        px-15 md:px-0 
-        gap-5
+        flex-col lg:flex-row
+        w-100 sm:w-160 lg:w-250
+        px-15 md:px-0 lg:px-20
+        gap-5 lg:gap-10
     ">
         <div className="
             shrink-0 overflow-hidden rounded
-            w-50 sm:w-70 md:w-80
-            h-50 sm:h-70 md:h-80
+            w-50 sm:w-70
+            h-50 sm:h-70
         ">
             {
                 <img src={person.headshot} alt="" className="w-full h-full object-cover rounded-full bg-gold"/>
@@ -19,7 +19,7 @@ function Team_Member({ person }) {
 
         <div className="
             flex flex-col gap-4
-            text-center
+            text-center lg:text-left
         ">
             <div className="flex flex-col gap-2 md:gap-4">
                 <div className="font-bold text-3xl sm:text-4xl md:text-5xl">{person.name}</div>

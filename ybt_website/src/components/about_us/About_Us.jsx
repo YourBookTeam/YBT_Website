@@ -6,8 +6,8 @@ function About_Us() {
       items-center justify-center font-secondary 
       text-center lg:text-left
       flex
-      flex-col-reverse
-      px-40 sm:px-15 md:px-10
+      flex-col-reverse lg:flex-row
+      px-40 sm:px-15
       gap-5
     ">
         <div className="
@@ -24,7 +24,7 @@ function About_Us() {
         </div>
         <FaPeopleGroup className="
           shrink-0 text-gold
-          size-50 sm:size-60 md:size-60
+          size-50 sm:size-60 lg:size-70
         "/>
     </div>
   );
