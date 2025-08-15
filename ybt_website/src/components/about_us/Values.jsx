@@ -5,7 +5,8 @@ function Values() {
   return (
     <div className="
       flex flex-col items-center font-bold
-      pt-10
+      pt-10 2xl:pt-20
+      md:pb-10 2xl:pb-20
       gap-15 lg:gap-20
       sm:px-10
     ">
