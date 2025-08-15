@@ -14,7 +14,9 @@ function NavBar() {
         <Link to="/about">About</Link>
         <Link to="/services">Services</Link>
 
-        <div className="flex relative group">
+        <Link to="/#success-stories">Success Stories</Link>
+
+        {/* <div className="flex relative group">
           <div className="border-none bg-none cursor-pointer flex gap-2 items-center">
             Success Stories
             <FaAngleDown></FaAngleDown>
@@ -37,7 +39,7 @@ function NavBar() {
               <b>Under the Floorboards -</b> John Kiss
             </Link>
           </div>
-        </div>
+        </div> */}
 
         <Link to="/careers">Careers</Link>
         <Link to="/faq">FAQ</Link>

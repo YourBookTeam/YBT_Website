@@ -6,6 +6,7 @@ function StoryPreview({
   author,
   children,
   coverImgSrc,
+  linkTo,
   flexReverse = false,
 }) {
   const baseClassName = "flex gap-[10%] justify-center px-[15%] py-15";
@@ -29,7 +30,7 @@ function StoryPreview({
         </div>
         <div className="text-lg font-secondary uppercase">{author}</div>
         <div>{children}</div>
-        <Button to="/success_stories" className="self-start">
+        <Button to={linkTo} className="self-start">
           Learn more
           <FaArrowRight />
         </Button>
