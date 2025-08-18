@@ -24,16 +24,16 @@ function NavbarDropdown() {
     ]
 
     return (
-    <div className="flex relative group">
-        <div className="border-none bg-none cursor-pointer flex gap-2 items-center">
+    <div className="relative group flex items-center justify-center">
+        <div className="border-none bg-none cursor-pointer flex gap-2 items-center py-2">
             Success Stories
-            <FaAngleDown></FaAngleDown>
+            <FaAngleDown className="transition-transform duration-300 group-hover:rotate-180"></FaAngleDown>
         </div>
 
-        <div className="hidden group-hover:flex absolute top-full z-100 min-w-full bg-white px-2 py-1 mt-2 flex-col gap-1 shadow-md">
+        <div className="hidden group-hover:flex absolute top-[102%] z-50 w-[110%] bg-white flex-col gap-1 shadow-xl border-t-[1px] border-black/2">
             {success_stories.map((book)=>
-                <Link to={book.link}>
-                    <b>{book.title} -</b> {book.author}
+                <Link to={book.link} className="w-full px-2 py-1 font-secondary text-md hover:bg-lighter-gold hover:font-semibold">
+                    {book.title}
                 </Link>
             )}
         </div>
