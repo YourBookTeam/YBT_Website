@@ -5,7 +5,7 @@ import NavbarDropdown from "./NavbarDropdown";
 
 function Navbar() {
   return (
-    <nav className="px-12 py-5 flex justify-between items-center w-screen bg-white">
+    <nav className="px-12 py-5 flex justify-between items-center w-screen bg-white py-2">
       <div className="pr-12">
         <Logo className="fill-gold"></Logo>
       </div>
