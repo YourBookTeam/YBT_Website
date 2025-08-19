@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import Footer from "./components/Footer";
 import BookIdea from "./components/BookIdea";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
