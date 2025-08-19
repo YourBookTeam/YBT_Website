@@ -3,7 +3,7 @@ import StoryPreview from "./StoryPreview";
 
 function SuccessStories() {
   return (
-    <>
+    <div id="success-stories">
       <TitleBanner>Success Stories</TitleBanner>
       <div className="flex flex-col">
         <StoryPreview
@@ -61,7 +61,7 @@ function SuccessStories() {
           In war, acts of kindness become acts of defiance.
         </StoryPreview>
       </div>
-    </>
+    </div>
   );
 }
 export default SuccessStories;

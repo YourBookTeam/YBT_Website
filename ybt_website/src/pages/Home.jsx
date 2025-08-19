@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
       <HeroBanner></HeroBanner>
-      <SuccessStories />
+      <SuccessStories/>
       <TeamPreview team={ main_team } />
     </>
   );

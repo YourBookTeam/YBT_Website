@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import Logo from "./Logo";
 import Button from "./Button";
-import NavbarDropdown from "./NavbarDropdown";
 
 function Navbar() {
   return (
@@ -13,9 +13,7 @@ function Navbar() {
       <div className="flex gap-16 lg:gap-28">
         <Link to="/about">About</Link>
         <Link to="/services">Services</Link>
-
-        <NavbarDropdown/>
-
+        <HashLink to="/#success-stories">Success Stories</HashLink>
         <Link to="/faq">FAQ</Link>
       </div>
 
