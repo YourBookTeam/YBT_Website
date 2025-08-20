@@ -2,7 +2,9 @@ import Button from "../Button";
 
 function DiscoverButton() {
   return (
-    <Button to="/contact" tall>Book A Free Discovery Call</Button>
+    <div className="pl-5">
+        <Button to="/contact" tall>Book A Free Discovery Call</Button>
+    </div>
   );
 }
 
