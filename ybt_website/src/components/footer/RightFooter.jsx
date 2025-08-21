@@ -15,7 +15,7 @@ const RightFooter = () => {
         </div>
         <div className="text-lg my-4 flex leading-relaxed">
             <FiMail className="text-xl mt-1.5" />
-            <div className="min-w-56 ml-2">info@yourbookteam.com</div>
+            <a href="mailto:info@yourbookteam.com" className="min-w-56 ml-2">info@yourbookteam.com</a>
         </div>
         </div>
         <div className="flex justify-center mt-auto mb-5">
