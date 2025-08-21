@@ -15,11 +15,16 @@ function MobileNavbar() {
     }
 
     useEffect(() => {
+        const body = document.body;
+        const html = document.documentElement;
+
         if(isOpen){
-            document.body.style.overflowY = "hidden";
+            body.classList.add("overflow-hidden");
+            html.classList.add("overflow-hidden");
         }
         else{
-            document.body.style.overflowY = "auto";
+            body.classList.remove("overflow-hidden");
+            html.classList.remove("overflow-hidden");
         }
     }, [isOpen]);
 
