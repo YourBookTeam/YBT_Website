@@ -4,7 +4,7 @@ import RightFooter from "./RightFooter";
 
 const DesktopFooter = () => {
   return (
-    <footer className="hidden lg:flex px-5 pt-12 pb-0 items-center justify-center text-center">
+    <footer className="hidden md:flex px-5 pt-12 pb-0 items-center justify-center text-center">
 
         <LeftFooter/>
         <MidFooter/>
