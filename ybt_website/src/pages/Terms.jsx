@@ -6,7 +6,7 @@ function Terms() {
   const Term ={
     termOne : {
       title: "1. Acceptance of Terms and Conditions",
-      detail: "Book marketing is a process in which authors promote their books to reach a wider audience, increase sales, and establish a strong author platform."
+      detail: "These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and YourBookTeam (“we,” “us” or “our”), concerning your access to and use of the yourbookteam.com website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Website”). You agree that by accessing the Website, you have read, understood, and agree to be bound by all of these Terms and Conditions. If you do not agree with all of these Terms and Conditions, then you are expressly prohibited from using the Website and you must discontinue use immediately."
     },
     termTwo :{
       title: "2. Website Content",
@@ -49,15 +49,15 @@ function Terms() {
     },
     termNine :{
       title: "9. Governing Law",
-      detail: "These Terms shall be governed by and construed in accordance with the laws of the United States/New York. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts located in New York."
+      detail: "These Terms shall be governed by and construed in accordance with the laws of the United States/Los Angeles. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts located in Los Angeles."
     },
   }
 
   return (
-    <div className="font-primary text-lg p-10 flex flex-col items-center justify-center">
+    <div className="font-primary flex flex-col items-center justify-center">
       <Titlebanner>Terms and Conditions</Titlebanner>
-      <p className='md:px-5 md:pt-5 text-lg md:text-xl xl:text-2xl text-justify leading-loose font-secondary'>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
-      <section className='termsContainer xl:py-7 w-10/12'>
+      <p className='px-5 md:px-10 text-xl font-secondary'>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
+      <section className='termsContainer xl:py-7 sm:w-10/12'>
         {Object.entries(Term).map(([key, term]) => (
           <Dropdown key={key} question={term.title} answer={term.detail} />))
         }

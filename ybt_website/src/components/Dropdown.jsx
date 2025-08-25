@@ -19,7 +19,7 @@ const Dropdown = ({ question, answer }) => {
       </div>
       <hr className="border-t border-gray-300 mx-6" />
       <div
-        className={`px-6 pb-6 pt-4 overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`px-6 pt-4 overflow-hidden transition-all duration-300 ease-in-out ${
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
