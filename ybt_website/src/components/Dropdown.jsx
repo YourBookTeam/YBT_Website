@@ -23,9 +23,9 @@ const Dropdown = ({ question, answer }) => {
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <p className="text-xl font-secondary text-justify leading-loose">
+        <div className="text-xl font-secondary text-justify leading-loose">
           {answer}
-        </p>
+        </div>
       </div>
     </div>
   );
