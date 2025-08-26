@@ -1,5 +1,6 @@
 import SvgLogo from "../svgs/SvgLogo";
 import Button from "../Button";
+import white_brush_mark from "../assets/white-brush-mark.png";
 
 function HeroBanner() {
   return (
@@ -12,7 +13,7 @@ function HeroBanner() {
           <div className="text-8xl font-bold italic drop-shadow-hero">
             Your Book Team
           </div>
-          <div className="bg-[url(src/assets/white-brush-mark.png)] bg-size-[100%_100%] w-150">
+          <div className="bg-size-[100%_100%] w-150" style={{ backgroundImage:`url(${white_brush_mark})`} }>
             <div className="text-xl font-medium p-10 drop-shadow-hero">
               We turn aspiring writers into bestselling authors by focusing on
               each story’s heart—turning a shaky first draft into a story that
