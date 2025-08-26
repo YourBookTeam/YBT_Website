@@ -10,7 +10,7 @@ const Dropdown = ({ question, answer }) => {
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center justify-between px-6 h-24 cursor-pointer"
       >
-        <span className="text-2xl font-medium">{question}</span>
+        <span className="text-xl sm:text-2xl font-medium">{question}</span>
         <FaChevronDown
           className={`transition-transform duration-300 ${
             isOpen ? "rotate-180" : ""
@@ -19,13 +19,13 @@ const Dropdown = ({ question, answer }) => {
       </div>
       <hr className="border-t border-gray-300 mx-6" />
       <div
-        className={`px-6 pb-6 pt-4 overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`px-6 pt-4 overflow-hidden transition-all duration-300 ease-in-out ${
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <p className="text-xl font-secondary text-justify leading-loose">
+        <div className="text-lg sm:text-xl font-secondary text-justify leading-loose">
           {answer}
-        </p>
+        </div>
       </div>
     </div>
   );
