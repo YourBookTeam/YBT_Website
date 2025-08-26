@@ -1,6 +1,6 @@
 import SvgLogo from "../svgs/SvgLogo";
 import Button from "../Button";
-import white_brush_mark from "../assets/white-brush-mark.png";
+import white_brush_mark from "../../assets/white-brush-mark.png";
 
 function HeroBanner() {
   return (
