@@ -1,5 +1,5 @@
 import Button from "./Button";
-import typewriter from "../assets/gold-brush-mark.png";
+import typewriter from "../assets/typewriter.png";
 
 const BookIdea = () => {
   return (
