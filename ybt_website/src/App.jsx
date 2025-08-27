@@ -13,10 +13,18 @@ import BookIdea from "./components/BookIdea";
 import Navbar from "./components/Navbar";
 
 function App() {
-  const location = useLocation();
-
   return (
     <Router basename="/YBT_Website/">
+      <AppContent/>
+    </Router>
+  );
+}
+
+function AppContent() {
+  const location = useLocation();
+  
+  return (
+    <>
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -31,8 +39,8 @@ function App() {
       </Routes>
       { location.pathname !== "/contact" && <BookIdea/> }
       <Footer />
-    </Router>
-  );
+    </>
+  )
 }
 
 export default App;
