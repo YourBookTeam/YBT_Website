@@ -18,7 +18,7 @@ function Contact() {
   return (
     <div className="bg-gold">
 
-      <div className="flex gap-20 p-20">
+      <div className="flex flex-col xl:flex-row xl:gap-20 xl:p-20">
         <DiscoveryCall handleCalendlyOpen={handleCalendlyOpen}/>
         <ContactForm/>
       </div>

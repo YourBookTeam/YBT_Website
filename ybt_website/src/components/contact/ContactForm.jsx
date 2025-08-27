@@ -45,11 +45,11 @@ const ContactForm = () => {
     };
 
     return (
-    <div className="flex flex-col items-center justify-center w-full">
+    <div className="flex flex-col items-center justify-center w-full pb-10 px-5 xl:p-0">
         {formSubmitted ? (
             <SuccessMessage/>
         ) : (
-        <form onSubmit={handleSubmit} className="space-y-6 w-270">
+        <form onSubmit={handleSubmit} className="space-y-6 w-full text-lg flex flex-col items-center">
             <NameField name={formData.name} handleInputChange={handleInputChange}/>
 
             <EmailField email={formData.email} handleInputChange={handleInputChange}/>
@@ -58,7 +58,7 @@ const ContactForm = () => {
 
             <InquiryField inquiryTypes={formData.inquiryType} handleCheckboxChange={handleCheckboxChange}/>
 
-            <button type="submit" className="bg-black text-white px-4 py-2.5 font-bold text-2xl shadow-lg cursor-pointer">
+            <button type="submit" className="w-full bg-black text-white px-4 py-2.5 font-bold text-2xl shadow-lg cursor-pointer">
                 Send message
             </button>
         </form>
