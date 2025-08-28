@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 import BookIdea from "./components/BookIdea";
 import Navbar from "./components/Navbar";
 import ScrollToAnchor from "./components/ScrollToAnchor";
-import PromptingHappiness from "./pages/PromptingHappiness";
+import SuccessStory from "./pages/SuccessStory";
 
 function App() {
   return (
@@ -23,12 +23,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/position" element={<Position />} />
-        <Route path="/prompting_happiness" element={<PromptingHappiness />} />
-        {/* <Route path="/thirst" element={<Thirst />} />
-        <Route
-          path="/under_the_floorboards"
-          element={<UnderTheFloorboards />}
-        /> */}
+        {/* Success Stories */}
+        <Route path="/prompting_happiness" element={<SuccessStory />} />
+        <Route path="/thirst" element={<SuccessStory />} />
+        <Route path="/under_the_floorboards" element={<SuccessStory />} />
+        {/* End of Success Stories */}
         <Route path="/services" element={<Services />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<Contact />} />
