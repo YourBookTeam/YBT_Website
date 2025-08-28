@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
 import Logo from "../Logo";
 import DiscoverButton from "./DiscoveryButton";
 
@@ -13,7 +12,7 @@ function DesktopNavbar() {
         <div className="flex gap-16 lg:gap-28">
             <Link to="/about">About</Link>
             <Link to="/services">Services</Link>
-            <HashLink smooth to="/#success-stories">Success Stories</HashLink>
+            <Link smooth to="/#success-stories">Success Stories</Link>
             <Link to="/faq">FAQ</Link>
         </div>
 

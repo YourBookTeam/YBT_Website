@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
 import Logo from "../Logo";
 import DiscoverButton from "./DiscoveryButton";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -60,10 +59,10 @@ function MobileNavbar() {
                             <GoChevronRight className="mt-1 text-xl"/>
                         </Link>
 
-                        <HashLink smooth to="/#success-stories" onClick={toggleOpen} className="flex gap-1 items-center justify-center">
+                        <Link smooth to="/#success-stories" onClick={toggleOpen} className="flex gap-1 items-center justify-center">
                             <p className="text-2xl font-bold">Success Stories</p>
                             <GoChevronRight className="mt-1 text-xl"/>
-                        </HashLink>
+                        </Link>
 
                         <Link to="/faq" onClick={toggleOpen} className="flex gap-1 items-center justify-center">
                             <p className="text-2xl font-bold">FAQ</p>
