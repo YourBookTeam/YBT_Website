@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Button({ to, children, className, tall, black }) {
   let baseClassName =
-    "flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative";
+    "flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative justify-center";
 
   baseClassName = tall
     ? baseClassName + " " + "p-4"

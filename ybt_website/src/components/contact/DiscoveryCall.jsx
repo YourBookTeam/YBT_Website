@@ -1,4 +1,5 @@
 import { FaRegCalendarAlt } from "react-icons/fa";
+import Button from "../Button";
 
 const DiscoveryCall = ({ handleCalendlyOpen }) => {
   return (
@@ -13,14 +14,11 @@ const DiscoveryCall = ({ handleCalendlyOpen }) => {
         </p>
       </div>
 
-      <button
-        type="button"
-        className="inline-flex items-center justify-center gap-3 bg-black text-white px-4 py-2.5 font-bold text-2xl shadow-lg cursor-pointer w-60"
-        onClick={handleCalendlyOpen}
-      >
+      <Button black className="text-2xl px-4 py-2.5" onClick={handleCalendlyOpen}>
         <FaRegCalendarAlt className="w-5 h-5 text-white" />
-        Schedule here
-      </button>
+        Schedule Here
+      </Button>
+
     </div>
   );
 };

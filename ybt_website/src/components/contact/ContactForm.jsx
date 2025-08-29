@@ -4,6 +4,7 @@ import NameField from "./NameField";
 import EmailField from "./EmailField";
 import MessageField from "./MessageField";
 import InquiryField from "./InquiryField";
+import Button from "../Button";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -58,9 +59,7 @@ const ContactForm = () => {
 
             <InquiryField inquiryTypes={formData.inquiryType} handleCheckboxChange={handleCheckboxChange}/>
 
-            <button type="submit" className="w-full bg-black text-white px-4 py-2.5 font-bold text-2xl shadow-lg cursor-pointer">
-                Send message
-            </button>
+            <Button black className="w-full text-2xl px-4 py-2.5">Send Message</Button>
         </form>
         )}
     </div>
