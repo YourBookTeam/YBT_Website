@@ -173,6 +173,7 @@ function SuccessStory() {
                     title={story.title}
                     author={story.author}
                     imgSrc={story.img}
+                    linkTo={story.link}
                   />
                 ))}
               </div>
