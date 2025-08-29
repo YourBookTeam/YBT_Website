@@ -11,7 +11,7 @@ const underTheFloorboards = {
   title: "Under the Floorboards",
   frontCoverImg: under_the_floorboards_cover,
   backCoverImg: under_the_floorboards_back,
-  author: "H. W. Terrance",
+  author: "John Kiss",
   authorImg: john_kiss,
   milestones: [
     "Transformed flat self-published manuscript into a vivid, emotionally rich novel",
