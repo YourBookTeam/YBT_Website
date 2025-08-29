@@ -16,6 +16,15 @@ import SuccessStory from "./pages/SuccessStory";
 function App() {
   return (
     <Router basename="/YBT_Website/">
+      <AppContent />
+    </Router>
+  );
+}
+
+function AppContent() {
+  const location = useLocation();
+  return (
+    <>
       <ScrollToAnchor />
       <Navbar></Navbar>
       <Routes>
