@@ -1,5 +1,8 @@
 import TitleBanner from "../TitleBanner";
 import StoryPreview from "./StoryPreview";
+import prompting_happiness_cover from "../../assets/book-covers/PromptingHappiness.png";
+import thirst_cover from "../../assets/book-covers/Thirst.png";
+import under_the_floorboards_cover from "../../assets/book-covers/UnderTheFloorboards.png";
 
 function SuccessStories() {
   return (
@@ -9,7 +12,7 @@ function SuccessStories() {
         <StoryPreview
           title="Prompting Happiness"
           author="Nimrod Vromen"
-          coverImgSrc="src/assets/book-covers/PromptingHappiness.png"
+          coverImgSrc={prompting_happiness_cover}
           linkTo="/prompting_happiness"
         >
           You have been searching for a way to be happy and have your life be a
@@ -24,7 +27,7 @@ function SuccessStories() {
         <StoryPreview
           title="Thirst"
           author="H. W. Terrance"
-          coverImgSrc="src/assets/book-covers/Thirst.png"
+          coverImgSrc={thirst_cover}
           linkTo="/thirst"
           flexReverse
         >
@@ -41,7 +44,7 @@ function SuccessStories() {
         <StoryPreview
           title="Under the Floorboards"
           author="John Kiss"
-          coverImgSrc="src/assets/book-covers/UnderTheFloorboards.png"
+          coverImgSrc={under_the_floorboards_cover}
           linkTo="/under_the_floorboards"
         >
           1943. WWII wreaks havoc upon Poland. The Nazis send the entire

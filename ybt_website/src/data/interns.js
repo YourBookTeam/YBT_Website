@@ -1,6 +1,6 @@
-import headshot_rachel from '../assets/headshots/headshot_intern_rachel.png';
-import headshot_nadun from '../assets/headshots/headshot_intern_nadun.png';
-import headshot_genevieve from '../assets/headshots/headshot_intern_genevieve.png';
+import headshot_rachel from '../assets/headshots/interns/headshot_intern_rachel.png';
+import headshot_nadun from '../assets/headshots/interns/headshot_intern_nadun.png';
+import headshot_genevieve from '../assets/headshots/interns/headshot_intern_genevieve.png';
 
 export const interns = [
   {
