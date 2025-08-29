@@ -1,7 +1,7 @@
 import thirst_cover from "../../assets/book-covers/Thirst.png";
 import thirst_back from "../../assets/success-stories/thirst/bc-thirst.png";
-import prompting_happiness_cover from "../../assets/book-covers/PromptingHappiness.png";
 import hw_terrance from "../../assets/success-stories/thirst/hw-terrance.png";
+import prompting_happiness_cover from "../../assets/book-covers/PromptingHappiness.png";
 import under_the_floorboards_cover from "../../assets/book-covers/UnderTheFloorboards.png";
 import war_sisters_cover from "../../assets/book-covers/war_sisters 2.png";
 import marias_promise_cover from "../../assets/book-covers/marias_promise 2.png";
@@ -14,20 +14,21 @@ const thirst = {
   author: "H. W. Terrance",
   authorImg: hw_terrance,
   milestones: [
-    "Transformed flat self-published manuscript into a vivid, emotionally rich novel",
-    "Positioned as a rising voice in AI + emotional wellbeing",
-    "Invited to podcasts, conferences, and press",
-    "Currently writing two more books with us: Prompting Harmony and Prompting War",
+    "Breakthrough novel built from real-life recovery story",
+    "Featured on The Chris Voss Show, a Top 1% podcast with 24 million+ listeners",
+    "Generated 100K+ views from three viral episodes on the Don't Hide the Scars podcast",
+    "Distributed widely to jails and addiction treatment centers, reaching vulnerable audiences where hope is most needed",
+    "Social media outreach achieving 6K average views per video, amplifying Terrance's message of resilience and healing",
   ],
   challengeText:
-    "As a tech-savvy lawyer and founder, Nimrod had insights at the intersection of AI, therapy, and self-improvement but his manuscript lacked clarity and cohesion. It read like a stream of ideas, not a strategic book that could position him as a thought leader.",
+    "Terrance—a man with decades of sobriety and a powerful life story—was struggling to write his memoir. Editors kept asking for changes that flattened his voice. He was ready to give up—until we suggested something radical: write it as a novel.",
   strategicPivotText:
-    "We worked closely with Nimrod to transform scattered content into a compelling narrative. Through deep editorial coaching and emotional structuring, we helped him find his voice while aligning the book with his brand and intellectual goals. A custom-designed cover captured the soul-meets-software concept. The result? A book that reads with clarity, conviction, and resonance.",
+    "By transforming memoir into fiction, we preserved his emotional truth while giving him creative freedom. We built the book interview by interview, acting as literary translators of his world. The tone was raw, the structure cinematic, the result: unforgettable. We moved the opening to a dramatic arrest scene, pulling readers in from the first page.",
   results: [
-    "Prompting Happiness hit bestseller status and catalyzed Nimrod’s personal brand.",
-    "It led to podcast interviews, press features, and new deal flow through audience growth.",
-    "He became recognized not just as a startup founder, but a provocative thinker on emotional tech.",
-    "He’s now building a Prompting Trilogy with us: Prompting Harmony (in progress) and Prompting War (next).",
+    "Thirst is now a gripping, emotionally precise novel rooted in personal truth.",
+    "He's been interviewed on multiple podcasts including The Chris Voss Show and Don't Hide the Scars.",
+    "His message of redemption is reaching people on platforms he never imagined.",
+    "Sequel, Quest, is currently in production.",
   ],
   bookshelfBooks: [
     {
@@ -48,33 +49,33 @@ const thirst = {
     },
   ],
   authorQuote:
-    "I am writing two more books with them. That should tell you everything.",
+    "I don't usually trust people with my story. But they got it. They understood the weight of it and treated it with care.",
   reviews: [
     {
-      name: "Uri Shay",
-      text: `“A groundbreaking exploration of true happiness, blending AI and positive psychology with practical strategies for personal and professional success.”`,
+      name: "@letmegotomymindpalace",
+      text: `“A soulful, inspiring story of addiction, recovery, and redemption that reminds us it's always possible to find the way back.”`,
     },
     {
-      name: "Verified Amazon Review",
-      text: `“A refreshing, uplifting read with simple, practical advice for using AI to boost everyday joy.”`,
+      name: "Brian Tucker",
+      text: `“Compelling and encouraging, with short, poignant chapters drawn from the author's raw and colorful life experiences.”`,
     },
     {
-      name: "Rinat",
-      text: `“A life-changing journey of self-discovery and growth, showing how AI can optimize health, productivity, and meaningful connections."`,
+      name: "Tracey R Scalia",
+      text: `“A poignant, quick read that sheds light on the psychology behind addiction and offers hope to addicts and their loved ones.”`,
     },
   ],
   moreSuccessStories: [
+    {
+      title: "Prompting Happiness",
+      author: "Nimrod Vromen",
+      img: prompting_happiness_cover,
+      link: "/prompting_happiness",
+    },
     {
       title: "Under the Floorboards",
       author: "John Kiss",
       img: under_the_floorboards_cover,
       link: "/under_the_floorboards",
-    },
-    {
-      title: "Thirst",
-      author: "H. W. Terrance",
-      img: thirst_cover,
-      link: "/thirst",
     },
   ],
 };

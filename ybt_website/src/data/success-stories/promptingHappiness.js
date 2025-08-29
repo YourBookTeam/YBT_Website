@@ -23,10 +23,10 @@ const promptingHappiness = {
   strategicPivotText:
     "We worked closely with Nimrod to transform scattered content into a compelling narrative. Through deep editorial coaching and emotional structuring, we helped him find his voice while aligning the book with his brand and intellectual goals. A custom-designed cover captured the soul-meets-software concept. The result? A book that reads with clarity, conviction, and resonance.",
   results: [
-    "Prompting Happiness hit bestseller status and catalyzed Nimrod’s personal brand.",
+    "Prompting Happiness hit bestseller status and catalyzed Nimrod's personal brand.",
     "It led to podcast interviews, press features, and new deal flow through audience growth.",
     "He became recognized not just as a startup founder, but a provocative thinker on emotional tech.",
-    "He’s now building a Prompting Trilogy with us: Prompting Harmony (in progress) and Prompting War (next).",
+    "He's now building a Prompting Trilogy with us: Prompting Harmony (in progress) and Prompting War (next).",
   ],
   bookshelfBooks: [
     {
