@@ -59,7 +59,9 @@ const ContactForm = () => {
 
             <InquiryField inquiryTypes={formData.inquiryType} handleCheckboxChange={handleCheckboxChange}/>
 
-            <Button black className="w-full text-2xl px-4 py-2.5">Send Message</Button>
+            <button type="submit" className="w-full bg-black text-white px-4 py-2.5 font-bold text-2xl shadow-lg cursor-pointer hover:bg-gray">
+                Send message
+            </button>
         </form>
         )}
     </div>
