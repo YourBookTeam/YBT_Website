@@ -59,7 +59,7 @@ function MobileNavbar() {
                             <GoChevronRight className="mt-1 text-xl"/>
                         </Link>
 
-                        <Link smooth to="/#success-stories" onClick={toggleOpen} className="flex gap-1 items-center justify-center">
+                        <Link to="/#success-stories" onClick={toggleOpen} className="flex gap-1 items-center justify-center">
                             <p className="text-2xl font-bold">Success Stories</p>
                             <GoChevronRight className="mt-1 text-xl"/>
                         </Link>
