@@ -22,7 +22,7 @@ const LogoSocials = () => {
                 <FaYoutube />
             </a>
         </div>
-        <p className="md:hidden">Copyright © 2023 YourBookTeam <br/> All Rights Reserved</p>
+        <p className="md:hidden">Copyright © 2025 YourBookTeam <br/> All Rights Reserved</p>
     </div>
   );
 };
