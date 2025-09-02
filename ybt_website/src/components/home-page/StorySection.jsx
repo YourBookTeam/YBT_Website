@@ -6,13 +6,8 @@ import under_the_floorboards_cover from "../../assets/book-covers/UnderTheFloorb
 
 function SuccessStories() {
   return (
-<<<<<<< HEAD:ybt_website/src/components/home-page/SuccessStories.jsx
-    <div id="success-stories">
-      <TitleBanner>Success Stories</TitleBanner>
-=======
     <>
       <TitleBanner id="success-stories">Success Stories</TitleBanner>
->>>>>>> 53c4f3a9f4fddc6c7e5352236cffde6fab3de3b5:ybt_website/src/components/home-page/StorySection.jsx
       <div className="flex flex-col">
         <StoryPreview
           title="Prompting Happiness"
