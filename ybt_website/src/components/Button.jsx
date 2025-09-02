@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-function Button({ to, children, className, tall, black }) {
+function Button({ to, children, className, onClick, tall, black }) {
   let baseClassName =
     "flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative text-center";
 
@@ -12,7 +12,7 @@ function Button({ to, children, className, tall, black }) {
     : baseClassName + " " + "bg-gold hover:bg-lighter-gold text-white";
 
   return (
-    <Link to={to} className={baseClassName + " " + className}>
+    <Link to={to} onClick={onClick} className={baseClassName + " " + className}>
       {children}
     </Link>
   );

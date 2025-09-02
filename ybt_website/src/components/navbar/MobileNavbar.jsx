@@ -70,7 +70,7 @@ function MobileNavbar() {
                         </Link>
                     </div>
 
-                    <DiscoverButton/>
+                    <DiscoverButton onClick={toggleOpen}/>
                 </div>
             )}
         </>
