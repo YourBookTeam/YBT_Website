@@ -67,7 +67,7 @@ function SuccessStories() {
           In war, acts of kindness become acts of defiance.
         </StoryPreview>
       </div>
-    </div>
+    </>
   );
 }
 export default SuccessStories;

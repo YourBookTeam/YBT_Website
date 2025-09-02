@@ -43,7 +43,7 @@ function MobileNavbar() {
                 <div className="bg-white w-full h-full fixed top-0 right-0 z-50 overflow-hidden flex flex-col items-center py-4 gap-20">
                     <div className="md:hidden flex px-8 justify-between items-center w-screen bg-white">
                         <div className="pr-12">
-                            <Logo className="fill-gold"></Logo>
+                            <Logo className="fill-gold" toggleOpen={toggleOpen}></Logo>
                         </div>
                         <HiMiniXMark className="text-gold size-10" onClick={toggleOpen}/>
                     </div>
@@ -70,7 +70,7 @@ function MobileNavbar() {
                         </Link>
                     </div>
 
-                    <DiscoverButton onClick={toggleOpen}/>
+                    <DiscoverButton toggleOpen={toggleOpen}/>
                 </div>
             )}
         </>

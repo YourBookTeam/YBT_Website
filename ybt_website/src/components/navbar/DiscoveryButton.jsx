@@ -1,9 +1,9 @@
 import Button from "../Button";
 
-function DiscoverButton({  }) {
+function DiscoverButton({ toggleOpen }) {
   return (
     <div className="md:pl-5">
-        <Button to="/contact" tall>Book A Free Discovery Call</Button>
+        <Button to="/contact" tall onClick={toggleOpen}>Book A Free Discovery Call</Button>
     </div>
   );
 }
