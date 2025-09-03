@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Careers from "./pages/Careers";
@@ -16,6 +16,15 @@ import SuccessStory from "./pages/SuccessStory";
 function App() {
   return (
     <Router basename="/YBT_Website/">
+      <AppContent />
+    </Router>
+  );
+}
+
+function AppContent() {
+  const location = useLocation();
+  return (
+    <>
       <ScrollToAnchor />
       <Navbar></Navbar>
       <Routes>
@@ -33,10 +42,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Terms />} />
       </Routes>
-      <BookIdea />
+      { location.pathname !== "/contact" && <BookIdea/> }
       <Footer />
-    </Router>
-  );
+    </>
+  )
 }
 
 export default App;
