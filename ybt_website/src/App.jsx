@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
 import Footer from "./components/footer/Footer";
 import BookIdea from "./components/BookIdea";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import ScrollToAnchor from "./components/ScrollToAnchor";
 import SuccessStory from "./pages/SuccessStory";
 
