@@ -130,33 +130,30 @@ export default function Services() {
       <TitleBanner>Services</TitleBanner>
       
       <div className="py-8 px-4">
-        <div className="flex flex-col lg:flex-row gap-6 max-w-7xl mx-auto justify-center items-start">
+        
+        <div className="flex flex-col xl:flex-row gap-6 max-w-7xl mx-auto justify-center items-start">
           {tiers.map((tier, index) => (
-            <div key={index} className="flex flex-col">
+            <div key={index} className="flex flex-col w-full xl:w-auto">
               
               <div 
-                className={`flex flex-col ${tierColors[index]}`}
-                style={{ 
-                  width: "320px",
-                  minHeight: tier.minHeight
-                }}
+                className={`flex flex-col ${tierColors[index]} w-full xl:w-80`}
               >
-                <div className="p-8 flex-1 flex flex-col">
-                  <div className="text-center mb-8">
-                    <h3 className="text-2xl font-bold mb-2 tracking-wide font-primary">{tier.title}</h3>
-                    <h4 className="text-3xl font-bold mb-4 font-primary">{tier.subtitle}</h4>
-                    <p className="font-secondary font-bold">{tier.description}</p>
+                <div className="p-6 md:p-8 flex-1 flex flex-col">
+                  <div className="text-center mb-6 md:mb-8">
+                    <h3 className="text-xl md:text-2xl font-bold mb-2 tracking-wide font-primary">{tier.title}</h3>
+                    <h4 className="text-2xl md:text-3xl font-bold mb-4 font-primary">{tier.subtitle}</h4>
+                    <p className="font-secondary font-bold text-sm md:text-base">{tier.description}</p>
                   </div>
                   
-                  <div className="mb-8">
+                  <div className="mb-6 md:mb-8">
                     <h5 className="font-bold mb-4 font-primary">Deliverables</h5>
                     <ul className="space-y-3">
                       {tier.deliverables.map((item, i) => (
                         <li key={i} className="flex items-start">
-                          <div className="w-10 h-10 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                            <FaCircleCheck size={33} color="white" />
+                          <div className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                            <FaCircleCheck size={window.innerWidth >= 768 ? 33 : 25} color="white" />
                           </div>
-                          <span className="font-secondary">{item}</span>
+                          <span className="font-secondary text-sm md:text-base">{item}</span>
                         </li>
                       ))}
                     </ul>
@@ -164,13 +161,13 @@ export default function Services() {
                 </div>
               </div>
 
-              
-              <div className="mt-4 w-80">
+              {/* Best For Section */}
+              <div className="mt-4 w-full xl:w-80">
                 <div 
-                  className={`p-6 ${tierColors[index]}`}
+                  className={`p-4 md:p-6 ${tierColors[index]}`}
                 >
                   <h6 className="font-bold mb-3 font-primary">Best for:</h6>
-                  <p className="mb-4 font-secondary">{tier.bestFor}</p>
+                  <p className="mb-4 font-secondary text-sm md:text-base">{tier.bestFor}</p>
                   <p className="font-bold text-lg font-primary">Starts at {tier.price}</p>
                 </div>
               </div>
@@ -178,66 +175,39 @@ export default function Services() {
           ))}
         </div>
 
-        
-        <div className="max-w-7xl mx-auto mt-16 px-4">
+        {/* Custom Package Section */}
+        <div className="max-w-7xl mx-auto mt-12 md:mt-16 px-4">
           <div className="text-center mb-12">
             <div className="w-full max-w-6xl mx-auto">
-              <div 
-                className="mb-6 mx-auto bg-gold"
-                style={{ 
-                  width: "702px", 
-                  height: "3px"
-                }}
-              ></div>
-              <p className="text-2xl leading-relaxed mb-6 max-w-5xl mx-auto font-secondary">
+              <div className="mb-6 mx-auto bg-gold h-1 w-full max-w-2xl"></div>
+              <p className="text-lg md:text-2xl leading-relaxed mb-6 max-w-5xl mx-auto font-secondary px-4">
                 Every author and book is unique. In your Discovery Call, we'll tailor a custom 
                 package, mixing elements from any tier, to fit your goals, maximize value and ROI, 
                 and align perfectly with your brand.
               </p>
-              <div 
-                className="mb-8 mx-auto bg-gold"
-                style={{ 
-                  width: "702px", 
-                  height: "3px"
-                }}
-              ></div>
+              <div className="mb-8 mx-auto bg-gold h-1 w-full max-w-2xl"></div>
             </div>
             
             <div className="flex justify-center">
               <Button 
                 to="/contact"
-                style={{
-                  width: "380px",
-                  height: "72px"
-                }}
+                className="w-full max-w-sm h-16 md:h-18 text-sm md:text-base"
               >
                 Book a free discovery call
               </Button>
             </div>
           </div>
 
-          
-          <div className="flex items-center justify-center gap-8 mt-16">
-            <div 
-              className="p-8 bg-lightest-gold"
-              style={{ 
-                width: "700px",
-                height: "530px"
-              }}
-            >
+          {/* Premium Add-on Section */}
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-8 mt-12 md:mt-16">
+            <div className="p-6 md:p-8 bg-lightest-gold w-full max-w-2xl lg:max-w-none lg:w-auto min-h-96">
               <div className="text-center mb-6">
-                <h3 className="text-3xl font-bold mb-2 font-primary">{premiumAddOn.title}</h3>
-                <h4 className="text-2xl font-bold mb-4 font-primary">{premiumAddOn.subtitle}</h4>
-                <div 
-                  className="mx-auto bg-gold"
-                  style={{ 
-                    width: "630px", 
-                    height: "3px"
-                  }}
-                ></div>
+                <h3 className="text-2xl md:text-3xl font-bold mb-2 font-primary">{premiumAddOn.title}</h3>
+                <h4 className="text-xl md:text-2xl font-bold mb-4 font-primary">{premiumAddOn.subtitle}</h4>
+                <div className="mx-auto bg-gold h-1 w-full max-w-xl"></div>
               </div>
               
-              <p className="mb-6 leading-relaxed font-secondary font-bold">
+              <p className="mb-6 leading-relaxed font-secondary font-bold text-sm md:text-base">
                 {premiumAddOn.description}
               </p>
 
@@ -246,70 +216,56 @@ export default function Services() {
                 <ul className="space-y-3">
                   {premiumAddOn.deliverables.map((item, index) => (
                     <li key={index} className="flex items-start">
-                      <div className="w-10 h-10 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                        <FaCircleCheck size={33} color="white" />
+                      <div className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                        <FaCircleCheck size={window.innerWidth >= 768 ? 33 : 25} color="white" />
                       </div>
-                      <span className="font-secondary">{item}</span>
+                      <span className="font-secondary text-sm md:text-base">{item}</span>
                     </li>
                   ))}
                 </ul>
-                <p className="text-2xl font-bold mt-2 font-primary">{premiumAddOn.price}</p>
+                <p className="text-xl md:text-2xl font-bold mt-2 font-primary">{premiumAddOn.price}</p>
               </div>
             </div>
 
-            <div className="flex items-center gap-6">
-              <svg width="72" height="72" viewBox="0 0 56 56" className="fill-current text-gold ml-4">
+            <div className="flex items-center gap-4 lg:gap-6">
+              <svg width="48" height="48" viewBox="0 0 56 56" className="fill-current text-gold md:w-18 md:h-18">
                 <path d="M26 26V10h4v16h16v4H30v16h-4V30H10v-4h16z"/>
               </svg>
               
-              <div style={{ width: "330px", height: "270px" }}>
-                <TbHeadphonesFilled size={270} color="#BBA156" />
+              <div className="w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80 flex items-center justify-center">
+                <TbHeadphonesFilled 
+                  size={window.innerWidth >= 1024 ? 270 : window.innerWidth >= 768 ? 200 : 150} 
+                  color="#BBA156" 
+                />
               </div>
             </div>
           </div>
 
-          
-          <div className="flex items-center justify-center gap-8 mt-16">
-            <div 
-              className="bg-gold"
-              style={{ 
-                width: "332px", 
-                height: "3px"
-              }}
-            ></div>
-            <h2 
-              className="text-center font-bold font-primary"
-              style={{ 
-                fontSize: "65px",
-                width: "452px",
-                height: "121px",
-                lineHeight: "121px"
-              }}
-            >
+          {/* What We Do Section */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 mt-12 md:mt-16">
+            <div className="bg-gold h-1 w-32 md:w-80"></div>
+            <h2 className="text-center font-bold font-primary text-3xl md:text-5xl lg:text-6xl whitespace-nowrap">
               What We Do
             </h2>
-            <div 
-              className="bg-gold"
-              style={{ 
-                width: "332px", 
-                height: "3px"
-              }}
-            ></div>
+            <div className="bg-gold h-1 w-32 md:w-80"></div>
           </div>
 
-          
-          <div className="max-w-7xl mx-auto mt-8 space-y-2">
+          {/* Service Sections */}
+          <div className="max-w-7xl mx-auto mt-8 space-y-6 md:space-y-2">
             {serviceSections.map((service, index) => (
-              <div key={index} className="flex justify-center items-center gap-6">
+              <div key={index} className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6">
                 
-                <div className="flex-shrink-0 w-32 h-32 flex items-center justify-center">
-                  <service.icon size={150} color="#BBA156" />
+                <div className="flex-shrink-0 w-24 h-24 md:w-32 md:h-32 flex items-center justify-center">
+                  <service.icon 
+                    size={window.innerWidth >= 768 ? 150 : 100} 
+                    color="#BBA156" 
+                  />
                 </div>
 
                 
-                <div className="w-full max-w-4xl p-8 flex flex-col">
-                  <h2 className="font-bold text-3xl mb-6 font-primary">{service.title}</h2>
-                  <p className="leading-relaxed text-lg font-secondary">
+                <div className="w-full max-w-4xl p-4 md:p-8 flex flex-col text-center md:text-left">
+                  <h2 className="font-bold text-2xl md:text-3xl mb-4 md:mb-6 font-primary">{service.title}</h2>
+                  <p className="leading-relaxed text-base md:text-lg font-secondary">
                     {service.content}
                   </p>
                 </div>
@@ -320,4 +276,4 @@ export default function Services() {
       </div>
     </div>
   );
-} //should be finalized
+}
