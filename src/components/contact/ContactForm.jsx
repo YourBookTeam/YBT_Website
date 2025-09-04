@@ -4,7 +4,6 @@ import NameField from "./NameField";
 import EmailField from "./EmailField";
 import MessageField from "./MessageField";
 import InquiryField from "./InquiryField";
-import Button from "../Button";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -50,7 +49,8 @@ const ContactForm = () => {
         {formSubmitted ? (
             <SuccessMessage/>
         ) : (
-        <form onSubmit={handleSubmit} className="space-y-6 w-full text-lg flex flex-col items-center">
+        <form name="contact-form" method="POST" data-netlify="true" onSubmit={handleSubmit} className="space-y-6 w-full text-lg flex flex-col items-center">
+            <input type="hidden" name="contact-form" value="contact" />
             <NameField name={formData.name} handleInputChange={handleInputChange}/>
 
             <EmailField email={formData.email} handleInputChange={handleInputChange}/>
