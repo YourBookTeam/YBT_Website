@@ -15,7 +15,7 @@ import SuccessStory from "./pages/SuccessStory";
 
 function App() {
   return (
-    <Router basename="/YBT_Website/">
+    <Router basename="/">
       <AppContent />
     </Router>
   );
