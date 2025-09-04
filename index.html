@@ -8,6 +8,17 @@
     <title>YourBookTeam</title>
   </head>
   <body class="font-primary">
+
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <input type="checkbox" name="tier1" />
+      <input type="checkbox" name="tier2" />
+      <input type="checkbox" name="tier3" />
+      <input type="checkbox" name="other" />
+    </form>
+    
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
