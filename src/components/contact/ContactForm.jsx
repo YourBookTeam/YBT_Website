@@ -49,7 +49,7 @@ const ContactForm = () => {
         {formSubmitted ? (
             <SuccessMessage/>
         ) : (
-        <form name="contact-form" method="POST" data-netlify="true" onSubmit={handleSubmit} className="space-y-6 w-full text-lg flex flex-col items-center">
+        <form name="contact-form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} className="space-y-6 w-full text-lg flex flex-col items-center">
             <input type="hidden" name="form-name" value="contact-form" />
             <NameField name={formData.name} handleInputChange={handleInputChange}/>
 
