@@ -39,9 +39,9 @@ const ContactForm = () => {
         }));
     };
 
-    const handleSubmit = () => {
-        setFormSubmitted(true);
-    };
+    // const handleSubmit = () => {
+    //     setFormSubmitted(true);
+    // };
 
     return (
     <div className="flex flex-col items-center justify-center w-full pb-10 px-5 xl:p-0">
@@ -50,7 +50,6 @@ const ContactForm = () => {
             method="POST" 
             data-netlify="true" 
             data-netlify-honeypot="bot-field" 
-            onSubmit={handleSubmit} 
             action="/thank-you"
             className="space-y-6 w-full text-lg flex flex-col items-center"
         >
