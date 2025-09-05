@@ -39,17 +39,21 @@ const ContactForm = () => {
         }));
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const handleSubmit = () => {
         setFormSubmitted(true);
     };
 
     return (
     <div className="flex flex-col items-center justify-center w-full pb-10 px-5 xl:p-0">
-        {formSubmitted ? (
-            <SuccessMessage/>
-        ) : (
-        <form name="contact-form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit} className="space-y-6 w-full text-lg flex flex-col items-center">
+        <form 
+            name="contact-form" 
+            method="POST" 
+            data-netlify="true" 
+            data-netlify-honeypot="bot-field" 
+            onSubmit={handleSubmit} 
+            action="/thank-you"
+            className="space-y-6 w-full text-lg flex flex-col items-center"
+        >
             <input type="hidden" name="form-name" value="contact-form" />
             <NameField name={formData.name} handleInputChange={handleInputChange}/>
 
@@ -63,7 +67,6 @@ const ContactForm = () => {
                 Send message
             </button>
         </form>
-        )}
     </div>
   );
 };
