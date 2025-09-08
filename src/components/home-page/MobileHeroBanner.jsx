@@ -4,15 +4,15 @@ import white_brush_mark from "../../assets/white-brush-mark.png";
 
 function MobileHeroBanner() {
   return (
-    <div className="sm:hidden bg-gold pt-10 flex flex-col">
+    <div className="lg:hidden bg-gold pt-10 flex flex-col">
         <div className="flex flex-col items-center justify-center gap-5 pb-8">
-            <div className="flex flex-col justify-center items-center">
-                <p className="text-4xl text-center">We are</p>
-                <p className="text-4xl text-center font-bold">Your Book Team</p>
+            <div className="flex flex-col justify-center items-center gap-3">
+                <p className="font-bold text-white drop-shadow-hero text-5xl text-center">We are</p>
+                <p className="text-5xl text-center font-bold italic drop-shadow-hero">Your Book Team</p>
             </div>
 
-            <div className="bg-size-[100%_100%] w-80" style={{ backgroundImage:`url(${white_brush_mark})`} }>
-                <div className="font-medium p-10 text-md">
+            <div className="bg-size-[100%_100%] w-120 sm:w-150 md:w-200" style={{ backgroundImage:`url(${white_brush_mark})`} }>
+                <div className="font-medium p-10 text-lg">
                     We turn aspiring writers into bestselling authors by focusing on
                     each story’s heart—turning a shaky first draft into a story that
                     outlives you—we build legacy.
