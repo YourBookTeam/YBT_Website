@@ -4,6 +4,7 @@ import Milestone from "../components/success-story/Milestone.jsx";
 import SvgArrow from "../components/svgs/SvgArrow";
 import Review from "../components/success-story/Review";
 import OtherBook from "../components/success-story/OtherBook";
+import Bookshelf from "../assets/success-stories/bookshelf.png";
 
 import promptingHappiness from "../data/success-stories/promptingHappiness.js";
 import thirst from "../data/success-stories/thirst.js";
@@ -88,7 +89,7 @@ function SuccessStory() {
           {/* Book Shelf */}
           <div className="relative h-[389px]">
             <img
-              src="src/assets/success-stories/bookshelf.png"
+              src={Bookshelf}
               alt="bookshelf"
               className="absolute w-full h-full z-[-1]"
             />
