@@ -24,7 +24,7 @@ function About() {
       <Values/>
       
       <div>
-        <TitleBanner>Meet Your Team</TitleBanner>
+        <TitleBanner id="meet-us">Meet Your Team</TitleBanner>
         <MeetYourTeam main_team={main_team}/>
       </div>
 
