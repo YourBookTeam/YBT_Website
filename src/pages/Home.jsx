@@ -5,7 +5,7 @@ import TeamPreview from "../components/home-page/TeamPreview";
 import { team } from "../data/team.js";
 
 function Home() {
-  const main_team = team.filter((person) => person.status == "main_display");
+  const main_team = team.filter((person) => person.status == "active");
 
   return (
     <>

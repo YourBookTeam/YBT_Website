@@ -11,7 +11,7 @@ function MobileHeroBanner() {
                 <p className="text-5xl text-center font-bold italic drop-shadow-hero">Your Book Team</p>
             </div>
 
-            <div className="bg-size-[100%_100%] w-120 sm:w-150 md:w-200" style={{ backgroundImage:`url(${white_brush_mark})`} }>
+            <div className="bg-size-[100%_100%] w-[90%] md:w-200" style={{ backgroundImage:`url(${white_brush_mark})`} }>
                 <div className="font-medium p-10 text-lg">
                     We turn aspiring writers into bestselling authors by focusing on
                     each story’s heart—turning a shaky first draft into a story that
