@@ -12,12 +12,12 @@ const QuickLinks = () => {
         <ul className="flex flex-col items-center space-y-2 text-xl font-bold md:font-normal">
             <li><Link to="/about" onClick={scrollToTop}> About Us</Link></li>
             <li><Link to="/services" onClick={scrollToTop}>Services</Link></li>
-            <li><Link to="/success-stories" onClick={scrollToTop}>Success Stories</Link></li>
+            <li><Link to="/#success-stories" onClick={scrollToTop}>Success Stories</Link></li>
             <li><Link to="/faq" onClick={scrollToTop}>FAQ</Link></li>
-            <li className="md:hidden" onClick={scrollToTop}><Link to="/terms">Terms</Link></li>
+            <li className="md:hidden"><Link to="/terms" onClick={scrollToTop}>Terms</Link></li>
         </ul>
 
-        <Link to="/terms" className="hidden md:flex mt-auto mb-5">Terms of Use and Policy</Link>
+        <Link to="/terms" onClick={scrollToTop} className="hidden md:flex mt-auto mb-5">Terms of Use and Policy</Link>
 
     </div>
     );
