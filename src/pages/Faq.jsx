@@ -40,6 +40,23 @@ const ArrowIcon = ({ className = "", color = "#BBA156" }) => (
   </svg>
 );
 
+const DownArrowIcon = ({ className = "", color = "#BBA156" }) => (
+  <svg 
+    className={className}
+    width="142" 
+    height="250" 
+    viewBox="0 0 142 250" 
+    fill="none" 
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path 
+      d="M0 184.214L71.23 250L141.641 176.459V0L71.23 62.5032L0 0V184.214Z" 
+      fill={color} 
+      fillOpacity="0.75"
+    />
+  </svg>
+);
+
 function Faq() {
   const faqData = [
     {
@@ -111,12 +128,51 @@ function Faq() {
           </div>
         </div>
         
-        <p className="text-lg text-gray-700 text-left max-w-4xl mx-auto">
+        <p className="text-lg text-gray-700 text-left max-w-4xl mx-auto mb-8 md:mb-0">
           At the heart of every successful book is a clear plan and a trusted guide. Here's how we take you from vision to published authority with care, clarity, and an unwavering focus on your unique brand and goals.
         </p>
         
-        {/* Arrow Icons */}
-        <div className="flex justify-center items-center mb-12">
+        {/* Arrow Icons - Tablet Horizontal Layout (Medium screens) */}
+        <div className="hidden md:flex lg:hidden justify-center items-center mb-12">
+          <div className="relative">
+            <ArrowIcon className="w-40 h-40 -mr-2 opacity-75" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
+              <img src={DiscoveryIcon} alt="Discovery" className="w-10 h-10 mb-1" />
+              <span className="text-xs font-semibold">Discovery</span>
+            </div>
+          </div>
+          <div className="relative">
+            <ArrowIcon className="w-40 h-40 -mr-2" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
+              <img src={ReviewIcon} alt="Review" className="w-10 h-10 mb-1" />
+              <span className="text-xs font-semibold">Review</span>
+            </div>
+          </div>
+          <div className="relative">
+            <ArrowIcon className="w-40 h-40 -mr-2 opacity-75" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
+              <img src={RecommendationIcon} alt="Recommendation" className="w-10 h-10 mb-1" />
+              <span className="text-xs font-semibold">Recommendation</span>
+            </div>
+          </div>
+          <div className="relative">
+            <ArrowIcon className="w-40 h-40 -mr-2" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
+              <img src={InitiationIcon} alt="Initiation" className="w-10 h-10 mb-1" />
+              <span className="text-xs font-semibold">Initiation</span>
+            </div>
+          </div>
+          <div className="relative">
+            <ArrowIcon className="w-40 h-40 -mr-2 opacity-75" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
+              <img src={CollaborationIcon} alt="Collaboration" className="w-10 h-10 mb-1" />
+              <span className="text-xs font-semibold">Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Arrow Icons - Desktop Layout (Large screens) */}
+        <div className="hidden lg:flex justify-center items-center mb-12">
           <div className="relative">
             <ArrowIcon className="w-60 h-60 -mr-5 opacity-75" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
@@ -150,6 +206,45 @@ function Faq() {
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <img src={CollaborationIcon} alt="Collaboration" className="w-15 h-15 mb-3" />
               <span className="text-m font-semibold">Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Arrow Icons - Mobile Layout */}
+        <div className="md:hidden flex flex-col items-center mb-12 space-y-6">
+          <div className="relative">
+            <DownArrowIcon className="w-48 h-60 opacity-75" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
+              <img src={DiscoveryIcon} alt="Discovery" className="w-14 h-14 mb-2" />
+              <span className="text-base font-semibold">Discovery</span>
+            </div>
+          </div>
+          <div className="relative">
+            <DownArrowIcon className="w-48 h-60" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
+              <img src={ReviewIcon} alt="Review" className="w-14 h-14 mb-2" />
+              <span className="text-base font-semibold">Review</span>
+            </div>
+          </div>
+          <div className="relative">
+            <DownArrowIcon className="w-48 h-60 opacity-75" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
+              <img src={RecommendationIcon} alt="Recommendation" className="w-14 h-14 mb-2" />
+              <span className="text-base font-semibold">Recommendation</span>
+            </div>
+          </div>
+          <div className="relative">
+            <DownArrowIcon className="w-48 h-60" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
+              <img src={InitiationIcon} alt="Initiation" className="w-14 h-14 mb-2" />
+              <span className="text-base font-semibold">Initiation</span>
+            </div>
+          </div>
+          <div className="relative">
+            <DownArrowIcon className="w-48 h-60 opacity-75" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
+              <img src={CollaborationIcon} alt="Collaboration" className="w-14 h-14 mb-2" />
+              <span className="text-base font-semibold">Collaboration</span>
             </div>
           </div>
         </div>
