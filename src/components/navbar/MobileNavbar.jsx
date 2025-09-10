@@ -74,7 +74,7 @@ function MobileNavbar() {
         }`}
       >
         <div className="pr-12">
-          <Logo className="fill-gold"></Logo>
+          <Logo className="fill-gold" onClick={ toggleOpen }></Logo>
         </div>
 
         <div className="relative">

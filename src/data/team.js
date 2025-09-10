@@ -15,6 +15,7 @@ export const team = [
     title_abbreviation: "CEO",
     quote: "An award-winning artist and peace activist, known for using her art to inspire social justice and LGBTQ+ rights. She is a grandchild of Jewish Holocaust survivors and draws inspiration from stories of survival and hope.",
     headshot: headshot_john,
+    link: "john-kiss",
 
     status: "active",
   },
@@ -26,6 +27,7 @@ export const team = [
     title_abbreviation: "CPO",
     quote: "The CEO’s right hand and a leader of leaders, Nermina guides growth strategies and sees projects through from start to finish. She combines marketing, editorial, strategy, and design to make things happen.",
     headshot: headshot_nermina,
+    link: "nermina-salkic",
 
     status: "active",
   },
@@ -37,6 +39,7 @@ export const team = [
     title_abbreviation: "CGO",
     quote: "With over 7 years of experience, having successfully completed 1500+ projects. He specializes in creative design solutions across various industries. Arfin is passionate about delivering high-quality, impactful visual content.",
     headshot: headshot_arfin,
+    link: "arfin-rabbi",
 
     status: "active",
   },
@@ -48,6 +51,7 @@ export const team = [
     title_abbreviation: "CDO",
     quote: "Expert at turning author ideas into clear, market-ready books. Skilled at building strong editorial teams and driving focused development. Known for strategic insight and delivering results that matter.",
     headshot: headshot_mark,
+    link: "mark-baltierra",
 
     status: "active",
   },
@@ -59,6 +63,7 @@ export const team = [
     title_abbreviation: "CSO",
     quote: "Played a pivotal role across multiple projects, expertly handling the formatting and uploading of books. His ability to navigate shifting platform requirements and manage multiple versions with precision has made him an essential part of bringing complex publishing workflows to life.",
     headshot: headshot_brian,
+    link: "brian-desta",
 
     status: "active",
   },
@@ -70,6 +75,7 @@ export const team = [
     title_abbreviation: "CHRO",
     quote: "With a focus on building effective teams, matching talent to the right roles, and creating an environment where people can grow and succeed. Developing people-focused strategies and fostering clear, open communication across the departments.",
     headshot: headshot_kim,
+    link: "kim-nwafor",
 
     status: "active",
   },
@@ -81,6 +87,7 @@ export const team = [
     title_abbreviation: "COO",
     quote: "The organizational force behind our seamless growth, Stacy keeps people, projects, and processes running like clockwork. From structuring workflows to managing resources, she’s the backbone that holds every project together.",
     headshot: headshot_stacy,
+    link: "stacy-hackenberg",
 
     status: "active",
   },
@@ -92,6 +99,7 @@ export const team = [
     title_abbreviation: "CMO",
     quote: "The powerhouse behind clients going viral—landing them on top podcasts, big stages, and in front of influencers who move markets.",
     headshot: headshot_saige,
+    link: "saige-santora",
 
     status: "active",
   },
