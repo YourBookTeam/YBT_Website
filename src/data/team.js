@@ -35,7 +35,7 @@ export const team = [
     name: "Arfin Rabbi",
     title: "Chief Graphics Officer",
     title_abbreviation: "CGO",
-    quote: "With over 7 years of experience, having successfully completed 1500+ projects. He specializes in creative design solutions across various industries. Arfin is passionate about delivering high-quality, impactful visual content",
+    quote: "With over 7 years of experience, having successfully completed 1500+ projects. He specializes in creative design solutions across various industries. Arfin is passionate about delivering high-quality, impactful visual content.",
     headshot: headshot_arfin,
 
     status: "main_display",
