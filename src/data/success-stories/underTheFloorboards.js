@@ -13,6 +13,12 @@ const underTheFloorboards = {
   backCoverImg: under_the_floorboards_back,
   author: "John Kiss",
   authorImg: john_kiss,
+  summary: [
+    "1943. WWII wreaks havoc upon Poland. The Nazis send the entire population of the Grodno ghetto to the trains. Except for those who managed to escape.",
+    "A boy flees through dense forests, seeking survival. As Nazi patrols close in, the scent of his fear draws the vicious soldier dogs near. He must find a place to hide.",
+    "In his desperation, he reaches a cabin at the forest's edge. Inside, a Christian woman catches sight of him through the window and immediately understands. She faces an agonizing choice: should she open the door and risk her family's safety to save this boy, or turn him away to protect her own?",
+    "In war, acts of kindness become acts of defiance."
+  ],
   milestones: [
     "Transformed flat self-published manuscript into a vivid, emotionally rich novel",
     "Now leading a YA literary franchise with a YA adaptation of Under the Floorboards",
