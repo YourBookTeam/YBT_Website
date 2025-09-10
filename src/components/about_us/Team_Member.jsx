@@ -1,6 +1,6 @@
-function Team_Member({ person }) {
+function Team_Member({ person, id }) {
   return (
-    <div className="
+    <div id={id} className="
         items-center flex
         flex-col lg:flex-row
         w-100 sm:w-160 lg:w-250 xl:w-300
