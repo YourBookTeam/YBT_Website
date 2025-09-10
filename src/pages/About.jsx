@@ -7,7 +7,7 @@ import { team } from "../data/team.js";
 
 
 function About() {
-  const main_team = team.filter((person)=> person.status == "main_display");
+  const main_team = team.filter((person)=> person.status == "active");
 
   return (
     <div className="flex flex-col items-center justify-center gap-10">

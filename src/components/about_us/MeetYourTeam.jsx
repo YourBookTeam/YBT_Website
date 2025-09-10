@@ -10,7 +10,7 @@ function MeetYourTeam({ main_team }) {
             <div className="text-gray text-xl">No Team Members To Show At The Moment</div>
         ) :
         main_team.map((person) => (
-          <Team_Member person={person}/>
+          <Team_Member key={person.id} person={person}/>
         ))}
     </div>
   );
