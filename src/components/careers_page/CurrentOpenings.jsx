@@ -12,7 +12,7 @@ function CurrentOpenings({ displayedJobs }) {
               <img src={position.image} className="w-[350px] h-[350px] object-cover rounded-xl shadow-lg"></img>
               <div className="flex flex-col justify-center gap-4 w-200">
                   <div className="font-bold text-xl">{position.title}</div>
-                  <div className="text-md leading-7">{position.description}</div>
+                  <div className="font-secondary text-md leading-7">{position.description}</div>
                   <Button to={`/position/${position.id}`} className="self-start px-4!">
                   <div className="font-bold">APPLY</div>
                   <FaArrowRight className="w-10 h-5"/>

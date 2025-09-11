@@ -73,7 +73,7 @@ function Careers() {
 
       <div className="flex flex-col justify-center items-center text-center md:px-10 lg:px-30 xl:px-100 py-10 gap-2">
         <div className="font-bold text-xl">Internships</div>
-        <div className="font-light">
+        <div className="font-light font-secondary">
           At YourBookTeam, interns don’t just observe — they contribute. 
           This is your chance to gain hands-on experience, build your portfolio, 
           and be part of a creative, collaborative team.
