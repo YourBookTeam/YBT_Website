@@ -15,7 +15,7 @@ function Values() {
 
         <div className="
           grid grid-cols-3 font-secondary font-semibold 
-          gap-6 sm:gap-15 md:gap-25 lg:gap-40 2xl:gap-50
+          gap-0 sm:gap-15 md:gap-25 lg:gap-40 2xl:gap-50
           text-lg sm:text-xl
         ">
             <div className="flex flex-col items-center">
