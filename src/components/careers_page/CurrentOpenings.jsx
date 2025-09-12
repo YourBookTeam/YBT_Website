@@ -3,19 +3,28 @@ import { FaArrowRight } from "react-icons/fa";
 
 function CurrentOpenings({ displayedJobs }) {
   return (
-    <div className="flex flex-col items-center gap-16 md:px-30 lg:px-50 xl:px-150 py-20">
+    <div className="flex flex-col items-center gap-16 py-20 px-10">
         {displayedJobs.length == 0 ? (
             <div className="text-gray text-xl">No open positions at the moment</div>
         ) :
         displayedJobs.map((position) => (
-            <div className="flex items-center gap-8" key={position.id}>
-              <img src={position.image} className="w-[350px] h-[350px] object-cover rounded-xl shadow-lg"></img>
-              <div className="flex flex-col justify-center gap-4 w-200">
-                  <div className="font-bold text-xl">{position.title}</div>
-                  <div className="font-secondary text-md leading-7">{position.description}</div>
-                  <Button to={`/position/${position.id}`} className="self-start px-4!">
-                  <div className="font-bold">APPLY</div>
-                  <FaArrowRight className="w-10 h-5"/>
+            <div className="flex flex-col lg:flex-row items-center gap-8 justify-center" key={position.id}>
+              <img src={position.image} 
+                className="
+                  object-cover rounded-xl shadow-lg
+                  w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]
+                ">
+              </img>
+              <div className="
+                flex flex-col justify-center gap-4
+                items-center lg:items-start
+                w-[100%] lg:w-[60%] xl:w-[50%] 2xl:w-[30%]
+              ">
+                  <div className="font-bold text-2xl text-center">{position.title}</div>
+                  <div className="text-center lg:text-start font-secondary text-md leading-7">{position.description}</div>
+                  <Button to={`/position/${position.id}`} className="self-center lg:self-start px-4!">
+                    <div className="font-bold">APPLY</div>
+                    <FaArrowRight className="w-10 h-5"/>
                   </Button>
               </div>
             </div>
