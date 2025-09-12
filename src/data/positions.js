@@ -882,8 +882,9 @@ export const positions = [
     ],
     requirements: [
       "Experience in informal crafting of websites (personal projects, blogs, small business sites, etc.).",
-      "Platform irrelevant – experience with any website builder, CMS, or coding framework is welcome.",
-      "Familiarity with content management systems (e.g., WordPress, Squarespace, Wix) is a plus.",
+      "Experience with React, HTML, CSS, JS, Git",
+      "Experience or willingness to learn UI/UX design and Figma",
+      "Familiarity with website builders and content management systems (e.g., WordPress, Squarespace, Wix) is a plus.",
       "Strong organizational skills and the ability to manage multiple tasks.",
       "Passion for technology, web development, and digital media.",
       "Creative thinking and problem-solving abilities.",
