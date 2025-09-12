@@ -7,7 +7,7 @@ function Pagination({ totalPages, currentPage, handlePrevious, handleNext, handl
             <FaArrowLeft className="text-white w-5 h-5 text-center"/>
         </button>
         {Array.from({length: totalPages}, (value, index) => index+1).map((num) => (
-            <button key={num} className={`cursor-pointer ${currentPage == num ? "underline" : ""}`} onClick={() => handlePageClick(num)}>
+            <button key={num} className={`cursor-pointer font-secondary ${currentPage == num ? "underline" : ""}`} onClick={() => handlePageClick(num)}>
                 {num}
             </button>
         ))}
