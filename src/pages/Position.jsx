@@ -11,7 +11,7 @@ function Position() {
     const [position, setPosition] = useState(null);
 
     useEffect(() => {
-      const selectedPosition = positions.find(position => position.id === parseInt(id));
+      const selectedPosition = positions.find(position => position.id === id);
         if (selectedPosition){
         setPosition(selectedPosition)
       }else{
@@ -32,7 +32,7 @@ function Position() {
             <section className="w-full flex flex-col items-center md:flex-row md:justify-between md:w-170 md:px-15 lg:w-240 m-1">
 
               <h1 className='position_name text-md mb-5 md:text-2xl lg:text-2xl font-semibold content-end'>{position.title}</h1>
-              <Button to="https://books.click/internship" className={"cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-30 rounded"}>Apply</Button>
+              <Button to={position.link} className={"cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-30 rounded"}>Apply</Button>
             </section>
             <hr className=" border border-black border-solid my-5"/>
           </div>

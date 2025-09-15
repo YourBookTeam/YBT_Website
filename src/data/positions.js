@@ -23,7 +23,7 @@ import image_video from '../assets/position_images/position_video.png';
 
 export const positions = [
   {
-    id: 1,
+    id: "textual_virtual_assistant_intern",
     title: "Textual Virtual Assistant Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -70,7 +70,7 @@ export const positions = [
   },
 
   {
-    id: 2,
+    id: "kickstarter_intern",
     title: "Kickstarter Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
