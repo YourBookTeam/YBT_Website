@@ -70,8 +70,7 @@ function Position() {
             </ol>
           </section>
           <section className='position_Conclusion w-80 md:w-170 lg:w-240'>
-            <h2 className="font-bold mb-2">Conclusion:</h2>
-            <p className='mb-3 text-justify leading-relaxed ml-3'>{position.conclusion}</p>
+            <p className='mb-3 text-justify leading-relaxed '>{position.conclusion}</p>
           </section>
         </section>
           <section className='apply_btn flex justify-center py-6'>
