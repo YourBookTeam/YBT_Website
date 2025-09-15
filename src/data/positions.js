@@ -115,7 +115,7 @@ export const positions = [
   },
 
   {
-    id: 3,
+    id: "clickup_manager_intern",
     title: "ClickUp Manager Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -160,7 +160,7 @@ export const positions = [
   },
 
   {
-    id: 4,
+    id: "research_intern",
     title: "Research Intern – Wikipedia Biographies",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -206,7 +206,7 @@ export const positions = [
   },
 
   {
-    id: 5,
+    id: "cmo_assistant_intern",
     title: "Chief Marketing Officer (CMO) Assistant Intern",
     duration: "6-Month Remote Internship",
     type: "Unpaid",
@@ -247,7 +247,7 @@ export const positions = [
   },
 
   {
-    id: 6,
+    id: "content_creator_intern",
     title: "Content Creator Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -297,7 +297,7 @@ export const positions = [
   },
 
   {
-    id: 7,
+    id: "editorial_manager_intern",
     title: "Editorial Manager Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -345,7 +345,7 @@ export const positions = [
   },
 
   {
-    id: 8,
+    id: "ai_assisted_writing_intern",
     title: "AI-Assisted Writing Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -391,7 +391,7 @@ export const positions = [
   },
 
   {
-    id: 9,
+    id: "historical_research_intern",
     title: "Historical Research Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -431,7 +431,7 @@ export const positions = [
   },
 
   {
-    id: 10,
+    id: "editorial_intern",
     title: "Editorial Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -477,7 +477,7 @@ export const positions = [
   },
 
   {
-    id: 11,
+    id: "graphic_design_intern",
     title: "Graphic Design Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -517,7 +517,7 @@ export const positions = [
   },
 
   {
-    id: 12,
+    id: "client_acquisition_intern",
     title: "Client Acquisition Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -560,7 +560,7 @@ export const positions = [
   },
 
   {
-    id: 13,
+    id: "strategy_operations_intern",
     title: "Strategy & Operations Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -600,7 +600,7 @@ export const positions = [
   },
 
   {
-    id: 14,
+    id: "social_media_marketing_intern",
     title: "Social Media Marketing Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -639,7 +639,7 @@ export const positions = [
   },
 
   {
-    id: 15,
+    id: "digital_marketing_specialist_intern",
     title: "Digital Marketing Specialist Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -678,7 +678,7 @@ export const positions = [
   },
 
   {
-    id: 16,
+    id: "funding_programs_intern",
     title: "Funding Programs Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -715,7 +715,7 @@ export const positions = [
   },
 
   {
-    id: 17,
+    id: "book_formatting_intern",
     title: "Book Formatting Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -753,7 +753,7 @@ export const positions = [
   },
 
   {
-    id: 18,
+    id: "publishing_operations_manager_intern",
     title: "Publishing Operations Manager Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -793,7 +793,7 @@ export const positions = [
   },
 
   {
-    id: 19,
+    id: "journalism_intern",
     title: "Journalism Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -828,7 +828,7 @@ export const positions = [
   },
 
   {
-    id: 20,
+    id: "oped_writing_assistant_intern",
     title: "Op-Ed Writing Assistant Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -866,7 +866,7 @@ export const positions = [
   },
 
   {
-    id: 21,
+    id: "website_building_intern",
     title: "Website Building Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -908,7 +908,7 @@ export const positions = [
   },
 
   {
-    id: 22,
+    id: "interviewer_presenter_intern",
     title: "Interviewer Presenter Intern",
     duration: "6-Month Remote Internship (2 hours daily)",
     type: "Unpaid",
@@ -945,7 +945,7 @@ export const positions = [
   },
 
   {
-    id: 23,
+    id: "calendaring_intern",
     title: "Calendaring Intern",
     duration: "6-month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -982,7 +982,7 @@ export const positions = [
   },
 
   {
-    id: 24,
+    id: "video_editing_intern",
     title: "Video Editing Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -1019,7 +1019,7 @@ export const positions = [
   },
 
   {
-    id: 25,
+    id: "newsletter_assistant_intern",
     title: "Newsletter Assistant Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid with potential for paid opportunities based on performance",
@@ -1055,7 +1055,7 @@ export const positions = [
   },
 
   {
-    id: 26,
+    id: "podcast_editor_intern",
     title: "Podcast Editor Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -1091,7 +1091,7 @@ export const positions = [
   },
 
   {
-    id: 27,
+    id: "tech_intern",
     title: "Tech Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -1129,7 +1129,7 @@ export const positions = [
   },
 
   {
-    id: 28,
+    id: "admin_intern",
     title: "Admin Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -1166,7 +1166,7 @@ export const positions = [
   },
 
   {
-    id: 29,
+    id: "amazon_marketing_intern",
     title: "Amazon Marketing Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -1203,7 +1203,7 @@ export const positions = [
   },
 
   {
-    id: 30,
+    id: "quickbooks_accounting_intern",
     title: "QuickBooks/Accounting Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
@@ -1243,7 +1243,7 @@ export const positions = [
   },
 
   {
-    id: 31,
+    id: "generating_audio_production_intern",
     title: "Generating Audiobook Production Intern",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
