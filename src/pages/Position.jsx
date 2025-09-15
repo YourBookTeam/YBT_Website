@@ -40,10 +40,18 @@ function Position() {
         <section className='positon_details flex-col justify-items-center px-17 my-3.5 text-left'>
            <section className='position_Description w-80 md:w-170 lg:w-240'>
             <h2 className="font-bold mb-2">Description:</h2>
-            <p className='mb-3 text-justify leading-relaxed'>{position.description}</p>
-            <h2 className="font-bold inline-block mb-3">Location:</h2><p className='inline-block ml-1.5'>{position.location}</p><br />
-            <h2 className="font-bold inline-block mb-3">Duration:</h2><p className='inline-block ml-1.5'>{position.duration}</p><br />
-            <h2 className="font-bold inline-block">Compensation:</h2><p className='inline-block ml-1.5'>{position.compensation}</p><br />
+            <p className='text-justify leading-relaxed ml-3 mb-6'>{position.description}</p>
+            <h2 className="font-bold inline-block mb-1">Availability:</h2><p className='inline-block ml-1.5 mb-6'>{position.availability}</p><br />
+            <h2 className="font-bold inline-block mb-1">Duration:</h2><p className='inline-block ml-1.5 mb-6'>{position.duration}</p><br />
+            <h2 className="font-bold inline-block">Compensation:</h2><p className='inline-block ml-1.5 mb-6'>{position.type}</p><br />
+          </section>
+          <section className='position_requirements my-10 w-80 md:w-170 lg:w-240'>
+            <h2 className="font-bold mb-2">Requirements:</h2>
+            <ol className="list-decimal ml-5">
+                {(position?.requirements || []).map((item, index) => (
+                  <li key={item.id || index} className="my-4">{item.value || item}</li>
+                ))}
+            </ol>
           </section>
           <section className='position_responsibility my-10 w-80 md:w-170 lg:w-240'>
             <h2 className="font-bold mb-2">Key Responsibilities:</h2>
@@ -53,14 +61,6 @@ function Position() {
               ))}
             </ol>
           </section>
-          <section className='position_qualification my-10 w-80 md:w-170 lg:w-240'>
-            <h2 className="font-bold mb-2">Qualifications:</h2>
-            <ol className="list-decimal ml-5">
-                {(position?.qualifications || []).map((item, index) => (
-                  <li key={item.id || index} className="my-4">{item.value || item}</li>
-                ))}
-            </ol>
-          </section>
           <section className='position_Benefits my-10 w-80 md:w-170 lg:w-240'>
             <h2 className="font-bold  mb-2">Benefits:</h2>
             <ol className="list-decimal ml-5">
@@ -68,6 +68,10 @@ function Position() {
                   <li key={item.id || index} className="my-4">{item.value || item}</li>
                 ))}
             </ol>
+          </section>
+          <section className='position_Conclusion w-80 md:w-170 lg:w-240'>
+            <h2 className="font-bold mb-2">Conclusion:</h2>
+            <p className='mb-3 text-justify leading-relaxed ml-3'>{position.conclusion}</p>
           </section>
         </section>
           <section className='apply_btn flex justify-center py-6'>
