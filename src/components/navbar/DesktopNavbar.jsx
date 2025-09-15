@@ -14,6 +14,7 @@ function DesktopNavbar() {
             <Link to="/services">Services</Link>
             <Link to="/#success-stories">Success Stories</Link>
             <Link to="/faq">FAQ</Link>
+            <Link to="/careers">Careers</Link>
         </div>
 
       <DiscoverButton/>
