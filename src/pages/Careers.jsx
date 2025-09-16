@@ -71,9 +71,9 @@ function Careers() {
     <div> 
       <TitleBanner>Careers</TitleBanner>
 
-      <div className="flex flex-col justify-center items-center text-center px-5 md:px-10 lg:px-30 xl:px-50 2xl:px-100 pt-10 pb-20 gap-2">
-        <div className="font-bold text-2xl">Internships</div>
-        <div className="font-light font-secondary">
+      <div className="flex flex-col justify-center items-center text-center md:px-10 lg:px-30 xl:px-100 py-10 gap-2">
+        <div className="font-bold text-xl">Internships</div>
+        <div className="font-light">
           At YourBookTeam, interns don’t just observe — they contribute. 
           This is your chance to gain hands-on experience, build your portfolio, 
           and be part of a creative, collaborative team.
@@ -82,8 +82,8 @@ function Careers() {
 
       <Interns displayedInterns={displayedInterns}/>
 
-      <div className="flex flex-col justify-center items-center gap-10">
-        <div className="font-bold text-4xl" ref={sectionRef}>Current Openings</div>
+      <div className="flex flex-col justify-center items-center gap-4">
+        <div className="font-bold text-xl" ref={sectionRef}>Current Openings</div>
         <SearchBar query={query} handleChange={handleChange} handleSubmit={handleSubmit}/>
       </div>
 
