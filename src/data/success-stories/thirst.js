@@ -63,6 +63,34 @@ const thirst = {
       name: "Tracey R Scalia",
       text: `“A poignant, quick read that sheds light on the psychology behind addiction and offers hope to addicts and their loved ones.”`,
     },
+    {
+      name: "Capdog",
+      text: `“An unflinching coming-of-age story of survival, resilience, and the redemptive power of love and faith.”`,
+    },
+    {
+      name: "Puzzle Princess",
+      text: `“Raw and personal, this memoir tells the truth with unfiltered honesty.”`,
+    },
+    {
+      name: "Kyle Robertso",
+      text: `“An honest, raw story showing humility and strength in the daily battle of addiction.”`,
+    },
+    {
+      name: "MikeTheMillenial",
+      text: `“Reads like a raw letter from someone who's been through hell.”`,
+    },
+    {
+      name: "mthomas1949",
+      text: `“Should be required reading for parents: a real, unpolished look at addiction’s fast, ugly spiral.”`,
+    },
+    {
+      name: "Tanna23",
+      text: `“Dark, honest, and impossible to look away from.”`,
+    },
+    {
+      name: "T Wainwright",
+      text: `“Comforting and relatable for anyone on the path to sobriety.  An easy read you won’t put down.”`,
+    },
   ],
   moreSuccessStories: [
     {
