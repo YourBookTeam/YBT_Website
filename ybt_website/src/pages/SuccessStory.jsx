@@ -161,7 +161,7 @@ function SuccessStory() {
               </h2>
             </div>
             {/* Quotes */}
-            <Carousel className="flex flex-col sm:gap-24">
+            <Carousel key={pathname} className="flex flex-col sm:gap-24">
               <CarouselContent className="flex justify-around">
                 {content.reviews.map((review, index) => (
                   <CarouselItem
@@ -172,12 +172,12 @@ function SuccessStory() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <div className="flex justify-center items-center sm:gap-6">
-                <CarouselPreviousWrapper className="relative">
+              <div className="flex justify-center items-start sm:gap-6">
+                <CarouselPreviousWrapper className="py-0.75">
                   <SvgArrow className="scale-x-50 sm:scale-x-100" />
                 </CarouselPreviousWrapper>
                 <CarouselDots />
-                <CarouselNextWrapper>
+                <CarouselNextWrapper className="py-0.75">
                   <SvgArrow className="rotate-180 scale-x-50 sm:scale-x-100" />
                 </CarouselNextWrapper>
               </div>

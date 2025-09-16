@@ -197,22 +197,40 @@ function CarouselNextWrapper({ className, children, ...props }) {
 function CarouselDots({ className, ...props }) {
   const { selectedIndex, scrollTo, api } = useCarousel();
 
+  const dotRefs = React.useRef([]);
+  React.useEffect(() => {
+    if (!dotRefs.current[selectedIndex]) return;
+
+    setTimeout(() => {
+      dotRefs.current[selectedIndex].scrollIntoView({
+        container: "nearest",
+        behavior: "smooth",
+        block: "nearest",
+        inline: "nearest",
+      });
+    }, 100);
+  }, [selectedIndex]);
+
   return (
     <div
       role="tablist"
-      className={cn("flex items-center justify-center gap-2", className)}
+      className={cn(
+        "flex items-center gap-2 max-w-[40%] overflow-x-auto",
+        className
+      )}
       {...props}
     >
       {api?.scrollSnapList().map((_, index) => (
         <div
           key={index}
+          ref={(el) => (dotRefs.current[index] = el)}
           role="tab"
           data-slot="carousel-dot"
           aria-selected={index === selectedIndex}
           aria-controls="carousel-item"
           aria-label={`Slide ${index + 1}`}
           className={cn(
-            "size-5 rounded-full",
+            "size-5 rounded-full flex-shrink-0",
             index === selectedIndex ? "bg-gray" : "bg-light-gray cursor-pointer"
           )}
           onClick={() => scrollTo(index)}
