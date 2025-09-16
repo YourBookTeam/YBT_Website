@@ -31,39 +31,25 @@ export const positions = [
     description: "Are you an exceptional communicator with a sharp eye for detail and a talent for keeping things organized? Join us as a Texting Virtual Assistant (TVA) and support our CEO in managing executive communications, scheduling, and project coordination. This is a unique opportunity to gain real-world experience at the heart of a fast-paced, mission-driven environment.",
     responsibilities: 
     [
-      "Serve as the main point of contact for messages, texts, and emails on behalf of the CEO.", 
-      "Draft, edit, and send high-priority correspondence with professionalism and accuracy.", 
-      "Coordinate meetings, events, and appointments across multiple time zones.", 
-      "Optimize the CEO’s calendar by balancing meetings, focus time, and travel.",
-      "Prepare meeting agendas and relevant documents in advance.",
-      "Attend meetings, take notes, and ensure follow-through on action items",
-      "Handle sensitive information with discretion and professionalism.",
-      "Conduct basic Internet research and summarize key findings into actionable insights.",
-      "Jump in to assist wherever needed to ensure smooth day-to-day operations."
+      "Research and identify podcast opportunities. Assist in pitching our experts as guests on relevant podcasts to expand our reach and influence.", 
+      "Contribute to our online presence by creating and editing web-based PR content, including maintaining and updating our Wikipedia page.", 
+      "Support the outreach team in identifying and establishing relationships with media contacts, influencers, and other key stakeholders. Assist in managing outreach campaigns to ensure maximum exposure.", 
+      "Research opportunities for our leaders to speak at high-profile events, including TEDx talks, conferences, and other keynote engagements. Assist in preparing presentation materials and coordinating logistics.",
     ],
-    requirements: 
+    qualifications: 
     [
-      "Excellent written communication skills with attention to tone and detail.", 
-      "Strong organizational abilities and comfort juggling multiple priorities.", 
-      "Emotional intelligence, discretion, and the ability to navigate sensitive conversations.",
-      "Proactive, self-motivated, and able to anticipate needs.",
-      "Tech-savvy and comfortable with Google Workspace, messaging platforms, and calendar tools."
+      "Currently pursuing or recently completed a degree in Public Relations, Communications, Marketing, or a related field", 
+      "Strong written and verbal communication skills", 
+      "Proactive attitude and willingness to learn",
     ],
     benefits: 
     [
-      "Gain direct experience working with the CEO in a dynamic, purpose-driven organization.", 
-      "Learn project coordination, executive communication, and high-level operations.", 
-      "Opportunities for professional growth and mentorship.",
-      "Work in a supportive and structured team environment.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: 
-    [
-      "If you're ready to step into a trusted support role and make an impact behind the scenes, we’d love to hear from you!",
-      "Be part of the engine that keeps our creative and executive work moving forward!"
+      "Hands-on experience in various aspects of public relations", 
+      "Mentorship and guidance from experienced PR professionals", 
+      "A dynamic and supportive work environment"
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -76,39 +62,28 @@ export const positions = [
     description: "Are you passionate about crowdfunding, creative campaigns, and community engagement? Do you enjoy planning, organizing, and supporting projects that bring big ideas to life? We are looking for enthusiastic and detail-oriented interns to join our team as Kickstarter Interns. This is a unique opportunity to gain hands-on experience in crowdfunding and help launch exciting publishing projects.",
     responsibilities: 
     [
-      "Support the planning and execution of Kickstarter campaigns for book projects.",
-      "Assist with campaign page development, reward structuring, and backer communication.",
-      "Research successful crowdfunding strategies and best practices.",
-      "Help coordinate outreach and community-building efforts to engage potential backers.",
-      "Track campaign performance and help optimize strategies in real-time.",
-      "Contribute to post-campaign activities, including fulfillment planning and reporting.",
-      "Provide administrative support and maintain detailed campaign records."
+      "Conduct interviews with potential candidates to assess their fit for various roles.", 
+      "Present job opportunities and company culture to candidates during the recruitment process.", 
+      "Collaborate with hiring managers to understand role requirements and ensure alignment in candidate selection.", 
+      "Assist in managing and organizing recruitment events, both virtual and in-person.",
+      "Provide feedback on candidate performance and recommend next steps in the hiring process."
     ],
-    requirements: 
+    qualifications: 
     [
-      "Strong organizational skills and attention to detail.",
-      "Interest in crowdfunding, publishing, marketing, or project management.",
-      "Excellent communication and collaboration abilities.",
-      "Proficiency in Google Suite; familiarity with Kickstarter is a plus.",
-      "Ability to manage tasks independently and meet project deadlines."
+      "Strong verbal and written communication skills.", 
+      "Confidence in presenting and engaging with diverse audiences.", 
+      "Ability to assess candidate suitability based on role-specific criteria.",
+      "Adaptability and a willingness to learn in a fast-paced environment.", 
+      "Passion for recruitment and a desire to build a career in talent acquisition."
     ],
     benefits: 
     [
-      "Gain practical experience in crowdfunding and campaign management.",
-      "Learn how to build, launch, and support a Kickstarter from start to finish.",
-      "Work closely with publishing and marketing professionals on high-impact projects.",
-      "Flexible remote work with real responsibilities and learning opportunities.",
-      "Free access to MasterClass courses throughout the internship.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    
-    conclusion: 
-    [
-      "If you’re excited to contribute to creative campaigns and gain hands-on Kickstarter experience, we’d love to hear from you!",
-      "Join us in bringing new stories to life through crowdfunding!"
+      "Gain practical experience in recruitment and talent acquisition.", 
+      "Opportunities for professional growth and networking within the industry.", 
+      "Work in a collaborative team environment focused on professional development."
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -121,38 +96,28 @@ export const positions = [
     description: "Are you highly organized, detail-oriented, and passionate about workflow optimization? Do you enjoy streamlining processes and ensuring smooth project management? We are looking for a proactive and tech-savvy intern to join our team as a ClickUp Manager Intern. This is a fantastic opportunity to gain hands-on experience in project management while working in a collaborative remote environment.",
     responsibilities: 
     [
-      "Manage and optimize ClickUp workflows, task assignments, and team collaboration.",
-      "Serve as the main point of contact for ClickUp-related queries, troubleshooting, and updates.",
-      "Attend and take detailed notes during virtual meetings (via Google Meet) and ensure action items are documented in ClickUp.",
-      "Coordinate team communication via Slack, ensuring clarity and timely follow-ups.",
-      "Assist in setting up automation within ClickUp to enhance efficiency.",
-      "Monitor project deadlines and help keep the team accountable for task completion.",
-      "Continuously improve ClickUp structures based on team feedback and evolving needs."
+      "Assist in the setup, management, and optimization of pay-per-click (PPC) campaigns across Google, Amazon, and Facebook ads.", 
+      "Monitor and analyze ad performance, providing insights and recommendations for improvement.", 
+      "Conduct keyword research and competitor analysis to enhance campaign targeting.", 
+      "Collaborate with the marketing team to develop and implement strategies that drive traffic and conversions.",
+      "Support the creation of ad copy, graphics, and landing pages to align with campaign objectives."
     ],
-    requirements: 
+    qualifications: 
     [
-      "Strong familiarity with ClickUp or a willingness to quickly learn and master the platform.",
-      "Excellent organizational and time-management skills.",
-      "Strong attention to detail, especially in note-taking and documentation.",
-      "Effective communication skills and ability to coordinate across remote teams.",
-      "Proficiency in Slack and Google Meet for team communication and collaboration.",
-      "Basic understanding of automation tools and workflow optimization is a plus.",
-      "Self-motivated and proactive in identifying ways to improve efficiency."
+      "Familiarity with pay-per-click (PPC) advertising and digital marketing platforms.", 
+      "Strong analytical skills and attention to detail.", 
+      "Ability to work independently and manage multiple tasks in a fast-paced environment.",
+      "Excellent communication skills and a willingness to learn and adapt.", 
+      "A passion for online marketing and a desire to build a career in digital advertising."
     ],
     benefits: 
     [
-      "Gain hands-on experience in project management and workflow optimization.",
-      "Develop skills in team coordination and remote communication.",
-      "Work in a flexible, remote environment with a dynamic team.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: 
-    [
-      "If you're excited about the opportunity to contribute to our team and enhance your project management skills, we’d love to hear from you!",
-      "Join us in shaping a more efficient and organized future through ClickUp mastery!"
+      "Gain practical experience in managing and optimizing PPC campaigns across multiple platforms.", 
+      "Opportunities for professional growth and networking within the digital marketing industry.", 
+      "Work in a collaborative team environment with a focus on creativity and innovation."
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -165,40 +130,29 @@ export const positions = [
     description: "Are you passionate about storytelling, digital history, and increasing representation on global platforms? Join our dynamic publishing and research initiative focused on creating and improving high-quality Wikipedia biographies, particularly for underrepresented figures in recovery, faith, storytelling, and advocacy. This is an excellent opportunity to build hands-on research, writing, and Wikipedia editing skills in a collaborative remote environment.",
     responsibilities: 
     [
-      "Research public figures such as authors, speakers, and advocates to determine eligibility for Wikipedia entries.",
-      "Draft, expand, and improve biographical Wikipedia articles with a focus on accuracy, neutrality, and notability.",
-      "Format citations using Wikipedia’s standards (e.g., {{Cite news}}, {{Cite web}}) to ensure verifiability and credibility.",
-      "Verify sources using reliable secondary materials to meet Wikipedia’s guidelines.",
-      "Monitor and update existing articles to maintain accuracy and balance.",
-      "Collaborate with senior editors for article reviews, approvals, and quality checks.",
-      "Maintain a shared tracking system (Google Docs/Sheets) to log updates, sources, and article progress."
+      "Assist in developing and executing social media strategies across platforms like Instagram, Facebook, Twitter, and LinkedIn.", 
+      "Create and schedule engaging content, including posts, stories, and videos, that align with the brand’s voice and objectives.", 
+      "Monitor social media channels for trends, insights, and opportunities to enhance engagement.", 
+      "Engage with followers by responding to comments, messages, and interactions in a timely and professional manner.",
+      "Analyze social media performance metrics and provide recommendations for improvement.",
+      "Collaborate with the marketing team to align social media efforts with overall marketing campaigns."
     ],
-    requirements: 
+    qualifications: 
     [
-      "Strong research and writing skills, with excellent attention to detail.",
-      "Familiarity with Wikipedia editing or willingness to quickly learn the platform’s guidelines.",
-      "Comfortable working independently in a remote, self-managed environment.",
-      "Basic understanding of source reliability, citations, and information validation.",
-      "Interest in digital history, advocacy, storytelling, or expanding open knowledge resources.",
-      "Experience with citation management tools (such as Zotero) is a plus.",
-      "Background in journalism, history, communications, library science, or a related field is preferred but not required."
+      "Understanding of major social media platforms (Instagram, Facebook, Twitter, LinkedIn).", 
+      "Excellent written communication skills and a creative mindset.", 
+      "Ability to work independently and manage multiple tasks in a fast-paced environment.",
+      "A passion for social media and staying updated on the latest trends and best practices.", 
+      "Basic graphic design skills or familiarity with tools like Canva is a plus."
     ],
     benefits: 
     [
-      "Gain hands-on experience contributing to Wikipedia, the world’s largest open-source encyclopedia.",
-      "Develop research, writing, and citation management skills.",
-      "Build a portfolio of published Wikipedia articles under your user handle.",
-      "Receive direct mentorship, editorial feedback, and training from experienced team members.",
-      "Earn a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    
-    conclusion: 
-    [
-      "If you’re excited about contributing to open knowledge and elevating underrepresented stories, we’d love to hear from you!",
-      "Join us in shaping the digital record and making history more inclusive!"
+      "Gain practical experience in managing and growing social media platforms.", 
+      "Opportunities for professional growth and networking within the digital marketing industry.", 
+      "Work in a collaborative team environment with a focus on creativity and innovation."
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -211,34 +165,29 @@ export const positions = [
     description: "Are you passionate about storytelling, digital history, and increasing representation on global platforms? Join our dynamic publishing and research initiative focused on creating and improving high-quality Wikipedia biographies, particularly for underrepresented figures in recovery, faith, storytelling, and advocacy. This is an excellent opportunity to build hands-on research, writing, and Wikipedia editing skills in a collaborative remote environment.",
     responsibilities: 
     [
-      "Meeting Support: Attend internal meetings, take detailed notes, and document tasks assigned to participants.",
-      "To-Do List Management: Track action items from meetings, WhatsApp messages, Slack, and ongoing projects.",
-      "Progress Tracking: Monitor weekly progress of assigned tasks and follow up with team members.",
-      "CMO Support: Write down and organize all tasks requested by the CMO, ensuring deadlines are met.",
-      "Event & Webinar Research: Identify and sign up the CMO for relevant industry events.",
-      "Presentation Assistance: Occasionally create slides and reports as needed.",
+      "Lead and manage cross-functional teams to achieve project objectives and company targets.", 
+      "Assist in the development and implementation of business strategies to improve overall company performance.", 
+      "Facilitate effective communication within the team and between departments to ensure alignment and collaboration.", 
+      "Participate in decision-making processes, providing insights and recommendations based on data and analysis.",
+      "Support senior management in daily operations and special projects as needed.",
     ],
-    requirements: 
+    qualifications: 
     [
-      "Fluency in English (written & spoken).",
-      "High school diploma or equivalent.",
-      "Strong adaptability and ability to learn quickly.",
-      "Basic knowledge of Google Docs, Google Meet, Slack, and similar tools",
-      "Highly organized, detail-oriented, and proactive.",
-      "No prior experience required—just a willingness to learn and contribute!",
+      "Strong leadership skills with the ability to inspire and motivate teams.", 
+      "Excellent communication skills, both written and verbal, with a focus on clarity and effectiveness.", 
+      "Ability to manage multiple projects simultaneously and work well under pressure.",
+      "Strategic thinking with a problem-solving mindset.", 
+      "A proactive attitude with a willingness to take initiative and drive results."
     ],
     benefits: 
     [
-      "Experience Certificate & Recommendation Letter",
-      "Access to a MasterClass Subscription",
-      "Networking & Learning Opportunities in Publishing & Marketing",
-    ],
-    conclusion: 
-    [
-      "This unpaid internship offers hands-on experience in high-level decision-making and executive operations.",
+      "Gain hands-on experience in leadership and team management.", 
+      "Develop strategic planning and decision-making skills in a real-world business environment.", 
+      "Opportunities for professional growth and networking with industry professionals.",
+      "Work closely with senior management, gaining insights into business operations and leadership."
     ],
     image: "",
-    link: "https://books.click/internship", 
+
     status: "open",
   },
 
@@ -251,43 +200,31 @@ export const positions = [
     description: "Are you a creative storyteller with a passion for video content? Do you enjoy engaging with people, capturing real-world interactions, and experimenting with new content ideas? We are looking for a Content Creator Intern to promote our books through street interviews, social experiments, and outdoor video content. If you're based in New York City, Los Angeles, Berlin, Chicago, San Francisco, London, or any other major English-speaking city, this is an exciting opportunity to develop your content creation skills while working in dynamic urban environments.",
     responsibilities: 
     [
-      "Create engaging video content that promotes our books.",
-      "Conduct street interviews, gathering public opinions on book-related topics.",
-      "Organize and execute social experiments showcasing the impact of our books.",
-      "Capture outdoor video footage, engaging with people in real-world settings.",
-      "Research viral trends and experiment with creative storytelling techniques.",
-      "Collaborate with the marketing team to align content with brand messaging."
+      "Manage and maintain calendars for senior management, ensuring all appointments, meetings, and events are accurately scheduled.", 
+      "Coordinate and schedule meetings across multiple time zones, considering availability and priorities.", 
+      "Handle rescheduling and adjustments promptly, ensuring minimal disruption to planned activities.", 
+      "Communicate effectively with team members and external stakeholders to confirm appointments and meeting details.",
+      "Assist in organizing company events, both virtual and in-person, including preparing agendas and sending out reminders.",
+      "Monitor deadlines and follow up on action items to ensure timely completion of tasks.",
+      "Support administrative tasks as needed to ensure smooth day-to-day operations."
     ],
-    requirements: 
+    qualifications: 
     [
-      "Must be located in a major English-speaking city (NYC, LA, Berlin, Chicago, San Francisco, London, etc.).",
-      "Comfortable with outdoor work, public interactions, and being on camera.",
-      "Experience in video creation and storytelling (personal projects count!).",
-      "Strong communication skills and ability to engage with people in public.",
-      "Fluency in English (written and spoken).",
-      "Self-motivated, proactive, and able to work independently.",
-      "Access to a camera or smartphone capable of high-quality video recording."
+      "Organizational skills with exceptional attention to detail.", 
+      "Excellent time management skills and the ability to prioritize tasks effectively.", 
+      "Strong communication skills, both written and verbal, with a professional demeanor.",
+      "Ability to work independently in a remote environment while managing multiple schedules.", 
+      "A proactive and flexible approach to handling changes and unforeseen scheduling conflicts."
     ],
     benefits: 
     [
-      "Gain hands-on experience in content creation, media production, and audience engagement.",
-      "Develop skills in storytelling, public engagement, and social media strategy.",
-      "Certificate of completion at the end of the internship.",
-      "Access to exclusive masterclasses on digital media, storytelling, and branding.",
-      "Department-specific training to enhance your professional skills.",
-      "Career coaching sessions to help you develop and advance in the industry.",
-      "Network with professionals in media, publishing, and digital marketing.",
-      "Work in vibrant city environments, creating dynamic and interactive content.",
-      "Flexible remote work that allows creative freedom and independent filming.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: 
-    [
-      "If you’re ready to use your creativity to bring books to life through video, we’d love to hear from you!",
-      "Join us in making books a vibrant part of everyday conversations!"
+      "Gain hands-on experience in calendar management and administrative support.", 
+      "Develop strong organizational and communication skills that are essential in any professional setting.", 
+      "Work closely with senior management, gaining insights into the daily operations of a business.",
+      "Opportunities for professional growth and networking in a supportive team environment."
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -300,42 +237,32 @@ export const positions = [
     description: "Are you passionate about books, publishing, and editorial work? Do you have strong organizational skills and an interest in supporting the editorial process? We are looking for a dedicated Editorial Manager Intern to assist in overseeing editorial tasks and administrative needs within our publishing team. This is a great opportunity to gain hands-on experience in the publishing industry while working remotely.",
     responsibilities: 
     [
-      "Assist in managing editorial schedules, deadlines, and content workflows.",
-      "Support editors in coordinating book projects, from manuscript preparation to final formatting.",
-      "Organize and maintain editorial documents, tracking revisions and feedback.",
-      "Communicate with authors, editors, and designers to ensure smooth editorial processes.",
-      "Assist with proofreading, fact-checking, and content formatting as needed.",
-      "Handle administrative tasks related to editorial operations, such as scheduling meetings and maintaining databases.",
-      "Research industry trends and contribute ideas to improve editorial efficiency."
+      "Manage the author’s calendar, scheduling meetings, interviews, and book signings.", 
+      "Handle correspondence, including emails and phone calls, ensuring timely and professional communication.", 
+      "Assist with travel arrangements, including booking flights, accommodations, and transportation for book tours and events.", 
+      "Organize and maintain files related to book projects, contracts, and promotional materials.",
+      "Coordinate with publishers, literary agents, and other stakeholders to ensure smooth workflow and deadlines are met.",
+      "Assist in planning and executing virtual and in-person events, such as book launches and readings.",
+      "Support social media management by scheduling posts and engaging with the author’s online community."
     ],
-    requirements: 
+    qualifications: 
     [
-      "A strong passion for books, publishing, and editorial work.",
-      "Excellent organizational and time-management skills.",
-      "Strong attention to detail and the ability to handle multiple projects.",
-      "Good written and verbal communication skills.",
-      "Proficiency in Microsoft Office, Google Workspace, or similar tools.",
-      "Previous experience in publishing, editing, or administrative roles (preferred but not required)."
+      "Strong organizational and time management skills, with a keen eye for detail.", 
+      "Excellent written and verbal communication skills.", 
+      "Ability to manage multiple tasks and work under tight deadlines.",
+      "Proficiency in using productivity tools such as Google Workspace, Microsoft Office, and calendar management software.", 
+      "A proactive attitude with the ability to anticipate the author’s needs and take initiative.",
+      "A passion for literature and a strong interest in the publishing industry."
     ],
     benefits: 
     [
-      "Gain hands-on experience in editorial management within a publishing environment.",
-      "Develop organizational, project management, and editorial skills.",
-      "Work closely with a team of publishing professionals and gain industry insights.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-
-    notes: 
-    [
-      "Please note our current projects consist of stories focused on World War 2 and the Holocaust with anti-semitism and violent material, and some contain Queer relationships."
-    ],
-    conclusion: 
-    [
-      "If you're excited about this opportunity to contribute to the publishing world and develop editorial management skills, we’d love to hear from you!",
-      "Join us in shaping and managing the editorial process behind great books!"
+      "Gain direct experience working with a bestselling author and understanding the intricacies of the publishing world.", 
+      "Develop skills in organization, communication, and event planning.", 
+      "Build a network of contacts within the literary and publishing community.",
+      "Opportunity to be involved in exciting projects, including book launches and promotional campaigns."
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -348,39 +275,26 @@ export const positions = [
     description: "Are you passionate about AI and writing, and eager to gain hands-on experience in the world of creative content generation? If you're enthusiastic about working with AI tools like Sudowrite, RaptorWrite, and learning how artificial intelligence can shape the future of fiction, this internship could be perfect for you! We are looking for motivated interns to join our team as AI-Assisted Writing Interns, assisting in content creation, outlining, and directing AI-powered storytelling. You’ll work closely with our team to explore AI’s role in storytelling, collaborate with like-minded creatives, and learn from industry leaders in AI and fiction.",
     responsibilities: 
     [
-      "Utilize AI tools such as Sudowrite and RaptorWrite to generate creative writing, exploring various styles, tones, and genres.",
-      "Develop structured writing outlines to guide AI-generated content effectively.",
-      "Direct and refine AI-generated content, ensuring coherence, creativity, and alignment with narrative objectives.",
-      "Collaborate with writers and editorial teams to optimize AI-assisted storytelling.",
-      "Stay informed about advancements in AI writing tools and emerging trends in AI-driven fiction.",
-      "Experiment with different narrative forms and structures to enhance the quality and creativity of AI-generated stories.",
-      "Participate in team meetings and brainstorming sessions to discuss strategies for integrating AI into the writing process."
+      "Edit and proofread non-fiction self-help manuscripts for grammar, punctuation, and style.", 
+      "Assist in developing and refining book content to ensure clarity and impact.", 
+      "Collaborate with authors to ensure their vision and message are accurately represented.", 
+      "Provide feedback on content structure, thematic consistency, and overall readability.",
     ],
-    requirements: 
+    qualifications: 
     [
-      "A passion for AI and creative writing, with an interest in exploring AI’s impact on storytelling.",
-      "Strong writing skills, with the ability to craft compelling narratives and adapt to different writing styles.",
-      "Familiarity with AI tools such as Sudowrite, RaptorWrite, Claude, or similar writing assistants is a plus but not required.",
-      "Attention to detail, the ability to meet deadlines, and work independently in a remote environment.",
-      "A creative mindset and a willingness to experiment with new concepts in writing and technology."
+      "Strong communication skills.", 
+      "Excellent attention to detail.", 
+      "Adaptability and a willingness to learn.",
+      "Passion for books, especially non-fiction self-help, and a keen interest in editing.", 
     ],
     benefits: 
     [
-      "Gain hands-on experience working with cutting-edge AI writing tools and technologies.",
-      "Build a portfolio of AI-generated content, writing outlines, and directed AI storytelling projects.",
-      "Flexible remote work, allowing you to contribute from anywhere while developing your skills.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: 
-    [
-      "Note: Our current projects consist of stories focused on World War 2 and the Holocaust with anti-semitism and violent material, and some contain Queer relationships.",
-      "Important: This position requires the use of AI for foundational work. As part of the application process, applicants must answer the following screening question to confirm their understanding",
-      "Screening Question: Are you comfortable using AI tools to assist in structuring and refining creative writing, including the hero’s journey, character arcs, and event outlines? Please explain your thoughts on AI-assisted storytelling.",
-      "If you’re excited about the opportunity to dive into the world of AI and creative writing, we’d love to hear from you! Apply now and take the first step in joining our innovative team.",
-      "Join us in shaping the future of storytelling with AI!"
+      "Gain practical experience in book editing and publishing.", 
+      "Opportunities for professional growth and networking in the publishing industry.", 
+      "Work in a collaborative team environment with a focus on creative and professional development.",
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -407,19 +321,14 @@ export const positions = [
       "Proficiency in writing and editing clear, concise, and engaging summaries.",
       "Ability to work independently and collaboratively in a remote environment."
     ],
-    benefits: [
-      "Gain valuable experience in historical research and its application in publishing and content creation.",
-      "Develop skills in research methodologies, data organization, and storytelling.",
-      "Flexible remote work that allows you to contribute from anywhere.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "Note: Our current projects consist of stories focused on World War 2 and the Holocaust with anti-semitism and violent material, and some contain Queer relationships.",
-      "If you’re excited about diving into historical research and bringing history to life, we’d love to hear from you!",
-      "Join us in uncovering the past and enriching the present through compelling historical research!"
+    benefits: 
+    [
+      "Gain practical experience in historical research and its application in book development.", 
+      "Professional growth opportunities.", 
+      "Collaborative team environment.",
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -439,32 +348,23 @@ export const positions = [
       "Provide editorial feedback on character development, pacing, and themes.",
       "Collaborate with the editorial team to enhance the novel’s storytelling."
     ],
-    requirements: [
-      "Strong communication skills.",
-      "Excellent attention to detail.",
-      "Adaptability and willingness to learn.",
-      "Passion for books, writing, and historical fiction.",
-      "Strong passion for historical fiction and WWII-era research.",
-      "Excellent written communication and editing skills.",
-      "Ability to work independently and provide thoughtful editorial insights.",
-      "Previous experience in editing, creative writing, or research is a plus."
+    qualifications: 
+    [
+      "Proficiency in video editing software (Adobe Premiere Pro, Final Cut Pro, etc.).", 
+      "Strong understanding of video production processes and storytelling techniques.", 
+      "Creative thinking and attention to detail.",
+      "Ability to work independently and meet deadlines.", 
+      "A portfolio showcasing your video editing work is a plus."
     ],
-    benefits: [
-      "Gain practical writing and book development experience.",
-      "Collaborative team environment.",
-      "Hands-on experience in developmental editing for a historical novel.",
-      "Contribute to a meaningful literary project with historical significance.",
-      "Work closely with a team of writers, researchers, and editors.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship.",
-      "Regular training sessions to work on the skills and networking to become a professional editor."
-    ],
-    conclusion: [
-      "Note: Our current projects consist of stories focused on World War 2 and the Holocaust with anti-semitism and violent material, and some contain Queer relationships.",
-      "If you’re excited about diving into historical research and bringing history to life, we’d love to hear from you!",
-      "Join us in shaping the future of books and storytelling!"
+    benefits: 
+    [
+      "Gain hands-on experience in video editing and production.", 
+      "Build a strong portfolio with diverse projects.", 
+      "Professional growth opportunities and mentorship from experienced editors.",
+      "Work in a collaborative and creative team environment."
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -483,27 +383,21 @@ export const positions = [
       "Stay up-to-date with the latest design trends, tools, and techniques, applying them to projects as needed.",
       "Revise and edit designs based on feedback from team members and clients."
     ],
-    requirements: [
-      "A passion for graphic design and a strong creative vision.",
-      "Proficiency in design software such as Adobe Creative Suite (Photoshop, Illustrator, InDesign) or other design tools.",
-      "Strong attention to detail and the ability to work with brand guidelines.",
-      "Basic understanding of typography, color theory, and layout design.",
-      "Familiarity with AI design tools like MidJourney, Canva, or similar platforms.",
-      "Ability to manage multiple projects simultaneously and meet deadlines.",
-      "Excellent communication and teamwork skills."
+    qualifications: 
+    [
+      "Strong writing and communication skills.", 
+      "Experience with or a willingness to learn Mailchimp or similar email marketing platforms.", 
+      "Attention to detail and ability to meet deadlines.",
+      "Creativity and a passion for digital marketing.", 
     ],
-    benefits: [
-      "Gain valuable experience in the graphic design industry, working on real-world projects.",
-      "Develop skills in branding, digital and print design, and marketing.",
-      "Flexible remote work that allows you to learn and contribute from anywhere.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you're excited about the opportunity to contribute to our team and hone your design skills, we’d love to hear from you!",
-      "Join us in shaping the future of visual design through creativity and innovation!"
+    benefits: 
+    [
+      "Gain practical experience in email marketing and content creation.", 
+      "Professional growth opportunities and mentorship.", 
+      "Work in a supportive and creative team environment.",
     ],
     image: "",
-    link: "https://books.click/GDinterview",
+
     status: "open",
   },
 
@@ -523,29 +417,22 @@ export const positions = [
       "Participate in team meetings to strategize and discuss client acquisition goals.",
       "Provide feedback and insights on outreach strategies to improve engagement and conversion."
     ],
-    requirements: [
-      "Strong communication and interpersonal skills.",
-      "Fluency in English (written and spoken).",
-      "Bachelor's degree (or current student) in Communication or Psychology is a plus.",
-      "Interest in business development, sales, or marketing.",
-      "Ability to conduct market research and identify potential leads.",
-      "Self-motivated and capable of working independently.",
-      "Organizational skills with attention to detail.",
-      "Familiarity with CRM tools and outreach platforms is a plus."
+    qualifications: 
+    [
+      "Familiarity with automation tools like Zapier or a willingness to learn.", 
+      "Basic knowledge of spreadsheet functions and data management.", 
+      "Strong problem-solving skills and a keen interest in technology.",
+      "Attention to detail and ability to meet deadlines.", 
+      "Ability to work independently and as part of a team."
     ],
-    benefits: [
-      "Gain practical experience in client acquisition and business development.",
-      "Develop communication and negotiation skills.",
-      "Networking opportunities with industry professionals.",
-      "Work in a collaborative and dynamic team environment.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you're ready to enhance your skills in client acquisition and contribute to our growing team, we want to hear from you!",
-      "Join us in expanding our client base and driving business success!"
+    benefits: 
+    [
+      "Gain practical experience in automation and tech solutions.", 
+      "Opportunities for professional growth and mentorship.", 
+      "Work in a supportive and innovative team environment.",
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -565,26 +452,21 @@ export const positions = [
       "Optimize internal processes to improve efficiency and productivity.",
       "Provide administrative support in tracking key performance metrics."
     ],
-    requirements: [
-      "Strong analytical and problem-solving skills.",
-      "Interest in publishing, business strategy, and operations.",
-      "Excellent communication and teamwork abilities.",
-      "Proficiency in Google Suite and project management tools.",
-      "Ability to work independently, manage multiple projects, and meet deadlines."
+    qualifications: 
+    [
+      "Strong organizational and multitasking skills.", 
+      "Excellent communication skills, both written and verbal.", 
+      "Attention to detail and ability to work independently.",
+      "A proactive attitude and willingness to learn.", 
     ],
-    benefits: [
-      "Gain real-world experience in business strategy and publishing operations.",
-      "Develop critical thinking, decision-making, and leadership skills.",
-      "Work closely with experienced professionals and contribute to high-impact projects.",
-      "Flexible remote work with the opportunity to make a meaningful contribution.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you're excited about the opportunity to contribute to our team and gain a deep understanding of strategic decision-making, we’d love to hear from you!",
-      "Join us in shaping the future of publishing!"
+    benefits: 
+    [
+      "Gain practical experience in administrative and HR tasks.", 
+      "Opportunities for professional growth and mentorship.", 
+      "Work in a supportive and structured team environment.",
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -610,19 +492,14 @@ export const positions = [
       "Experience in content creation (graphics, reels, captions) is a plus.",
       "Pursuing or holding a marketing degree (preferred but not required)."
     ],
-    benefits: [
-      "Work remotely with flexible hours that fit your schedule.",
-      "Letter of recommendation upon successful completion.",
-      "Opportunity for future paid roles based on performance.",
-      "Access to MasterClass via our company subscription.",
-      "Networking opportunities in publishing and marketing.",
-      "Weekly marketing training to enhance your skills."
-    ],
-    conclusion: [
-      "If you’re ready to gain real-world marketing experience in the publishing industry, we’d love to hear from you!"
+    benefits: 
+    [
+      "Gain practical experience in e-commerce and Shopify store management.", 
+      "Opportunities for professional growth and mentorship.", 
+      "Work in a supportive and creative team environment.",
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -641,26 +518,21 @@ export const positions = [
       "Collaborate with team members to brainstorm and implement innovative marketing ideas.",
       "Analyze data from campaigns and social platforms to track performance and provide actionable insights."
     ],
-    requirements: [
-      "Pursuing or holding a degree in AI, digital marketing, or a related field.",
-      "Knowledge of AI tools and their applications in digital marketing.",
-      "Familiarity with social media platforms and experience with content scheduling tools.",
-      "Experience with email marketing platforms, such as Klaviyo and Mailchimp.",
-      "Understanding of Patreon and its best practices for engaging and growing audiences.",
-      "Strong analytical, organizational, and time-management skills.",
-      "Excellent written and verbal communication skills."
+    qualifications: 
+    [
+      "Strong communication skills and attention to detail.", 
+      "Basic understanding of intellectual property and trademark law.", 
+      "Proficiency in Microsoft Office and research tools.",
+      "Eagerness to learn and a passion for the field of trademarks and intellectual property."
     ],
-    benefits: [
-      "Gain hands-on experience at the intersection of AI and digital marketing.",
-      "Develop expertise in email marketing, social media management, and content creation.",
-      "Work remotely with flexible hours that accommodate your schedule.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you’re excited to combine AI expertise with digital marketing strategies and contribute to our team, we’d love to hear from you!"
+    benefits: 
+    [
+      "Gain practical experience in trademark law and intellectual property.", 
+      "Opportunities for professional growth and networking in the legal field.", 
+      "Work in a collaborative team environment with a focus on career development.",
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -679,24 +551,22 @@ export const positions = [
       "Stay up-to-date with trends in funding opportunities and industry standards for grants and awards.",
       "Maintain an organized database of grants and awards, including application deadlines and requirements."
     ],
-    requirements: [
-      "A strong passion for supporting authors and a deep interest in literary grants and awards.",
-      "Excellent research, writing, and editing skills.",
-      "Attention to detail and the ability to follow specific application guidelines.",
-      "Strong communication and organizational skills.",
-      "Ability to work independently and meet deadlines in a remote environment."
+    qualifications: 
+    [
+      "Strong communication skills.", 
+      "Excellent attention to detail.", 
+      "A proactive, self-motivated attitude with a willingness to learn.",
+      "Interest in digital publishing, e-commerce, and the Amazon marketplace."
     ],
-    benefits: [
-      "Gain valuable experience in the publishing industry, specifically in the area of awards and grants.",
-      "Develop skills in research, proposal writing, and project management.",
-      "Flexible remote work that allows you to learn and contribute from anywhere.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you're excited about the opportunity to contribute to our team and support authors in gaining recognition for their work, we’d love to hear from you!"
+    benefits: 
+    [
+      "Gain practical experience in digital publishing and Amazon KDP.", 
+      "Learn the intricacies of selling and marketing books in the world’s largest online marketplace.", 
+      "Opportunities for professional growth and networking in the publishing and e-commerce industries.",
+      "Work in a collaborative team environment focused on innovation and professional development."
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -723,18 +593,13 @@ export const positions = [
       "Ability to work independently and meet deadlines.",
       "Excellent communication and organizational skills."
     ],
-    benefits: [
-      "Gain valuable experience in the book publishing industry.",
-      "Develop skills in formatting, layout design, and digital publishing.",
-      "Flexible remote work that allows you to learn and contribute from anywhere.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you're excited about the opportunity to contribute to our team and hone your book formatting skills, we’d love to hear from you!"
+    benefits: 
+    [
+      "Gain practical experience in editing historical fiction.", 
+      "Opportunities for professional growth and networking in the publishing industry.", 
+      "Work in a collaborative team environment with a focus on creative and professional development.",
     ],
     image: "",
-
-    link: "https://books.click/internship",
 
     status: "open",
   },
@@ -763,18 +628,14 @@ export const positions = [
       "Proficiency in Google Suite and project management tools.",
       "Ability to work independently, prioritize tasks, and meet deadlines."
     ],
-    benefits: [
-      "Gain valuable experience in the operational side of the publishing industry.",
-      "Develop project management, coordination, and leadership skills.",
-      "Work closely with experienced professionals across different departments.",
-      "Flexible remote work that allows you to learn and contribute from anywhere.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you're excited about the opportunity to contribute to our team and gain a comprehensive understanding of publishing operations, we’d love to hear from you!"
+    benefits: 
+    [
+      "Gain practical writing and book development experience.", 
+      "Professional growth opportunities.", 
+      "Collaborative team environment.",
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 
@@ -986,21 +847,15 @@ export const positions = [
       "Strong understanding of video production processes and storytelling techniques.",
       "Creative thinking and attention to detail.",
       "Ability to work independently and meet deadlines.",
-      "A portfolio showcasing your video editing work is a plus."
+      "Familiarity with popular books in these genres, such as Red, White & Royal Blue, Fifty Shades, and works by Rebecca Yarros."
     ],
-    benefits: [
-      "Gain hands-on experience in video editing.",
-      "Build a strong portfolio with diverse projects.",
-      "Work in a collaborative and creative team environment.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you're ready to bring your video editing skills to life and be a part of exciting projects, we want to hear from you!",
-      "Join us in creating captivating videos that tell compelling stories!"
+    benefits: 
+    [
+      "Gain practical experience in editorial work within specialized genres.", 
+      "Professional growth opportunities and mentorship.", 
+      "Work in a supportive and inclusive environment that values diverse voices.",
     ],
     image: "",
-
-    link: "https://books.click/internship",
 
     status: "open",
   },
@@ -1044,36 +899,33 @@ export const positions = [
   {
     id: "podcast_editor_intern",
     title: "Podcast Editor Intern",
-    duration: "6-Month Remote Internship, 2 hours daily",
-    type: "Unpaid",
-    availability: "Virtual team meetings typically take place between 9 AM and 11 AM PST",
-    description: "Are you passionate about storytelling and audio production? Do you love podcasts and want to dive into the world of audio and video editing and content creation? Join our team as a Podcast Editor Intern, where you'll work with experienced producers and hosts to craft engaging episodes. This remote internship offers hands-on experience and the opportunity to develop your skills in a creative and dynamic environment.",
-    responsibilities: [
-      "Edit and mix podcast episodes, ensuring high audio quality and seamless transitions.",
-      "Collaborate with hosts and producers to create compelling and coherent content.",
-      "Assist in managing podcast workflow, including scheduling, uploading, and publishing episodes.",
+    description: "Are you passionate about storytelling and audio production? Do you love podcasts and want to dive into the world of audio and video editing and content creation? Join our team as a Podcast Editor Intern, where you’ll work with experienced producers and hosts to craft engaging episodes. This remote internship offers hands-on experience and the opportunity to develop your skills in a creative and dynamic environment.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Edit and mix podcast episodes, ensuring high audio quality and seamless transitions.", 
+      "Collaborate with hosts and producers to create compelling and coherent content.", 
+      "Assist in managing podcast workflow, including scheduling, uploading, and publishing episodes.", 
       "Enhance episodes with music, sound effects, and other audio elements as needed.",
       "Help maintain and update podcast archives and metadata."
     ],
-    requirements: [
-      "Understanding of audio editing software (e.g., Adobe Audition, Audacity, Pro Tools).",
-      "Keen ear for audio quality and attention to detail.",
+    qualifications: 
+    [
+      "Strong understanding of audio editing software (e.g., Adobe Audition, Audacity, Pro Tools).", 
+      "Keen ear for audio quality and attention to detail.", 
       "Excellent organizational and communication skills.",
       "Ability to work independently and meet deadlines.",
-      "A passion for podcasts and storytelling."
+      "A passion for podcasts and storytelling.",
     ],
-    benefits: [
-      "Gain practical experience in podcast editing and production.",
-      "Learn from industry professionals and receive mentorship.",
-      "Opportunities for creative input and growth within the team."
-    ],
-    conclusion: [
-      "If you're ready to immerse yourself in the world of podcasting and audio production, we want to hear from you!",
-      "Join us in creating engaging and high-quality audio content for a diverse audience!"
+    benefits: 
+    [
+      "Gain practical experience in podcast editing and production.", 
+      "Learn from industry professionals and receive mentorship.", 
+      "Opportunities for creative input and growth within the team.",
     ],
     image: "",
-
-    link: "https://books.click/internship",
 
     status: "open",
   },
@@ -1193,40 +1045,36 @@ export const positions = [
   {
     id: "quickbooks_accounting_intern",
     title: "QuickBooks/Accounting Intern",
-    duration: "6-Month Remote Internship, 2 hours daily",
-    type: "Unpaid",
-    availability: "Virtual team meetings typically take place between 8 AM - 10 AM PST",
     description: "Are you passionate about accounting and eager to gain hands-on experience with QuickBooks? Join our team as a QuickBooks Intern and work on exciting projects that will enhance your skills and knowledge. This remote internship offers the opportunity to collaborate with our CEO and develop your expertise in a supportive environment.",
-    responsibilities: [
-      "Assist with daily accounting tasks using QuickBooks.",
-      "Help in planning and managing budgets.",
-      "Utilize Excel for various accounting functions and data analysis.",
+    location: "Remote",
+    duration: "6 Months",
+    compensation: "Unpaid",
+    responsibilities: 
+    [
+      "Assist with daily accounting tasks using QuickBooks.", 
+      "Help in planning and managing budgets.", 
+      "Utilize Excel for various accounting functions and data analysis.", 
       "Collaborate with the CEO to ensure accurate financial reporting.",
       "Support the team in preparing financial statements and other accounting documents.",
       "Participate in brainstorming sessions and contribute innovative ideas for improving accounting processes."
     ],
-    requirements: [
-      "Knowledge of QuickBooks.",
-      "Proficiency in Excel.",
+    qualifications: 
+    [
+      "Knowledge of QuickBooks.", 
+      "Proficiency in Excel.", 
       "Strong understanding of accounting principles and budget planning.",
       "Attention to detail and analytical thinking.",
       "Ability to work independently and meet deadlines.",
       "A background or coursework in accounting is a plus."
     ],
-    benefits: [
-      "Gain hands-on experience with QuickBooks and accounting processes.",
-      "Build a strong portfolio with diverse projects.",
+    benefits: 
+    [
+      "Gain hands-on experience with QuickBooks and accounting processes.", 
+      "Build a strong portfolio with diverse projects.", 
       "Professional growth opportunities and mentorship from experienced professionals.",
-      "Work directly with the CEO and gain valuable insights.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-      
-    conclusion: [
-      "If you're ready to apply your accounting skills and be a part of exciting projects, we want to hear from you!",
-      "Join us in managing financial records and contributing to our company's success!"
+      "Work directly with the CEO and gain valuable insights."
     ],
     image: "",
-    link: "https://books.click/internship",
 
     status: "open",
   },
@@ -1254,18 +1102,15 @@ export const positions = [
       "Ability to work independently in a remote environment, with a creative mindset and an eagerness to experiment with new technologies.",
       "Passion for audiobooks and understanding the importance of high-quality narration in bringing stories to life."
     ],
-    benefits: [
-      "Gain hands-on experience working with state-of-the-art AI voice technology and audiobook production.",
-      "Build a portfolio of AI-generated audiobooks, showcasing your ability to produce professional-quality narration.",
-      "Flexible remote work, allowing you to contribute from anywhere while learning new skills in audio production and AI.",
-      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
-    ],
-    conclusion: [
-      "If you’re excited about the opportunity to explore the future of audiobooks and AI voice technology, we’d love to hear from you! Apply now and be part of an innovative team pushing the boundaries of storytelling.",
-      "Join us in creating immersive audiobooks powered by the latest AI technology!"
+    benefits: 
+    [
+      "Gain hands-on experience in 3D character design and development.", 
+      "Build a strong portfolio with diverse projects.", 
+      "Professional growth opportunities and mentorship from experienced designers.",
+      "Work in a collaborative and creative team environment."
     ],
     image: "",
-    link: "https://books.click/internship",
+
     status: "open",
   },
 ];
