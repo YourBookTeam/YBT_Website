@@ -7,7 +7,7 @@ function About_Us() {
       text-center lg:text-left
       flex
       flex-col-reverse lg:flex-row
-      px-40 sm:px-15 lg:px-30 2xl:px-80
+      px-5 sm:px-15 lg:px-30 2xl:px-80
       gap-5 2xl:gap-15
     ">
         <div className="

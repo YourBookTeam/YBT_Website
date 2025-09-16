@@ -1,25 +1,25 @@
-import image_3D from '../assets/position_images/position_3D.png';
-import image_admin from '../assets/position_images/position_admin.png';
-import image_amazon from '../assets/position_images/position_amazon.jpg';
-import image_assistant from '../assets/position_images/position_assistant.png';
-import image_book_writing from '../assets/position_images/position_book_writing.png';
-import image_calandaring from '../assets/position_images/position_calandaring.jpg';
-import image_erotica from '../assets/position_images/position_erotica.png';
-import image_historical from '../assets/position_images/position_historical.png';
-import image_interviewer from '../assets/position_images/position_interviewer.jpeg';
-import image_manager from '../assets/position_images/position_manager.jpg';
-import image_marketing from '../assets/position_images/position_marketing.jpeg';
-import image_newsletter from '../assets/position_images/position_newsletter.png';
-import image_non_fiction from '../assets/position_images/position_non_fiction.png';
-import image_podcast from '../assets/position_images/position_podcast.png';
-import image_pr from '../assets/position_images/position_pr.jpeg';
-import image_quickbooks from '../assets/position_images/position_quickbooks.png';
-import image_researcher from '../assets/position_images/position_researcher.png';
-import image_shopify from '../assets/position_images/position_shopify.png';
-import image_social_media from '../assets/position_images/position_social_media.jpg';
-import image_tech from '../assets/position_images/position_tech.png';
-import image_trademark from '../assets/position_images/position_trademark.png';
-import image_video from '../assets/position_images/position_video.png';
+// import image_3D from '../assets/position_images/position_3D.png';
+// import image_admin from '../assets/position_images/position_admin.png';
+// import image_amazon from '../assets/position_images/position_amazon.jpg';
+// import image_assistant from '../assets/position_images/position_assistant.png';
+// import image_book_writing from '../assets/position_images/position_book_writing.png';
+// import image_calandaring from '../assets/position_images/position_calandaring.jpg';
+// import image_erotica from '../assets/position_images/position_erotica.png';
+// import image_historical from '../assets/position_images/position_historical.png';
+// import image_interviewer from '../assets/position_images/position_interviewer.jpeg';
+// import image_manager from '../assets/position_images/position_manager.jpg';
+// import image_marketing from '../assets/position_images/position_marketing.jpeg';
+// import image_newsletter from '../assets/position_images/position_newsletter.png';
+// import image_non_fiction from '../assets/position_images/position_non_fiction.png';
+// import image_podcast from '../assets/position_images/position_podcast.png';
+// import image_pr from '../assets/position_images/position_pr.jpeg';
+// import image_quickbooks from '../assets/position_images/position_quickbooks.png';
+// import image_researcher from '../assets/position_images/position_researcher.png';
+// import image_shopify from '../assets/position_images/position_shopify.png';
+// import image_social_media from '../assets/position_images/position_social_media.jpg';
+// import image_tech from '../assets/position_images/position_tech.png';
+// import image_trademark from '../assets/position_images/position_trademark.png';
+// import image_video from '../assets/position_images/position_video.png';
 
 export const positions = [
   {
@@ -64,8 +64,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
-
     status: "open",
   },
 
@@ -103,6 +101,7 @@ export const positions = [
       "Free access to MasterClass courses throughout the internship.",
       "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
     ],
+    
     conclusion: 
     [
       "If you’re excited to contribute to creative campaigns and gain hands-on Kickstarter experience, we’d love to hear from you!",
@@ -110,7 +109,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -155,7 +153,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -194,6 +191,7 @@ export const positions = [
       "Receive direct mentorship, editorial feedback, and training from experienced team members.",
       "Earn a letter of recommendation and certificate of completion upon successful conclusion of the internship."
     ],
+    
     conclusion: 
     [
       "If you’re excited about contributing to open knowledge and elevating underrepresented stories, we’d love to hear from you!",
@@ -201,7 +199,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -241,8 +238,7 @@ export const positions = [
       "This unpaid internship offers hands-on experience in high-level decision-making and executive operations.",
     ],
     image: "",
-    link: "https://books.click/internship",
-
+    link: "https://books.click/internship", 
     status: "open",
   },
 
@@ -292,7 +288,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -329,6 +324,7 @@ export const positions = [
       "Work closely with a team of publishing professionals and gain industry insights.",
       "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
     ],
+
     notes: 
     [
       "Please note our current projects consist of stories focused on World War 2 and the Holocaust with anti-semitism and violent material, and some contain Queer relationships."
@@ -340,7 +336,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -386,7 +381,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -426,7 +420,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -472,7 +465,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -512,7 +504,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/GDinterview",
-
     status: "open",
   },
 
@@ -555,7 +546,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -595,7 +585,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -634,7 +623,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -673,7 +661,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -710,7 +697,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -747,6 +733,7 @@ export const positions = [
       "If you're excited about the opportunity to contribute to our team and hone your book formatting skills, we’d love to hear from you!"
     ],
     image: "",
+
     link: "https://books.click/internship",
 
     status: "open",
@@ -788,7 +775,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-
     status: "open",
   },
 
@@ -1013,6 +999,7 @@ export const positions = [
       "Join us in creating captivating videos that tell compelling stories!"
     ],
     image: "",
+
     link: "https://books.click/internship",
 
     status: "open",
@@ -1085,6 +1072,7 @@ export const positions = [
       "Join us in creating engaging and high-quality audio content for a diverse audience!"
     ],
     image: "",
+
     link: "https://books.click/internship",
 
     status: "open",
@@ -1232,6 +1220,7 @@ export const positions = [
       "Work directly with the CEO and gain valuable insights.",
       "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship."
     ],
+      
     conclusion: [
       "If you're ready to apply your accounting skills and be a part of exciting projects, we want to hear from you!",
       "Join us in managing financial records and contributing to our company's success!"
@@ -1277,7 +1266,6 @@ export const positions = [
     ],
     image: "",
     link: "https://books.click/internship",
-    
     status: "open",
   },
 ];
