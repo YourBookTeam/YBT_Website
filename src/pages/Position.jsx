@@ -1,4 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import Button from "../components/Button";
+import { positions } from '../data/positions';
 
 function Position() {
   //Getting position data from positions page
