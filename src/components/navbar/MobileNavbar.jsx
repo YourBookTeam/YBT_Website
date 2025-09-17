@@ -151,6 +151,17 @@ function MobileNavbar() {
               <p className="text-2xl font-bold">FAQ</p>
               <GoChevronRight className="mt-1 text-xl transition-transform duration-200 hover:translate-x-1" />
             </Link>
+            <Link
+              to="/careers"
+              onClick={handleLinkClick}
+              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out ${
+                isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+              }`}
+              style={{ transitionDelay: isOpen ? "0.5s" : "0s" }}
+            >
+              <p className="text-2xl font-bold">Careers</p>
+              <GoChevronRight className="mt-1 text-xl transition-transform duration-200 hover:translate-x-1" />
+            </Link>
           </div>
           <div
             className={`flex justify-center transition-all duration-500 ease-out ${
