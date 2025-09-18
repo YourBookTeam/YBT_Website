@@ -107,49 +107,61 @@ function MobileNavbar() {
             <Link
               to="/about"
               onClick={handleLinkClick}
-              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out ${
+              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
               style={{ transitionDelay: isOpen ? "0.1s" : "0s" }}
             >
-              <p className="text-2xl font-bold">About</p>
-              <GoChevronRight className="mt-1 text-xl transition-transform duration-200 hover:translate-x-1" />
+              <span className="relative inline-block">
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">About</p>
+                <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </span>
+              <GoChevronRight className="mt-1 text-xl" />
             </Link>
 
             <Link
               to="/services"
               onClick={handleLinkClick}
-              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out ${
+              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
               style={{ transitionDelay: isOpen ? "0.2s" : "0s" }}
             >
-              <p className="text-2xl font-bold">Services</p>
-              <GoChevronRight className="mt-1 text-xl transition-transform duration-200 hover:translate-x-1" />
+              <span className="relative inline-block">
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Services</p>
+                <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </span>
+              <GoChevronRight className="mt-1 text-xl" />
             </Link>
 
             <Link
               to="/#success-stories"
               onClick={toggleOpen}
-              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out ${
+              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
               style={{ transitionDelay: isOpen ? "0.3s" : "0s" }}
             >
-              <p className="text-2xl font-bold">Success Stories</p>
-              <GoChevronRight className="mt-1 text-xl transition-transform duration-200 hover:translate-x-1" />
+              <span className="relative inline-block">
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Success Stories</p>
+                <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </span>
+              <GoChevronRight className="mt-1 text-xl" />
             </Link>
 
             <Link
               to="/faq"
               onClick={handleLinkClick}
-              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out ${
+              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
               style={{ transitionDelay: isOpen ? "0.4s" : "0s" }}
             >
-              <p className="text-2xl font-bold">FAQ</p>
-              <GoChevronRight className="mt-1 text-xl transition-transform duration-200 hover:translate-x-1" />
+              <span className="relative inline-block">
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">FAQ</p>
+                <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </span>
+              <GoChevronRight className="mt-1 text-xl" />
             </Link>
           </div>
           <div
