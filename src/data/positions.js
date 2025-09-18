@@ -1,25 +1,25 @@
-import image_3D from '../assets/position_images/position_3D.png';
-import image_admin from '../assets/position_images/position_admin.png';
-import image_amazon from '../assets/position_images/position_amazon.jpg';
-import image_assistant from '../assets/position_images/position_assistant.png';
-import image_book_writing from '../assets/position_images/position_book_writing.png';
-import image_calandaring from '../assets/position_images/position_calandaring.jpg';
-import image_erotica from '../assets/position_images/position_erotica.png';
-import image_historical from '../assets/position_images/position_historical.png';
-import image_interviewer from '../assets/position_images/position_interviewer.jpeg';
-import image_manager from '../assets/position_images/position_manager.jpg';
-import image_marketing from '../assets/position_images/position_marketing.jpeg';
-import image_newsletter from '../assets/position_images/position_newsletter.png';
-import image_non_fiction from '../assets/position_images/position_non_fiction.png';
-import image_podcast from '../assets/position_images/position_podcast.png';
-import image_pr from '../assets/position_images/position_pr.jpeg';
-import image_quickbooks from '../assets/position_images/position_quickbooks.png';
-import image_researcher from '../assets/position_images/position_researcher.png';
-import image_shopify from '../assets/position_images/position_shopify.png';
-import image_social_media from '../assets/position_images/position_social_media.jpg';
-import image_tech from '../assets/position_images/position_tech.png';
-import image_trademark from '../assets/position_images/position_trademark.png';
-import image_video from '../assets/position_images/position_video.png';
+// import image_3D from '../assets/position_images/position_3D.png';
+// import image_admin from '../assets/position_images/position_admin.png';
+// import image_amazon from '../assets/position_images/position_amazon.jpg';
+// import image_assistant from '../assets/position_images/position_assistant.png';
+// import image_book_writing from '../assets/position_images/position_book_writing.png';
+// import image_calandaring from '../assets/position_images/position_calandaring.jpg';
+// import image_erotica from '../assets/position_images/position_erotica.png';
+// import image_historical from '../assets/position_images/position_historical.png';
+// import image_interviewer from '../assets/position_images/position_interviewer.jpeg';
+// import image_manager from '../assets/position_images/position_manager.jpg';
+// import image_marketing from '../assets/position_images/position_marketing.jpeg';
+// import image_newsletter from '../assets/position_images/position_newsletter.png';
+// import image_non_fiction from '../assets/position_images/position_non_fiction.png';
+// import image_podcast from '../assets/position_images/position_podcast.png';
+// import image_pr from '../assets/position_images/position_pr.jpeg';
+// import image_quickbooks from '../assets/position_images/position_quickbooks.png';
+// import image_researcher from '../assets/position_images/position_researcher.png';
+// import image_shopify from '../assets/position_images/position_shopify.png';
+// import image_social_media from '../assets/position_images/position_social_media.jpg';
+// import image_tech from '../assets/position_images/position_tech.png';
+// import image_trademark from '../assets/position_images/position_trademark.png';
+// import image_video from '../assets/position_images/position_video.png';
 
 export const positions = [
   {
@@ -48,7 +48,7 @@ export const positions = [
       "Mentorship and guidance from experienced PR professionals", 
       "A dynamic and supportive work environment"
     ],
-    image: image_pr,
+    image: "",
 
     status: "open",
   },
@@ -82,7 +82,7 @@ export const positions = [
       "Opportunities for professional growth and networking within the industry.", 
       "Work in a collaborative team environment focused on professional development."
     ],
-    image: image_interviewer,
+    image: "",
 
     status: "open",
   },
@@ -116,7 +116,7 @@ export const positions = [
       "Opportunities for professional growth and networking within the digital marketing industry.", 
       "Work in a collaborative team environment with a focus on creativity and innovation."
     ],
-    image: image_marketing,
+    image: "",
 
     status: "open",
   },
@@ -151,7 +151,7 @@ export const positions = [
       "Opportunities for professional growth and networking within the digital marketing industry.", 
       "Work in a collaborative team environment with a focus on creativity and innovation."
     ],
-    image: image_social_media,
+    image: "",
 
     status: "open",
   },
@@ -186,7 +186,7 @@ export const positions = [
       "Opportunities for professional growth and networking with industry professionals.",
       "Work closely with senior management, gaining insights into business operations and leadership."
     ],
-    image: image_manager,
+    image: "",
 
     status: "open",
   },
@@ -223,7 +223,7 @@ export const positions = [
       "Work closely with senior management, gaining insights into the daily operations of a business.",
       "Opportunities for professional growth and networking in a supportive team environment."
     ],
-    image: image_calandaring,
+    image: "",
 
     status: "open",
   },
@@ -261,7 +261,7 @@ export const positions = [
       "Build a network of contacts within the literary and publishing community.",
       "Opportunity to be involved in exciting projects, including book launches and promotional campaigns."
     ],
-    image: image_assistant,
+    image: "",
 
     status: "open",
   },
@@ -293,7 +293,7 @@ export const positions = [
       "Opportunities for professional growth and networking in the publishing industry.", 
       "Work in a collaborative team environment with a focus on creative and professional development.",
     ],
-    image: image_non_fiction,
+    image: "",
 
     status: "open",
   },
@@ -325,7 +325,7 @@ export const positions = [
       "Professional growth opportunities.", 
       "Collaborative team environment.",
     ],
-    image: image_researcher,
+    image: "",
 
     status: "open",
   },
@@ -360,7 +360,7 @@ export const positions = [
       "Professional growth opportunities and mentorship from experienced editors.",
       "Work in a collaborative and creative team environment."
     ],
-    image: image_video,
+    image: "",
 
     status: "open",
   },
@@ -393,7 +393,7 @@ export const positions = [
       "Professional growth opportunities and mentorship.", 
       "Work in a supportive and creative team environment.",
     ],
-    image: image_newsletter,
+    image: "",
 
     status: "open",
   },
@@ -428,7 +428,7 @@ export const positions = [
       "Opportunities for professional growth and mentorship.", 
       "Work in a supportive and innovative team environment.",
     ],
-    image: image_tech,
+    image: "",
 
     status: "open",
   },
@@ -462,7 +462,7 @@ export const positions = [
       "Opportunities for professional growth and mentorship.", 
       "Work in a supportive and structured team environment.",
     ],
-    image: image_admin,
+    image: "",
 
     status: "open",
   },
@@ -495,7 +495,7 @@ export const positions = [
       "Opportunities for professional growth and mentorship.", 
       "Work in a supportive and creative team environment.",
     ],
-    image: image_shopify,
+    image: "",
 
     status: "open",
   },
@@ -528,7 +528,7 @@ export const positions = [
       "Opportunities for professional growth and networking in the legal field.", 
       "Work in a collaborative team environment with a focus on career development.",
     ],
-    image: image_trademark,
+    image: "",
 
     status: "open",
   },
@@ -562,7 +562,7 @@ export const positions = [
       "Opportunities for professional growth and networking in the publishing and e-commerce industries.",
       "Work in a collaborative team environment focused on innovation and professional development."
     ],
-    image: image_amazon,
+    image: "",
 
     status: "open",
   },
@@ -594,7 +594,7 @@ export const positions = [
       "Opportunities for professional growth and networking in the publishing industry.", 
       "Work in a collaborative team environment with a focus on creative and professional development.",
     ],
-    image: image_historical,
+    image: "",
 
     status: "open",
   },
@@ -626,7 +626,7 @@ export const positions = [
       "Professional growth opportunities.", 
       "Collaborative team environment.",
     ],
-    image: image_book_writing,
+    image: "",
 
     status: "open",
   },
@@ -660,7 +660,7 @@ export const positions = [
       "Professional growth opportunities and mentorship.", 
       "Work in a supportive and inclusive environment that values diverse voices.",
     ],
-    image: image_erotica,
+    image: "",
 
     status: "open",
   },
@@ -694,7 +694,7 @@ export const positions = [
       "Learn from industry professionals and receive mentorship.", 
       "Opportunities for creative input and growth within the team.",
     ],
-    image: image_podcast,
+    image: "",
 
     status: "open",
   },
@@ -731,7 +731,7 @@ export const positions = [
       "Professional growth opportunities and mentorship from experienced professionals.",
       "Work directly with the CEO and gain valuable insights."
     ],
-    image: image_quickbooks,
+    image: "",
 
     status: "open",
   },
@@ -766,7 +766,7 @@ export const positions = [
       "Professional growth opportunities and mentorship from experienced designers.",
       "Work in a collaborative and creative team environment."
     ],
-    image: image_3D,
+    image: "",
 
     status: "open",
   },

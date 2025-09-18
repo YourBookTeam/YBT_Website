@@ -12,6 +12,10 @@ const promptingHappiness = {
   backCoverImg: prompting_happiness_back,
   author: "Nimrod Vromen",
   authorImg: nimrod_vromen,
+  summary: [
+    "You have been searching for a way to be happy and have your life be a life worth living, this book is going to give you concrete ways you can do that and show you how AI can benefit you rather than be something you need to fear or that you don't understand.",
+    "From the Host of Startup Confidential comes the journey of introspection and enlightenment to find true happiness."
+  ],
   milestones: [
     "Amazon bestseller in multiple categories",
     "Positioned as a rising voice in AI + emotional wellbeing",

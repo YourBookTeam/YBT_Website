@@ -13,6 +13,10 @@ const thirst = {
   backCoverImg: thirst_back,
   author: "H. W. Terrance",
   authorImg: hw_terrance,
+  summary:[
+    "Thirst is a compelling novel that journeys from childhood trauma, through the depths of addiction, and to the arduous path of recovery. With raw and vivid storytelling, it follows the protagonist’s life from turbulent teenage years of substance abuse to the crushing lows of adult self-destruction.",
+    "A powerful and honest portrayal, Thirst offers hope and inspiration—showing that even in life’s bleakest moments, the light of recovery and triumph can shine through."
+  ],
   milestones: [
     "Breakthrough novel built from real-life recovery story",
     "Featured on The Chris Voss Show, a Top 1% podcast with 24 million+ listeners",
