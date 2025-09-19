@@ -163,7 +163,11 @@ function SuccessStory() {
               </h2>
             </div>
             {/* Quotes */}
-            <Carousel key={pathname} className="flex flex-col sm:gap-24">
+            <Carousel
+              key={pathname}
+              className="flex flex-col sm:gap-24"
+              opts={{ loop: true }}
+            >
               <CarouselContent className="flex justify-around">
                 {content.reviews.map((review, index) => (
                   <CarouselItem
