@@ -163,6 +163,7 @@ function MobileNavbar() {
               </span>
               <GoChevronRight className="mt-1 text-xl" />
             </Link>
+            
             <Link
               to="/careers"
               onClick={handleLinkClick}
