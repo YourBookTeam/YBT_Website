@@ -65,6 +65,10 @@ const promptingHappiness = {
       name: "Rinat",
       text: `“A life-changing journey of self-discovery and growth, showing how AI can optimize health, productivity, and meaningful connections."`,
     },
+    {
+      name: "Or_Ray",
+      text: `“An inspiring, hard-to-put-down guide that opens your mind to the transformative potential of AI."`,
+    },
   ],
   moreSuccessStories: [
     {
