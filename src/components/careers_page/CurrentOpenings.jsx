@@ -2,6 +2,9 @@ import Button from "../Button";
 import { FaArrowRight } from "react-icons/fa";
 
 function CurrentOpenings({ displayedJobs }) {
+  const scrollToTop = () => {
+      window.scrollTo(0,0);
+  }
   return (
     <div className="flex flex-col items-center gap-16 py-20 px-10">
         {displayedJobs.length == 0 ? (
@@ -22,7 +25,7 @@ function CurrentOpenings({ displayedJobs }) {
               ">
                   <div className="font-bold text-2xl text-center">{position.title}</div>
                   <div className="text-center lg:text-start font-secondary text-md leading-7">{position.description}</div>
-                  <Button to={`/position/${position.id}`} className="self-center lg:self-start px-4!">
+                  <Button to={`/position/${position.id}`} onClick={scrollToTop}className="self-center lg:self-start px-4!">
                     <div className="font-bold">APPLY</div>
                     <FaArrowRight className="w-10 h-5"/>
                   </Button>
