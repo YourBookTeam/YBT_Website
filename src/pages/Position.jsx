@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import Button from "../components/Button";
 import { positions } from '../data/positions';
+import { FaArrowLeft } from "react-icons/fa6";
 
 function Position() {
   //Getting position data from positions page
@@ -22,8 +23,13 @@ function Position() {
   
   return (
     <div>
-       <section className="w-full h-8 my-3 mb-15 p-1">
-        <Button to="/careers" className="cursor-pointer underline">Back to All Jobs</Button>
+       <section className="w-full h-8 my-3 mb-15">
+        <div className="bg-lighter-gold h-10 w-full p-4 flex items-center">
+          <Link to="/careers#current-openings" className="font-secondary underline flex items-center gap-2 hover:text-gray">
+            <FaArrowLeft/>
+            Back To All Jobs
+          </Link>
+        </div>
         </section>
          <section className='open_position flex-col justify-items-center w-full'>
           <img src={position.image} alt='' className='w-100 my-10 pb-5'></img>
@@ -39,14 +45,14 @@ function Position() {
         <section className='positon_details flex-col justify-items-center px-17 my-3.5 text-left'>
            <section className='position_Description w-80 md:w-170 lg:w-240'>
             <h2 className="font-bold mb-2">Description:</h2>
-            <p className='text-justify leading-relaxed ml-3 mb-6'>{position.description}</p>
-            <h2 className="font-bold inline-block mb-1">Availability:</h2><p className='inline-block ml-1.5 mb-6'>{position.availability}</p><br />
-            <h2 className="font-bold inline-block mb-1">Duration:</h2><p className='inline-block ml-1.5 mb-6'>{position.duration}</p><br />
-            <h2 className="font-bold inline-block">Compensation:</h2><p className='inline-block ml-1.5 mb-6'>{position.type}</p><br />
+            <p className='text-justify font-secondary leading-relaxed ml-3 mb-6'>{position.description}</p>
+            <h2 className="font-bold inline-block mb-1">Availability:</h2><p className='font-secondary inline-block ml-1.5 mb-6'>{position.availability}</p><br />
+            <h2 className="font-bold inline-block mb-1">Duration:</h2><p className='font-secondary inline-block ml-1.5 mb-6'>{position.duration}</p><br />
+            <h2 className="font-bold inline-block">Compensation:</h2><p className='font-secondary inline-block ml-1.5 mb-6'>{position.type}</p><br />
           </section>
           <section className='position_requirements my-10 w-80 md:w-170 lg:w-240'>
             <h2 className="font-bold mb-2">Requirements:</h2>
-            <ol className="list-decimal ml-5">
+            <ol className="list-decimal ml-5 font-secondary">
                 {(position?.requirements || []).map((item, index) => (
                   <li key={item.id || index} className="my-4">{item.value || item}</li>
                 ))}
@@ -54,30 +60,35 @@ function Position() {
           </section>
           <section className='position_responsibility my-10 w-80 md:w-170 lg:w-240'>
             <h2 className="font-bold mb-2">Key Responsibilities:</h2>
-            <ol className="list-decimal ml-5">
+            <ol className="list-decimal ml-5 font-secondary">
               {(position?.responsibilities || []).map((item, index) => (
                 <li key={item.id || index} className="my-4">{item.value || item}</li>
               ))}
             </ol>
           </section>
           <section className='position_Benefits my-10 w-80 md:w-170 lg:w-240'>
-            <h2 className="font-bold  mb-2">Benefits:</h2>
-            <ol className="list-decimal ml-5">
+            <h2 className="font-bold mb-2">Benefits:</h2>
+            <ol className="font-secondary list-decimal ml-5">
                 {(position?.benefits || []).map((item, index) => (
                   <li key={item.id || index} className="my-4">{item.value || item}</li>
                 ))}
             </ol>
           </section>
           <section className='position_Conclusion w-80 md:w-170 lg:w-240'>
-            <p className='mb-3 text-justify leading-relaxed '>{position.conclusion}</p>
+            {(position?.conclusion || []).map((item, index) => (
+                  <p key={item.id || index} className="my-4 font-secondary  font-bold">{item.value || item}</p>
+                ))}
           </section>
         </section>
           <section className='apply_btn flex justify-center py-6'>
             <Button to="https://books.click/internship" className={"cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-60 rounded"}>Apply</Button>
           </section>
-          <section className="w-full h-8 mt-10 text-center">
-            <Button to="/careers" className="cursor-pointer underline">Back to All Jobs</Button>
-          </section>
+          <div className="bg-lighter-gold h-10 w-full p-2 flex items-center justify-center">
+            <Link to="/careers#current-openings" className="font-secondary underline hover:text-gray flex items-center gap-2">
+              <FaArrowLeft/>
+              Back To All Jobs
+            </Link>
+          </div>
     </div>
   );
 
