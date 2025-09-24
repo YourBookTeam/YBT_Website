@@ -1,7 +1,12 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Careers from "./pages/Careers";
+import Internships from "./pages/Internships";
 import Position from "./pages/Position";
 import Services from "./pages/Services";
 import Faq from "./pages/Faq";
@@ -30,7 +35,7 @@ function AppContent() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/careers" element={<Careers />} />
+        <Route path="/internships" element={<Internships />} />
         <Route path="/position/:id" element={<Position />} />
         {/* Success Stories */}
         <Route path="/prompting_happiness" element={<SuccessStory />} />
@@ -42,10 +47,10 @@ function AppContent() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Terms />} />
       </Routes>
-      { location.pathname !== "/contact" && <BookIdea/> }
+      {location.pathname !== "/contact" && <BookIdea />}
       <Footer />
     </>
-  )
+  );
 }
 
 export default App;

@@ -165,7 +165,7 @@ function MobileNavbar() {
             </Link>
             
             <Link
-              to="/careers"
+              to="/internships"
               onClick={handleLinkClick}
               className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
