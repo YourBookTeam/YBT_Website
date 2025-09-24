@@ -69,7 +69,7 @@ function Careers() {
 
   return (
     <div> 
-      <TitleBanner>Careers</TitleBanner>
+      <TitleBanner>Internships</TitleBanner>
 
       <div className="flex flex-col justify-center items-center text-center px-5 md:px-10 lg:px-30 xl:px-50 2xl:px-100 pt-10 pb-20 gap-2">
         <div className="font-bold text-2xl">Internships</div>
