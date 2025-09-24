@@ -25,7 +25,7 @@ function Position() {
     <div>
        <section className="w-full h-8 my-3 mb-15">
         <div className="bg-lighter-gold h-10 w-full p-4 flex items-center pt-6 md:pt-4">
-          <Link to="/careers#current-openings" className="font-secondary underline flex items-center gap-2 hover:text-gray">
+          <Link to="/internships#current-openings" className="font-secondary underline flex items-center gap-2 hover:text-gray">
             <FaArrowLeft/>
             Back To All Jobs
           </Link>
@@ -98,7 +98,7 @@ function Position() {
             </a>
           </section>
           <div className="bg-lighter-gold h-10 w-full p-2 flex items-center justify-center">
-            <Link to="/careers#current-openings" className="font-secondary underline hover:text-gray flex items-center gap-2">
+            <Link to="/internships#current-openings" className="font-secondary underline hover:text-gray flex items-center gap-2">
               <FaArrowLeft/>
               Back To All Jobs
             </Link>
