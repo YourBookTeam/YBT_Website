@@ -13,6 +13,7 @@ const QuickLinks = () => {
             <li><Link to="/about" onClick={scrollToTop}> About Us</Link></li>
             <li><Link to="/services" onClick={scrollToTop}>Services</Link></li>
             <li><Link to="/#success-stories" onClick={scrollToTop}>Success Stories</Link></li>
+            <li><Link to="/#careers" onClick={scrollToTop}>Internships</Link></li>
             <li><Link to="/faq" onClick={scrollToTop}>FAQ</Link></li>
             <li className="md:hidden"><Link to="/terms" onClick={scrollToTop}>Terms</Link></li>
         </ul>
