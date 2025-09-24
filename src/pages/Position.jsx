@@ -37,7 +37,14 @@ function Position() {
             <section className="w-full flex flex-col items-center md:flex-row md:justify-between md:w-170 md:px-15 lg:w-240 m-1">
 
               <h1 className='position_name text-md mb-5 md:text-2xl lg:text-2xl font-semibold content-end'>{position.title}</h1>
-              <Button to="https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform" className={"cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-30 rounded"}>Apply</Button>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-30 rounded bg-gold hover:bg-lighter-gold text-white flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative text-center"
+              >
+                Apply
+              </a>
             </section>
             <hr className=" border border-black border-solid my-5"/>
           </div>
@@ -81,7 +88,14 @@ function Position() {
           </section>
         </section>
           <section className='apply_btn flex justify-center py-6'>
-            <Button to="https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform" className={"cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-60 rounded"}>Apply</Button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-60 rounded bg-gold hover:bg-lighter-gold text-white flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative text-center"
+            >
+              Apply
+            </a>
           </section>
           <div className="bg-lighter-gold h-10 w-full p-2 flex items-center justify-center">
             <Link to="/careers#current-openings" className="font-secondary underline hover:text-gray flex items-center gap-2">
