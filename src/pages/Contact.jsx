@@ -6,29 +6,27 @@ import ReferralBanner from "../components/contact/ReferralBanner";
 
 function Contact() {
   const [showCalendly, setShowCalendly] = useState(false);
-  
+
   const handleCalendlyOpen = () => {
-      setShowCalendly(true);
+    setShowCalendly(true);
   };
-  
+
   const handleCalendlyClose = () => {
-      setShowCalendly(false);
+    setShowCalendly(false);
   };
 
   return (
     <div className="bg-gold">
-
       <div className="flex flex-col xl:flex-row xl:gap-20 xl:p-20">
-        <DiscoveryCall handleCalendlyOpen={handleCalendlyOpen}/>
-        <ContactForm/>
+        <DiscoveryCall handleCalendlyOpen={handleCalendlyOpen} />
+        <ContactForm />
       </div>
 
       {showCalendly && (
-        <CalendlyPopup handleCalendlyClose={handleCalendlyClose}/>
+        <CalendlyPopup handleCalendlyClose={handleCalendlyClose} />
       )}
-      
-      <ReferralBanner/>
-      
+
+      <ReferralBanner />
     </div>
   );
 }

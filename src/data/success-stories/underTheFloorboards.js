@@ -55,16 +55,60 @@ const underTheFloorboards = {
     "What started as a single book became the foundation for a legacy.",
   reviews: [
     {
-      name: "Amazon LA",
-      text: `“Quiet strength and humanity… Kiss doesn't just tell a story but brings real, complex people to life.”`,
-    },
-    {
       name: "Verified Amazon Review",
       text: `"Unforgettable, courageous, and beautifully told. A tribute to compassion in the face of horror."`,
     },
     {
+      name: "Amazon LA",
+      text: `“Quiet strength and humanity… Kiss doesn't just tell a story but brings real, complex people to life.”`,
+    },
+    {
       name: "Niv",
       text: `"A must-read that reminds us compassion can be the greatest act of defiance."`,
+    },
+    {
+      name: "Natan Voitenkov",
+      text: `"This book broke me open—gently and with great care."`,
+    },
+    {
+      name: "Vered",
+      text: `"As gripping as Anne Frank’s story… should be distributed in schools."`,
+    },
+    {
+      name: "Karol",
+      text: `"Beautifully written, emotionally powerful, and rich in atmosphere, this story lingers."`,
+    },
+    {
+      name: "Dvir Pariente",
+      text: `"A stunning and fast-paced novel… the depth and twists left me speechless."`,
+    },
+    {
+      name: "Barbara Yamada",
+      text: `"Compassion and strength like no other. I want to read much more from this gifted author."`,
+    },
+    {
+      name: "Natan Voitenkov",
+      text: `"Deeply emotional, yet full of restraint. No sentimentality, just earned emotional power."`,
+    },
+    {
+      name: "Amazon LA",
+      text: `"Touching, powerful… reminds us of the impact of doing what’s right, even when it’s dangerous."`,
+    },
+    {
+      name: "Natan Voitenkov",
+      text: `"A story that trusts the reader. Complex, nonlinear, honest, like memory itself."`,
+    },
+    {
+      name: "anonymous",
+      text: `"A captivating emotional journey through WWII. Couldn’t put it down."`,
+    },
+    {
+      name: "Daniel",
+      text: `"Powerful book. Finished two weeks ago and still thinking about it daily."`,
+    },
+    {
+      name: "Karol",
+      text: `"Simplistic writing with emotional depth. Every chapter leaves you hanging."`,
     },
   ],
   moreSuccessStories: [
