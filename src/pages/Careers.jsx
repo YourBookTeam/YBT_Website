@@ -83,7 +83,7 @@ function Careers() {
       <Interns displayedInterns={displayedInterns}/>
 
       <div className="flex flex-col justify-center items-center gap-10">
-        <div className="font-bold text-4xl" ref={sectionRef}>Current Openings</div>
+        <div id="current-openings" className="font-bold text-4xl" ref={sectionRef}>Current Openings</div>
         <SearchBar query={query} handleChange={handleChange} handleSubmit={handleSubmit}/>
       </div>
 
