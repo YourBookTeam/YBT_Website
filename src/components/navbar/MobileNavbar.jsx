@@ -65,7 +65,7 @@ function MobileNavbar() {
   }, [lastScrollY, isOpen]);
 
   return (
-    <>
+        <>
       <div className="md:hidden h-20"></div>
 
       <div
@@ -163,6 +163,21 @@ function MobileNavbar() {
               </span>
               <GoChevronRight className="mt-1 text-xl" />
             </Link>
+            
+            <Link
+              to="/careers"
+              onClick={handleLinkClick}
+              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
+                isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+              }`}
+              style={{ transitionDelay: isOpen ? "0.5s" : "0s" }}
+            >
+              <span className="relative inline-block">
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Internships</p>
+                <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </span>
+              <GoChevronRight className="mt-1 text-xl" />
+            </Link>
           </div>
           <div
             className={`flex justify-center transition-all duration-500 ease-out ${
@@ -175,6 +190,7 @@ function MobileNavbar() {
         </div>
       </div>
     </>
+      
   );
 }
 
