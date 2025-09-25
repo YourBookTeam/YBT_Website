@@ -63,7 +63,7 @@ export const positions = [
       "Be part of the engine that keeps our creative and executive work moving forward!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -108,7 +108,7 @@ export const positions = [
       "Join us in bringing new stories to life through crowdfunding!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -152,7 +152,7 @@ export const positions = [
       "Join us in shaping a more efficient and organized future through ClickUp mastery!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -198,7 +198,7 @@ export const positions = [
       "Join us in shaping the digital record and making history more inclusive!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -238,7 +238,7 @@ export const positions = [
       "This unpaid internship offers hands-on experience in high-level decision-making and executive operations.",
     ],
     image: "",
-    link: "https://books.click/internship", 
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform", 
     status: "open",
   },
 
@@ -287,7 +287,7 @@ export const positions = [
       "Join us in making books a vibrant part of everyday conversations!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -335,7 +335,7 @@ export const positions = [
       "Join us in shaping and managing the editorial process behind great books!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -380,7 +380,7 @@ export const positions = [
       "Join us in shaping the future of storytelling with AI!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -419,7 +419,7 @@ export const positions = [
       "Join us in uncovering the past and enriching the present through compelling historical research!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -464,7 +464,7 @@ export const positions = [
       "Join us in shaping the future of books and storytelling!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -503,7 +503,7 @@ export const positions = [
       "Join us in shaping the future of visual design through creativity and innovation!"
     ],
     image: "",
-    link: "https://books.click/GDinterview",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -545,7 +545,7 @@ export const positions = [
       "Join us in expanding our client base and driving business success!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -584,7 +584,7 @@ export const positions = [
       "Join us in shaping the future of publishing!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -622,7 +622,7 @@ export const positions = [
       "If you’re ready to gain real-world marketing experience in the publishing industry, we’d love to hear from you!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -660,7 +660,7 @@ export const positions = [
       "If you’re excited to combine AI expertise with digital marketing strategies and contribute to our team, we’d love to hear from you!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -696,7 +696,7 @@ export const positions = [
       "If you're excited about the opportunity to contribute to our team and support authors in gaining recognition for their work, we’d love to hear from you!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -734,7 +734,7 @@ export const positions = [
     ],
     image: "",
 
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -774,7 +774,7 @@ export const positions = [
       "If you're excited about the opportunity to contribute to our team and gain a comprehensive understanding of publishing operations, we’d love to hear from you!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 
@@ -808,7 +808,7 @@ export const positions = [
       "If you're excited about the opportunity to contribute to our team and hone your journalism skills, we’d love to hear from you!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -846,7 +846,7 @@ export const positions = [
       "If you're excited about exploring big ideas through writing and want to help shape powerful narratives that matter, we’d love to hear from you!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -888,7 +888,7 @@ export const positions = [
       "If you're excited about the opportunity to contribute to our team and develop your skills in website building, we’d love to hear from you!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -925,7 +925,7 @@ export const positions = [
       "Join us in shaping the future of our team by finding the best talent out there!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -962,7 +962,7 @@ export const positions = [
       "Join us in ensuring our schedules run like clockwork and help us stay on track for success!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -1000,7 +1000,7 @@ export const positions = [
     ],
     image: "",
 
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -1036,7 +1036,7 @@ export const positions = [
       "Let’s create something impactful together."
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -1073,7 +1073,7 @@ export const positions = [
     ],
     image: "",
 
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -1111,7 +1111,7 @@ export const positions = [
       "Join us in making a difference through innovative tech solutions!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -1148,7 +1148,7 @@ export const positions = [
       "Join us in keeping our operations running smoothly and efficiently!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -1185,7 +1185,7 @@ export const positions = [
       "Join us in revolutionizing the future of digital publishing and helping authors succeed on Amazon!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -1226,7 +1226,7 @@ export const positions = [
       "Join us in managing financial records and contributing to our company's success!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
   },
@@ -1265,7 +1265,7 @@ export const positions = [
       "Join us in creating immersive audiobooks powered by the latest AI technology!"
     ],
     image: "",
-    link: "https://books.click/internship",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
 ];

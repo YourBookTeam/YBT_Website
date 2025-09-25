@@ -37,7 +37,7 @@ function Position() {
 
               <h1 className='position_name text-md mb-5 md:text-2xl lg:text-2xl font-semibold content-end'>{position.title}</h1>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform"
+                href={position.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-30 rounded bg-gold hover:bg-lighter-gold text-white flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative text-center"
