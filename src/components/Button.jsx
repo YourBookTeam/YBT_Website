@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 function Button({ to, children, className, onClick, gold, black, nav, tall, wide }) {
-  let baseClassName = "flex items-center justify-center text-center transition-colors duration-200 font-semibold";
+  let baseClassName = "flex items-center justify-center text-center transition-colors transition-opacity transition-transform ease-in-out duration-200 font-semibold";
 
   if(tall){
     baseClassName += " p-4";
@@ -19,7 +19,7 @@ function Button({ to, children, className, onClick, gold, black, nav, tall, wide
   }
 
   if(nav){
-    baseClassName += " text-gold border-2 border-gold rounded-md shadow-md ml-5";
+    baseClassName += " bg-white text-gold border-2 border-gold rounded-md shadow-md ml-5 hover:opacity-80 hover:scale-99";
   }
 
   return (
