@@ -87,8 +87,6 @@ function Internships() {
         </div>
       </div>
 
-      <Interns displayedInterns={displayedInterns} />
-
       <div className="flex flex-col justify-center items-center gap-10">
         <div
           id="current-openings"
@@ -113,6 +111,8 @@ function Internships() {
         handleNext={handleNext}
         handlePageClick={handlePageClick}
       />
+
+      <Interns displayedInterns={displayedInterns} />
     </div>
   );
 }
