@@ -2,15 +2,15 @@ import { useState } from "react";
 import { useRef } from "react";
 import { interns } from "../data/interns.js";
 import { positions } from "../data/positions.js";
-import TitleBanner from "../components/TitleBanner";
-import Interns from "../components/careers_page/Interns";
-import SearchBar from "../components/careers_page/SearchBar";
-import Pagination from "../components/careers_page/Pagination";
-import CurrentOpenings from "../components/careers_page/CurrentOpenings";
+import TitleBanner from "../components/TitleBanner.jsx";
+import Interns from "../components/internships_page/Interns.jsx";
+import SearchBar from "../components/internships_page/SearchBar.jsx";
+import Pagination from "../components/internships_page/Pagination.jsx";
+import CurrentOpenings from "../components/internships_page/CurrentOpenings.jsx";
 
 import Fuse from "fuse.js";
 
-function Careers() {
+function Internships() {
   const [query, setQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const openJobs = positions.filter((job) => job.status == "open");
@@ -77,10 +77,9 @@ function Careers() {
 
   return (
     <div>
-      <TitleBanner>Careers</TitleBanner>
+      <TitleBanner>Internships</TitleBanner>
 
       <div className="flex flex-col justify-center items-center text-center px-5 md:px-10 lg:px-30 xl:px-50 2xl:px-100 pt-10 pb-20 gap-2">
-        <div className="font-bold text-2xl">Internships</div>
         <div className="font-light font-secondary">
           At YourBookTeam, interns don’t just observe — they contribute. This is
           your chance to gain hands-on experience, build your portfolio, and be
@@ -118,4 +117,4 @@ function Careers() {
   );
 }
 
-export default Careers;
+export default Internships;

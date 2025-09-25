@@ -14,7 +14,12 @@ const ContactInfo = () => {
 
           <div className="text-lg mt-4 md:my-4 flex leading-relaxed">
               <FiMail className="text-xl mt-1.5" />
-              <a href="mailto:info@yourbookteam.com" className="min-w-56 ml-2 underline">info@yourbookteam.com</a>
+              <a href="mailto:info@yourbookteam.com" className="min-w-56 ml-2 underline relative group">
+                <span className="relative pb-0.5">
+                  <span className="inline-block transition-transform duration-200 ease-out group-hover:scale-105">info@yourbookteam.com</span>
+                  <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+                </span>
+              </a>
           </div>
         </div>
 

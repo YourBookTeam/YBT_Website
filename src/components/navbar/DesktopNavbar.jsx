@@ -29,15 +29,15 @@ function DesktopNavbar() {
                   <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
                 </span>
             </Link>
-            <Link to="/faq" className="relative group">
+            <Link to="/internships" className="relative group">
                 <span className="relative pb-1">
-                  <span className="inline-block transition-transform duration-200 ease-out group-hover:scale-105">FAQ</span>
+                  <span className="inline-block transition-transform duration-200 ease-out group-hover:scale-105">Internships</span>
                   <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
                 </span>
             </Link>
-            <Link to="/careers" className="relative group">
+            <Link to="/faq" className="relative group">
                 <span className="relative pb-1">
-                  <span className="inline-block transition-transform duration-200 ease-out group-hover:scale-105">Careers</span>
+                  <span className="inline-block transition-transform duration-200 ease-out group-hover:scale-105">FAQ</span>
                   <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
                 </span>
             </Link>
