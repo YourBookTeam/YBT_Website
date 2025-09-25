@@ -27,19 +27,16 @@ function CurrentOpenings({ displayedJobs }) {
                 flex flex-col justify-center gap-4
                 items-center lg:items-start
                 w-[100%] lg:w-[60%] xl:w-[50%] 2xl:w-[30%]
-              ">
-                  <div className="font-bold text-2xl text-center">
-                    {position.title}
-                  </div>
-                  <div className="text-center lg:text-start font-secondary text-md leading-7">
-                    {position.description}
-                  </div>
-                  <Button gold wide to={`/position/${position.id}`} onClick={scrollToTop}className="self-center lg:self-start px-4!">
-                    <div className="font-bold">APPLY</div>
-                    <FaArrowRight className="w-10 h-5"/>
-                  </Button>
+              "
+            >
+              <div className="font-bold text-2xl text-center">
+                {position.title}
+              </div>
+              <div className="text-center lg:text-start font-secondary text-md leading-7">
+                {position.description}
               </div>
               <Button
+                gold wide
                 to={`/position/${position.id}`}
                 onClick={scrollToTop}
                 className="self-center lg:self-start px-4!"
