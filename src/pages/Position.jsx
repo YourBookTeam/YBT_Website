@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import Button from "../components/Button";
 import { positions } from '../data/positions';
 import { FaArrowLeft } from "react-icons/fa6";
 
@@ -31,14 +30,14 @@ function Position() {
           </Link>
         </div>
         </section>
-         <section className='open_position flex-col justify-items-center w-full'>
+         <section className='open_position flex flex-col items-center justify-center'>
           <img src={position.image} alt='' className='w-100 my-10 pb-5'></img>
           <div className='title_containter w-80 md:w-170 lg:w-240 pb-10'>
             <section className="w-full flex flex-col items-center md:flex-row md:justify-between md:w-170 md:px-15 lg:w-240 m-1">
 
               <h1 className='position_name text-md mb-5 md:text-2xl lg:text-2xl font-semibold content-end'>{position.title}</h1>
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform"
+                href={position.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cursor-pointer justify-center font-bold text-sm text-white bg-[#011829] px-5 py-2 w-30 rounded bg-gold hover:bg-lighter-gold text-white flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative text-center"
@@ -49,7 +48,7 @@ function Position() {
             <hr className=" border border-black border-solid my-5"/>
           </div>
         </section>
-        <section className='positon_details flex-col justify-items-center px-17 my-3.5 text-left'>
+        <section className='positon_details flex flex-col justify-center items-center px-17 my-3.5 text-left'>
            <section className='position_Description w-80 md:w-170 lg:w-240'>
             <h2 className="font-bold mb-2">Description:</h2>
             <p className='text-justify font-secondary leading-relaxed ml-3 mb-6'>{position.description}</p>
