@@ -1,16 +1,10 @@
-import gold_brush_mark from "../assets/gold-brush-mark.png";
-
-function TitleBanner({ id, children }) {
+function TitleBanner({ children }) {
   return (
-    <div
-      id={id}
-      className="flex justify-self-center justify-center bg-size-[100%_100%] w-90 sm:w-110 md:w-150 xl:w-200 m-10 mx-auto"
-      style={{ backgroundImage: `url(${gold_brush_mark})` }}
-    >
-      <div className="text-white text-4xl md:text-5xl xl:text-6xl text-center font-bold p-10 drop-shadow-hero">
+      <div className="text-gold text-3xl md:text-4xl xl:text-5xl text-center font-bold p-10  flex-col justify-items-center">
         {children}
+        <div className="bg-gold h-1 w-40 mt-5"></div>
       </div>
-    </div>
+      
   );
 }
 export default TitleBanner;

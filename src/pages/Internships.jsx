@@ -8,6 +8,8 @@ import SearchBar from "../components/internships_page/SearchBar.jsx";
 import Pagination from "../components/internships_page/Pagination.jsx";
 import CurrentOpenings from "../components/internships_page/CurrentOpenings.jsx";
 
+import Fuse from "fuse.js";
+
 function Internships() {
   const [query, setQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
@@ -16,7 +18,7 @@ function Internships() {
   const sectionRef = useRef(null);
 
   const itemsPerPage = 6;
-  const totalPages = Math.ceil(openJobs.length / itemsPerPage);
+  const totalPages = Math.ceil(searchedJobs.length / itemsPerPage);
   const startIndex = itemsPerPage * (currentPage - 1);
   const endIndex = startIndex + itemsPerPage;
   const displayedJobs = searchedJobs.slice(startIndex, endIndex);
@@ -28,24 +30,30 @@ function Internships() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    query.toLowerCase();
-
-    const sorted = [...openJobs].sort((a, b) => {
-      const aText = (a.title + " " + a.description).toLowerCase();
-      const bText = (b.title + " " + b.description).toLowerCase();
-
-      const aMatch = aText.includes(query) ? 1 : 0;
-      const bMatch = bText.includes(query) ? 1 : 0;
-
-      return bMatch - aMatch;
-    });
-
-    setSearchedJobs(sorted);
+    setCurrentPage(1);
     setQuery("");
+    setSearchedJobs(openJobs);
   };
 
+  // Create fuse for fuzzy search
+  const fuseOptions = {
+    keys: ["title"],
+  };
+  const fuse = new Fuse(openJobs, fuseOptions);
+
   const handleChange = (event) => {
+    setCurrentPage(1);
     setQuery(event.target.value);
+
+    if (!event.target.value) {
+      setSearchedJobs(openJobs);
+      return;
+    }
+
+    const searchResults = fuse
+      .search(event.target.value)
+      .map((result) => result.item);
+    setSearchedJobs(searchResults);
   };
 
   const handleNext = () => {
