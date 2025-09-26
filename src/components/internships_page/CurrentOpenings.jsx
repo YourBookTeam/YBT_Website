@@ -36,9 +36,10 @@ function CurrentOpenings({ displayedJobs }) {
                 {position.description}
               </div>
               <Button
+                gold wide
                 to={`/position/${position.id}`}
                 onClick={scrollToTop}
-                className="self-center lg:self-start px-4!"
+                className="px-0 py-0"
               >
                 <div className="font-bold">APPLY</div>
                 <FaArrowRight className="w-10 h-5" />

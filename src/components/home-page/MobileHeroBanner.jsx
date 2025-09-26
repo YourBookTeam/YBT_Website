@@ -19,7 +19,7 @@ function MobileHeroBanner() {
                 </div>
             </div>
 
-            <Button to="/contact" black className="text-lg text-center justify-center w-60">
+            <Button black tall to="/contact" className="text-lg text-center justify-center w-60">
                 Discovery Call
             </Button>
         </div>

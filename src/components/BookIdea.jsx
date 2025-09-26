@@ -11,7 +11,7 @@ const BookIdea = () => {
       <h2 className="text-white text-4xl md:text-5xl font-bold text-center drop-shadow-hero mb-8">
         Have a book idea or want to learn more?
       </h2>
-      <Button to="/contact" className="text-lg" onClick={scrollToTop} black>
+      <Button black tall to="/contact" className="text-lg" onClick={scrollToTop}>
         Book a free discovery call
       </Button>
     </div>

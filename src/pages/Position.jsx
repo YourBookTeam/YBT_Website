@@ -43,7 +43,7 @@ function Position() {
               href={position.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="cursor-pointer justify-center text-sm px-5 py-2 w-30 rounded bg-gold hover:bg-lighter-gold text-white flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative text-center"
+              className="flex items-center justify-center text-center ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md transition-opacity hover:opacity-80 transition-transform  hover:scale-99 px-10 py-2"
             >
               Apply
             </a>
@@ -119,7 +119,7 @@ function Position() {
           href="https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform"
           target="_blank"
           rel="noopener noreferrer"
-          className="cursor-pointer justify-center text-sm px-5 py-2 w-60 rounded bg-gold hover:bg-lighter-gold text-white flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative text-center"
+          className="flex items-center justify-center text-center ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md transition-opacity hover:opacity-80 transition-transform  hover:scale-99 px-30 py-2"
         >
           Apply
         </a>
