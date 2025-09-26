@@ -11,20 +11,20 @@ function HeroBanner() {
           gap-10
         ">
           <div className="
-            font-bold text-white drop-shadow-hero
+            font-playfair font-bold text-white drop-shadow-hero
             lg:text-7xl
           ">
             We are
           </div>
           <div className="
-            font-bold italic drop-shadow-hero
+            text-hero-black font-playfair font-bold italic drop-shadow-hero
             lg:pr-15 xl:pr-60
             lg:text-8xl
           ">
             Your Book Team
           </div>
           <div className="
-            bg-size-[100%_100%] 
+            text-hero-black bg-size-[100%_100%] 
             w-150 xl:w-180 2xl:w-200
           " style={{ backgroundImage:`url(${white_brush_mark})`} }>
             <div className="
@@ -58,7 +58,7 @@ function HeroBanner() {
           sm:h-[40%] md:h-[50%] lg:h-[60%] xl:h-[70%] 2xl:h-[80%]
         "></SvgLogo>
         <div className="
-          flex flex-col h-full justify-around font-black text-gold
+          font-playfair flex flex-col h-full justify-around font-black text-gold
           sm:text-5xl md:text-6xl
         ">
           <div>Y</div>

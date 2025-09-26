@@ -21,7 +21,7 @@ function Pagination({
         (num) => (
           <button
             key={num}
-            className={`cursor-pointer font-secondary ${
+            className={`cursor-pointer ${
               currentPage == num ? "underline" : ""
             }`}
             onClick={() => handlePageClick(num)}

@@ -25,7 +25,7 @@ function Position() {
         <div className="bg-lighter-gold h-10 w-full p-4 flex items-center pt-6 md:pt-4">
           <Link
             to="/internships#current-openings"
-            className="font-secondary underline flex items-center gap-2 hover:text-gray"
+            className="underline flex items-center gap-2 hover:text-gray"
           >
             <FaArrowLeft />
             Back To All Jobs
@@ -54,28 +54,28 @@ function Position() {
       <section className="positon_details flex flex-col justify-center items-center px-17 my-3.5 text-left">
         <section className="position_Description w-80 md:w-170 lg:w-240">
           <h2 className="font-bold mb-2">Description:</h2>
-          <p className="text-justify font-secondary leading-relaxed ml-3 mb-6">
+          <p className="text-justify leading-relaxed ml-3 mb-6">
             {position.description}
           </p>
           <h2 className="font-bold inline-block mb-1">Availability:</h2>
-          <p className="font-secondary inline-block ml-1.5 mb-6">
+          <p className="inline-block ml-1.5 mb-6">
             {position.availability}
           </p>
           <br />
           <h2 className="font-bold inline-block mb-1">Duration:</h2>
-          <p className="font-secondary inline-block ml-1.5 mb-6">
+          <p className="inline-block ml-1.5 mb-6">
             {position.duration}
           </p>
           <br />
           <h2 className="font-bold inline-block">Compensation:</h2>
-          <p className="font-secondary inline-block ml-1.5 mb-6">
+          <p className="inline-block ml-1.5 mb-6">
             {position.type}
           </p>
           <br />
         </section>
         <section className="position_requirements my-10 w-80 md:w-170 lg:w-240">
           <h2 className="font-bold mb-2">Requirements:</h2>
-          <ol className="list-decimal ml-5 font-secondary">
+          <ol className="list-decimal ml-5">
             {(position?.requirements || []).map((item, index) => (
               <li key={item.id || index} className="my-4">
                 {item.value || item}
@@ -85,7 +85,7 @@ function Position() {
         </section>
         <section className="position_responsibility my-10 w-80 md:w-170 lg:w-240">
           <h2 className="font-bold mb-2">Key Responsibilities:</h2>
-          <ol className="list-decimal ml-5 font-secondary">
+          <ol className="list-decimal ml-5">
             {(position?.responsibilities || []).map((item, index) => (
               <li key={item.id || index} className="my-4">
                 {item.value || item}
@@ -95,7 +95,7 @@ function Position() {
         </section>
         <section className="position_Benefits my-10 w-80 md:w-170 lg:w-240">
           <h2 className="font-bold mb-2">Benefits:</h2>
-          <ol className="font-secondary list-decimal ml-5">
+          <ol className="list-decimal ml-5">
             {(position?.benefits || []).map((item, index) => (
               <li key={item.id || index} className="my-4">
                 {item.value || item}
@@ -107,7 +107,7 @@ function Position() {
           {(position?.conclusion || []).map((item, index) => (
             <p
               key={item.id || index}
-              className="my-4 font-secondary  font-bold"
+              className="my-4 font-bold"
             >
               {item.value || item}
             </p>
@@ -127,7 +127,7 @@ function Position() {
       <div className="bg-lighter-gold h-10 w-full p-2 flex items-center justify-center">
         <Link
           to="/internships#current-openings"
-          className="font-secondary underline hover:text-gray flex items-center gap-2"
+          className="underline hover:text-gray flex items-center gap-2"
         >
           <FaArrowLeft />
           Back To All Jobs
