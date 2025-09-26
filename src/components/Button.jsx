@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-function Button({ to, children, className, onClick, gold, black, nav, tall, wide }) {
-  let baseClassName = "flex items-center justify-center text-center transition-colors transition-opacity transition-transform ease-in-out duration-200 font-semibold";
+function Button({ to, children, className, onClick, gold, black, tall, wide }) {
+  let baseClassName = "flex items-center justify-center text-center ease-in-out duration-200 font-semibold";
 
   if(tall){
     baseClassName += " p-4";
@@ -10,20 +10,16 @@ function Button({ to, children, className, onClick, gold, black, nav, tall, wide
     baseClassName += " px-7 py-2";
   }
   
-  if(gold){
-    baseClassName += " bg-gold hover:bg-lighter-gold text-white";
-  }
-  
   if(black){
-    baseClassName += " bg-black hover:bg-gray text-white gap-2 drop-shadow-hero relative"
+    baseClassName += " bg-black transition-colors hover:bg-gray text-white gap-2 drop-shadow-hero relative"
   }
 
-  if(nav){
-    baseClassName += " bg-white text-gold border-2 border-gold rounded-md shadow-md ml-5 hover:opacity-80 hover:scale-99";
+  if(gold){
+    baseClassName += " bg-white text-gold border-2 border-gold rounded-md shadow-md transition-opacity hover:opacity-80 transition-transform  hover:scale-99";
   }
 
   return (
-    <Link to={to} onClick={onClick} className={baseClassName + " " + className}>
+    <Link to={to} onClick={onClick} className={className + " " + baseClassName}>
       {children}
     </Link>
   );
