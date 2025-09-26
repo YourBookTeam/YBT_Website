@@ -23,9 +23,9 @@ function Team_Member({ person, id }) {
         ">
             <div className="flex flex-col gap-2 md:gap-4">
                 <div className="font-bold text-3xl md:text-4xl">{person.name}</div>
-                <div className="font-secondary text-xl sm:text-2xl">{person.title} {'(' + person.title_abbreviation + ')'}</div>
+                <div className="text-xl sm:text-2xl">{person.title} {'(' + person.title_abbreviation + ')'}</div>
             </div>
-            <div className="font-secondary text-md sm:text-xl">{person.quote}</div>
+            <div className="text-md sm:text-xl">{person.quote}</div>
         </div>
     </div>
   );

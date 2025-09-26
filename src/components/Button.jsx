@@ -8,7 +8,7 @@ function Button({ to, children, className, onClick, tall, black }) {
     : baseClassName + " " + "px-7 py-2";
 
   baseClassName = black
-    ? baseClassName + " " + "bg-black hover:bg-gray text-white"
+    ? baseClassName + " " + "bg-hero-black hover:bg-gray text-white"
     : baseClassName + " " + "bg-gold hover:bg-lighter-gold text-white";
 
   return (

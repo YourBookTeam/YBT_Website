@@ -29,10 +29,10 @@ function StoryPreview({
            <div className="text-center">{title}</div>
            <div className="bg-gold h-1 w-full"></div>
          </div>
-         <div className="text-lg font-secondary uppercase">{author}</div>
+         <div className="text-lg uppercase">{author}</div>
 
           
-         <div className="font-secondary flex flex-col gap-5">
+         <div className="flex flex-col gap-5">
             {summary.map((paragraph, i) => (
               <p key={i}>{ paragraph }</p>
             ))}

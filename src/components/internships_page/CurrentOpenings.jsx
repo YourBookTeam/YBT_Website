@@ -32,7 +32,7 @@ function CurrentOpenings({ displayedJobs }) {
               <div className="font-bold text-2xl text-center">
                 {position.title}
               </div>
-              <div className="text-center lg:text-start font-secondary text-md leading-7">
+              <div className="text-center lg:text-start text-md leading-7">
                 {position.description}
               </div>
               <Button

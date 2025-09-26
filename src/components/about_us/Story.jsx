@@ -4,7 +4,7 @@ function Story() {
   return (
     <div 
     className="
-      items-center justify-center font-secondary 
+      items-center justify-center 
       text-center lg:text-left
       flex
       flex-col lg:flex-row

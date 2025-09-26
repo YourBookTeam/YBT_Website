@@ -9,7 +9,7 @@ function SearchBar({ query, handleSubmit, handleChange }) {
         value={query}
         onChange={handleChange}
         placeholder="Search by keyword..."
-        className="font-secondary w-[70%] lg:w-[70%] 2xl:w-[40%] h-8 px-2 py-1 border rounded-md focus:bg-white focus:outline-none bg-light-gray"
+        className="w-[70%] lg:w-[70%] 2xl:w-[40%] h-8 px-2 py-1 border rounded-md focus:bg-white focus:outline-none bg-light-gray"
       />
 
       <button
