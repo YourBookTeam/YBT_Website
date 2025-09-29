@@ -14,7 +14,7 @@ function Values() {
       
 
         <div className="
-          grid grid-cols-3 font-secondary font-semibold 
+          grid grid-cols-3 font-semibold 
           gap-0 sm:gap-15 md:gap-25 lg:gap-40 2xl:gap-50
           text-lg sm:text-xl
         ">
@@ -33,7 +33,7 @@ function Values() {
         </div>
 
         <div className="
-          grid grid-cols-2 font-secondary font-semibold 
+          grid grid-cols-2 font-semibold 
           gap-15 sm:gap-30 md:gap-30 lg:gap-50 2xl:gap-60
           text-lg sm:text-xl
         ">

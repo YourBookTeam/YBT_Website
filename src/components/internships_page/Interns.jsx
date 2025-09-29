@@ -17,7 +17,7 @@ function Interns({ displayedInterns }) {
                 </div>
                 <div className="text-xl font-bold">{intern.name}</div>
               </div>
-              <div className="font-secondary text-center lg:text-start lg:pt-4">
+              <div className="text-center lg:text-start lg:pt-4">
                 "{intern.quote}"
               </div>
             </div>
