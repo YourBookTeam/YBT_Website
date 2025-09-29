@@ -16,7 +16,7 @@ function StoryPreview({ title, author, coverImgSrc, linkTo, summary }) {
 
       <div className="flex flex-col items-start gap-10">
         <div className="flex flex-col items-start gap-2">
-          <div className="text-4xl font-bold text-gold">{title}</div>
+          <div className="text-4xl font-semibold text-gold">{title}</div>
           <div className="text-lg uppercase">{author}</div>
         </div>
 
