@@ -11,7 +11,7 @@ function Button({ to, children, className, onClick, gold, black, tall, wide }) {
   }
   
   if(black){
-    baseClassName += " bg-black transition-colors hover:bg-gray text-white gap-2 drop-shadow-hero relative"
+    baseClassName += " bg-hero-black transition-colors hover:bg-gray text-white gap-2 drop-shadow-hero relative"
   }
 
   if(gold){
