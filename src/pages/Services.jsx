@@ -2,25 +2,7 @@ import { Link } from 'react-router-dom';
 import TitleBanner from "../components/TitleBanner";
 import { FaCircleCheck, FaPencil, FaBookOpen, FaImages, FaBullhorn, FaBookAtlas } from "react-icons/fa6";
 import { TbHeadphonesFilled } from "react-icons/tb";
-
-function Button({ to, children, className, tall, black, style }) {
-  let baseClassName =
-    "flex items-center justify-center font-semibold transition-colors duration-200 drop-shadow-hero relative";
-  
-  baseClassName = tall
-    ? baseClassName + " " + "p-4"
-    : baseClassName + " " + "px-7 py-2";
-  
-  baseClassName = black
-    ? baseClassName + " " + "bg-black hover:bg-gray text-white"
-    : baseClassName + " " + "bg-gold hover:bg-lighter-gold text-white";
-  
-  return (
-    <Link to={to} className={baseClassName + " " + (className || "")} style={style}>
-      {children}
-    </Link>
-  );
-}
+import Button from "../components/Button";
 
 export default function Services() {
   const tiers = [
@@ -190,10 +172,11 @@ export default function Services() {
             
             <div className="flex justify-center">
               <Button 
+                gold wide
                 to="/contact"
-                className="w-full max-w-sm h-16 md:h-18 text-sm md:text-base"
+                className="w-full max-w-sm h-16 md:h-18 text-xl"
               >
-                Book a free discovery call
+                Book a Free Discovery Call
               </Button>
             </div>
           </div>

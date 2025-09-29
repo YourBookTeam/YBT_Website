@@ -36,7 +36,7 @@ function HeroBanner() {
               outlives you—we build legacy.
             </div>
           </div>
-          <Button to="/contact" black className="
+          <Button black tall to="/contact" className="
             lg:text-lg xl:text-2xl"
           >
             Discovery call

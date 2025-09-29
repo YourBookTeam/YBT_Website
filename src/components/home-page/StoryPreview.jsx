@@ -38,7 +38,7 @@ function StoryPreview({
             ))}
          </div>
 
-         <Button to={linkTo} onClick={scrollToTop} className="md:self-start">
+         <Button gold wide to={linkTo} onClick={scrollToTop} className="md:self-start gap-2">
            Learn more
            <FaArrowRight />
          </Button>
