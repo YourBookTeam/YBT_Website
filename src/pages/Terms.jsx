@@ -56,7 +56,7 @@ function Terms() {
   return (
     <div className="font-primary flex flex-col items-center justify-center">
       <Titlebanner>Terms and Conditions</Titlebanner>
-      <p className='px-5 md:px-10 text-lg md:text-xl font-secondary'>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
+      <p className='px-5 md:px-10 text-lg md:text-xl'>Welcome to YourBookTeam! These Terms and Conditions govern your use of our website and services. By accessing or using this website, you agree to be bound by these terms and conditions in full. Please read them carefully before proceeding.</p>
       <section className='termsContainer w-11/12 xl:py-7 sm:w-10/12'>
         {Object.entries(Term).map(([key, term]) => (
           <Dropdown key={key} question={term.title} answer={term.detail} />))

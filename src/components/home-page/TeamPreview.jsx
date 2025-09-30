@@ -1,6 +1,7 @@
 import TeamMemberPreview from "./TeamMemberPreview";
 import TitleBanner from "../TitleBanner";
 import { Link } from "react-router-dom";
+import Button from "../Button";
 
 function TeamPreview({ team }) {
   const scrollToTop = () => {
@@ -23,9 +24,7 @@ function TeamPreview({ team }) {
             <TeamMemberPreview key={person.id} person={person}/>
           ))}
         </div>
-        <Link to="/about#meet-us" onClick={scrollToTop} className="bg-gold hover:bg-lighter-gold text-white px-7 py-2 flex items-center gap-2 font-semibold transition-colors duration-200 drop-shadow-hero relative text-center">
-          Meet us
-        </Link>
+        <Button gold wide to="/about#meet-us" onClick={scrollToTop}>Meet Us</Button>
       </div>
     </>
   );

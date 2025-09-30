@@ -2,25 +2,7 @@ import { Link } from 'react-router-dom';
 import TitleBanner from "../components/TitleBanner";
 import { FaCircleCheck, FaPencil, FaBookOpen, FaImages, FaBullhorn, FaBookAtlas } from "react-icons/fa6";
 import { TbHeadphonesFilled } from "react-icons/tb";
-
-function Button({ to, children, className, tall, black, style }) {
-  let baseClassName =
-    "flex items-center justify-center font-semibold transition-colors duration-200 drop-shadow-hero relative";
-  
-  baseClassName = tall
-    ? baseClassName + " " + "p-4"
-    : baseClassName + " " + "px-7 py-2";
-  
-  baseClassName = black
-    ? baseClassName + " " + "bg-black hover:bg-gray text-white"
-    : baseClassName + " " + "bg-gold hover:bg-lighter-gold text-white";
-  
-  return (
-    <Link to={to} className={baseClassName + " " + (className || "")} style={style}>
-      {children}
-    </Link>
-  );
-}
+import Button from "../components/Button";
 
 export default function Services() {
   const tiers = [
@@ -142,7 +124,7 @@ export default function Services() {
                   <div className="text-center mb-6 md:mb-8">
                     <h3 className="text-xl md:text-2xl font-bold mb-2 tracking-wide font-primary">{tier.title}</h3>
                     <h4 className="text-2xl md:text-3xl font-bold mb-4 font-primary">{tier.subtitle}</h4>
-                    <p className="font-secondary font-bold text-sm md:text-base">{tier.description}</p>
+                    <p className="font-bold text-sm md:text-base">{tier.description}</p>
                   </div>
                   
                   <div className="mb-6 md:mb-8">
@@ -153,7 +135,7 @@ export default function Services() {
                           <div className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
                             <FaCircleCheck size={window.innerWidth >= 768 ? 33 : 25} color="white" />
                           </div>
-                          <span className="font-secondary text-sm md:text-base">{item}</span>
+                          <span className="text-sm md:text-base">{item}</span>
                         </li>
                       ))}
                     </ul>
@@ -167,7 +149,7 @@ export default function Services() {
                   className={`p-4 md:p-6 ${tierColors[index]}`}
                 >
                   <h6 className="font-bold mb-3 font-primary">Best for:</h6>
-                  <p className="mb-4 font-secondary text-sm md:text-base">{tier.bestFor}</p>
+                  <p className="mb-4 text-sm md:text-base">{tier.bestFor}</p>
                   <p className="font-bold text-lg font-primary">Starts at {tier.price}</p>
                 </div>
               </div>
@@ -180,7 +162,7 @@ export default function Services() {
           <div className="text-center mb-12">
             <div className="w-full max-w-6xl mx-auto">
               <div className="mb-6 mx-auto bg-gold h-1 w-full max-w-2xl"></div>
-              <p className="text-lg md:text-2xl leading-relaxed mb-6 max-w-5xl mx-auto font-secondary px-4">
+              <p className="text-lg md:text-2xl leading-relaxed mb-6 max-w-5xl mx-auto px-4">
                 Every author and book is unique. In your Discovery Call, we'll tailor a custom 
                 package, mixing elements from any tier, to fit your goals, maximize value and ROI, 
                 and align perfectly with your brand.
@@ -190,10 +172,11 @@ export default function Services() {
             
             <div className="flex justify-center">
               <Button 
+                gold wide
                 to="/contact"
-                className="w-full max-w-sm h-16 md:h-18 text-sm md:text-base"
+                className="w-full max-w-sm h-16 md:h-18 text-xl"
               >
-                Book a free discovery call
+                Book a Free Discovery Call
               </Button>
             </div>
           </div>
@@ -207,7 +190,7 @@ export default function Services() {
                 <div className="mx-auto bg-gold h-1 w-full max-w-xl"></div>
               </div>
               
-              <p className="mb-6 leading-relaxed font-secondary font-bold text-sm md:text-base">
+              <p className="mb-6 leading-relaxed font-bold text-sm md:text-base">
                 {premiumAddOn.description}
               </p>
 
@@ -219,7 +202,7 @@ export default function Services() {
                       <div className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
                         <FaCircleCheck size={window.innerWidth >= 768 ? 33 : 25} color="white" />
                       </div>
-                      <span className="font-secondary text-sm md:text-base">{item}</span>
+                      <span className="text-sm md:text-base">{item}</span>
                     </li>
                   ))}
                 </ul>
@@ -265,7 +248,7 @@ export default function Services() {
                 
                 <div className="w-full max-w-4xl p-4 md:p-8 flex flex-col text-center md:text-left">
                   <h2 className="font-bold text-2xl md:text-3xl mb-4 md:mb-6 font-primary">{service.title}</h2>
-                  <p className="leading-relaxed text-base md:text-lg font-secondary">
+                  <p className="leading-relaxed text-base md:text-lg">
                     {service.content}
                   </p>
                 </div>

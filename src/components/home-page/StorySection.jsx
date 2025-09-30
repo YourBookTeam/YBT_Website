@@ -10,26 +10,25 @@ function SuccessStories() {
       <TitleBanner id="success-stories">Success Stories</TitleBanner>
       <div className="flex flex-col gap-10">
         <StoryPreview
-          title= { promptingHappiness.title }
-          author= { promptingHappiness.author }
-          coverImgSrc= { promptingHappiness.frontCoverImg }
-          linkTo= "/prompting_happiness"
-          summary= { promptingHappiness.summary }
+          title={promptingHappiness.title}
+          author={promptingHappiness.author}
+          coverImgSrc={promptingHappiness.frontCoverImg}
+          linkTo="/prompting_happiness"
+          summary={promptingHappiness.summary}
         />
         <StoryPreview
-          title= { thirst.title }
-          author= { thirst.author }
-          coverImgSrc= { thirst.frontCoverImg }
-          linkTo= "/thirst"
-          summary= { thirst.summary }
-          flexReverse
+          title={thirst.title}
+          author={thirst.author}
+          coverImgSrc={thirst.frontCoverImg}
+          linkTo="/thirst"
+          summary={thirst.summary}
         />
         <StoryPreview
-          title= { underTheFloorboards.title }
-          author= { underTheFloorboards.author }
-          coverImgSrc= { underTheFloorboards.frontCoverImg }
-          linkTo= "/under_the_floorboards"
-          summary= { underTheFloorboards.summary }
+          title={underTheFloorboards.title}
+          author={underTheFloorboards.author}
+          coverImgSrc={underTheFloorboards.frontCoverImg}
+          linkTo="/under_the_floorboards"
+          summary={underTheFloorboards.summary}
         />
       </div>
     </>

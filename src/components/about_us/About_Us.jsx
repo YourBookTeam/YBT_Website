@@ -3,7 +3,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 function About_Us() {
   return (
     <div className="
-      items-center justify-center font-secondary 
+      items-center justify-center
       text-center lg:text-left
       flex
       flex-col-reverse lg:flex-row
