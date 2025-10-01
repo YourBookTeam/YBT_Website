@@ -2,7 +2,7 @@ import { FiMapPin, FiMail } from "react-icons/fi";
 
 const ContactInfo = () => {
   return (
-    <div className="flex-1 flex flex-col items-center md:min-w-64 md:min-h-96">
+    <div className="flex-1 flex flex-col items-center md:min-w-64 md:min-h-96 text-white">
       
         <h3 className="hidden md:flex text-3xl font-bold mb-8">Contact Info</h3>
 
@@ -22,8 +22,6 @@ const ContactInfo = () => {
               </a>
           </div>
         </div>
-
-        <p className="hidden md:flex justify-center mt-auto mb-5">Copyright © 2025 YourBookTeam<br/>All Rights Reserved.</p>
     </div>
   );
 };
