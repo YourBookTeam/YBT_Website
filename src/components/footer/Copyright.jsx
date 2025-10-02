@@ -1,7 +1,7 @@
 const Copyright = () => {
     return (
-        <div>
-            <p className="text-white">Copyright © 2025 YourBookTeam <br/> All Rights Reserved</p>
+        <div className="bg-black text-white w-full h-10 flex items-center justify-center">
+            Copyright © 2025, YourBookTeam, All Rights Reserved.
         </div>
     );
 };
