@@ -5,8 +5,6 @@ const QuickLinks = ({ currentPage }) => {
         window.scrollTo(0,0);
     }
 
-    console.log(currentPage.pathname);
-
     const homeClassName = currentPage == "/" ? "underline" : "";
     const aboutClassName = currentPage == "/about" ? "underline" : "";
     const servicesClassName = currentPage == "/services" ? "underline" : "";
