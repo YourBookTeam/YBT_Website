@@ -2,9 +2,9 @@ import { FiMapPin, FiMail } from "react-icons/fi";
 
 const ContactInfo = () => {
   return (
-    <div className="flex-1 flex flex-col gap-6 md:min-w-64 md:min-h-96 text-white">
+    <div className="flex flex-col gap-6 text-white items-start">
       
-        <h3 className="hidden md:flex text-xl font-bold">Contact</h3>
+        <h3 className="text-xl font-bold">Contact</h3>
 
         <div className="flex flex-col gap-4">
           <div className="text-xl flex">

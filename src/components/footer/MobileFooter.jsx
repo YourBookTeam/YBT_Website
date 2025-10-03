@@ -9,7 +9,7 @@ const MobileFooter = () => {
     }
 
     return (
-        <footer className="md:hidden px-5 pt-5 pb-2 flex flex-col gap-5 items-center justify-center text-center">
+        <footer className="lg:hidden px-5 pt-5 pb-2 flex flex-col gap-5 items-center justify-center text-center">
             
             {/* Contact Info */}
             <div className="flex-1 flex flex-col items-center md:min-w-64 md:min-h-96">

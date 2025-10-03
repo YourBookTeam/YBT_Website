@@ -2,7 +2,7 @@ function SvgLogo_Full_White({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="45 100 600 390"
+      viewBox="5 100 670 300"
       className={ className }
     >
       <g fill="#fff" strokeWidth="0">
