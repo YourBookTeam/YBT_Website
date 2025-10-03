@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
-import DiscoverButton from "./DiscoveryButton";
+import DiscoveryButton from "./DiscoveryButton";
 
 function DesktopNavbar() {
   return (
@@ -55,7 +55,7 @@ function DesktopNavbar() {
         </Link>
       </div>
 
-      <DiscoverButton />
+      <DiscoveryButton />
     </nav>
   );
 }

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "../Logo";
-import DiscoverButton from "./DiscoveryButton";
+import DiscoveryButton from "./DiscoveryButton";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { GoChevronRight } from "react-icons/go";
 import { HiMiniXMark } from "react-icons/hi2";
@@ -65,7 +65,7 @@ function MobileNavbar() {
   }, [lastScrollY, isOpen]);
 
   return (
-        <>
+    <>
       <div className="md:hidden h-20"></div>
 
       <div
@@ -74,7 +74,7 @@ function MobileNavbar() {
         }`}
       >
         <div className="pr-12">
-          <Logo className="fill-gold" onClick={ toggleOpen }></Logo>
+          <Logo className="fill-gold" onClick={toggleOpen}></Logo>
         </div>
 
         <div className="relative">
@@ -113,7 +113,9 @@ function MobileNavbar() {
               style={{ transitionDelay: isOpen ? "0.1s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">About</p>
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">
+                  About
+                </p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
@@ -128,7 +130,9 @@ function MobileNavbar() {
               style={{ transitionDelay: isOpen ? "0.2s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Services</p>
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">
+                  Services
+                </p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
@@ -143,7 +147,9 @@ function MobileNavbar() {
               style={{ transitionDelay: isOpen ? "0.3s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Success Stories</p>
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">
+                  Success Stories
+                </p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
@@ -158,12 +164,14 @@ function MobileNavbar() {
               style={{ transitionDelay: isOpen ? "0.4s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">FAQ</p>
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">
+                  FAQ
+                </p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
             </Link>
-            
+
             <Link
               to="/internships"
               onClick={handleLinkClick}
@@ -173,7 +181,9 @@ function MobileNavbar() {
               style={{ transitionDelay: isOpen ? "0.5s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Internships</p>
+                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">
+                  Internships
+                </p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
@@ -185,12 +195,11 @@ function MobileNavbar() {
             }`}
             style={{ transitionDelay: isOpen ? "0.5s" : "0s" }}
           >
-            <DiscoverButton toggleOpen={handleLinkClick} />
+            <DiscoveryButton onClick={handleLinkClick} />
           </div>
         </div>
       </div>
     </>
-      
   );
 }
 

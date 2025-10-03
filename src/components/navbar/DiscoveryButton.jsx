@@ -1,11 +1,13 @@
 import Button from "../Button";
 
-function DiscoverButton({ toggleOpen }) {
+function DiscoveryButton({ onClick }) {
   return (
     <div>
-        <Button gold tall to="/contact" onClick={toggleOpen} className="mx-5">Book A Free Discovery Call</Button>
+      <Button gold tall to="/contact" onClick={onClick} className="mx-5">
+        Book a Free Discovery Call
+      </Button>
     </div>
   );
 }
 
-export default DiscoverButton;
+export default DiscoveryButton;
