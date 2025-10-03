@@ -1,6 +1,6 @@
 import TeamMemberPreview from "./TeamMemberPreview";
+import TeamCarousel from "./TeamCarousel"; 
 import TitleBanner from "../TitleBanner";
-import { Link } from "react-router-dom";
 import Button from "../Button";
 
 function TeamPreview({ team }) {
@@ -19,10 +19,9 @@ function TeamPreview({ team }) {
         <div className="flex flex-wrap gap-10 md:gap-30 px-0 sm:px-15 justify-center">
           {team.length == 0 ? (
               <div className="text-gray text-xl">No Team Members To Show At The Moment</div>
-          ) :
-          team.map((person) => (
-            <TeamMemberPreview key={person.id} person={person}/>
-          ))}
+          ) :(
+              <TeamCarousel team={team} />
+              )}
         </div>
         <Button gold wide to="/about#meet-us" onClick={scrollToTop}>Meet Us</Button>
       </div>
