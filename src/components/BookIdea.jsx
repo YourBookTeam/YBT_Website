@@ -9,7 +9,7 @@ const BookIdea = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center py-12 px-4 mx-8 my-4 rounded-xl relative overflow-hidden bg-gold bg-center bg-size-[700px] bg-no-repeat bg-blend-soft-light drop-shadow-hero"
+      className="flex flex-col items-center justify-center py-12 px-4 mx-8 my-4 rounded-xl relative overflow-hidden bg-gold bg-center bg-size-[700px] bg-no-repeat bg-blend-soft-light drop-shadow-hero min-h-96"
       style={{ backgroundImage: `url(${typewriter})` }}
     >
       <FloatingDots />
