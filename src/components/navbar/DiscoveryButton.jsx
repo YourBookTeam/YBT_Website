@@ -3,7 +3,7 @@ import Button from "../Button";
 function DiscoverButton({ toggleOpen }) {
   return (
     <div>
-        <Button gold tall to="/contact" onClick={toggleOpen} className="mx-5">Book A Free Discovery Call</Button>
+        <Button gold tall to="/contact" onClick={toggleOpen} className="mx-5">Book A Discovery Call</Button>
     </div>
   );
 }

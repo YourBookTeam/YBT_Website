@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import SvgLogo from "./svgs/SvgLogo";
+import SvgNavbarLogo from "./svgs/SvgNavbarLogo";
 
 function Logo({ className, handleClick}) {
   const scrollToTop = () => {
@@ -8,7 +8,7 @@ function Logo({ className, handleClick}) {
 
   return (
     <Link to="/"  onClick={()=>{ scrollToTop(); handleClick() }}>
-      <SvgLogo className={className}/>
+      <SvgNavbarLogo className={className}/>
     </Link>
   );
 }

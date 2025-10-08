@@ -177,35 +177,35 @@ function Faq() {
             <ArrowIcon className="w-60 h-60 -mr-5 opacity-75" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <img src={DiscoveryIcon} alt="Discovery" className="w-15 h-15 mb-3" />
-              <span className="text-m font-semibold">Discovery</span>
+              <span className="text-sm font-semibold">Discovery</span>
             </div>
           </div>
           <div className="relative">
             <ArrowIcon className="w-60 h-60 -mr-5" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <img src={ReviewIcon} alt="Review" className="w-15 h-15 mb-3" />
-              <span className="text-m font-semibold">Review</span>
+              <span className="text-sm font-semibold">Review</span>
             </div>
           </div>
           <div className="relative">
             <ArrowIcon className="w-60 h-60 -mr-5 opacity-75" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <img src={RecommendationIcon} alt="Recommendation" className="w-15 h-15 mb-3" />
-              <span className="text-m font-semibold">Recommendation</span>
+              <span className="text-sm font-semibold">Recommendation</span>
             </div>
           </div>
           <div className="relative">
             <ArrowIcon className="w-60 h-60 -mr-5" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <img src={InitiationIcon} alt="Initiation" className="w-15 h-15 mb-3" />
-              <span className="text-m font-semibold">Initiation</span>
+              <span className="text-sm font-semibold">Initiation</span>
             </div>
           </div>
           <div className="relative">
             <ArrowIcon className="w-60 h-60 -mr-5 opacity-75" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <img src={CollaborationIcon} alt="Collaboration" className="w-15 h-15 mb-3" />
-              <span className="text-m font-semibold">Collaboration</span>
+              <span className="text-sm font-semibold">Collaboration</span>
             </div>
           </div>
         </div>
@@ -216,35 +216,35 @@ function Faq() {
             <DownArrowIcon className="w-48 h-60 opacity-75" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
               <img src={DiscoveryIcon} alt="Discovery" className="w-14 h-14 mb-2" />
-              <span className="text-base font-semibold">Discovery</span>
+              <span className="text-sm font-semibold">Discovery</span>
             </div>
           </div>
           <div className="relative">
             <DownArrowIcon className="w-48 h-60" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
               <img src={ReviewIcon} alt="Review" className="w-14 h-14 mb-2" />
-              <span className="text-base font-semibold">Review</span>
+              <span className="text-sm font-semibold">Review</span>
             </div>
           </div>
           <div className="relative">
             <DownArrowIcon className="w-48 h-60 opacity-75" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
               <img src={RecommendationIcon} alt="Recommendation" className="w-14 h-14 mb-2" />
-              <span className="text-base font-semibold">Recommendation</span>
+              <span className="text-sm font-semibold">Recommendation</span>
             </div>
           </div>
           <div className="relative">
             <DownArrowIcon className="w-48 h-60" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
               <img src={InitiationIcon} alt="Initiation" className="w-14 h-14 mb-2" />
-              <span className="text-base font-semibold">Initiation</span>
+              <span className="text-sm font-semibold">Initiation</span>
             </div>
           </div>
           <div className="relative">
             <DownArrowIcon className="w-48 h-60 opacity-75" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white pt-2">
               <img src={CollaborationIcon} alt="Collaboration" className="w-14 h-14 mb-2" />
-              <span className="text-base font-semibold">Collaboration</span>
+              <span className="text-sm font-semibold">Collaboration</span>
             </div>
           </div>
         </div>

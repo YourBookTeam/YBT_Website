@@ -176,7 +176,7 @@ export default function Services() {
                 to="/contact"
                 className="w-full max-w-sm h-16 md:h-18 text-xl"
               >
-                Book a Free Discovery Call
+                Book a Discovery Call
               </Button>
             </div>
           </div>

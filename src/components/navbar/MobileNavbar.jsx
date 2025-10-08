@@ -69,7 +69,7 @@ function MobileNavbar() {
       <div className="md:hidden h-20"></div>
 
       <div
-        className={`md:hidden flex px-8 py-4 justify-between items-center w-screen bg-white fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out ${
+        className={`md:hidden flex px-8 justify-between items-center w-screen bg-white fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
@@ -105,6 +105,21 @@ function MobileNavbar() {
         <div className="pt-20 px-8 pb-8 h-full flex flex-col justify-center">
           <div className="flex flex-col gap-8 mb-12">
             <Link
+              to="/"
+              onClick={handleLinkClick}
+              className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
+                isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
+              }`}
+              style={{ transitionDelay: isOpen ? "0.05s" : "0s" }}
+            >
+              <span className="relative inline-block">
+                <p className="text-2xl font-bold font-['Poppins'] uppercase transition-transform duration-200 ease-out group-hover:scale-105" style={{ color: "#424242" }}>HOME</p>
+                <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
+              </span>
+              <GoChevronRight className="mt-1 text-xl" />
+            </Link>
+
+            <Link
               to="/about"
               onClick={handleLinkClick}
               className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
@@ -113,7 +128,7 @@ function MobileNavbar() {
               style={{ transitionDelay: isOpen ? "0.1s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">About</p>
+                <p className="text-2xl font-bold font-['Poppins'] uppercase transition-transform duration-200 ease-out group-hover:scale-105" style={{ color: "#424242" }}>ABOUT</p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
@@ -125,10 +140,10 @@ function MobileNavbar() {
               className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
-              style={{ transitionDelay: isOpen ? "0.2s" : "0s" }}
+              style={{ transitionDelay: isOpen ? "0.15s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Services</p>
+                <p className="text-2xl font-bold font-['Poppins'] uppercase transition-transform duration-200 ease-out group-hover:scale-105" style={{ color: "#424242" }}>SERVICES</p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
@@ -140,10 +155,10 @@ function MobileNavbar() {
               className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
-              style={{ transitionDelay: isOpen ? "0.3s" : "0s" }}
+              style={{ transitionDelay: isOpen ? "0.25s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Success Stories</p>
+                <p className="text-2xl font-bold font-['Poppins'] uppercase transition-transform duration-200 ease-out group-hover:scale-105" style={{ color: "#424242" }}>SUCCESS STORIES</p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
@@ -155,10 +170,10 @@ function MobileNavbar() {
               className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
-              style={{ transitionDelay: isOpen ? "0.4s" : "0s" }}
+              style={{ transitionDelay: isOpen ? "0.35s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">FAQ</p>
+                <p className="text-2xl font-bold font-['Poppins'] uppercase transition-transform duration-200 ease-out group-hover:scale-105" style={{ color: "#424242" }}>FAQ</p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
@@ -170,10 +185,10 @@ function MobileNavbar() {
               className={`flex gap-1 items-center justify-center transition-all duration-500 ease-out group relative ${
                 isOpen ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
               }`}
-              style={{ transitionDelay: isOpen ? "0.5s" : "0s" }}
+              style={{ transitionDelay: isOpen ? "0.45s" : "0s" }}
             >
               <span className="relative inline-block">
-                <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">Internships</p>
+                <p className="text-2xl font-bold font-['Poppins'] uppercase transition-transform duration-200 ease-out group-hover:scale-105" style={{ color: "#424242" }}>INTERNSHIPS</p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
               <GoChevronRight className="mt-1 text-xl" />
