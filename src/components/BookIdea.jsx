@@ -13,8 +13,9 @@ const BookIdea = () => {
       style={{ backgroundImage: `url(${typewriter})` }}
     >
       <FloatingDots />
-      <h2 className="text-white text-2xl sm:text-4xl md:text-5xl font-bold text-center drop-shadow-hero mb-8">
+      <h2 className="flex flex-col items-center gap-3 text-white text-2xl sm:text-4xl md:text-5xl font-bold text-center drop-shadow-hero mb-10">
         Have a book idea or want to learn more?
+        <span className="block w-20 md:w-30 h-1 bg-white"></span>
       </h2>
       <DiscoveryButton onClick={scrollToTop} />
     </div>

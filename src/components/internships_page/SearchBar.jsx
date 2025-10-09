@@ -14,7 +14,7 @@ function SearchBar({ query, handleSubmit, handleChange }) {
 
       <button
         type="submit"
-        className="flex items-center justify-center text-center transition-opacity ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md hover:opacity-80 transition-transform hover:scale-99 px-4 py-1"
+        className="flex items-center justify-center text-center ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md hover:opacity-80 transition-all hover:scale-99 px-4 py-1"
       >
         Clear
       </button>
