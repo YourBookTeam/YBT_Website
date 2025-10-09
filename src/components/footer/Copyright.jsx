@@ -1,6 +1,7 @@
-const Copyright = () => {
+const Copyright = ({ className }) => {
+    const baseClassName = "bg-black text-white w-full h-10 flex items-center justify-center " + className;
     return (
-        <div className="bg-black text-white w-full h-10 flex items-center justify-center">
+        <div className={baseClassName}>
             Copyright © 2025, YourBookTeam, All Rights Reserved.
         </div>
     );

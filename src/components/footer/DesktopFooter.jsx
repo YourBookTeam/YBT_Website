@@ -17,15 +17,22 @@ const DesktopFooter = () => {
 
         <div className="flex flex-col gap-10 p-15">
           <MainLogo/>
-          <Statement className="max-w-[70%]"/>
+          <Statement className="max-w-[70%] text-start"/>
           <Socials/>
           <BackButton/>
         </div>
 
         <div className="relative flex justify-center">
             <div className="flex z-10 gap-5 p-15 xl:gap-10 2xl:gap-20">
-              <QuickLinks currentPage={currentPage.pathname}/>
-              <ContactInfo/>
+              <QuickLinks 
+                currentPage={currentPage.pathname} 
+                baseClass="flex flex-col gap-6 items-start text-white"
+                listClass="flex flex-col text-xl gap-2 items-start"
+              />
+              <ContactInfo
+                baseClass="flex flex-col gap-6 text-white items-start"
+                addressClass="min-w-56 ml-2 text-left"
+              />
             </div>
 
             <div 

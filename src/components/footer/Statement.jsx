@@ -1,6 +1,6 @@
 const Statement = ({ className }) => {
 
-    const baseClassName = "text-white text-start text-wrap " + className;
+    const baseClassName = "text-white text-wrap " + className;
 
     return (
     <div className={baseClassName}>

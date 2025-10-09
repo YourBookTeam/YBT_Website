@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const QuickLinks = ({ currentPage }) => {
+const QuickLinks = ({ currentPage, baseClass, listClass }) => {
     const scrollToTop = () => {
         window.scrollTo(0,0);
     }
@@ -13,10 +13,10 @@ const QuickLinks = ({ currentPage }) => {
     const termsClassName = currentPage == "/terms" ? "underline" : "";
 
     return (
-    <div className="flex flex-col gap-6 items-start text-white">
+    <div className={baseClass}>
         <h3 className="text-xl font-bold">Site Map</h3>
 
-        <ul className="flex flex-col text-xl gap-2 items-start">
+        <ul className={listClass}>
             <li>
                 <Link to="/" onClick={scrollToTop} className={homeClassName}>
                     Home
