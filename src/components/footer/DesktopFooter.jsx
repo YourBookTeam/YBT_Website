@@ -12,7 +12,7 @@ const DesktopFooter = () => {
   const currentPage = useLocation();
 
   return (
-    <footer className="hidden lg:flex flex-col bg-gold relative">
+    <footer className="hidden lg:flex flex-col bg-gold relative z-10">
       <div className="w-full grid grid-cols-2">
 
         <div className="flex flex-col gap-10 p-15">
@@ -23,7 +23,7 @@ const DesktopFooter = () => {
         </div>
 
         <div className="relative flex justify-center">
-            <div className="flex gap-5 p-15 xl:gap-10 2xl:gap-20">
+            <div className="flex z-10 gap-5 p-15 xl:gap-10 2xl:gap-20">
               <QuickLinks currentPage={currentPage.pathname}/>
               <ContactInfo/>
             </div>
@@ -41,6 +41,7 @@ const DesktopFooter = () => {
                   h-full
                   w-auto
                   scale-x-150
+                  scale-y-108
                 "/>
             </div>
         </div>

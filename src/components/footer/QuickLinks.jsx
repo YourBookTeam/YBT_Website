@@ -33,7 +33,7 @@ const QuickLinks = ({ currentPage }) => {
                 </Link>
             </li>
             <li>
-                <Link to="/#success-stories" onClick={scrollToTop}>
+                <Link to="/#success-stories" onClick={scrollToTop} className="whitespace-nowrap">
                     Success Stories
                 </Link>
             </li>
