@@ -10,8 +10,9 @@ function TeamPreview({ team }) {
 
   return (
     <>
+      <div className="bg-[#F9F9F9] pb-1 mb-3 overflow-x-hidden">
       <TitleBanner>Meet the Team</TitleBanner>
-      <div className="flex flex-col items-center m-15 gap-15">
+      <div className="flex flex-col items-center m-15 gap-15 ">
         <div className="text-xl w-full text-center">
           Our experienced team of experts is equipped to work with individuals
           from diverse backgrounds and situations.
@@ -24,6 +25,7 @@ function TeamPreview({ team }) {
               )}
         </div>
         <Button gold wide to="/about#meet-us" onClick={scrollToTop}>Meet Us</Button>
+      </div>
       </div>
     </>
   );
