@@ -22,7 +22,7 @@ const DesktopFooter = () => {
           <BackButton/>
         </div>
 
-        <div className="relative flex justify-center">
+        <div className="relative flex justify-center items-center">
             <div className="flex z-10 gap-5 p-15 xl:gap-10 2xl:gap-20">
               <QuickLinks 
                 currentPage={currentPage.pathname} 
