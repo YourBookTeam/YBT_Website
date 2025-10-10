@@ -13,13 +13,13 @@ const DesktopFooter = () => {
 
   return (
     <footer className="hidden lg:flex flex-col bg-gold relative z-10">
-      <div className="w-full grid grid-cols-2">
+      <div className="grid grid-cols-[auto_auto] justify-around w-full">
 
-        <div className="flex flex-col gap-10 p-15">
-          <MainLogo/>
-          <Statement className="max-w-[70%] text-start"/>
-          <Socials/>
-          <BackButton/>
+        <div className="flex flex-col gap-10 p-15 w-fit">
+            <MainLogo/>
+            <Statement className="max-w-100 text-start"/>
+            <Socials/>
+            <BackButton/>
         </div>
 
         <div className="relative flex justify-center items-center">
