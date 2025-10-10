@@ -14,7 +14,7 @@ const QuickLinks = ({ currentPage, baseClass, listClass }) => {
 
     return (
     <div className={baseClass}>
-        <h3 className="text-xl font-bold">Site Map</h3>
+        <h3 className="text-2xl lg:text-xl font-bold">Site Map</h3>
 
         <ul className={listClass}>
             <li>

@@ -4,7 +4,7 @@ const ContactInfo = ({ baseClass, addressClass }) => {
   return (
     <div className={baseClass}>
       
-        <h3 className="text-xl font-bold">Contact</h3>
+        <h3 className="text-2xl lg:text-xl font-bold">Contact</h3>
 
         <div className="flex flex-col gap-4">
           <div className="text-xl flex">

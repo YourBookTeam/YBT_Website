@@ -47,8 +47,9 @@ const DesktopFooter = () => {
                   fill-white opacity-15
                   h-full
                   w-auto
-                  scale-x-150
+                  scale-x-130
                   scale-y-108
+                  -translate-x-10
                 "/>
             </div>
         </div>
