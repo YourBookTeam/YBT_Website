@@ -92,6 +92,3 @@ function TeamCarousel({ team = [], speed = 0.5 }) {
 }
 
 export default TeamCarousel;
-
-
-
