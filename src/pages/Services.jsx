@@ -3,6 +3,7 @@ import { FaCircleCheck, FaPencil, FaBookOpen, FaImages, FaBullhorn, FaBookAtlas 
 import Services from "../../src/data/service-data/premiumServices";
 import ServiceCards from '../components/services/ServiceCards';
 import Button from "../components/Button";
+import BundlePackages from '../components/services/BundlePackages';
 
 export default function Service() {
   
@@ -42,6 +43,10 @@ export default function Service() {
           <p className='my-7'>All included at no extra charge for our Executive Tier clients</p>
         </div>
         <ServiceCards services={Services} />
+      </section>
+
+      <section id='bundles' className="py-20 px-5 bg-[#f8f8f8]">
+        <BundlePackages/>
       </section>
               
     </div>
