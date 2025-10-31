@@ -1,4 +1,4 @@
-export const services = [
+ const services = [
     {
         id: 1,
         title: "Executive Leadership Engagement",
@@ -59,3 +59,5 @@ export const services = [
         ],
     },
 ]
+
+export default services
