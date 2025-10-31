@@ -19,7 +19,7 @@ function CurrentOpenings({ displayedJobs }) {
               src={position.image}
               className="
                   object-cover rounded-xl shadow-lg
-                  w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]
+                  w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] lg:w-[300px] lg:h-[300px]
                 "
             ></img>
             <div
