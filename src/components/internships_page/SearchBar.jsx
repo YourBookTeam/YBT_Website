@@ -1,3 +1,5 @@
+import ClearSearchButton from "./ClearSearchButton";
+
 function SearchBar({ query, handleSubmit, handleChange }) {
   return (
     <form
@@ -12,12 +14,7 @@ function SearchBar({ query, handleSubmit, handleChange }) {
         className="w-[70%] lg:w-[70%] 2xl:w-[40%] h-8 px-2 py-1 border rounded-md focus:bg-white focus:outline-none bg-light-gray"
       />
 
-      <button
-        type="submit"
-        className="flex items-center justify-center text-center ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md hover:opacity-80 transition-all hover:scale-99 px-4 py-1"
-      >
-        Clear
-      </button>
+      <ClearSearchButton>Clear</ClearSearchButton>
     </form>
   );
 }
