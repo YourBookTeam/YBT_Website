@@ -10,7 +10,8 @@ export const bundleData = {
             payment: "$40,000",
             discount: "$10,000",
             revenueShare: "25%",
-            included: ["Premium Ghostwriting Service", "Comprehensive Editorial Review", "Strategic Marketing Campaign", "Full Publishing Support", "Custom Cover Design", "Priority Support"]
+            included: ["Premium Ghostwriting Service", "Comprehensive Editorial Review", "Strategic Marketing Campaign", "Full Publishing Support", "Custom Cover Design", "Priority Support"],
+            button: "Schedule a Consultation"
         },
         professionalCard: {
             title: "Professional",
@@ -18,7 +19,8 @@ export const bundleData = {
             payment: "$28,000",
             discount: "$8,000",
             revenueShare: "30%",
-            included: ["Professional Ghostwriting", "Full Editorial Process", "Targeted Marketing Strategy", "Complete Publishing", "Custom Cover Design", "Dedicated Account Manager"]
+            included: ["Professional Ghostwriting", "Full Editorial Process", "Targeted Marketing Strategy", "Complete Publishing", "Custom Cover Design", "Dedicated Account Manager"],
+            button: "Choose This Plan"
         },
         emergingCard: {
             title: "Emerging",
@@ -26,7 +28,8 @@ export const bundleData = {
             payment: "$20,000",
             discount: "$6,000",
             revenueShare: "35%",
-            included: ["Quality Ghostwriting", "Editorial Review", "Essential Marketing Package", "Full Publishing", "Custom Cover Design", "Author Support"]
+            included: ["Quality Ghostwriting", "Editorial Review", "Essential Marketing Package", "Full Publishing", "Custom Cover Design", "Author Support"],
+            button: "Start Your Journey"
         },
     },
 
@@ -40,7 +43,8 @@ export const bundleData = {
             payment: "$20,000",
             discount: "$5,000",
             revenueShare: "18%",
-            included: ["Intensive Editorial Review", "One-on-One Coaching", "High-Level Marketing Strategy", "Complete Publishing", "Premium Cover Design", "Priority Support"]
+            included: ["Intensive Editorial Review", "One-on-One Coaching", "High-Level Marketing Strategy", "Complete Publishing", "Premium Cover Design", "Priority Support"],
+            button: "Schedule a Consultation"
         },
         professionalCard: {
             title: "Professional",
@@ -48,7 +52,8 @@ export const bundleData = {
             payment: "$15,000",
             discount: "$3,500",
             revenueShare: "22%",
-            included: ["Developmental Editing", "Author Coaching Sessions", "Targeted Marketing Plan", "Full Publishing Support", "Custom Cover Design", "Dedicated Account Manager"]
+            included: ["Developmental Editing", "Author Coaching Sessions", "Targeted Marketing Plan", "Full Publishing Support", "Custom Cover Design", "Dedicated Account Manager"],
+            button: "Choose This Plan"
         },
         emergingCard: {
             title: "Emerging",
@@ -56,7 +61,8 @@ export const bundleData = {
             payment: "$11,000",
             discount: "$2,500",
             revenueShare: "26%",
-            included: ["Comprehensive Editing", "Writing Coaching", "Essential Marketing Package", "Complete Publishing", "Professional Cover Design", "Author Support"]
+            included: ["Comprehensive Editing", "Writing Coaching", "Essential Marketing Package", "Complete Publishing", "Professional Cover Design", "Author Support"],
+            button: "Start Your Journey"
         },
     }
 
