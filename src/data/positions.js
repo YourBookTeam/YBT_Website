@@ -1,25 +1,34 @@
-// import image_3D from '../assets/position_images/position_3D.png';
-// import image_admin from '../assets/position_images/position_admin.png';
-// import image_amazon from '../assets/position_images/position_amazon.jpg';
-// import image_assistant from '../assets/position_images/position_assistant.png';
-// import image_book_writing from '../assets/position_images/position_book_writing.png';
-// import image_calandaring from '../assets/position_images/position_calandaring.jpg';
-// import image_erotica from '../assets/position_images/position_erotica.png';
-// import image_historical from '../assets/position_images/position_historical.png';
-// import image_interviewer from '../assets/position_images/position_interviewer.jpeg';
-// import image_manager from '../assets/position_images/position_manager.jpg';
-// import image_marketing from '../assets/position_images/position_marketing.jpeg';
-// import image_newsletter from '../assets/position_images/position_newsletter.png';
-// import image_non_fiction from '../assets/position_images/position_non_fiction.png';
-// import image_podcast from '../assets/position_images/position_podcast.png';
-// import image_pr from '../assets/position_images/position_pr.jpeg';
-// import image_quickbooks from '../assets/position_images/position_quickbooks.png';
-// import image_researcher from '../assets/position_images/position_researcher.png';
-// import image_shopify from '../assets/position_images/position_shopify.png';
-// import image_social_media from '../assets/position_images/position_social_media.jpg';
-// import image_tech from '../assets/position_images/position_tech.png';
-// import image_trademark from '../assets/position_images/position_trademark.png';
-// import image_video from '../assets/position_images/position_video.png';
+import admin_intern from '../assets/position_images/admin_intern.png';
+import amazon_marketing_intern from '../assets/position_images/amazon_marketing_intern.png';
+import audiobook_production_intern from '../assets/position_images/audiobook_production_intern.png';
+import book_formatting_intern from '../assets/position_images/book_formatting_intern.png';
+import calendaring_intern from '../assets/position_images/calendaring_intern.png';
+import clickup_intern from '../assets/position_images/clickup_intern.png';
+import historical_research_intern from '../assets/position_images/historical_research_intern.png';
+import interviewer_presenter_intern from '../assets/position_images/interviewer_presenter_intern.png';
+import journalism_intern from '../assets/position_images/journalism_intern.png';
+import kickstarter_intern from '../assets/position_images/kickstarter_intern.png';
+import nonfiction_editorial_intern from '../assets/position_images/nonfiction_editorial_intern.png';
+import oped_writing_intern from '../assets/position_images/oped_writing_intern.png';
+import publishing_op_intern from '../assets/position_images/publishing_op_intern.png';
+import quickbooks_accounting_intern from '../assets/position_images/quickbooks_accounting_intern.png';
+import research_intern from '../assets/position_images/research_intern.png';
+import social_media_intern from '../assets/position_images/social_media_intern.png';
+import strategy_operations_intern from '../assets/position_images/strategy_operations_intern.png';
+import tech_intern from '../assets/position_images/tech_intern.png';
+import textual_assistant_intern from '../assets/position_images/textual_assistant_intern.png';
+import video_editing_intern from '../assets/position_images/video_editing_intern.png';
+import website_building_intern from '../assets/position_images/website_building_intern.png';
+import podcast_editor_intern from '../assets/position_images/podcast_editor_intern.png';
+import newsletter_assistant_intern from '../assets/position_images/newsletter_assistant_intern.png';
+import funding_programs_intern from '../assets/position_images/funding_programs_intern.png';
+import digital_marketing_intern from '../assets/position_images/digital_marketing_intern.png';
+import client_acquisition_intern from '../assets/position_images/client_acquisition_intern.png';
+import graphic_design_intern from '../assets/position_images/graphic_design_intern.png';
+import editorial_intern from '../assets/position_images/editorial_intern.png';
+import ai_writing_intern from '../assets/position_images/ai_writing_intern.png';
+import editorial_manager_intern from '../assets/position_images/editorial_manager_intern.png';
+import content_creator_intern from '../assets/position_images/content_creator_intern.png';
 
 export const positions = [
   {
@@ -61,7 +70,7 @@ export const positions = [
       "If you're ready to step into a trusted support role and make an impact behind the scenes, we’d love to hear from you!",
       "Be part of the engine that keeps our creative and executive work moving forward!",
     ],
-    image: null,
+    image: textual_assistant_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -105,7 +114,7 @@ export const positions = [
       "If you’re excited to contribute to creative campaigns and gain hands-on Kickstarter experience, we’d love to hear from you!",
       "Join us in bringing new stories to life through crowdfunding!",
     ],
-    image: null,
+    image: kickstarter_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -148,7 +157,7 @@ export const positions = [
       "If you're excited about the opportunity to contribute to our team and enhance your project management skills, we’d love to hear from you!",
       "Join us in shaping a more efficient and organized future through ClickUp mastery!",
     ],
-    image: null,
+    image: clickup_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -193,7 +202,7 @@ export const positions = [
       "If you’re excited about contributing to open knowledge and elevating underrepresented stories, we’d love to hear from you!",
       "Join us in shaping the digital record and making history more inclusive!",
     ],
-    image: null,
+    image: research_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -280,7 +289,7 @@ export const positions = [
       "If you’re ready to use your creativity to bring books to life through video, we’d love to hear from you!",
       "Join us in making books a vibrant part of everyday conversations!",
     ],
-    image: null,
+    image: content_creator_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -326,7 +335,7 @@ export const positions = [
       "If you're excited about this opportunity to contribute to the publishing world and develop editorial management skills, we’d love to hear from you!",
       "Join us in shaping and managing the editorial process behind great books!",
     ],
-    image: null,
+    image: editorial_manager_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -370,7 +379,7 @@ export const positions = [
       "If you’re excited about the opportunity to dive into the world of AI and creative writing, we’d love to hear from you! Apply now and take the first step in joining our innovative team.",
       "Join us in shaping the future of storytelling with AI!",
     ],
-    image: null,
+    image: ai_writing_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -412,7 +421,7 @@ export const positions = [
       "If you’re excited about diving into historical research and bringing history to life, we’d love to hear from you!",
       "Join us in uncovering the past and enriching the present through compelling historical research!",
     ],
-    image: null,
+    image: historical_research_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -460,7 +469,7 @@ export const positions = [
       "If you’re excited about diving into historical research and bringing history to life, we’d love to hear from you!",
       "Join us in shaping the future of books and storytelling!",
     ],
-    image: null,
+    image: editorial_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -502,7 +511,7 @@ export const positions = [
       "If you're excited about the opportunity to contribute to our team and hone your design skills, we’d love to hear from you!",
       "Join us in shaping the future of visual design through creativity and innovation!",
     ],
-    image: null,
+    image: graphic_design_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -547,7 +556,7 @@ export const positions = [
       "If you're ready to enhance your skills in client acquisition and contribute to our growing team, we want to hear from you!",
       "Join us in expanding our client base and driving business success!",
     ],
-    image: null,
+    image: client_acquisition_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -589,7 +598,7 @@ export const positions = [
       "If you're excited about the opportunity to contribute to our team and gain a deep understanding of strategic decision-making, we’d love to hear from you!",
       "Join us in shaping the future of publishing!",
     ],
-    image: null,
+    image: strategy_operations_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -630,7 +639,7 @@ export const positions = [
     conclusion: [
       "If you’re ready to gain real-world marketing experience in the publishing industry, we’d love to hear from you!",
     ],
-    image: null,
+    image: social_media_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -671,7 +680,7 @@ export const positions = [
     conclusion: [
       "If you’re excited to combine AI expertise with digital marketing strategies and contribute to our team, we’d love to hear from you!",
     ],
-    image: null,
+    image: digital_marketing_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -710,7 +719,7 @@ export const positions = [
     conclusion: [
       "If you're excited about the opportunity to contribute to our team and support authors in gaining recognition for their work, we’d love to hear from you!",
     ],
-    image: null,
+    image: funding_programs_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -750,7 +759,7 @@ export const positions = [
     conclusion: [
       "If you're excited about the opportunity to contribute to our team and hone your book formatting skills, we’d love to hear from you!",
     ],
-    image: null,
+    image: book_formatting_intern,
 
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
@@ -794,7 +803,7 @@ export const positions = [
     conclusion: [
       "If you're excited about the opportunity to contribute to our team and gain a comprehensive understanding of publishing operations, we’d love to hear from you!",
     ],
-    image: null,
+    image: publishing_op_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
@@ -831,7 +840,7 @@ export const positions = [
     conclusion: [
       "If you're excited about the opportunity to contribute to our team and hone your journalism skills, we’d love to hear from you!",
     ],
-    image: null,
+    image: journalism_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -872,7 +881,7 @@ export const positions = [
       "Subjects Include: Queer and trans identity, Jewish thought, the Israeli-Palestinian conflict, art as resistance, storytelling, AI and creativity, parenting and chosen family, trauma and healing, mental health in creative life, refugee and war narratives, feminism and masculinity, diaspora, censorship, indie publishing, and collective memory.",
       "If you're excited about exploring big ideas through writing and want to help shape powerful narratives that matter, we’d love to hear from you!",
     ],
-    image: null,
+    image: oped_writing_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -917,7 +926,7 @@ export const positions = [
     conclusion: [
       "If you're excited about the opportunity to contribute to our team and develop your skills in website building, we’d love to hear from you!",
     ],
-    image: null,
+    image: website_building_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -956,7 +965,7 @@ export const positions = [
       "Ready to develop your confidence and contribute meaningfully to our growing team?",
       "Join us in shaping the future of our team by finding the best talent out there!",
     ],
-    image: null,
+    image: interviewer_presenter_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -996,7 +1005,7 @@ export const positions = [
       "If you’re ready to bring your organizational talents to a dynamic team and contribute to our efficiency, we’d love to hear from you!",
       "Join us in ensuring our schedules run like clockwork and help us stay on track for success!",
     ],
-    image: null,
+    image: calendaring_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -1036,7 +1045,7 @@ export const positions = [
       "If you're ready to bring your video editing skills to life and be a part of exciting projects, we want to hear from you!",
       "Join us in creating captivating videos that tell compelling stories!",
     ],
-    image: null,
+    image: video_editing_intern,
 
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
@@ -1076,7 +1085,7 @@ export const positions = [
       "If you’re excited about newsletters, content, and digital marketing, we’d love to hear from you.",
       "Let’s create something impactful together.",
     ],
-    image: null,
+    image: newsletter_assistant_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -1115,7 +1124,7 @@ export const positions = [
       "If you're ready to immerse yourself in the world of podcasting and audio production, we want to hear from you!",
       "Join us in creating engaging and high-quality audio content for a diverse audience!",
     ],
-    image: null,
+    image: podcast_editor_intern,
 
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
@@ -1157,7 +1166,7 @@ export const positions = [
       "If you're excited about technology and automation and want to help us optimize our processes, we want to hear from you!",
       "Join us in making a difference through innovative tech solutions!",
     ],
-    image: null,
+    image: tech_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -1197,7 +1206,7 @@ export const positions = [
       "If you're excited about gaining experience in administrative and HR functions and want to contribute to our team's success, we want to hear from you!",
       "Join us in keeping our operations running smoothly and efficiently!",
     ],
-    image: null,
+    image: admin_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -1237,7 +1246,7 @@ export const positions = [
       "If you're ready to embark on a unique journey that involves both technical and creative aspects of digital publishing, we’d love to hear from you!",
       "Join us in revolutionizing the future of digital publishing and helping authors succeed on Amazon!",
     ],
-    image: null,
+    image: amazon_marketing_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -1281,7 +1290,7 @@ export const positions = [
       "If you're ready to apply your accounting skills and be a part of exciting projects, we want to hear from you!",
       "Join us in managing financial records and contributing to our company's success!",
     ],
-    image: null,
+    image: quickbooks_accounting_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
 
     status: "open",
@@ -1323,7 +1332,55 @@ export const positions = [
       "If you’re excited about the opportunity to explore the future of audiobooks and AI voice technology, we’d love to hear from you! Apply now and be part of an innovative team pushing the boundaries of storytelling.",
       "Join us in creating immersive audiobooks powered by the latest AI technology!",
     ],
-    image: null,
+    image: audiobook_production_intern,
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
+    status: "open",
+  },
+
+  {
+    id: "nonfiction_editorial_intern",
+    title: "Non-Fiction Editorial Intern",
+    duration: "6-Month Remote Internship, 2 hours daily",
+    type: "Unpaid",
+    availability:
+      "Virtual team meetings typically take place between 9 AM and 11 AM PST",
+    description:
+      "Are you passionate about transforming ideas into powerful published works? Join YourBookTeam for a hands-on editorial internship where you’ll work directly with thought leaders, entrepreneurs, and experts to develop compelling non-fiction manuscripts. You’ll dive into manuscript assessment, provide developmental feedback, and apply professional editing standards to real-world projects across diverse genres—from business and self-help to memoirs and thought leadership. Remote work, international collaboration, and a dynamic environment await! This internship is perfect for anyone who loves working with ideas, organizing complex information, and helping authors find their voice. Strong attention to detail, critical thinking skills, and a passion for the editorial process are essential.",
+    responsibilities: [
+      "Review and assess non-fiction manuscript submissions using YBT’s evaluation criteria.",
+      "Provide detailed editorial feedback on structure, clarity, argument development, and reader engagement.",
+      "Collaborate with department team members to ensure manuscripts meet quality standards.",
+      "Assist in developmental editing for business, self-help, and thought leadership titles.",
+      "Participate in training sessions on editorial assessment and publishing industry standards.",
+      "Help evaluate work samples from prospective authors and provide recommendations.",
+      "Research market trends and comparable titles to support editorial decisions.",
+      "Contribute to the editorial team’s ongoing project development and manuscript refinement."
+    ],
+    requirements: [
+      "Strong communication skills and ability to provide constructive feedback.",
+      "Excellent attention to detail and commitment to editorial standards.",
+      "Adaptability and willingness to learn publishing industry practices.",
+      "Passion for non-fiction books and helping authors develop their ideas.",
+      "Strong written communication and editing skills.",
+      "Ability to work independently and provide thoughtful editorial insights.",
+      "Critical thinking skills to evaluate manuscript quality and marketability.",
+      "Previous experience in editing, writing, or manuscript assessment is a plus."
+    ],
+    benefits: [
+      "Gain practical non-fiction editing and manuscript development experience.",
+      "Collaborative team environment with experienced editors and publishing professionals.",
+      "Hands-on experience evaluating real manuscripts and providing professional feedback.",
+      "Work with diverse authors across multiple non-fiction genres.",
+      "Learn the full editorial process from submission to publication-ready manuscript.",
+      "Receive a letter of recommendation and certificate of completion upon successful conclusion of the internship.",
+      "Regular training sessions to develop professional editing skills and industry knowledge.",
+      "Build a portfolio of editorial work that demonstrates your capabilities to future employers."
+    ],
+    conclusion: [
+      "If you’re excited about diving into historical research and bringing history to life, we’d love to hear from you!",
+      "Join us in shaping the future of books and storytelling!"
+    ],
+    image: nonfiction_editorial_intern,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
     status: "open",
   },
