@@ -19,19 +19,28 @@ function BundlePackages() {
 
   return (
     <div className="flex flex-col justify-center items-center gap-8">
-      <div className="toggle-switch w-[95%] h-30 bg-white rounded-lg shadow-sm flex flex-col items-center gap-2 py-2 text-[13px] font-bold">
+
+      <div className="
+        toggle-switch 
+        w-[75%] h-30 bg-white rounded-lg shadow-sm flex flex-col items-center gap-2 py-2 text-[13px] font-bold
+        lg:w-125 lg:h-auto lg:flex-row lg:p-2 lg:rounded-full
+        ">
         <button
-          className={`flex justify-center items-center rounded-lg cursor-pointer py-2 px-4 w-[95%] h-12 transition-colors duration-300 ease-in-out ${
-            toggleSwitch ? " bg-gold text-white" : " bg-white text-black"
-          }`}
+          className={`
+            flex justify-center items-center rounded-lg cursor-pointer py-2 px-4 w-[95%] h-12 transition-colors duration-300 ease-in-out 
+            lg:p-8 lg:rounded-full
+            ${toggleSwitch ? " bg-gold text-white" : " bg-white text-black"}`
+            }
           onClick={handleToggle}
         >
           Complete Publishing Package
         </button>
         <button
-          className={`flex justify-center items-center rounded-lg cursor-pointer py-2 px-4 w-[95%] h-12 transition-colors duration-300 ease-in-out ${
-            !toggleSwitch ? " bg-gold text-white" : " bg-white text-black"
-          }`}
+          className={`
+            flex justify-center items-center rounded-lg cursor-pointer py-2 px-4 w-[95%] h-12 transition-colors duration-300 ease-in-out 
+            lg:p-8 lg:rounded-full
+            ${!toggleSwitch ? " bg-gold text-white" : " bg-white text-black"}
+            `}
           onClick={handleToggle}
         >
           Author Support Package

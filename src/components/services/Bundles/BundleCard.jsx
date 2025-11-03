@@ -10,10 +10,14 @@ function BundleCard({ card }) {
     gradient = "bg-gradient-to-r from-[#D4C18B] to-[#CEB260]";
 
   return (
-    <div className="cards flex flex-col items-center">
-      <div className="w-full h-auto bg-white shadow-sm flex flex-col text-black rounded-lg">
+    <div className="cards flex flex-col items-center w-full">
+      <div className="
+        bg-white shadow-sm flex flex-col text-black rounded-lg
+        w-[95%] h-auto
+        lg:w-full lg:h-210 xl:h-200
+        ">
         <div
-          className={`title text-white w-full h-full rounded-t-lg p-7 flex flex-col gap-2 justify-center item-center text-center ${gradient}`}
+          className={`title text-white w-full rounded-t-lg p-7 flex flex-col gap-2 justify-center item-center text-center ${gradient}`}
         >
           <p className="font-bold text-2xl">{card.title}</p>
           <p>{card.subtitle}</p>

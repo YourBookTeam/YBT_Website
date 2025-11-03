@@ -19,9 +19,11 @@ function AllBundleCards({ currentPackage }){
                 </div>
             </div>
 
-            <BundleCard card={currentPackage.executiveCard}/>
-            <BundleCard card={currentPackage.professionalCard}/>
-            <BundleCard card={currentPackage.emergingCard}/>
+            <div className="flex flex-col lg:flex-row gap-5 items-center justify-center">
+                <BundleCard card={currentPackage.executiveCard}/>
+                <BundleCard card={currentPackage.professionalCard}/>
+                <BundleCard card={currentPackage.emergingCard}/>
+            </div>
 
         </div>
     )
