@@ -34,6 +34,7 @@ export const positions = [
   {
     id: "textual_virtual_assistant_intern",
     title: "Textual Virtual Assistant Intern",
+    department: "HR",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -77,6 +78,7 @@ export const positions = [
   {
     id: "kickstarter_intern",
     title: "Kickstarter Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -120,6 +122,7 @@ export const positions = [
   {
     id: "clickup_manager_intern",
     title: "ClickUp Manager Intern",
+    department: "Tech",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -162,6 +165,7 @@ export const positions = [
   {
     id: "research_intern",
     title: "Research Intern – Wikipedia Biographies",
+    department: "Strategy and Operations",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -206,6 +210,7 @@ export const positions = [
   {
     id: "cmo_assistant_intern",
     title: "Chief Marketing Officer (CMO) Assistant Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship",
     type: "Unpaid",
     availability:
@@ -244,6 +249,7 @@ export const positions = [
   {
     id: "content_creator_intern",
     title: "Content Creator Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -291,6 +297,7 @@ export const positions = [
   {
     id: "editorial_manager_intern",
     title: "Editorial Manager Intern",
+    department: "Editorial",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -336,6 +343,7 @@ export const positions = [
   {
     id: "ai_assisted_writing_intern",
     title: "AI-Assisted Writing Intern",
+    department: "Editorial",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -379,6 +387,7 @@ export const positions = [
   {
     id: "historical_research_intern",
     title: "Historical Research Intern",
+    department: "Editorial",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -420,6 +429,7 @@ export const positions = [
   {
     id: "editorial_intern",
     title: "Editorial Intern",
+    department: "Editorial",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -467,6 +477,7 @@ export const positions = [
   {
     id: "graphic_design_intern",
     title: "Graphic Design Intern",
+    department: "Graphic Design",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -508,6 +519,7 @@ export const positions = [
   {
     id: "client_acquisition_intern",
     title: "Client Acquisition Intern",
+    department: "Strategy and Operations",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -552,6 +564,7 @@ export const positions = [
   {
     id: "strategy_operations_intern",
     title: "Strategy & Operations Intern",
+    department: "Strategy and Operations",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -593,6 +606,7 @@ export const positions = [
   {
     id: "social_media_marketing_intern",
     title: "Social Media Marketing Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -633,6 +647,7 @@ export const positions = [
   {
     id: "digital_marketing_specialist_intern",
     title: "Digital Marketing Specialist Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -673,6 +688,7 @@ export const positions = [
   {
     id: "funding_programs_intern",
     title: "Funding Programs Intern",
+    department: "Finance",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -711,6 +727,7 @@ export const positions = [
   {
     id: "book_formatting_intern",
     title: "Book Formatting Intern",
+    department: "Strategy and Operations",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -752,6 +769,7 @@ export const positions = [
   {
     id: "publishing_operations_manager_intern",
     title: "Publishing Operations Manager Intern",
+    department: "Strategy and Operations",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -793,6 +811,7 @@ export const positions = [
   {
     id: "journalism_intern",
     title: "Journalism Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -830,6 +849,7 @@ export const positions = [
   {
     id: "oped_writing_assistant_intern",
     title: "Op-Ed Writing Assistant Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -870,6 +890,7 @@ export const positions = [
   {
     id: "website_building_intern",
     title: "Website Building Intern",
+    department: "Tech",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -914,6 +935,7 @@ export const positions = [
   {
     id: "interviewer_presenter_intern",
     title: "Interviewer Presenter Intern",
+    department: "HR",
     duration: "6-Month Remote Internship (2 hours daily)",
     type: "Unpaid",
     availability: "Team meetings typically held between 11 AM and 1 PM PST",
@@ -952,6 +974,7 @@ export const positions = [
   {
     id: "calendaring_intern",
     title: "Calendaring Intern",
+    department: "HR",
     duration: "6-month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -991,6 +1014,7 @@ export const positions = [
   {
     id: "video_editing_intern",
     title: "Video Editing Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -1031,6 +1055,7 @@ export const positions = [
   {
     id: "newsletter_assistant_intern",
     title: "Newsletter Assistant Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid with potential for paid opportunities based on performance",
     availability:
@@ -1069,6 +1094,7 @@ export const positions = [
   {
     id: "podcast_editor_intern",
     title: "Podcast Editor Intern",
+    department: "Marketing",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -1108,6 +1134,7 @@ export const positions = [
   {
     id: "tech_intern",
     title: "Tech Intern",
+    department: "Tech",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -1148,6 +1175,7 @@ export const positions = [
   {
     id: "admin_intern",
     title: "Admin Intern",
+    department: "HR",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -1187,6 +1215,7 @@ export const positions = [
   {
     id: "amazon_marketing_intern",
     title: "Amazon Marketing Intern",
+    department: "Strategy and Operations",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -1226,6 +1255,7 @@ export const positions = [
   {
     id: "quickbooks_accounting_intern",
     title: "QuickBooks/Accounting Intern",
+    department: "Finance",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
@@ -1269,6 +1299,7 @@ export const positions = [
   {
     id: "generating_audio_production_intern",
     title: "Generating Audiobook Production Intern",
+    department: "Strategy and Operations",
     duration: "6-Month Remote Internship, 2 hours daily",
     type: "Unpaid",
     availability:
