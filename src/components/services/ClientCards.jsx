@@ -11,9 +11,9 @@ function ClientCards({client}){
                     </div>
                     <ul className="space-y-2">
                         {item.clientStage.map((stage, index)=> (
-                        <li key={index} className="flex items-baseline space-x-2">
-                            <span className="w-1.5 h-1.5 bg-gold rounded-full align-top"></span>
-                            <p className="leading-relaxed">{stage}</p>
+                        <li key={index} className="flex items-start space-x-3">
+                            <span className="mt-4 w-1 h-1 bg-gold rounded-full flex-shrink-0"></span>
+                            <p className="leading-relaxed p-1 rounded">{stage}</p>
                         </li>
                         ))}
                     </ul>
