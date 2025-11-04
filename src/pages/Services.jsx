@@ -4,6 +4,8 @@ import Services from "../../src/data/service-data/premiumServices";
 import ServiceCards from '../components/services/ServiceCards';
 import clientData from '../data/service-data/clientTiers';
 import ClientCards from '../components/services/ClientCards';
+import payments from '../data/service-data/paymentOptions';
+import PaymentCards from '../components/services/PaymentCards';
 import Button from "../components/Button";
 
 export default function Service() {
@@ -28,7 +30,7 @@ export default function Service() {
         </div>
         
       </section>
-      <section id="philosophy" className='philosophy text-center flex flex-col items-center py-20'>
+      <section id="philosophy" className='philosophy py-15 text-center flex flex-col items-center'>
         <div className='text-center mb-10'>
           <h2 className='text-3xl font-semibold'><strong>Our Pricing Philosophy</strong></h2>
           <p className='text-[#777777] w-155 my-7'>We believe every author deserves access to professional publishing services, regardless of their financial situation.</p>
@@ -38,7 +40,7 @@ export default function Service() {
           <p className='w-225'>Our tiered approach allows us to serve authors at every stage of their career, from emerging writers to established executives.</p>
         </div>
       </section>
-      <section id='executive' className='bg-[#f8f8f8] py-20 px-5 flex flex-col items-center justify-items-center'>
+      <section id='executive' className='bg-[#f8f8f8] py-15 px-5 flex flex-col items-center justify-items-center'>
         <div className='text-center mb-10'>
           <h2 className='text-3xl font-semibold'>Executive Tier Premium Services</h2>
           <p className='my-7'>All included at no extra charge for our Executive Tier clients</p>
@@ -51,6 +53,21 @@ export default function Service() {
         <p className='text-[#777777] w-170 my-7'>We've designed our pricing structure to accommodate authors at different financial stages</p>
         </div>
         <ClientCards client={clientData} />
+      </section>
+      <section id='packagesPricing'>
+        <div>
+          <h2>Service Packages & Pricing</h2>
+          <p>Choose from our comprehensive service offerings with flexible payment options</p>
+        </div>
+        <div id='serviceTab'></div>
+
+      </section>
+      <section id='paymentInfo' className='bg-[#f8f8f8] py-15 px-5 flex flex-col items-center justify-items-center'>
+        <div className='text-center mb-10'>
+          <h2 className='text-3xl font-semibold'>Payment Structure Details</h2>
+          <p className='w-170 my-7'>Flexible payment options to suit your financial situation</p>
+        </div>
+        <PaymentCards cards={payments} />
       </section>
     </div>
   );
