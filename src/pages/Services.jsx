@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { FaCircleCheck, FaPencil, FaBookOpen, FaImages, FaBullhorn, FaBookAtlas } from "react-icons/fa6";
 import Services from "../../src/data/service-data/premiumServices";
 import ServiceCards from '../components/services/ServiceCards';
+import clientData from '../data/service-data/clientTiers';
+import ClientCards from '../components/services/ClientCards';
 import Button from "../components/Button";
 
 export default function Service() {
@@ -27,9 +29,9 @@ export default function Service() {
         
       </section>
       <section id="philosophy" className='philosophy text-center flex flex-col items-center py-20'>
-        <div className='mb-10'>
-          <h2 className='text-hero-black text-3xl mb-5'><strong>Our Pricing Philosophy</strong></h2>
-          <p className='text-[#777777] w-155'>We believe every author deserves access to professional publishing services, regardless of their financial situation.</p>
+        <div className='text-center mb-10'>
+          <h2 className='text-3xl font-semibold'><strong>Our Pricing Philosophy</strong></h2>
+          <p className='text-[#777777] w-155 my-7'>We believe every author deserves access to professional publishing services, regardless of their financial situation.</p>
         </div>
         <div className='flex flex-col items-center text-lg'>
           <p className='w-220 mb-7'>YourBookTeam offers flexible pricing based on client financial capacity and payment preferences, ensuring our high-quality publishing services are accessible while maintaining business sustainability.</p>
@@ -38,12 +40,18 @@ export default function Service() {
       </section>
       <section id='executive' className='bg-[#f8f8f8] py-20 px-5 flex flex-col items-center justify-items-center'>
         <div className='text-center mb-10'>
-          <h2 className='text-3xl'><strong>Executive Tier Premium Services</strong></h2>
+          <h2 className='text-3xl font-semibold'>Executive Tier Premium Services</h2>
           <p className='my-7'>All included at no extra charge for our Executive Tier clients</p>
         </div>
         <ServiceCards services={Services} />
       </section>
-              
+      <section id='client' className='h-200 flex flex-col items-center justify-center'>
+        <div id='text'className='text-center mb-10'>
+        <h2 className='text-3xl font-semibold'>Client Financial Categories</h2>
+        <p className='text-[#777777] w-170 my-7'>We've designed our pricing structure to accommodate authors at different financial stages</p>
+        </div>
+        <ClientCards client={clientData} />
+      </section>
     </div>
   );
 }
