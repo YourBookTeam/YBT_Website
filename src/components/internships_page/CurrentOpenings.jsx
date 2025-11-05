@@ -1,16 +1,16 @@
 import Button from "../Button";
 import { FaArrowRight } from "react-icons/fa";
 
-function CurrentOpenings({ displayedJobs }) {
+function CurrentOpenings({ displayedPositions }) {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
   return (
     <div className="flex flex-col items-center gap-16 py-20 px-10">
-      {displayedJobs.length == 0 ? (
+      {displayedPositions.length == 0 ? (
         <div className="text-gray text-xl">No open positions at the moment</div>
       ) : (
-        displayedJobs.map((position) => (
+        displayedPositions.map((position) => (
           <div
             className="flex flex-col lg:flex-row items-center gap-8 justify-center"
             key={position.id}
@@ -19,7 +19,7 @@ function CurrentOpenings({ displayedJobs }) {
               src={position.image}
               className="
                   object-cover rounded-xl shadow-lg
-                  w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]
+                  w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] lg:w-[300px] lg:h-[300px]
                 "
             ></img>
             <div
