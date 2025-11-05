@@ -1,4 +1,4 @@
-export const tableData = [
+const tableData = [
     {
         id: 1,
         package: "Full Ghostwriting",
@@ -150,3 +150,4 @@ export const tableData = [
         includes: "Custom cover design, 3 concepts, unlimited revisions, print and digital formats",
     },
 ];
+export default tableData;

@@ -1,6 +1,7 @@
-export const clientTier =[
+    const clientTier =[
     {
         id: 1,
+        borderColor:"#BBA156",
         title: "Executive Tier",
         priceNotes:"C-Suite, Senior Leadership, High Net Worth",
         clientStage:[
@@ -12,6 +13,7 @@ export const clientTier =[
     },
     {
         id: 2,
+        borderColor:"#E9C96E",
         title: "Professional Tier",
         priceNotes:"Mid-Level Management, Consultants, Entrepreneurs",
         clientStage:[
@@ -22,6 +24,7 @@ export const clientTier =[
     },
     {
         id: 3,
+        borderColor:"#333333",
         title: "Emerging Tier",
         priceNotes:"Early Career, Students, Retirees, First-Time Authors",
         clientStage:[
@@ -31,3 +34,4 @@ export const clientTier =[
         ]
     },
 ]
+export default clientTier;

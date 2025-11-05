@@ -1,4 +1,4 @@
-export const payments =[
+const payments =[
     {
         id: 1,
         title: "Revenue Share Terms",
@@ -31,3 +31,4 @@ export const payments =[
         ]
     },
 ]
+export default payments;
