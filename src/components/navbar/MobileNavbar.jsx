@@ -131,7 +131,7 @@ function MobileNavbar() {
             >
               <span className="relative inline-block">
                 <p className="text-2xl font-bold transition-transform duration-200 ease-out group-hover:scale-105">
-                  Services
+                  Pricing
                 </p>
                 <span className="absolute left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
               </span>
