@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaCircleCheck, FaPencil, FaBookOpen, FaImages, FaBullhorn, FaBookAtlas } from "react-icons/fa6";
 import Services from "../../src/data/service-data/premiumServices";
 import ServiceCards from '../components/services/ServiceCards';
 import clientData from '../data/service-data/clientTiers';
@@ -24,12 +23,12 @@ export default function Service() {
       </section>
       <section className='quickNav bg-light-grey py-7'>
         <div className='flex flex-wrap justify-center'>
-          <Button white  to="#philosophy" className="w-45 py-3 px-2 mx-2 my-3">Our Philosophy</Button>
-          <Button white  to="#executive" className="w-45 py-3 px-2 mx-2 my-3">Executive Services</Button>
-          <Button white  to="#client" className="w-45 py-3 px-2 mx-2 my-3">Client Tiers</Button>
-          <Button white  to="#packagesPricing" className="w-45 py-3 px-2 mx-2 my-3">Service Pricing</Button>
-          <Button white  to="#bundles" className="w-45 py-3 px-2 mx-2 my-3">Bundle Packages</Button>
-          <Button white  to="#paymentInfo" className="w-45 py-3 px-2 mx-2 my-3">Payment Options</Button>
+          <Button white  to="#philosophy" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Our Philosophy</Button>
+          <Button white  to="#executive" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Executive Services</Button>
+          <Button white  to="#client" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Client Tiers</Button>
+          <Button white  to="#packagesPricing" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Service Pricing</Button>
+          <Button white  to="#bundles" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Bundle Packages</Button>
+          <Button white  to="#paymentInfo" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Payment Options</Button>
         </div>
       </section>
       <section id="philosophy" className='philosophy py-15 text-center flex flex-col items-center'>
@@ -75,11 +74,11 @@ export default function Service() {
     {serviceTableData.map((service, index) => (
       <Button
       key={service.id}
-      white
-      className={`w-56 py-3 px-1 mx-2 my-3 border-light-gray transition-all duration-200 ${
+      wide
+      className={`w-56 py-3 px-1 mx-2 my-3 border-light-gray rounded-md transition-all font-medium ${
         activeIndex === index
           ? "bg-gold text-white border-gold"
-          : "bg-white text-black hover:bg-gold hover:text-white"
+          : "bg-white text-black hover:bg-[#E7E8EF] hover:text-black"
       }`}
       onClick={() => setActiveIndex(index)}
     >
@@ -89,16 +88,15 @@ export default function Service() {
   </div>
   <ServiceTable data={serviceTableData[activeIndex]} />
       </section>
+      <section id="bundles" className="py-20 px-5 bg-white">
+        <BundlePackages />
+      </section>
       <section id='paymentInfo' className='bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center'>
         <div className='text-center mb-10'>
           <h2 className='text-3xl font-semibold'>Payment Structure Details</h2>
           <p className='w-170 my-7'>Flexible payment options to suit your financial situation</p>
         </div>
         <PaymentCards cards={payments} />
-      </section>
-
-      <section id="bundles" className="py-20 px-5 bg-[#f8f8f8]">
-        <BundlePackages />
       </section>
     </div>
   );
