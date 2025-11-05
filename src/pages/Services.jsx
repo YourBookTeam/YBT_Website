@@ -23,12 +23,12 @@ export default function Service() {
       </section>
       <section className='quickNav bg-light-grey py-7'>
         <div className='flex flex-wrap justify-center'>
-          <Button white  to="#philosophy" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Our Philosophy</Button>
-          <Button white  to="#executive" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Executive Services</Button>
-          <Button white  to="#client" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Client Tiers</Button>
-          <Button white  to="#packagesPricing" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Service Pricing</Button>
-          <Button white  to="#bundles" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Bundle Packages</Button>
-          <Button white  to="#paymentInfo" className="w-45 py-3 px-2 mx-2 my-3 font-medium">Payment Options</Button>
+          <Button white  to="#philosophy" className="w-45 py-3 px-2 mx-2 my-3">Our Philosophy</Button>
+          <Button white  to="#executive" className="w-45 py-3 px-2 mx-2 my-3">Executive Services</Button>
+          <Button white  to="#client" className="w-45 py-3 px-2 mx-2 my-3">Client Tiers</Button>
+          <Button white  to="#packagesPricing" className="w-45 py-3 px-2 mx-2 my-3">Service Pricing</Button>
+          <Button white  to="#bundles" className="w-45 py-3 px-2 mx-2 my-3">Bundle Packages</Button>
+          <Button white  to="#paymentInfo" className="w-45 py-3 px-2 mx-2 my-3">Payment Options</Button>
         </div>
       </section>
       <section id="philosophy" className='philosophy py-15 text-center flex flex-col items-center'>
@@ -75,7 +75,7 @@ export default function Service() {
       <Button
       key={service.id}
       wide
-      className={`w-56 py-3 px-1 mx-2 my-3 border-light-gray rounded-md transition-all font-medium ${
+      className={`w-56 py-3 px-1 mx-2 my-3 border-light-gray rounded-md transition-all duration-200 ${
         activeIndex === index
           ? "bg-gold text-white border-gold"
           : "bg-white text-black hover:bg-[#E7E8EF] hover:text-black"
