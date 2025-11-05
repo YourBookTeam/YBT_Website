@@ -18,17 +18,17 @@ export default function Service() {
          <div className="heroContainer text-center flex flex-col items-center py-20">
             <h1 className='text-4xl'><strong>Professional Publishing Services for Every Author</strong></h1>
             <p className='w-170 mt-9 mb-7 text-lg'>Flexible pricing based on your financial capacity and payment preferences, ensuring high-quality publishing services are accessible while maintaining business sustainability.</p>
-            <Button gold wide to="/contact" className="mx-5 py-4">Explore Our Services</Button>
+            <Button gold wide to="/contact" className="mx-5 py-4 transform transition-all duration-400 hover:-translate-y-1 hover:shadow-xl cursor-pointer">Explore Our Services</Button>
         </div>
       </section>
       <section className='quickNav bg-light-grey py-7'>
         <div className='flex flex-wrap justify-center'>
           <Button white  to="#philosophy" className="w-45 py-3 px-2 mx-2 my-3">Our Philosophy</Button>
           <Button white  to="#executive" className="w-45 py-3 px-2 mx-2 my-3">Executive Services</Button>
-          <Button white  to="#tiers" className="w-45 py-3 px-2 mx-2 my-3">Client Tiers</Button>
-          <Button white  to="#services" className="w-45 py-3 px-2 mx-2 my-3">Service Pricing</Button>
+          <Button white  to="#client" className="w-45 py-3 px-2 mx-2 my-3">Client Tiers</Button>
+          <Button white  to="#packagesPricing" className="w-45 py-3 px-2 mx-2 my-3">Service Pricing</Button>
           <Button white  to="#bundles" className="w-45 py-3 px-2 mx-2 my-3">Bundle Packages</Button>
-          <Button white  to="#payment" className="w-45 py-3 px-2 mx-2 my-3">Payment Options</Button>
+          <Button white  to="#paymentInfo" className="w-45 py-3 px-2 mx-2 my-3">Payment Options</Button>
         </div>
         
       </section>
@@ -56,22 +56,18 @@ export default function Service() {
         </div>
         <ClientCards client={clientData} />
       </section>
-      <section
-  id="packagesPricing"
-  className="bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center"
->
+      <section id="packagesPricing"
+  className="bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center">
   <div className="text-center mb-10">
     <h2 className="text-3xl font-semibold">Service Packages & Pricing</h2>
-    <p className="text-grey w-170 my-7">
-      Choose from our comprehensive service offerings with flexible payment options
-    </p>
+    <p className="text-grey w-170 my-7">Choose from our comprehensive service offerings with flexible payment options</p>
   </div>
 
   <div id="serviceTab" className="flex flex-wrap justify-center">
     {serviceTableData.map((service, index) => (
       <Button
       key={service.id}
-      wide
+      white
       className={`w-56 py-3 px-1 mx-2 my-3 border-light-gray transition-all duration-200 ${
         activeIndex === index
           ? "bg-gold text-white border-gold"
@@ -84,8 +80,7 @@ export default function Service() {
     ))}
   </div>
   <ServiceTable data={serviceTableData[activeIndex]} />
-</section>
-
+      </section>
       <section id='paymentInfo' className='bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center'>
         <div className='text-center mb-10'>
           <h2 className='text-3xl font-semibold'>Payment Structure Details</h2>
