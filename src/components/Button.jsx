@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom";
 function Button({ to, children, className, onClick, gold, black, tall, wide, white }) {
-  let baseClassName = "flex items-center justify-center text-center ease-in-out duration-200";
-
-  if (!className.includes("font-")) {
-    baseClassName += " font-semibold"; // Default to font-semibold if no font class is provided
-  }
+  let baseClassName = "flex items-center justify-center text-center ease-in-out duration-200 font-semibold";
 
   if(tall){
     baseClassName += " p-4";
