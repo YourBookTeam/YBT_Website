@@ -9,6 +9,7 @@ import PaymentCards from '../components/services/PaymentCards';
 import serviceTableData from '../data/service-data/serviceTableData';
 import ServiceTable from '../components/services/ServiceTable'
 import Button from "../components/Button";
+import BundlePackages from "../components/services/Bundles/BundlePackages";
 
 export default function Service() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -30,16 +31,23 @@ export default function Service() {
           <Button white  to="#bundles" className="w-45 py-3 px-2 mx-2 my-3">Bundle Packages</Button>
           <Button white  to="#paymentInfo" className="w-45 py-3 px-2 mx-2 my-3">Payment Options</Button>
         </div>
-        
       </section>
       <section id="philosophy" className='philosophy py-15 text-center flex flex-col items-center'>
         <div className='text-center mb-10'>
           <h2 className='text-3xl font-semibold'><strong>Our Pricing Philosophy</strong></h2>
           <p className='text-grey w-155 my-7'>We believe every author deserves access to professional publishing services, regardless of their financial situation.</p>
         </div>
-        <div className='flex flex-col items-center text-lg'>
-          <p className='w-220 mb-7'>YourBookTeam offers flexible pricing based on client financial capacity and payment preferences, ensuring our high-quality publishing services are accessible while maintaining business sustainability.</p>
-          <p className='w-225'>Our tiered approach allows us to serve authors at every stage of their career, from emerging writers to established executives.</p>
+        <div className="flex flex-col items-center text-lg">
+          <p className="w-220 mb-7">
+            YourBookTeam offers flexible pricing based on client financial
+            capacity and payment preferences, ensuring our high-quality
+            publishing services are accessible while maintaining business
+            sustainability.
+          </p>
+          <p className="w-225">
+            Our tiered approach allows us to serve authors at every stage of
+            their career, from emerging writers to established executives.
+          </p>
         </div>
       </section>
       <section id='executive' className='bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center'>
@@ -87,6 +95,10 @@ export default function Service() {
           <p className='w-170 my-7'>Flexible payment options to suit your financial situation</p>
         </div>
         <PaymentCards cards={payments} />
+      </section>
+
+      <section id="bundles" className="py-20 px-5 bg-[#f8f8f8]">
+        <BundlePackages />
       </section>
     </div>
   );
