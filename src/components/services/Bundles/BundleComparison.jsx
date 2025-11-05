@@ -6,7 +6,7 @@ function BundleComparison(){
     const tableRowClass ="border-b border-gray/10 transition-colors hover:bg-[#f9f9f9]";
 
     return(
-        <div className="flex flex-col justify-center items-center gap-8 w-[95%] overflow-x-auto bg-white rounded-lg p-7">
+        <div className="flex flex-col justify-center items-center gap-8 w-[95%] overflow-x-auto bg-white rounded-lg p-7 max-w-300 shadow-sm">
             <p className="font-bold text-2xl">Package Comparison</p>
 
             <div className="w-full overflow-x-auto">
