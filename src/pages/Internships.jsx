@@ -7,21 +7,46 @@ import Interns from "../components/internships_page/Interns.jsx";
 import SearchBar from "../components/internships_page/SearchBar.jsx";
 import Pagination from "../components/internships_page/Pagination.jsx";
 import CurrentOpenings from "../components/internships_page/CurrentOpenings.jsx";
+import FilterSelection from "../components/internships_page/FilterSelection.jsx";
 
 import Fuse from "fuse.js";
 
 function Internships() {
   const [query, setQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const openJobs = positions.filter((job) => job.status == "open");
-  const [searchedJobs, setSearchedJobs] = useState(openJobs);
-  const sectionRef = useRef(null);
+  const openPositions = positions.filter(
+    (position) => position.status == "open"
+  );
+  const [positionFilters, setPositionFilters] = useState([]);
 
+  // Use query and filters to create results on every render
+  const filteredPositions = openPositions.filter((position) => {
+    try {
+      return (
+        positionFilters.length == 0 ||
+        positionFilters.includes(position.department)
+      );
+    } catch (error) {
+      console.error("An error occurred: ", error.message);
+      return false;
+    }
+  });
+
+  const fuseOptions = {
+    keys: ["title"],
+  };
+  const fuse = new Fuse(filteredPositions, fuseOptions);
+
+  const finalFilter = query
+    ? fuse.search(query).map((result) => result.item)
+    : filteredPositions;
+
+  const sectionRef = useRef(null);
   const itemsPerPage = 6;
-  const totalPages = Math.ceil(searchedJobs.length / itemsPerPage);
+  const totalPages = Math.ceil(finalFilter.length / itemsPerPage);
   const startIndex = itemsPerPage * (currentPage - 1);
   const endIndex = startIndex + itemsPerPage;
-  const displayedJobs = searchedJobs.slice(startIndex, endIndex);
+  const displayedPositions = finalFilter.slice(startIndex, endIndex);
 
   const displayedInterns = interns.filter(
     (intern) => intern.status == "display"
@@ -32,28 +57,11 @@ function Internships() {
 
     setCurrentPage(1);
     setQuery("");
-    setSearchedJobs(openJobs);
   };
-
-  // Create fuse for fuzzy search
-  const fuseOptions = {
-    keys: ["title"],
-  };
-  const fuse = new Fuse(openJobs, fuseOptions);
 
   const handleChange = (event) => {
     setCurrentPage(1);
     setQuery(event.target.value);
-
-    if (!event.target.value) {
-      setSearchedJobs(openJobs);
-      return;
-    }
-
-    const searchResults = fuse
-      .search(event.target.value)
-      .map((result) => result.item);
-    setSearchedJobs(searchResults);
   };
 
   const handleNext = () => {
@@ -100,9 +108,13 @@ function Internships() {
           handleChange={handleChange}
           handleSubmit={handleSubmit}
         />
+        <FilterSelection
+          positionFilters={positionFilters}
+          setPositionFilters={setPositionFilters}
+        />
       </div>
 
-      <CurrentOpenings displayedJobs={displayedJobs} />
+      <CurrentOpenings displayedPositions={displayedPositions} />
 
       <Pagination
         totalPages={totalPages}
