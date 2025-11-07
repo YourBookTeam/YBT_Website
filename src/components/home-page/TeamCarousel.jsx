@@ -1,94 +1,54 @@
-import { useEffect, useRef, useState } from "react";
-import TeamMemberPreview from "./TeamMemberPreview";
+import React, { useEffect } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import AutoScroll from "embla-carousel-auto-scroll";
+import TeamMember from "./TeamMember";
 
-function TeamCarousel({ team = [], speed = 0.5 }) {
-  const wrapperRef = useRef(null);
-  const containerRef = useRef(null);
-  const frameRef = useRef(null);
-  const pausedRef = useRef(false);
-  const positionRef = useRef(0);
+const TeamCarousel = ({ team = [], options = {} }) => {
+  const plugins = [
+    AutoScroll({
+      playOnInit: true,
+      startDelay: 1000,
+      speed: 2,
+      stopOnInteraction: false,
+      stopOnMouseEnter: false,
+      stopOnFocusIn: false,
+    }),
+  ];
 
-  const [items, setItems] = useState([...team]);
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { align: "start", loop: true, ...options },
+    plugins
+  );
 
   useEffect(() => {
-    const wrapper = wrapperRef.current;
-    const container = containerRef.current;
-    if (!wrapper || !container) return;
+    if (!emblaApi) return;
+    const autoScroll = emblaApi.plugins()?.autoScroll;
+    if (autoScroll && !autoScroll.isPlaying()) autoScroll.play();
 
-    // Function to duplicate items until container width is filled
-    const fillItems = () => {
-      const containerWidth = wrapper.offsetWidth;
-      let currentWidth = Array.from(container.children).reduce(
-        (sum, el) => sum + el.offsetWidth,
-        0
-      );
+    const resizeObserver = new ResizeObserver(() => emblaApi.reInit());
+    resizeObserver.observe(emblaApi.rootNode());
 
-      let newItems = [...team];
-      const gap = parseFloat(getComputedStyle(container).gap) || 0;
+    return () => resizeObserver.disconnect();
+  }, [emblaApi]);
 
-      while (currentWidth < containerWidth * 2) {
-        newItems = [...newItems, ...team];
-        currentWidth += team.reduce((sum, _, i) => sum + container.children[i].offsetWidth + gap, 0);
-      }
-
-      setItems(newItems);
-    };
-
-    fillItems();
-    window.addEventListener("resize", fillItems);
-
-    // Pause on hover
-    const handleEnter = () => (pausedRef.current = true);
-    const handleLeave = () => (pausedRef.current = false);
-    wrapper.addEventListener("mouseenter", handleEnter);
-    wrapper.addEventListener("mouseleave", handleLeave);
-
-    // Animation loop
-    const animate = () => {
-      if (!pausedRef.current) {
-        positionRef.current += speed;
-
-        const firstChild = container.children[0];
-        if (firstChild) {
-          const gap = parseFloat(getComputedStyle(container).gap) || 0;
-          const firstWidth = firstChild.offsetWidth + gap;
-
-          if (positionRef.current >= firstWidth) {
-            container.appendChild(firstChild);
-            positionRef.current -= firstWidth;
-          }
-        }
-
-        container.style.transform = `translateX(-${positionRef.current}px)`;
-      }
-
-      frameRef.current = requestAnimationFrame(animate);
-    };
-
-    frameRef.current = requestAnimationFrame(animate);
-
-    return () => {
-      cancelAnimationFrame(frameRef.current);
-      window.removeEventListener("resize", fillItems);
-      wrapper.removeEventListener("mouseenter", handleEnter);
-      wrapper.removeEventListener("mouseleave", handleLeave);
-    };
-  }, [team, speed]);
+  if (team.length === 0) return null;
 
   return (
-    <div ref={wrapperRef} className="overflow-hidden w-full py-10">
-      <div
-        ref={containerRef}
-        className="flex gap-10 will-change-transform"
-      >
-        {items.map((person, i) => (
-          <div key={`${person.name}-${i}`} className="flex-shrink-0">
-            <TeamMemberPreview person={person} />
-          </div>
-        ))}
+    <div className="embla overflow-hidden w-screen max-w-full">
+      <div className="embla__viewport" ref={emblaRef}>
+        <div className="embla__container flex flex-nowrap">
+          {team.map((person, idx) => (
+            <div
+              className="embla__slide flex-none w-[18rem] px-[11%]"
+              key={idx}
+            >
+              <TeamMember person={person} />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default TeamCarousel;
