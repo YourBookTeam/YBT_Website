@@ -8,9 +8,9 @@ const TeamCarousel = ({ team = [], options = {} }) => {
     AutoScroll({
       playOnInit: true,
       startDelay: 1000,
-      speed: 2,
-      stopOnInteraction: false,
-      stopOnMouseEnter: false,
+      speed: 1,
+      stopOnInteraction: true,
+      stopOnMouseEnter: true,
       stopOnFocusIn: false,
     }),
   ];
@@ -37,10 +37,10 @@ const TeamCarousel = ({ team = [], options = {} }) => {
     <div className="embla overflow-hidden w-screen max-w-full">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container flex flex-nowrap">
-          {team.map((person, idx) => (
+          {team.map((person, i) => (
             <div
               className="embla__slide flex-none w-[18rem] px-[11%]"
-              key={idx}
+              key={i}
             >
               <TeamMember person={person} />
             </div>
