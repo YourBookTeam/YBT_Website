@@ -2,7 +2,7 @@ import React from "react";
 
 function ClientCards({client}){
     return(
-        <div className="w-280 flex justify-evenly">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 px-15 justify-items-center">
             {client.map((item) =>(
                 <div className="bg-[#f8f8f8] drop-shadow-md rounded-lg p-6 w-85 h-103" key={item.id} style={{ borderTop: `4px solid ${item.borderColor}` }}>
                     <div className="my-4">
