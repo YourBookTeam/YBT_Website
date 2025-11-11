@@ -1,5 +1,3 @@
-import React from "react";
-
 function ClientCards({client}){
     return(
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 px-4 sm:px-6 lg:px-12">
