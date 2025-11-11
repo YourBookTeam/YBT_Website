@@ -12,7 +12,7 @@ function BundleCard({ card }) {
   return (
     <div className="
         bg-white shadow-sm flex flex-col text-black rounded-lg
-        ease-in-out duration-200 transition-transform hover:-translate-y-2
+        ease-in-out duration-300 hover:-translate-y-2 hover:shadow-xl
         w-full h-auto
         lg:h-210 xl:h-200
         ">
