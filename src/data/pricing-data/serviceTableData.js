@@ -122,7 +122,7 @@ const tableData = [
                 emergAlternative: "$3,200"
             },
         ],
-        includes: "ISBN registration, distribution setup, formatting, platform managemen",
+        includes: "ISBN registration, distribution setup, formatting, platform management",
     },
     {
         id: 6,

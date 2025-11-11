@@ -1,4 +1,3 @@
-import React from "react";
 function paymentCards({cards}){
     return(
         <div className="w-285 flex justify-evenly">
