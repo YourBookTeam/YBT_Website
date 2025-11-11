@@ -88,7 +88,7 @@ export default function Pricing() {
       </section>
       <section
         id="executive"
-        className="bg-light-grey py-15 px-5 flex flex-col items-center justify-center"
+        className="bg-light-grey pl-5 pr-10 py-15 flex flex-col items-center justify-center"
       >
         <div className="text-center mb-10">
           <h2 className="text-3xl font-semibold">
