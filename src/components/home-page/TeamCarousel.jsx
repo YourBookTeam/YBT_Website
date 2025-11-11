@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import AutoScroll from "embla-carousel-auto-scroll";
 import TeamMember from "./TeamMember";
@@ -7,7 +7,7 @@ const TeamCarousel = ({ team = [], options = {} }) => {
   const plugins = [
     AutoScroll({
       playOnInit: true,
-      startDelay: 1000,
+      startDelay: 0,
       speed: 1,
       stopOnInteraction: true,
       stopOnMouseEnter: true,
@@ -23,18 +23,33 @@ const TeamCarousel = ({ team = [], options = {} }) => {
   useEffect(() => {
     if (!emblaApi) return;
     const autoScroll = emblaApi.plugins()?.autoScroll;
-    if (autoScroll && !autoScroll.isPlaying()) autoScroll.play();
+    if (!autoScroll) return;
 
+    // Start playing on mount if not already
+    if (!autoScroll.isPlaying()) autoScroll.play();
+
+    // Resume autoplay when the mouse leaves the carousel
+    const node = emblaApi.rootNode();
+    const handleMouseLeave = () => {
+      if (!autoScroll.isPlaying()) autoScroll.play();
+    };
+
+    node.addEventListener("mouseleave", handleMouseLeave);
+
+    // Keep Embla stable on resize
     const resizeObserver = new ResizeObserver(() => emblaApi.reInit());
-    resizeObserver.observe(emblaApi.rootNode());
+    resizeObserver.observe(node);
 
-    return () => resizeObserver.disconnect();
+    return () => {
+      node.removeEventListener("mouseleave", handleMouseLeave);
+      resizeObserver.disconnect();
+    };
   }, [emblaApi]);
 
   if (team.length === 0) return null;
 
   return (
-    <div className="embla overflow-hidden w-screen max-w-full">
+    <div className="embla overflow-visible w-screen max-w-full">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container flex flex-nowrap">
           {team.map((person, i) => (
