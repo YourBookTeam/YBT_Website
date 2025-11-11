@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Internships from "./pages/Internships";
 import Position from "./pages/Position";
-import Services from "./pages/Services";
+import Pricing from "./pages/Pricing";
 import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import Terms from "./pages/Terms";
@@ -42,7 +42,7 @@ function AppContent() {
         <Route path="/thirst" element={<SuccessStory />} />
         <Route path="/under_the_floorboards" element={<SuccessStory />} />
         {/* End of Success Stories */}
-        <Route path="/services" element={<Services />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/terms" element={<Terms />} />

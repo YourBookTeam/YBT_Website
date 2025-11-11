@@ -7,7 +7,7 @@ const QuickLinks = ({ currentPage, baseClass, listClass }) => {
 
     const homeClassName = currentPage == "/" ? "underline" : "";
     const aboutClassName = currentPage == "/about" ? "underline" : "";
-    const servicesClassName = currentPage == "/services" ? "underline" : "";
+    const pricingClassName = currentPage == "/pricing" ? "underline" : "";
     const faqClassName = currentPage == "/faq" ? "underline" : "";
     const internshipsClassName = currentPage == "/internships" ? "underline" : "";
     const termsClassName = currentPage == "/terms" ? "underline" : "";
@@ -28,8 +28,8 @@ const QuickLinks = ({ currentPage, baseClass, listClass }) => {
                 </Link>
             </li>
             <li>
-                <Link to="/services" onClick={scrollToTop} className={servicesClassName}>
-                    Services
+                <Link to="/pricing" onClick={scrollToTop} className={pricingClassName}>
+                    Pricing
                 </Link>
             </li>
             <li>
