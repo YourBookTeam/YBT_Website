@@ -16,9 +16,9 @@ export default function Service() {
     <div>
       <section className='hero bg-[#d0b25f] text-white p-'>
          <div className="heroContainer text-center flex flex-col items-center py-20">
-            <h1 className='text-4xl'><strong>Professional Publishing Services for Every Author</strong></h1>
-            <p className='w-170 mt-9 mb-7 text-lg'>Flexible pricing based on your financial capacity and payment preferences, ensuring high-quality publishing services are accessible while maintaining business sustainability.</p>
-            <Button gold wide to="/contact" className="mx-5 py-4 transform transition-all duration-400 hover:-translate-y-1 hover:shadow-xl cursor-pointer">Explore Our Services</Button>
+            <h1 className='w-100 md:w-150 lg:w-200 text-4xl'><strong>Professional Publishing Services for Every Author</strong></h1>
+            <p className='w-100 md:w-170 lg:w-200 mt-9 mb-7 text-lg'>Flexible pricing based on your financial capacity and payment preferences, ensuring high-quality publishing services are accessible while maintaining business sustainability.</p>
+            <Button gold wide to="#packagesPricing" className="mx-5 py-4 transform transition-all duration-400 hover:-translate-y-1 hover:shadow-xl cursor-pointer">Explore Our Services</Button>
         </div>
       </section>
       <section className='quickNav bg-light-grey py-7'>
@@ -34,16 +34,16 @@ export default function Service() {
       <section id="philosophy" className='philosophy py-15 text-center flex flex-col items-center'>
         <div className='text-center mb-10'>
           <h2 className='text-3xl font-semibold'><strong>Our Pricing Philosophy</strong></h2>
-          <p className='text-grey w-155 my-7'>We believe every author deserves access to professional publishing services, regardless of their financial situation.</p>
+          <p className='text-grey w-100  md:w-155 my-7'>We believe every author deserves access to professional publishing services, regardless of their financial situation.</p>
         </div>
         <div className="flex flex-col items-center text-lg">
-          <p className="w-220 mb-7">
+          <p className="w-100 md:w-190 lg:w-220 mb-7">
             YourBookTeam offers flexible pricing based on client financial
             capacity and payment preferences, ensuring our high-quality
             publishing services are accessible while maintaining business
             sustainability.
           </p>
-          <p className="w-225">
+          <p className="w-100 md:w-190 lg:w-225">
             Our tiered approach allows us to serve authors at every stage of
             their career, from emerging writers to established executives.
           </p>
@@ -56,18 +56,18 @@ export default function Service() {
         </div>
         <ServiceCards services={Services} />
       </section>
-      <section id='client' className='h-200 flex flex-col items-center justify-center'>
-        <div id='text'className='text-center mb-10'>
+      <section id='client' className='my-10 flex flex-col items-center justify-center'>
+        <div id='text'className='text-center mb-10 px-3'>
         <h2 className='text-3xl font-semibold'>Client Financial Categories</h2>
-        <p className='text-[#777777] w-170 my-7'>We've designed our pricing structure to accommodate authors at different financial stages</p>
+        <p className='text-[#777777] sm:w-100 md:w-170 my-7'>We've designed our pricing structure to accommodate authors at different financial stages</p>
         </div>
         <ClientCards client={clientData} />
       </section>
       <section id="packagesPricing"
-  className="bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center">
+  className="bg-light-grey py-15 px-3 flex flex-col items-center justify-items-center">
   <div className="text-center mb-10">
     <h2 className="text-3xl font-semibold">Service Packages & Pricing</h2>
-    <p className="text-grey w-170 my-7">Choose from our comprehensive service offerings with flexible payment options</p>
+    <p className="text-grey sm:w-100 md:w-170 my-7">Choose from our comprehensive service offerings with flexible payment options</p>
   </div>
 
   <div id="serviceTab" className="flex flex-wrap justify-center">
@@ -94,7 +94,7 @@ export default function Service() {
       <section id='paymentInfo' className='bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center'>
         <div className='text-center mb-10'>
           <h2 className='text-3xl font-semibold'>Payment Structure Details</h2>
-          <p className='w-170 my-7'>Flexible payment options to suit your financial situation</p>
+          <p className='sm:w-100 md:w-170 my-7'>Flexible payment options to suit your financial situation</p>
         </div>
         <PaymentCards cards={payments} />
       </section>
