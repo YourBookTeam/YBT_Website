@@ -14,12 +14,12 @@ export default function Pricing() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div>
-      <section className="hero bg-[#d0b25f] text-white p-">
+      <section className="hero bg-[#d0b25f] text-white px-2">
         <div className="heroContainer text-center flex flex-col items-center py-20">
-          <h1 className="w-100 md:w-150 lg:w-200 text-4xl">
+          <h1 className="text-4xl">
             <strong>Professional Publishing Services for Every Author</strong>
           </h1>
-          <p className="w-100 md:w-170 lg:w-200 mt-9 mb-7 text-lg">
+          <p className="mt-9 mb-7 text-lg">
             Flexible pricing based on your financial capacity and payment
             preferences, ensuring high-quality publishing services are
             accessible while maintaining business sustainability.
@@ -34,7 +34,7 @@ export default function Pricing() {
           </Button>
         </div>
       </section>
-      <section className="quickNav bg-light-grey py-7">
+      <section className="quickNav bg-light-grey py-7 px-2">
         <div className="flex flex-wrap justify-center">
           <Button white to="#philosophy" className="w-45 py-3 px-2 mx-2 my-3">
             Our Philosophy
@@ -62,25 +62,25 @@ export default function Pricing() {
       </section>
       <section
         id="philosophy"
-        className="philosophy py-15 text-center flex flex-col items-center"
+        className="philosophy py-15 text-center flex flex-col items-center px-2"
       >
         <div className="text-center mb-10">
           <h2 className="text-3xl font-semibold">
             <strong>Our Pricing Philosophy</strong>
           </h2>
-          <p className="text-grey w-100  md:w-155 my-7">
+          <p className="text-grey my-7">
             We believe every author deserves access to professional publishing
             services, regardless of their financial situation.
           </p>
         </div>
         <div className="flex flex-col items-center text-lg">
-          <p className="w-100 md:w-190 lg:w-220 mb-7">
+          <p className="mb-7">
             YourBookTeam offers flexible pricing based on client financial
             capacity and payment preferences, ensuring our high-quality
             publishing services are accessible while maintaining business
             sustainability.
           </p>
-          <p className="w-100 md:w-190 lg:w-225">
+          <p>
             Our tiered approach allows us to serve authors at every stage of
             their career, from emerging writers to established executives.
           </p>
@@ -88,7 +88,7 @@ export default function Pricing() {
       </section>
       <section
         id="executive"
-        className="bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center"
+        className="bg-light-grey py-15 px-5 flex flex-col items-center justify-center"
       >
         <div className="text-center mb-10">
           <h2 className="text-3xl font-semibold">
@@ -117,7 +117,7 @@ export default function Pricing() {
       </section>
       <section
         id="packagesPricing"
-        className="bg-light-grey py-15 px-3 flex flex-col items-center justify-items-center"
+        className="bg-light-grey py-15 px-3 flex flex-col items-center justify-center"
       >
         <div className="text-center mb-10">
           <h2 className="text-3xl font-semibold">Service Packages & Pricing</h2>
@@ -150,7 +150,7 @@ export default function Pricing() {
       </section>
       <section
         id="paymentInfo"
-        className="bg-light-grey py-15 px-5 flex flex-col items-center justify-items-center"
+        className="bg-light-grey py-15 px-5 flex flex-col items-center justify-center"
       >
         <div className="text-center mb-10">
           <h2 className="text-3xl font-semibold">Payment Structure Details</h2>
