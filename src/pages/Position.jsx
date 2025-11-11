@@ -28,7 +28,7 @@ function Position() {
             className="underline flex items-center gap-2 hover:text-gray"
           >
             <FaArrowLeft />
-            Back To All Jobs
+            Back To All Positions
           </Link>
         </div>
       </section>
@@ -43,7 +43,7 @@ function Position() {
               href={position.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center text-center ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md transition-opacity hover:opacity-80 transition-transform  hover:scale-99 px-10 py-2"
+              className="flex items-center justify-center text-center ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md transition-all hover:opacity-80  hover:scale-99 px-10 py-2"
             >
               Apply
             </a>
@@ -58,19 +58,13 @@ function Position() {
             {position.description}
           </p>
           <h2 className="font-bold inline-block mb-1">Availability:</h2>
-          <p className="inline-block ml-1.5 mb-6">
-            {position.availability}
-          </p>
+          <p className="inline-block ml-1.5 mb-6">{position.availability}</p>
           <br />
           <h2 className="font-bold inline-block mb-1">Duration:</h2>
-          <p className="inline-block ml-1.5 mb-6">
-            {position.duration}
-          </p>
+          <p className="inline-block ml-1.5 mb-6">{position.duration}</p>
           <br />
           <h2 className="font-bold inline-block">Compensation:</h2>
-          <p className="inline-block ml-1.5 mb-6">
-            {position.type}
-          </p>
+          <p className="inline-block ml-1.5 mb-6">{position.type}</p>
           <br />
         </section>
         <section className="position_requirements my-10 w-80 md:w-170 lg:w-240">
@@ -105,10 +99,7 @@ function Position() {
         </section>
         <section className="position_Conclusion w-80 md:w-170 lg:w-240">
           {(position?.conclusion || []).map((item, index) => (
-            <p
-              key={item.id || index}
-              className="my-4 font-bold"
-            >
+            <p key={item.id || index} className="my-4 font-bold">
               {item.value || item}
             </p>
           ))}
@@ -119,7 +110,7 @@ function Position() {
           href="https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center text-center ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md transition-opacity hover:opacity-80 transition-transform  hover:scale-99 px-30 py-2"
+          className="flex items-center justify-center text-center ease-in-out duration-200 font-semibold bg-white text-gold border-2 border-gold rounded-md shadow-md transition-all hover:opacity-80 hover:scale-99 px-30 py-2"
         >
           Apply
         </a>
@@ -130,7 +121,7 @@ function Position() {
           className="underline hover:text-gray flex items-center gap-2"
         >
           <FaArrowLeft />
-          Back To All Jobs
+          Back To All Positions
         </Link>
       </div>
     </div>
