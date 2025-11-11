@@ -4,12 +4,12 @@ import DiscoveryButton from "./DiscoveryButton";
 
 function DesktopNavbar() {
   return (
-    <nav className="hidden md:flex px-12 py-5 justify-between items-center w-screen bg-white">
-      <div className="pr-12">
+    <nav className="hidden md:flex px-6 lg:px-12 py-5 justify-between items-center w-screen bg-white">
+      <div className="pr-6 lg:pr-12">
         <Logo className="fill-gold"></Logo>
       </div>
 
-      <div className="flex gap-16 lg:gap-28">
+      <div className="flex gap-10 lg:gap-12 xl:gap-20">
         <Link to="/about" className="relative group">
           <span className="relative pb-1">
             <span className="inline-block transition-transform duration-200 ease-out group-hover:scale-105">
