@@ -29,7 +29,7 @@ export const team = [
     headshot: headshot_nermina,
     link: "nermina-salkic",
 
-    status: "active",
+    status: "not-active",
   },
 
   {
@@ -101,6 +101,6 @@ export const team = [
     headshot: headshot_saige,
     link: "saige-santora",
 
-    status: "active",
+    status: "not-active",
   },
 ]
