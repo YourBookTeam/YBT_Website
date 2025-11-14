@@ -1,6 +1,5 @@
-import TeamMemberPreview from "./TeamMemberPreview";
+import TeamCarousel from "./TeamCarousel"; 
 import TitleBanner from "../TitleBanner";
-import { Link } from "react-router-dom";
 import Button from "../Button";
 
 function TeamPreview({ team }) {
@@ -10,21 +9,27 @@ function TeamPreview({ team }) {
 
   return (
     <>
-      <TitleBanner>Meet the Team</TitleBanner>
-      <div className="flex flex-col items-center m-15 gap-15">
-        <div className="text-xl w-full text-center">
-          Our experienced team of experts is equipped to work with individuals
-          from diverse backgrounds and situations.
+      <div className="bg-[#F9F9F9] py-5 overflow-x-hidden flex flex-col items-center gap-10">
+        <TitleBanner>Meet the Team</TitleBanner>
+
+        <div className="flex flex-col items-center">
+          <div className="text-xl w-full text-center">
+            Our experienced team of experts is equipped to work with individuals
+            from diverse backgrounds and situations.
+          </div>
         </div>
-        <div className="flex flex-wrap gap-10 md:gap-30 px-0 sm:px-15 justify-center">
+
+        <div className="w-full 2xl:w-[85%] flex justify-center items-center">
           {team.length == 0 ? (
               <div className="text-gray text-xl">No Team Members To Show At The Moment</div>
-          ) :
-          team.map((person) => (
-            <TeamMemberPreview key={person.id} person={person}/>
-          ))}
+          ) :(
+              <div className="w-full">
+                <TeamCarousel team={team} />
+              </div>
+              )}
         </div>
-        <Button gold wide to="/about#meet-us" onClick={scrollToTop}>Meet Us</Button>
+
+        <Button gold wide to="/about#meet-us" onClick={scrollToTop} className="w-[40%] lg:w-[15%] 2xl:w-[10%]">Meet Us</Button>
       </div>
     </>
   );

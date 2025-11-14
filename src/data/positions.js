@@ -243,7 +243,7 @@ export const positions = [
     ],
     image: null,
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfOfuC1LJugoad0F8BlypC8HfbAC1F6bPFjSSqquZv7Zv-ULQ/viewform",
-    status: "open",
+    status: "closed",
   },
 
   {
