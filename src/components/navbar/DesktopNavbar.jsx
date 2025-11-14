@@ -4,9 +4,9 @@ import DesktopLogo from "../DesktopLogo";
 
 function DesktopNavbar() {
   return (
-    <nav className="hidden md:flex mb-4 px-2 lg:px-4 pt-5 pb-3 justify-between items-center w-screen bg-white border-b-3 border-[var(--color-light-gray)]">
+    <nav className="hidden md:flex px-2 lg:px-4 2xl:px-12 pt-5 pb-3 justify-between 2xl:justify-around items-center w-screen bg-white">
       <div className="pr-6 lg:pr-12">
-        <DesktopLogo className="fill-gold md:w-32 md:h-20 lg:w-40 lg:h-24"></DesktopLogo>
+        <DesktopLogo className="fill-gold -mt-2 lg:-mt-3 md:w-32 md:h-20 lg:w-40 lg:h-24 2xl:w-60 2xl:h-32"></DesktopLogo>
       </div>
 
       <div className="flex items-center gap-2 lg:gap-4">
