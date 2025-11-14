@@ -19,15 +19,17 @@ function TeamPreview({ team }) {
           </div>
         </div>
 
-        <div className="flex justify-center items-center w-screen">
+        <div className="w-full 2xl:w-[85%] flex justify-center items-center">
           {team.length == 0 ? (
               <div className="text-gray text-xl">No Team Members To Show At The Moment</div>
           ) :(
-              <TeamCarousel team={team} />
+              <div className="w-full">
+                <TeamCarousel team={team} />
+              </div>
               )}
         </div>
 
-        <Button gold wide to="/about#meet-us" onClick={scrollToTop} className="w-[20%]">Meet Us</Button>
+        <Button gold wide to="/about#meet-us" onClick={scrollToTop} className="w-[40%] lg:w-[15%] 2xl:w-[10%]">Meet Us</Button>
       </div>
     </>
   );

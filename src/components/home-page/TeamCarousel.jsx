@@ -49,12 +49,19 @@ const TeamCarousel = ({ team = [], options = {} }) => {
   if (team.length === 0) return null;
 
   return (
-    <div className="embla overflow-visible w-screen max-w-full">
-      <div className="embla__viewport" ref={emblaRef}>
+    <div className="embla relative overflow-hidden pt-2 w-screen max-w-full">
+
+      {/* LEFT FADE */}
+      <div className="hidden 2xl:flex absolute pointer-events-none left-0 top-0 h-full w-10 bg-gradient-to-r from-[#F9F9F9] to-transparent z-10"></div>
+
+      {/* RIGHT FADE */}
+      <div className="hidden 2xl:flex absolute pointer-events-none right-0 top-0 h-full w-10 bg-gradient-to-l from-[#F9F9F9] to-transparent z-10"></div>
+
+      <div className="embla__viewport !overflow-visible" ref={emblaRef}>
         <div className="embla__container flex flex-nowrap">
           {team.map((person, i) => (
             <div
-              className="embla__slide flex-none w-[18rem] px-[11%]"
+              className="embla__slide !overflow-visible flex-none w-[18rem] px-[11%]"
               key={i}
             >
               <TeamMember person={person} />
