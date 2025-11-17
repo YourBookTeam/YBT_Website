@@ -9,8 +9,8 @@ function DesktopNavbar() {
         <DesktopLogo className="fill-gold -mt-2 lg:-mt-3 md:w-32 md:h-20 lg:w-40 lg:h-24 2xl:w-60 2xl:h-32"></DesktopLogo>
       </div>
 
-      <div className="flex items-center gap-2 lg:gap-4">
-        <div className="flex gap-4 lg:gap-8">
+      <div className="flex items-center gap-4 lg:gap-8">
+        <div className="flex gap-8 lg:gap-12">
           <Link to="/" className="relative group">
             <span className="relative pb-1">
               <span className="inline-block text-sm lg:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
