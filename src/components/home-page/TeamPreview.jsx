@@ -12,14 +12,11 @@ function TeamPreview({ team }) {
       <div className="bg-[#F9F9F9] py-5 overflow-x-hidden flex flex-col items-center gap-10">
         <TitleBanner>Meet the Team</TitleBanner>
 
-        <div className="flex flex-col items-center">
+        <div className="w-full 2xl:w-[50%] flex flex-col justify-center items-center gap-10">
           <div className="text-xl w-full text-center">
             Our experienced team of experts is equipped to work with individuals
             from diverse backgrounds and situations.
           </div>
-        </div>
-
-        <div className="w-full 2xl:w-[85%] flex justify-center items-center">
           {team.length == 0 ? (
               <div className="text-gray text-xl">No Team Members To Show At The Moment</div>
           ) :(
