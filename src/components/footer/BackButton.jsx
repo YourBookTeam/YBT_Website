@@ -1,15 +1,19 @@
-import Button from '../Button';
+import Button from "../Button";
 import { FaArrowUp } from "react-icons/fa";
 
 const BackButton = () => {
-const scrollToTop = () => {
-    window.scrollTo(0,0);
-  }
-  
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
-    <Button onClick={scrollToTop} className="w-40 border-2 border-white p-2 flex items-center justify-center gap-2 text-white transition-transform  hover:scale-99 ease-in-out duration-200">
-        <FaArrowUp/>
-        <div>Back To Top</div>
+    <Button
+      onClick={scrollToTop}
+      className="w-10 h-10 md:w-14 md:h-14 rounded-full bg-white shadow-md p-1 flex items-center justify-center text-white transition-transform  hover:scale-99 ease-in-out duration-200"
+    >
+      <div className="w-full h-full flex items-center justify-center rounded-full bg-white border-4 border-[var(--color-gold)]">
+        <FaArrowUp className="text-[var(--color-gold)] md:text-2xl" />
+      </div>
     </Button>
   );
 };
