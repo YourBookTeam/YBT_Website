@@ -12,7 +12,7 @@ function TeamPreview({ team }) {
       <div className="bg-[#F9F9F9] py-5 overflow-x-hidden flex flex-col items-center gap-10">
         <TitleBanner>Meet the Team</TitleBanner>
 
-        <div className="w-full 2xl:w-[50%] flex flex-col justify-center items-center gap-10">
+        <div className="w-full 2xl:w-[80%] 2xl:max-w-7xl flex flex-col justify-center items-center gap-10">
           <div className="text-xl w-full text-center">
             Our experienced team of experts is equipped to work with individuals
             from diverse backgrounds and situations.
