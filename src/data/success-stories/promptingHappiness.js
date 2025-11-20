@@ -1,10 +1,14 @@
-import prompting_happiness_cover from "../../assets/book-covers/PromptingHappiness.png";
+import prompting_happiness_cover from "../../assets/book-covers/prompting-happiness.png";
 import prompting_happiness_back from "../../assets/success-stories/prompting-happiness/bc-prompting-happiness.png";
 import nimrod_vromen from "../../assets/success-stories/prompting-happiness/nimrod-vromen.png";
-import under_the_floorboards_cover from "../../assets/book-covers/UnderTheFloorboards.png";
-import thirst_cover from "../../assets/book-covers/Thirst.png";
-import war_sisters_cover from "../../assets/book-covers/war_sisters 2.png";
-import marias_promise_cover from "../../assets/book-covers/marias_promise 2.png";
+import under_the_floorboards_cover from "../../assets/book-covers/under-the-floorboards.png";
+import thirst_cover from "../../assets/book-covers/thirst.png";
+import under_the_floorboards_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/under-the-floorboards.png";
+import thirst_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/thirst.png";
+import war_sisters_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/war-sisters.png";
+import marias_promise_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/marias-promise.png";
+import love_in_berlin_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/love-in-berlin.png";
+import under_the_floorboards_mg_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/under-the-floorboards-mg.png";
 
 const promptingHappiness = {
   title: "Prompting Happiness",
@@ -35,19 +39,27 @@ const promptingHappiness = {
   bookshelfBooks: [
     {
       title: "Under the Floorboards",
-      img: under_the_floorboards_cover,
+      img: under_the_floorboards_bookshelf_cover,
     },
     {
       title: "War Sisters",
-      img: war_sisters_cover,
+      img: war_sisters_bookshelf_cover,
     },
     {
       title: "Thirst",
-      img: thirst_cover,
+      img: thirst_bookshelf_cover,
     },
     {
       title: "Maria's Promise",
-      img: marias_promise_cover,
+      img: marias_promise_bookshelf_cover,
+    },
+    {
+      title: "Love In Berlin",
+      img: love_in_berlin_bookshelf_cover,
+    },
+    {
+      title: "Under The Floorboards MG",
+      img: under_the_floorboards_mg_bookshelf_cover,
     },
   ],
   authorQuote:

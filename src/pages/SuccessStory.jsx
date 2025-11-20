@@ -151,6 +151,26 @@ function SuccessStory() {
               className="fill-gold self-end w-10 sm:w-15 md:w-20 lg:w-25"
             />
           </div>
+          
+          {/* Quote */}
+          <div className="flex justify-center px-[10%] 2xl:px-[20%]">
+            <FaQuoteLeft
+              size={100}
+              className="fill-gold self-start w-10 sm:w-15 md:w-20 lg:w-25"
+            />
+            <div className="self-center flex flex-col py-25 sm:px-15 gap-5 flex-1">
+              <p className="sm:text-2xl md:text-3xl lg:text-4xl font-medium">
+                {content.authorQuote}
+              </p>
+              <p className="self-end sm:text-xl md:text-2xl lg:text-3xl uppercase">
+                {"-" + " " + content.author}
+              </p>
+            </div>
+            <FaQuoteRight
+              size={100}
+              className="fill-gold self-end w-10 sm:w-15 md:w-20 lg:w-25"
+            />
+          </div>
           {/* Reviews */}
           <div className="flex flex-col sm:gap-24 text-center">
             {/* Header */}
