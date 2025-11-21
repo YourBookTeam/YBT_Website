@@ -47,7 +47,7 @@ const DesktopFooter = () => {
             <QuickLinks
               currentPage={currentPage.pathname}
               baseClass="flex flex-col gap-4 items-start text-white"
-              listClass="flex flex-col text-base 2xl:text-lg gap-1 items-start"
+              listClass="flex flex-col text-base 2xl:text-xl gap-1 items-start"
             />
  
             <ContactInfo

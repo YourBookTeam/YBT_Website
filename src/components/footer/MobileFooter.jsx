@@ -5,7 +5,6 @@ import ContactInfo from "./ContactInfo";
 import MainLogo from "./MainLogo";
 import Statement from "./Statement";
 import Copyright from "./Copyright";
-import BackButton from "./BackButton";
 
 const MobileFooter = () => {
   const currentPage = useLocation();
@@ -31,10 +30,6 @@ const MobileFooter = () => {
           />
           <Socials />
         </div>
-      </div>
-
-      <div className="absolute bottom-12 right-6">
-        <BackButton />
       </div>
 
       <Copyright />

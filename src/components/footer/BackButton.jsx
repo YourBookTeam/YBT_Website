@@ -9,10 +9,10 @@ const BackButton = () => {
   return (
     <Button
       onClick={scrollToTop}
-      className="w-10 h-10 md:w-14 md:h-14 rounded-full bg-white shadow-md p-1 flex items-center justify-center text-white transition-transform  hover:scale-99 ease-in-out duration-200"
+      className="w-10 h-10 md:w-14 md:h-14 rounded-full bg-white shadow-md p-0.5 flex items-center justify-center text-white transition-transform  hover:scale-99 ease-in-out duration-200"
     >
-      <div className="w-full h-full flex items-center justify-center rounded-full bg-white border-4 border-[var(--color-gold)]">
-        <FaArrowUp className="text-[var(--color-gold)] md:text-2xl" />
+      <div className="w-full h-full flex items-center justify-center rounded-full bg-white border-2 border-[var(--color-gold)]">
+        <FaArrowUp className="text-[var(--color-gold)] md:text-xl" />
       </div>
     </Button>
   );
