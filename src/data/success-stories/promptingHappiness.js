@@ -1,10 +1,13 @@
-import prompting_happiness_cover from "../../assets/book-covers/prompting-happiness.png";
+import prompting_happiness_cover from "../../assets/success-stories/prompting-happiness/prompting-happiness.png";
 import prompting_happiness_back from "../../assets/success-stories/prompting-happiness/bc-prompting-happiness.png";
+import under_the_floorboards_cover from "../../assets/success-stories/under-the-floorboards/under-the-floorboards.png";
+import thirst_cover from "../../assets/success-stories/thirst/thirst.png";
+
 import nimrod_vromen from "../../assets/success-stories/prompting-happiness/nimrod-vromen.png";
-import under_the_floorboards_cover from "../../assets/book-covers/under-the-floorboards.png";
-import thirst_cover from "../../assets/book-covers/thirst.png";
+
 import under_the_floorboards_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/under-the-floorboards.png";
 import thirst_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/thirst.png";
+import prompting_happiness_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/prompting-happiness.png";
 import war_sisters_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/war-sisters.png";
 import marias_promise_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/marias-promise.png";
 import love_in_berlin_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/love-in-berlin.png";
@@ -36,32 +39,43 @@ const promptingHappiness = {
     "He became recognized not just as a startup founder, but a provocative thinker on emotional tech.",
     "He's now building a Prompting Trilogy with us: Prompting Harmony (in progress) and Prompting War (next).",
   ],
-  bookshelfBooks: [
-    {
+  bookshelfBooks: {
+    a: {
       title: "Under the Floorboards",
       img: under_the_floorboards_bookshelf_cover,
     },
-    {
+
+    b: {
       title: "War Sisters",
       img: war_sisters_bookshelf_cover,
     },
-    {
-      title: "Thirst",
+
+    c: {
+      title: "thirst",
       img: thirst_bookshelf_cover,
     },
-    {
+
+    d: {
       title: "Maria's Promise",
       img: marias_promise_bookshelf_cover,
     },
-    {
+
+    e: {
       title: "Love In Berlin",
       img: love_in_berlin_bookshelf_cover,
     },
-    {
+
+    f: {
       title: "Under The Floorboards MG",
       img: under_the_floorboards_mg_bookshelf_cover,
     },
-  ],
+
+    main: {
+      title: "Prompting Happiness",
+      img: prompting_happiness_bookshelf_cover,
+    },
+  },
+  
   authorQuote:
     "I am writing two more books with them. That should tell you everything.",
   reviews: [

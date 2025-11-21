@@ -1,8 +1,10 @@
-import under_the_floorboards_cover from "../../assets/book-covers/under-the-floorboards.png";
+import under_the_floorboards_cover from "../../assets/success-stories/under-the-floorboards/under-the-floorboards.png";
 import under_the_floorboards_back from "../../assets/success-stories/under-the-floorboards/bc-under-the-floorboards.png";
+import prompting_happiness_cover from "../../assets/success-stories/prompting-happiness/prompting-happiness.png";
+import thirst_cover from "../../assets/success-stories/thirst/thirst.png";
 import john_kiss from "../../assets/success-stories/under-the-floorboards/john-kiss.png";
-import prompting_happiness_cover from "../../assets/book-covers/prompting-happiness.png";
-import thirst_cover from "../../assets/book-covers/thirst.png";
+
+import under_the_floorboards_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/under-the-floorboards.png";
 import thirst_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/thirst.png";
 import prompting_happiness_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/prompting-happiness.png";
 import war_sisters_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/war-sisters.png";
@@ -36,32 +38,42 @@ const underTheFloorboards = {
     "John is now positioned as a historical fiction author with a clear, socially relevant voice.",
     "On track to create a literary brand that bridges personal identity with historical storytelling.",
   ],
-  bookshelfBooks: [
-    {
-      title: "Maria's Promise",
-      img: marias_promise_bookshelf_cover,
-    },
-    {
-      title: "War Sisters",
-      img: war_sisters_bookshelf_cover,
-    },
-    {
-      title: "Thirst",
-      img: thirst_bookshelf_cover,
-    },
-    {
-      title: "Love In Berlin",
-      img: love_in_berlin_bookshelf_cover,
-    },
-    {
-      title: "Under The Floorboards MG",
-      img: under_the_floorboards_mg_bookshelf_cover,
-    },
-    {
+  bookshelfBooks: {
+    a: {
       title: "Prompting Happiness",
       img: prompting_happiness_bookshelf_cover,
     },
-  ],
+
+    b: {
+      title: "War Sisters",
+      img: war_sisters_bookshelf_cover,
+    },
+
+    c: {
+      title: "thirst",
+      img: thirst_bookshelf_cover,
+    },
+
+    d: {
+      title: "Maria's Promise",
+      img: marias_promise_bookshelf_cover,
+    },
+
+    e: {
+      title: "Love In Berlin",
+      img: love_in_berlin_bookshelf_cover,
+    },
+
+    f: {
+      title: "Under The Floorboards MG",
+      img: under_the_floorboards_mg_bookshelf_cover,
+    },
+
+    main: {
+      title: "Under the Floorboards",
+      img: under_the_floorboards_bookshelf_cover,
+    },
+  },
   authorQuote:
     "What started as a single book became the foundation for a legacy.",
   reviews: [
