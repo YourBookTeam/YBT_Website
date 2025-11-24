@@ -14,7 +14,7 @@ const MobileFooter = () => {
       <div className="px-5 py-8 flex flex-col items-center gap-6">
         <div className="flex flex-col items-center gap-5">
           <MainLogo />
-          <Statement className="text-sm" />
+          <Statement />
         </div>
 
         <div className="flex flex-col items-center gap-4">
