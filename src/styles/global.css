@@ -28,6 +28,7 @@
 
 html,
 body {
+  scrollbar-gutter: stable;
   overflow-x: hidden;
   @apply text-black;
   @apply font-poppins;
