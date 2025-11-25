@@ -1,11 +1,17 @@
-import thirst_cover from "../../assets/book-covers/Thirst.png";
+import thirst_cover from "../../assets/success-stories/thirst/Thirst.png";
 import thirst_back from "../../assets/success-stories/thirst/bc-thirst.png";
+import under_the_floorboards_cover from "../../assets/success-stories/under-the-floorboards/under-the-floorboards.png";
+import prompting_happiness_cover from "../../assets/success-stories/prompting-happiness/prompting-happiness.png";
+
 import hw_terrance from "../../assets/success-stories/thirst/hw-terrance.png";
-import prompting_happiness_cover from "../../assets/book-covers/PromptingHappiness.png";
-import under_the_floorboards_cover from "../../assets/book-covers/UnderTheFloorboards.png";
-import war_sisters_cover from "../../assets/book-covers/war_sisters 2.png";
-import marias_promise_cover from "../../assets/book-covers/marias_promise 2.png";
-import love_in_berlin_cover from "../../assets/book-covers/love_in_berlin 2.png";
+
+import under_the_floorboards_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/under-the-floorboards.png";
+import thirst_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/thirst.png";
+import prompting_happiness_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/prompting-happiness.png";
+import war_sisters_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/war-sisters.png";
+import marias_promise_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/marias-promise.png";
+import love_in_berlin_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/love-in-berlin.png";
+import under_the_floorboards_mg_bookshelf_cover from "../../assets/success-stories/bookshelf-covers/under-the-floorboards-mg.png";
 
 const thirst = {
   title: "Thirst",
@@ -34,24 +40,42 @@ const thirst = {
     "His message of redemption is reaching people on platforms he never imagined.",
     "Sequel, Quest, is currently in production.",
   ],
-  bookshelfBooks: [
-    {
-      title: "Love in Berlin",
-      img: love_in_berlin_cover,
+  bookshelfBooks: {
+    a: {
+      title: "Under the Floorboards",
+      img: under_the_floorboards_bookshelf_cover,
     },
-    {
-      title: "Maria's Promise",
-      img: marias_promise_cover,
-    },
-    {
-      title: "Prompting Happiness",
-      img: prompting_happiness_cover,
-    },
-    {
+
+    b: {
       title: "War Sisters",
-      img: war_sisters_cover,
+      img: war_sisters_bookshelf_cover,
     },
-  ],
+
+    c: {
+      title: "Prompting Happiness",
+      img: prompting_happiness_bookshelf_cover,
+    },
+
+    d: {
+      title: "Maria's Promise",
+      img: marias_promise_bookshelf_cover,
+    },
+
+    e: {
+      title: "Love In Berlin",
+      img: love_in_berlin_bookshelf_cover,
+    },
+
+    f: {
+      title: "Under The Floorboards MG",
+      img: under_the_floorboards_mg_bookshelf_cover,
+    },
+
+    main: {
+      title: "thirst",
+      img: thirst_bookshelf_cover,
+    },
+  },
   authorQuote:
     "I don't usually trust people with my story. But they got it. They understood the weight of it and treated it with care.",
   reviews: [
