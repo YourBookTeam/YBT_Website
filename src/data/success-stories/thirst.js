@@ -1,4 +1,4 @@
-import thirst_cover from "../../assets/success-stories/thirst/Thirst.png";
+import thirst_cover from "../../assets/success-stories/thirst/thirst.png";
 import thirst_back from "../../assets/success-stories/thirst/bc-thirst.png";
 import under_the_floorboards_cover from "../../assets/success-stories/under-the-floorboards/under-the-floorboards.png";
 import prompting_happiness_cover from "../../assets/success-stories/prompting-happiness/prompting-happiness.png";
