@@ -99,7 +99,7 @@ function SuccessStory() {
           {/* Bookshelf */}
           <div className="flex flex-col gap-2">
             {/* 1st Shelf */}
-            <div className="relative h-[160px] md:h-[150%] flex justify-center items-end">
+            <div className="relative h-[200%] md:h-[150%] flex justify-center items-end">
               <img
                 src={bookshelf}
                 alt="bookshelf"
@@ -110,47 +110,47 @@ function SuccessStory() {
                 <img
                   src={content.bookshelfBooks.a.img}
                   alt={content.bookshelfBooks.a.title + " " + "front cover"}
-                  className="max-w-[30%] md:max-w-[14%]"
+                  className="max-w-[30%] sm:max-w-[14%]"
                 />
                 <img
                   src={content.bookshelfBooks.main.img}
                   alt={content.bookshelfBooks.main.title + " " + "front cover"}
-                  className="max-w-[30%] md:max-w-[14%] md:hidden"
+                  className="max-w-[30%] sm:max-w-[14%] sm:hidden"
                 />
                 <img
                   src={content.bookshelfBooks.b.img}
                   alt={content.bookshelfBooks.b.title + " " + "front cover"}
-                  className="max-w-[30%] md:max-w-[14%]"
+                  className="max-w-[30%] sm:max-w-[14%]"
                 />
                 <img
                   src={content.bookshelfBooks.c.img}
                   alt={content.bookshelfBooks.c.title + " " + "front cover"}
-                  className="max-w-[14%] hidden md:flex"
+                  className="max-w-[14%] hidden sm:flex"
                 />
                 <img
                   src={content.bookshelfBooks.main.img}
                   alt={content.bookshelfBooks.main.title + " " + "front cover"}
-                  className="max-w-[14%] hidden md:flex"
+                  className="max-w-[14%] hidden sm:flex"
                 />
                 <img
                   src={content.bookshelfBooks.d.img}
                   alt={content.bookshelfBooks.d.title + " " + "front cover"}
-                  className="max-w-[14%] hidden md:flex"
+                  className="max-w-[14%] hidden sm:flex"
                 />
                 <img
                   src={content.bookshelfBooks.e.img}
                   alt={content.bookshelfBooks.e.title + " " + "front cover"}
-                  className="max-w-[14%] hidden md:flex"
+                  className="max-w-[14%] hidden sm:flex"
                 />
                 <img
                   src={content.bookshelfBooks.f.img}
                   alt={content.bookshelfBooks.f.title + " " + "front cover"}
-                  className="max-w-[14%] hidden md:flex"
+                  className="max-w-[14%] hidden sm:flex"
                 />
               </div>
             </div>
             {/* Mobile 2nd Shelf */}
-            <div className="flex md:hidden relative h-[140px] md:h-[150%] flex justify-center items-end">
+            <div className="flex sm:hidden relative h-[250%] sm:h-[150%] flex justify-center items-end">
               <img
                 src={bookshelf}
                 alt="bookshelf"
