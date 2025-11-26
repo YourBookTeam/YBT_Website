@@ -156,7 +156,7 @@ const MobileAutoBanner = () => {
                   </p>
 
                   <Link to="/pricing">
-                    <button className="px-6 py-3 bg-white border border-[var(--color-gold)] text-[var(--color-gold)] rounded-lg font-semibold text-xs hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 shadow-2xl">
+                    <button className="px-6 py-3 bg-white cursor-pointer border border-[var(--color-gold)] text-[var(--color-gold)] rounded-lg font-semibold text-xs hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 shadow-2xl">
                       {slide.buttonText}
                     </button>
                   </Link>

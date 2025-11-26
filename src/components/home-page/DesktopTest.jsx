@@ -128,23 +128,23 @@ const DesktopTest = () => {
             {/* Content Container */}
             <div className="relative h-full flex flex-col gap-10 items-center justify-center">
               <div className="container mx-auto">
-                <div className="max-w-2xl mx-auto flex flex-col items-center">
+                <div className="max-w-2xl 2xl:max-w-4xl mx-auto flex flex-col items-center">
                   <h1
-                    className="text-5xl text-center font-bold text-white mb-6 leading-tight 
+                    className="text-5xl 2xl:text-7xl text-center font-bold text-white mb-6 leading-tight 
                   drop-shadow-2xl [text-shadow:0_4px_12px_rgba(0,0,0,0.8)]"
                   >
                     {slide.title}
                   </h1>
 
                   <p
-                    className="text-2xl text-center italic text-white mb-8 leading-relaxed max-w-2xl
+                    className="text-2xl 2xl:text-3xl text-center italic text-white mb-8 leading-relaxed max-w-2xl
                   drop-shadow-lg [text-shadow:0_2px_8px_rgba(0,0,0,0.7)]"
                   >
                     {slide.description}
                   </p>
 
                   <Link to="/pricing">
-                    <button className="px-10 py-3 bg-white border border-[var(--color-gold)] text-[var(--color-gold)] rounded-lg font-semibold text-sm hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 shadow-2xl">
+                    <button className="px-10 py-3 bg-white border border-[var(--color-gold)] text-[var(--color-gold)] rounded-lg font-semibold text-sm cursor-pointer hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105 shadow-2xl">
                       {slide.buttonText}
                     </button>
                   </Link>
@@ -162,7 +162,7 @@ const DesktopTest = () => {
             <div key={slide.id} className="flex flex-col gap-2 items-center">
               <button
                 onClick={() => goToSlide(index)}
-                className={`flex items-center space-x-3 transition-all duration-300 group h-10 ${
+                className={`flex items-center cursor-pointer space-x-3 transition-all duration-300 group h-10 ${
                   index === currentSlide
                     ? "text-white"
                     : "text-white text-opacity-60 hover:text-opacity-100"
@@ -177,7 +177,7 @@ const DesktopTest = () => {
                 >
                   {slide.icon}
                 </div>
-                <span className="text-xs font-medium whitespace-nowrap">
+                <span className="text-xs font-medium whitespace-nowrap hover:scale-105">
                   {slide.category}
                 </span>
               </button>
