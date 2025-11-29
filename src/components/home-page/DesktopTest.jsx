@@ -1,11 +1,12 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { Link } from "react-router-dom";
 import Image from "../../assets/paper_pen.jpg";
 import Image2 from "../../assets/library_book_shelves.jpg";
 import Image3 from "../../assets/woman_rr.jpg";
 
-const DesktopTest = () => {
+const DestopTest = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const intervalRef = useRef(null);
 
   const slides = [
     {
@@ -90,7 +91,21 @@ const DesktopTest = () => {
 
   const goToSlide = useCallback((index) => {
     setCurrentSlide(index);
-  }, []);
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+    }
+    intervalRef.current = setInterval(nextSlide, 5000);
+  }, [nextSlide]);
+
+  // Autoplay setup
+  useEffect(() => {
+    intervalRef.current = setInterval(nextSlide, 5000);
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
+  }, [nextSlide]);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -199,4 +214,4 @@ const DesktopTest = () => {
   );
 };
 
-export default DesktopTest;
+export default DestopTest;
