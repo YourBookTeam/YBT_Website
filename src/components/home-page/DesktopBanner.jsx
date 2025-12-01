@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import Image from "../../assets/paper_pen.jpg";
 import Image2 from "../../assets/library_book_shelves.jpg";
 import Image3 from "../../assets/woman_rr.jpg";
+import { Progress } from "./progress";
 
-const DestopTest = () => {
+const DesktopBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [progress, setProgress] = useState(0);
   const intervalRef = useRef(null);
 
   const slides = [
@@ -89,17 +91,20 @@ const DestopTest = () => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   }, [slides.length]);
 
-  const goToSlide = useCallback((index) => {
-    setCurrentSlide(index);
-    if (intervalRef.current) {
-      clearInterval(intervalRef.current);
-    }
-    intervalRef.current = setInterval(nextSlide, 5000);
-  }, [nextSlide]);
+  const goToSlide = useCallback(
+    (index) => {
+      setCurrentSlide(index);
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+      intervalRef.current = setInterval(nextSlide, 6000);
+    },
+    [nextSlide]
+  );
 
   // Autoplay setup
   useEffect(() => {
-    intervalRef.current = setInterval(nextSlide, 5000);
+    intervalRef.current = setInterval(nextSlide, 6000);
     return () => {
       if (intervalRef.current) {
         clearInterval(intervalRef.current);
@@ -117,27 +122,51 @@ const DestopTest = () => {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [prevSlide, nextSlide]);
 
+  useEffect(() => {
+    setProgress(0);
+    const step = 100 / (6000 / 100);
+
+    const interval = setInterval(() => {
+      setProgress((prev) => {
+        if (prev >= 100) {
+          clearInterval(interval);
+          return 100;
+        }
+        return prev + step;
+      });
+    }, 100);
+
+    return () => clearInterval(interval);
+  }, [currentSlide]);
+
   return (
-    <div className="hidden lg:block relative w-full h-[60vh] min-h-[600px] overflow-hidden">
+    <div
+      role="region"
+      aria-label="Image carousel"
+      aria-live="polite"
+      className="hidden lg:block relative w-full h-[60vh] min-h-[600px] overflow-hidden bg-gray"
+    >
+      {/* Screen reader announcement */}
+      <div className="sr-only" aria-live="polite" aria-atomic="true">
+        Slide {currentSlide + 1} of {slides.length}:{" "}
+        {slides[currentSlide].title}
+      </div>
+
       {/* Main Slides Container */}
       <div className="relative w-full h-full">
         {slides.map((slide, index) => (
           <div
             key={slide.id}
-            className={`absolute inset-0 transition-all duration-700 ease-in-out transform ${
-              index === currentSlide
-                ? "translate-x-0 opacity-100"
-                : index < currentSlide
-                ? "-translate-x-full opacity-0"
-                : "translate-x-full opacity-0"
-            }`}
+            className={`absolute inset-0 transition-opacity duration-[1200ms] ease-out
+             ${index === currentSlide ? "opacity-100" : "opacity-0"}
+           `}
           >
             {/* Background Image with Overlay */}
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
-              <div className="absolute inset-0 bg-opacity-70" />
+              <div className="absolute inset-0 bg-black/20" />
             </div>
 
             {/* Content Container */}
@@ -145,15 +174,27 @@ const DestopTest = () => {
               <div className="container mx-auto">
                 <div className="max-w-2xl 2xl:max-w-4xl mx-auto flex flex-col items-center">
                   <h1
-                    className="text-5xl 2xl:text-7xl text-center font-bold text-white mb-6 leading-tight 
-                  drop-shadow-2xl [text-shadow:0_4px_12px_rgba(0,0,0,0.8)]"
+                    className={`text-5xl 2xl:text-7xl text-center font-bold text-white mb-6 leading-tight
+                    transition-all duration-[1200ms] ease-out
+                    ${
+                      index === currentSlide
+                        ? "opacity-100 translate-y-0 scale-100"
+                        : "opacity-0 translate-y-6 scale-[.96]"
+                    }
+                  `}
                   >
                     {slide.title}
                   </h1>
 
                   <p
-                    className="text-2xl 2xl:text-3xl text-center italic text-white mb-8 leading-relaxed max-w-2xl
-                  drop-shadow-lg [text-shadow:0_2px_8px_rgba(0,0,0,0.7)]"
+                    className={`text-2xl 2xl:text-3xl text-center italic text-white mb-8 leading-relaxed max-w-2xl
+                  transition-all duration-[1200ms] ease-out delay-150
+                  ${
+                    index === currentSlide
+                      ? "opacity-100 translate-y-0"
+                      : "opacity-0 translate-y-4"
+                  }
+                `}
                   >
                     {slide.description}
                   </p>
@@ -179,33 +220,25 @@ const DestopTest = () => {
                 onClick={() => goToSlide(index)}
                 className={`flex items-center cursor-pointer space-x-3 transition-all duration-300 group h-10 ${
                   index === currentSlide
-                    ? "text-white"
-                    : "text-white text-opacity-60 hover:text-opacity-100"
+                    ? "text-white scale-110"
+                    : "text-white/60 hover:text-opacity-100 group-hover:scale-105"
                 }`}
               >
-                <div
-                  className={`transition-all duration-300 ${
-                    index === currentSlide
-                      ? "scale-110"
-                      : "group-hover:scale-105"
-                  }`}
-                >
-                  {slide.icon}
-                </div>
+                <div>{slide.icon}</div>
                 <span className="text-xs font-medium whitespace-nowrap hover:scale-105">
                   {slide.category}
                 </span>
               </button>
 
               {/* Progress Indicator */}
-              <div className="w-full h-1 bg-white bg-opacity-20 rounded">
-                <div
-                  className="h-full bg-white transition-all duration-300 rounded"
-                  style={{
-                    width: index === currentSlide ? "100%" : "0%",
-                  }}
-                />
-              </div>
+              <Progress
+                value={index === currentSlide ? progress : 0}
+                className={`w-full h-1 transition-all ${
+                  index === currentSlide
+                    ? "bg-white"
+                    : "bg-white/20 [&>div]:bg-white/40"
+                }`}
+              />
             </div>
           ))}
         </div>
@@ -214,4 +247,4 @@ const DestopTest = () => {
   );
 };
 
-export default DestopTest;
+export default DesktopBanner;

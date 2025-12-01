@@ -99,7 +99,7 @@ const MobileAutoBanner = () => {
 
     const interval = setInterval(() => {
       nextSlide();
-    }, 5000); // Change slide every 5 seconds
+    }, 5000); 
 
     return () => clearInterval(interval);
   }, [isAutoPlaying, nextSlide]);
@@ -115,26 +115,24 @@ const MobileAutoBanner = () => {
   }, [prevSlide, nextSlide]);
 
   return (
-    <div className="block lg:hidden relative w-full h-[60vh] min-h-[600px] overflow-hidden">
+    <div className="block lg:hidden relative w-full h-[60vh] min-h-[600px] bg-gray-100 overflow-hidden">
       {/* Main Slides Container */}
       <div className="relative w-full h-full">
         {slides.map((slide, index) => (
           <div
             key={slide.id}
-            className={`absolute inset-0 transition-all duration-700 ease-in-out transform ${
-              index === currentSlide
-                ? "translate-x-0 opacity-100"
-                : index < currentSlide
-                ? "-translate-x-full opacity-0"
-                : "translate-x-full opacity-0"
-            }`}
+            className={`absolute inset-0 transition-opacity duration-[1200ms] ease-out
+            ${index === currentSlide ? "opacity-100" : "opacity-0"}
+           `}
+
+            
           >
             {/* Background Image with Overlay */}
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
-              <div className="absolute inset-0 bg-opacity-70" />
+              <div className="absolute inset-0 bg-black/20" />
             </div>
 
             {/* Content Container */}
@@ -142,15 +140,21 @@ const MobileAutoBanner = () => {
               <div className="container mx-auto">
                 <div className="max-w-2xl mx-auto flex flex-col items-center">
                   <h1
-                    className="text-4xl max-w-80 md:max-w-100 text-center font-bold text-white mb-6 leading-tight 
-                  drop-shadow-2xl [text-shadow:0_4px_12px_rgba(0,0,0,0.8)]"
+                  className={`text-4xl max-w-80 text-center font-bold text-white mb-6 leading-tight
+                  drop-shadow-2xl [text-shadow:0_4px_12px_rgba(0,0,0,0.8)]
+                  transition-all duration-[1200ms] ease-out 
+                  ${index === currentSlide ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-6 scale-[.96]"}
+                `}
                   >
                     {slide.title}
                   </h1>
 
                   <p
-                    className="text-xl text-center italic text-white mb-8 leading-relaxed max-w-2xl
-                  drop-shadow-lg [text-shadow:0_2px_8px_rgba(0,0,0,0.7)]"
+                  className={`text-xl text-center italic text-white mb-8 leading-relaxed max-w-md
+                  drop-shadow-lg [text-shadow:0_2px_8px_rgba(0,0,0,0.7)]
+                  transition-all duration-[1200ms] ease-out delay-150
+                  ${index === currentSlide ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}
+                `}
                   >
                     {slide.description}
                   </p>
