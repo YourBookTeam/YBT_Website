@@ -144,7 +144,7 @@ const DesktopBanner = () => {
       role="region"
       aria-label="Image carousel"
       aria-live="polite"
-      className="hidden lg:block relative w-full h-[60vh] min-h-[600px] overflow-hidden bg-gray"
+      className="hidden lg:block relative w-full h-[60vh] min-h-[500px] overflow-hidden bg-gray"
     >
       {/* Screen reader announcement */}
       <div className="sr-only" aria-live="polite" aria-atomic="true">
@@ -170,7 +170,7 @@ const DesktopBanner = () => {
             </div>
 
             {/* Content Container */}
-            <div className="relative h-full flex flex-col gap-10 items-center justify-center">
+            <div className="relative h-full pt-16 flex flex-col gap-10 items-center">
               <div className="container mx-auto">
                 <div className="max-w-2xl 2xl:max-w-4xl mx-auto flex flex-col items-center">
                   <h1
