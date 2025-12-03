@@ -13,7 +13,7 @@ function DesktopNavbar() {
         <div className="flex gap-8 lg:gap-12">
           <Link to="/" className="relative group">
             <span className="relative pb-0.5">
-              <span className="inline-block text-sm lg:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
+              <span className="inline-block text-sm 2xl:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
                 HOME
               </span>
               <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
@@ -21,7 +21,7 @@ function DesktopNavbar() {
           </Link>
           <Link to="/about" className="relative group">
             <span className="relative pb-0.5">
-              <span className="inline-block text-sm lg:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
+              <span className="inline-block text-sm 2xl:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
                 ABOUT
               </span>
               <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
@@ -29,7 +29,7 @@ function DesktopNavbar() {
           </Link>
           <Link to="/pricing" className="relative group">
             <span className="relative pb-0.5">
-              <span className="inline-block text-sm lg:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
+              <span className="inline-block text-sm 2xl:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
                 PRICING
               </span>
               <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
@@ -40,7 +40,7 @@ function DesktopNavbar() {
             className="relative group whitespace-nowrap"
           >
             <span className="relative pb-0.5">
-              <span className="inline-block text-sm lg:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
+              <span className="inline-block text-sm 2xl:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
                 SUCCESS STORIES
               </span>
               <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
@@ -48,7 +48,7 @@ function DesktopNavbar() {
           </Link>
           <Link to="/internships" className="relative group">
             <span className="relative pb-0.5">
-              <span className="inline-block text-sm lg:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
+              <span className="inline-block text-sm 2xl:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
                 INTERNSHIPS
               </span>
               <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
@@ -56,7 +56,7 @@ function DesktopNavbar() {
           </Link>
           <Link to="/faq" className="relative group">
             <span className="relative pb-0.5">
-              <span className="inline-block text-sm lg:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
+              <span className="inline-block text-sm 2xl:text-lg transition-transform duration-200 ease-out group-hover:scale-105">
                 FAQ
               </span>
               <span className="absolute bottom-0 left-0 right-0 h-0.5 bg-gold origin-center scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
