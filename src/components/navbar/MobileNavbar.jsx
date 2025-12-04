@@ -66,10 +66,10 @@ function MobileNavbar() {
 
   return (
     <>
-      <div className="md:hidden h-20"></div>
+      <div className="md:hidden h-6"></div>
 
       <div
-        className={`md:hidden flex px-8 py-4 justify-between items-center w-screen bg-white fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out ${
+        className={`md:hidden flex px-8 py-2 justify-between items-center w-screen bg-white fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out ${
           isVisible ? "translate-y-0" : "-translate-y-full"
         }`}
       >
@@ -79,7 +79,7 @@ function MobileNavbar() {
 
         <div className="relative">
           <RxHamburgerMenu
-            className={`text-gold size-10 cursor-pointer transition-all duration-300 ease-in-out ${
+            className={`text-gold size-8 cursor-pointer transition-all duration-300 ease-in-out ${
               isOpen
                 ? "opacity-0 rotate-180 scale-0"
                 : "opacity-100 rotate-0 scale-100"
@@ -87,7 +87,7 @@ function MobileNavbar() {
             onClick={toggleOpen}
           />
           <HiMiniXMark
-            className={`text-gold size-10 cursor-pointer absolute top-0 left-0 transition-all duration-300 ease-in-out ${
+            className={`text-gold size-8 cursor-pointer absolute top-0 left-0 transition-all duration-300 ease-in-out ${
               isOpen
                 ? "opacity-100 rotate-0 scale-100"
                 : "opacity-0 rotate-180 scale-0"
