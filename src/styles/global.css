@@ -18,6 +18,9 @@
   --color-light-gold: rgba(204, 185, 128, 1);
   --color-lighter-gold: rgba(221, 208, 171, 1);
   --color-lightest-gold: rgba(241, 236, 221, 1);
+  --color-green: rgba(21, 191, 21, 1);
+  --color-red: rgba(255, 0, 0, 1);
+  --color-greenr: rgba(50, 205, 50, 1);
   /* font */
   --font-poppins: "Poppins", sans-serif;
   --font-playfair: "Playfair Display", serif;
@@ -164,4 +167,24 @@ body {
 @keyframes progress {
   0% { width: 0%; }
   100% { width: 100%; }
+}
+
+
+
+/* in progess */
+
+/* Animation for modal */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
 }
